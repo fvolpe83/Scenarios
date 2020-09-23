@@ -1,0 +1,511 @@
+Name=Meditate for 5 minutes
+PlayerCharacters=Meditator
+BotCharacters=bot.bot
+IsChallenge=true
+Timelimit=300.0
+PlayerProfile=Meditator
+AddedBots=bot.bot
+PlayerMaxLives=0
+BotMaxLives=0
+PlayerTeam=1
+BotTeams=0
+MapName=boxer1spnobounds.map
+MapScale=6.0
+BlockProjectilePredictors=false
+BlockCheats=true
+InvinciblePlayer=false
+InvincibleBots=false
+Timescale=1.0
+BlockHealthbars=false
+TimeRefilledByKill=0.0
+ScoreToWin=0.0
+ScorePerDamage=0.0
+ScorePerKill=0.0
+ScorePerMidairDirect=0.0
+ScorePerAnyDirect=0.0
+ScorePerTime=0.0
+ScoreLossPerDamageTaken=0.0
+ScoreLossPerDeath=0.0
+ScoreLossPerMidairDirected=0.0
+ScoreLossPerAnyDirected=0.0
+ScoreMultAccuracy=false
+ScoreMultDamageEfficiency=false
+ScoreMultKillEfficiency=false
+GameTag=
+WeaponHeroTag=
+DifficultyTag=1
+AuthorsTag=blally
+BlockHitMarkers=false
+BlockHitSounds=false
+BlockMissSounds=true
+BlockFCT=false
+Description=Do nothing. Just relax. Put this in your playlist to remind yourself to meditate for the next 5 minutes before moving on.
+GameVersion=2.0.1.2
+ScorePerDistance=0.0
+MBSEnable=false
+MBSTime1=0.02
+MBSTime2=0.04
+MBSTime3=2.0
+MBSTime1Mult=0.03
+MBSTime2Mult=0.28
+MBSTime3Mult=0.33
+MBSFBInstead=false
+MBSRequireEnemyAlive=false
+LockFOVRange=false
+LockedFOVMin=60.0
+LockedFOVMax=120.0
+LockedFOVScale=Clamped Horizontal
+
+[Aim Profile]
+Name=Default
+MinReactionTime=0.3
+MaxReactionTime=0.4
+MinSelfMovementCorrectionTime=0.001
+MaxSelfMovementCorrectionTime=0.05
+FlickFOV=30.0
+FlickSpeed=1.5
+FlickError=15.0
+TrackSpeed=3.5
+TrackError=3.5
+MaxTurnAngleFromPadCenter=75.0
+MinRecenterTime=0.3
+MaxRecenterTime=0.5
+OptimalAimFOV=30.0
+OuterAimPenalty=1.0
+MaxError=40.0
+ShootFOV=15.0
+VerticalAimOffset=0.0
+MaxTolerableSpread=5.0
+MinTolerableSpread=1.0
+TolerableSpreadDist=2000.0
+MaxSpreadDistFactor=3.0
+AimingStyle=Original
+ScanSpeedMultiplier=1.0
+MaxSeekPitch=30.0
+MaxSeekYaw=30.0
+AimingSpeed=5.0
+MinShootDelay=0.3
+MaxShootDelay=0.6
+
+[Bot Profile]
+Name=bot
+DodgeProfileNames=
+DodgeProfileWeights=
+DodgeProfileMaxChangeTime=5.0
+DodgeProfileMinChangeTime=1.0
+WeaponProfileWeights=1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0
+AimingProfileNames=Default;Default;Default;Default;Default;Default;Default;Default
+WeaponSwitchTime=3.0
+UseWeapons=true
+CharacterProfile=Hidden
+SeeThroughWalls=false
+NoDodging=true
+NoAiming=true
+AbilityUseTimer=0.1
+UseAbilityFrequency=1.0
+UseAbilityFreqMinTime=0.3
+UseAbilityFreqMaxTime=0.6
+ShowLaser=false
+LaserRGB=X=0.810 Y=0.200 Z=0.000
+LaserAlpha=1.0
+
+[Character Profile]
+Name=Meditator
+MaxHealth=100.0
+WeaponProfileNames=;;;;;;;
+MinRespawnDelay=0.1
+MaxRespawnDelay=0.1
+StepUpHeight=75.0
+CrouchHeightModifier=0.5
+CrouchAnimationSpeed=1.0
+CameraOffset=X=0.000 Y=0.000 Z=0.000
+HeadshotOnly=false
+DamageKnockbackFactor=8.0
+MovementType=Base
+MaxSpeed=0.0
+MaxCrouchSpeed=500.0
+Acceleration=0.0
+AirAcceleration=16000.0
+Friction=8.0
+BrakingFrictionFactor=2.0
+JumpVelocity=800.0
+Gravity=0.0
+AirControl=0.25
+CanCrouch=true
+CanPogoJump=false
+CanCrouchInAir=false
+CanJumpFromCrouch=false
+EnemyBodyColor=X=0.478 Y=0.000 Z=1.000
+EnemyHeadColor=X=255.000 Y=255.000 Z=255.000
+TeamBodyColor=X=1.000 Y=0.560 Z=0.000
+TeamHeadColor=X=255.000 Y=255.000 Z=255.000
+BlockSelfDamage=false
+InvinciblePlayer=false
+InvincibleBots=false
+BlockTeamDamage=false
+AirJumpCount=0
+AirJumpVelocity=800.0
+MainBBType=Spheroid
+MainBBHeight=200.0
+MainBBRadius=85.0
+MainBBHasHead=false
+MainBBHeadRadius=0.1
+MainBBHeadOffset=0.0
+MainBBHide=false
+ProjBBType=Cylindrical
+ProjBBHeight=230.0
+ProjBBRadius=55.0
+ProjBBHasHead=true
+ProjBBHeadRadius=45.0
+ProjBBHeadOffset=0.0
+ProjBBHide=true
+HasJetpack=false
+JetpackActivationDelay=0.2
+JetpackFullFuelTime=4.0
+JetpackFuelIncPerSec=1.0
+JetpackFuelRegensInAir=false
+JetpackThrust=6000.0
+JetpackMaxZVelocity=400.0
+JetpackAirControlWithThrust=0.25
+AbilityProfileNames=;;;
+HideWeapon=false
+AerialFriction=0.0
+StrafeSpeedMult=1.0
+BackSpeedMult=1.0
+RespawnInvulnTime=0.0
+BlockedSpawnRadius=0.0
+BlockSpawnFOV=0.0
+BlockSpawnDistance=0.0
+RespawnAnimationDuration=0.5
+AllowBufferedJumps=true
+BounceOffWalls=false
+LeanAngle=0.0
+LeanDisplacement=0.0
+AirJumpExtraControl=0.0
+ForwardSpeedBias=1.0
+HealthRegainedonkill=0.0
+HealthRegenPerSec=0.0
+HealthRegenDelay=0.0
+JumpSpeedPenaltyDuration=0.0
+JumpSpeedPenaltyPercent=0.25
+ThirdPersonCamera=false
+TPSArmLength=300.0
+TPSOffset=X=0.000 Y=150.000 Z=150.000
+BrakingDeceleration=2048.0
+VerticalSpawnOffset=0.0
+TerminalVelocity=0.0
+CharacterModel=None
+CharacterSkin=Default
+SpawnXOffset=0.0
+SpawnYOffset=0.0
+InvertBlockedSpawn=false
+ViewBobTime=0.0
+ViewBobAngleAdjustment=0.0
+ViewBobCameraZOffset=0.0
+ViewBobAffectsShots=false
+IsFlyer=false
+FlightObeysPitch=false
+FlightVelocityUp=800.0
+FlightVelocityDown=800.0
+
+[Character Profile]
+Name=Hidden
+MaxHealth=100.0
+WeaponProfileNames=;;;;;;;
+MinRespawnDelay=1.0
+MaxRespawnDelay=5.0
+StepUpHeight=75.0
+CrouchHeightModifier=0.5
+CrouchAnimationSpeed=1.0
+CameraOffset=X=0.000 Y=0.000 Z=0.000
+HeadshotOnly=false
+DamageKnockbackFactor=8.0
+MovementType=Base
+MaxSpeed=1000.0
+MaxCrouchSpeed=500.0
+Acceleration=16000.0
+AirAcceleration=16000.0
+Friction=8.0
+BrakingFrictionFactor=2.0
+JumpVelocity=800.0
+Gravity=3.0
+AirControl=0.25
+CanCrouch=true
+CanPogoJump=false
+CanCrouchInAir=false
+CanJumpFromCrouch=false
+EnemyBodyColor=X=0.478 Y=0.000 Z=1.000
+EnemyHeadColor=X=255.000 Y=255.000 Z=255.000
+TeamBodyColor=X=1.000 Y=0.560 Z=0.000
+TeamHeadColor=X=255.000 Y=255.000 Z=255.000
+BlockSelfDamage=false
+InvinciblePlayer=false
+InvincibleBots=false
+BlockTeamDamage=false
+AirJumpCount=0
+AirJumpVelocity=800.0
+MainBBType=Cylindrical
+MainBBHeight=230.0
+MainBBRadius=55.0
+MainBBHasHead=true
+MainBBHeadRadius=45.0
+MainBBHeadOffset=0.0
+MainBBHide=true
+ProjBBType=Cylindrical
+ProjBBHeight=230.0
+ProjBBRadius=55.0
+ProjBBHasHead=true
+ProjBBHeadRadius=45.0
+ProjBBHeadOffset=0.0
+ProjBBHide=true
+HasJetpack=false
+JetpackActivationDelay=0.2
+JetpackFullFuelTime=4.0
+JetpackFuelIncPerSec=1.0
+JetpackFuelRegensInAir=false
+JetpackThrust=6000.0
+JetpackMaxZVelocity=400.0
+JetpackAirControlWithThrust=0.25
+AbilityProfileNames=;;;
+HideWeapon=false
+AerialFriction=0.0
+StrafeSpeedMult=1.0
+BackSpeedMult=1.0
+RespawnInvulnTime=0.0
+BlockedSpawnRadius=0.0
+BlockSpawnFOV=0.0
+BlockSpawnDistance=0.0
+RespawnAnimationDuration=0.5
+AllowBufferedJumps=true
+BounceOffWalls=false
+LeanAngle=0.0
+LeanDisplacement=0.0
+AirJumpExtraControl=0.0
+ForwardSpeedBias=1.0
+HealthRegainedonkill=0.0
+HealthRegenPerSec=0.0
+HealthRegenDelay=0.0
+JumpSpeedPenaltyDuration=0.0
+JumpSpeedPenaltyPercent=0.25
+ThirdPersonCamera=false
+TPSArmLength=300.0
+TPSOffset=X=0.000 Y=150.000 Z=150.000
+BrakingDeceleration=2048.0
+VerticalSpawnOffset=-1000.0
+TerminalVelocity=0.0
+CharacterModel=None
+CharacterSkin=Default
+SpawnXOffset=0.0
+SpawnYOffset=0.0
+InvertBlockedSpawn=false
+ViewBobTime=0.0
+ViewBobAngleAdjustment=0.0
+ViewBobCameraZOffset=0.0
+ViewBobAffectsShots=false
+IsFlyer=false
+FlightObeysPitch=false
+FlightVelocityUp=800.0
+FlightVelocityDown=800.0
+
+[Map Data]
+reflex map version 8
+global
+	entity
+		type WorldSpawn
+		String32 targetGameOverCamera end
+		UInt8 playersMin 1
+		UInt8 playersMax 16
+	brush
+		vertices
+			-576.000000 0.000000 256.000000
+			448.000000 0.000000 256.000000
+			448.000000 0.000000 -768.000000
+			-576.000000 0.000000 -768.000000
+			-576.000000 -16.000000 256.000000
+			448.000000 -16.000000 256.000000
+			448.000000 -16.000000 -768.000000
+			-576.000000 -16.000000 -768.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-576.000000 272.000000 -768.000000
+			448.000000 272.000000 -768.000000
+			448.000000 272.000000 -784.000000
+			-576.000000 272.000000 -784.000000
+			-576.000000 0.000000 -768.000000
+			448.000000 0.000000 -768.000000
+			448.000000 0.000000 -784.000000
+			-576.000000 0.000000 -784.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-576.000000 272.000000 272.000000
+			448.000000 272.000000 272.000000
+			448.000000 272.000000 256.000000
+			-576.000000 272.000000 256.000000
+			-576.000000 0.000000 272.000000
+			448.000000 0.000000 272.000000
+			448.000000 0.000000 256.000000
+			-576.000000 0.000000 256.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			448.000000 272.000000 256.000000
+			464.000000 272.000000 256.000000
+			464.000000 272.000000 -768.000000
+			448.000000 272.000000 -768.000000
+			448.000000 0.000000 256.000000
+			464.000000 0.000000 256.000000
+			464.000000 0.000000 -768.000000
+			448.000000 0.000000 -768.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-592.000000 272.000000 256.000000
+			-576.000000 272.000000 256.000000
+			-576.000000 272.000000 -768.000000
+			-592.000000 272.000000 -768.000000
+			-592.000000 0.000000 256.000000
+			-576.000000 0.000000 256.000000
+			-576.000000 0.000000 -768.000000
+			-592.000000 0.000000 -768.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-592.000000 704.000000 256.000000
+			-576.000000 704.000000 256.000000
+			-576.000000 704.000000 -768.000000
+			-592.000000 704.000000 -768.000000
+			-592.000000 272.000000 256.000000
+			-576.000000 272.000000 256.000000
+			-576.000000 272.000000 -768.000000
+			-592.000000 272.000000 -768.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			448.000000 704.000000 256.000000
+			464.000000 704.000000 256.000000
+			464.000000 704.000000 -768.000000
+			448.000000 704.000000 -768.000000
+			448.000000 272.000000 256.000000
+			464.000000 272.000000 256.000000
+			464.000000 272.000000 -768.000000
+			448.000000 272.000000 -768.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-576.000000 704.000000 -768.000000
+			448.000000 704.000000 -768.000000
+			448.000000 704.000000 -784.000000
+			-576.000000 704.000000 -784.000000
+			-576.000000 272.000000 -768.000000
+			448.000000 272.000000 -768.000000
+			448.000000 272.000000 -784.000000
+			-576.000000 272.000000 -784.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-576.000000 704.000000 272.000000
+			448.000000 704.000000 272.000000
+			448.000000 704.000000 256.000000
+			-576.000000 704.000000 256.000000
+			-576.000000 272.000000 272.000000
+			448.000000 272.000000 272.000000
+			448.000000 272.000000 256.000000
+			-576.000000 272.000000 256.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-576.000000 720.000000 256.000000
+			448.000000 720.000000 256.000000
+			448.000000 720.000000 -768.000000
+			-576.000000 720.000000 -768.000000
+			-576.000000 704.000000 256.000000
+			448.000000 704.000000 256.000000
+			448.000000 704.000000 -768.000000
+			-576.000000 704.000000 -768.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 internal/editor/textures/editor_clip
+	entity
+		type CameraPath
+		UInt32 entityIdAttachedTo 5
+		UInt8 posLerp 2
+		UInt8 angleLerp 2
+	entity
+		type Effect
+		Vector3 position 0.000000 256.000000 0.000000
+		String64 effectName internal/misc/reflectionprobe
+	entity
+		type Target
+		Vector3 position 352.000000 256.000000 224.000000
+		Vector3 angles -135.000000 30.000000 0.000000
+		String32 name end
+	entity
+		type PlayerSpawn
+		Vector3 position 416.000000 0.000000 -256.000000
+		Vector3 angles 270.000000 0.000000 0.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -64.000000 0.000000 -256.000000
+		Vector3 angles 90.000000 0.000000 0.000000
+		Bool8 teamB 0

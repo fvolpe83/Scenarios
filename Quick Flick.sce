@@ -1,0 +1,3971 @@
+Name=Quick Flick
+PlayerCharacters=player_char
+BotCharacters=QFmain.bot;QFsub.bot
+IsChallenge=true
+Timelimit=60.0
+PlayerProfile=player_char
+AddedBots=QFmain.bot;QFsub.bot;QFsub.bot
+PlayerMaxLives=1
+BotMaxLives=0;0;0
+PlayerTeam=1
+BotTeams=2;2;2
+MapName=quick_flick.map
+MapScale=10.0
+BlockProjectilePredictors=true
+BlockCheats=true
+InvinciblePlayer=false
+InvincibleBots=false
+Timescale=1.0
+BlockHealthbars=false
+TimeRefilledByKill=0.0
+ScoreToWin=0.0
+ScorePerDamage=1.0
+ScorePerKill=50.0
+ScorePerMidairDirect=0.0
+ScorePerAnyDirect=0.0
+ScorePerTime=0.0
+ScoreLossPerDamageTaken=0.0
+ScoreLossPerDeath=0.0
+ScoreLossPerMidairDirected=0.0
+ScoreLossPerAnyDirected=0.0
+ScoreMultAccuracy=true
+ScoreMultDamageEfficiency=false
+ScoreMultKillEfficiency=false
+GameTag=Quick Flick
+WeaponHeroTag=AR
+DifficultyTag=3
+AuthorsTag=NFNT
+BlockHitMarkers=false
+BlockHitSounds=false
+BlockMissSounds=false
+BlockFCT=false
+Description=Do not drop the center target. Flick the small target around.
+GameVersion=2.0.0.2
+ScorePerDistance=0.0
+MBSEnable=false
+MBSTime1=0.25
+MBSTime2=0.5
+MBSTime3=0.75
+MBSTime1Mult=1.0
+MBSTime2Mult=2.0
+MBSTime3Mult=3.0
+MBSFBInstead=false
+MBSRequireEnemyAlive=false
+
+[Aim Profile]
+Name=Default
+MinReactionTime=0.3
+MaxReactionTime=0.4
+MinSelfMovementCorrectionTime=0.001
+MaxSelfMovementCorrectionTime=0.05
+FlickFOV=30.0
+FlickSpeed=1.5
+FlickError=15.0
+TrackSpeed=3.5
+TrackError=3.5
+MaxTurnAngleFromPadCenter=75.0
+MinRecenterTime=0.3
+MaxRecenterTime=0.5
+OptimalAimFOV=30.0
+OuterAimPenalty=1.0
+MaxError=40.0
+ShootFOV=15.0
+VerticalAimOffset=0.0
+MaxTolerableSpread=5.0
+MinTolerableSpread=1.0
+TolerableSpreadDist=2000.0
+MaxSpreadDistFactor=2.0
+AimingStyle=Original
+ScanSpeedMultiplier=1.0
+MaxSeekPitch=30.0
+MaxSeekYaw=30.0
+AimingSpeed=5.0
+MinShootDelay=0.3
+MaxShootDelay=0.6
+
+[Bot Profile]
+Name=QFmain
+DodgeProfileNames=
+DodgeProfileWeights=
+DodgeProfileMaxChangeTime=60.0
+DodgeProfileMinChangeTime=60.0
+WeaponProfileWeights=1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0
+AimingProfileNames=Default;Default;Default;Default;Default;Default;Default;Default
+WeaponSwitchTime=3.0
+UseWeapons=false
+CharacterProfile=QFmain_char
+SeeThroughWalls=false
+NoDodging=true
+NoAiming=false
+AbilityUseTimer=1.0
+UseAbilityFrequency=1.0
+UseAbilityFreqMinTime=0.1
+UseAbilityFreqMaxTime=0.1
+ShowLaser=false
+LaserRGB=X=1.000 Y=0.300 Z=0.000
+LaserAlpha=1.0
+
+[Bot Profile]
+Name=QFsub
+DodgeProfileNames=
+DodgeProfileWeights=
+DodgeProfileMaxChangeTime=5.0
+DodgeProfileMinChangeTime=1.0
+WeaponProfileWeights=1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0
+AimingProfileNames=Default;Default;Default;Default;Default;Default;Default;Default
+WeaponSwitchTime=3.0
+UseWeapons=false
+CharacterProfile=QFsub_char
+SeeThroughWalls=false
+NoDodging=true
+NoAiming=false
+AbilityUseTimer=0.1
+UseAbilityFrequency=1.0
+UseAbilityFreqMinTime=0.1
+UseAbilityFreqMaxTime=0.1
+ShowLaser=false
+LaserRGB=X=1.000 Y=0.300 Z=0.000
+LaserAlpha=1.0
+
+[Character Profile]
+Name=player_char
+MaxHealth=100.0
+WeaponProfileNames=AR;;;;;;;
+MinRespawnDelay=1.0
+MaxRespawnDelay=5.0
+StepUpHeight=75.0
+CrouchHeightModifier=0.5
+CrouchAnimationSpeed=1.0
+CameraOffset=X=0.000 Y=0.000 Z=0.000
+HeadshotOnly=false
+DamageKnockbackFactor=8.0
+MovementType=Base
+MaxSpeed=0.0
+MaxCrouchSpeed=500.0
+Acceleration=16000.0
+AirAcceleration=16000.0
+Friction=8.0
+BrakingFrictionFactor=2.0
+JumpVelocity=800.0
+Gravity=0.0
+AirControl=0.25
+CanCrouch=true
+CanPogoJump=false
+CanCrouchInAir=false
+CanJumpFromCrouch=false
+EnemyBodyColor=X=255.000 Y=0.000 Z=0.000
+EnemyHeadColor=X=255.000 Y=255.000 Z=255.000
+TeamBodyColor=X=0.000 Y=0.000 Z=255.000
+TeamHeadColor=X=255.000 Y=255.000 Z=255.000
+BlockSelfDamage=false
+InvinciblePlayer=false
+InvincibleBots=false
+BlockTeamDamage=false
+AirJumpCount=0
+AirJumpVelocity=800.0
+MainBBType=Cylindrical
+MainBBHeight=230.0
+MainBBRadius=55.0
+MainBBHasHead=true
+MainBBHeadRadius=45.0
+MainBBHeadOffset=0.0
+MainBBHide=true
+ProjBBType=Cylindrical
+ProjBBHeight=230.0
+ProjBBRadius=55.0
+ProjBBHasHead=true
+ProjBBHeadRadius=45.0
+ProjBBHeadOffset=0.0
+ProjBBHide=true
+HasJetpack=false
+JetpackActivationDelay=0.2
+JetpackFullFuelTime=4.0
+JetpackFuelIncPerSec=1.0
+JetpackFuelRegensInAir=false
+JetpackThrust=6000.0
+JetpackMaxZVelocity=400.0
+JetpackAirControlWithThrust=0.25
+AbilityProfileNames=;;;
+HideWeapon=true
+AerialFriction=0.0
+StrafeSpeedMult=1.0
+BackSpeedMult=1.0
+RespawnInvulnTime=0.0
+BlockedSpawnRadius=0.0
+BlockSpawnFOV=0.0
+BlockSpawnDistance=0.0
+RespawnAnimationDuration=0.5
+AllowBufferedJumps=true
+BounceOffWalls=false
+LeanAngle=0.0
+LeanDisplacement=0.0
+AirJumpExtraControl=0.0
+ForwardSpeedBias=1.0
+HealthRegainedonkill=0.0
+HealthRegenPerSec=0.0
+HealthRegenDelay=0.0
+JumpSpeedPenaltyDuration=0.0
+JumpSpeedPenaltyPercent=0.25
+ThirdPersonCamera=false
+TPSArmLength=300.0
+TPSOffset=X=0.000 Y=150.000 Z=150.000
+BrakingDeceleration=2048.0
+VerticalSpawnOffset=0.0
+TerminalVelocity=0.0
+CharacterModel=None
+CharacterSkin=Default
+SpawnXOffset=0.0
+SpawnYOffset=0.0
+InvertBlockedSpawn=false
+ViewBobTime=0.0
+ViewBobAngleAdjustment=0.0
+ViewBobCameraZOffset=0.0
+ViewBobAffectsShots=false
+IsFlyer=false
+FlightObeysPitch=false
+FlightVelocityUp=800.0
+FlightVelocityDown=800.0
+
+[Character Profile]
+Name=QFmain_char
+MaxHealth=100.0
+WeaponProfileNames=;;;;;;;
+MinRespawnDelay=0.000001
+MaxRespawnDelay=0.000001
+StepUpHeight=16.0
+CrouchHeightModifier=0.5
+CrouchAnimationSpeed=2.0
+CameraOffset=X=0.000 Y=0.000 Z=0.000
+HeadshotOnly=false
+DamageKnockbackFactor=0.0
+MovementType=Base
+MaxSpeed=0.0
+MaxCrouchSpeed=160.0
+Acceleration=2560.0
+AirAcceleration=16000.0
+Friction=1.0
+BrakingFrictionFactor=0.5
+JumpVelocity=0.0
+Gravity=2.0
+AirControl=0.0
+CanCrouch=false
+CanPogoJump=false
+CanCrouchInAir=false
+CanJumpFromCrouch=false
+EnemyBodyColor=X=1.000 Y=0.000 Z=0.000
+EnemyHeadColor=X=1.000 Y=1.000 Z=1.000
+TeamBodyColor=X=0.000 Y=0.000 Z=1.000
+TeamHeadColor=X=1.000 Y=1.000 Z=1.000
+BlockSelfDamage=false
+InvinciblePlayer=false
+InvincibleBots=true
+BlockTeamDamage=false
+AirJumpCount=0
+AirJumpVelocity=0.0
+MainBBType=Cuboid
+MainBBHeight=300.0
+MainBBRadius=59.0
+MainBBHasHead=false
+MainBBHeadRadius=10.0
+MainBBHeadOffset=0.0
+MainBBHide=false
+ProjBBType=Cuboid
+ProjBBHeight=300.0
+ProjBBRadius=59.0
+ProjBBHasHead=false
+ProjBBHeadRadius=10.0
+ProjBBHeadOffset=0.0
+ProjBBHide=true
+HasJetpack=false
+JetpackActivationDelay=0.2
+JetpackFullFuelTime=4.0
+JetpackFuelIncPerSec=1.0
+JetpackFuelRegensInAir=false
+JetpackThrust=6000.0
+JetpackMaxZVelocity=400.0
+JetpackAirControlWithThrust=0.25
+AbilityProfileNames=QFmain_pop.abilmov;Player_kill.abilmelee;;
+HideWeapon=true
+AerialFriction=0.0
+StrafeSpeedMult=1.0
+BackSpeedMult=1.0
+RespawnInvulnTime=0.0
+BlockedSpawnRadius=0.0
+BlockSpawnFOV=0.0
+BlockSpawnDistance=0.0
+RespawnAnimationDuration=0.0
+AllowBufferedJumps=false
+BounceOffWalls=false
+LeanAngle=0.0
+LeanDisplacement=0.0
+AirJumpExtraControl=0.0
+ForwardSpeedBias=1.0
+HealthRegainedonkill=0.0
+HealthRegenPerSec=0.0
+HealthRegenDelay=0.0
+JumpSpeedPenaltyDuration=0.0
+JumpSpeedPenaltyPercent=0.0
+ThirdPersonCamera=false
+TPSArmLength=300.0
+TPSOffset=X=0.000 Y=150.000 Z=150.000
+BrakingDeceleration=512.0
+VerticalSpawnOffset=4000.0
+TerminalVelocity=0.0
+CharacterModel=None
+CharacterSkin=Default
+SpawnXOffset=0.0
+SpawnYOffset=0.0
+InvertBlockedSpawn=false
+ViewBobTime=0.0
+ViewBobAngleAdjustment=0.0
+ViewBobCameraZOffset=0.0
+ViewBobAffectsShots=false
+IsFlyer=false
+FlightObeysPitch=false
+FlightVelocityUp=800.0
+FlightVelocityDown=800.0
+
+[Character Profile]
+Name=QFsub_char
+MaxHealth=1.0
+WeaponProfileNames=;;;;;;;
+MinRespawnDelay=0.000001
+MaxRespawnDelay=0.000001
+StepUpHeight=16.0
+CrouchHeightModifier=0.5
+CrouchAnimationSpeed=2.0
+CameraOffset=X=0.000 Y=0.000 Z=0.000
+HeadshotOnly=false
+DamageKnockbackFactor=0.0
+MovementType=Base
+MaxSpeed=0.0
+MaxCrouchSpeed=160.0
+Acceleration=2560.0
+AirAcceleration=16000.0
+Friction=1.0
+BrakingFrictionFactor=0.5
+JumpVelocity=256.0
+Gravity=0.0
+AirControl=1.0
+CanCrouch=false
+CanPogoJump=false
+CanCrouchInAir=false
+CanJumpFromCrouch=false
+EnemyBodyColor=X=1.000 Y=0.000 Z=0.000
+EnemyHeadColor=X=1.000 Y=1.000 Z=1.000
+TeamBodyColor=X=0.000 Y=0.000 Z=1.000
+TeamHeadColor=X=1.000 Y=1.000 Z=1.000
+BlockSelfDamage=false
+InvinciblePlayer=false
+InvincibleBots=false
+BlockTeamDamage=false
+AirJumpCount=0
+AirJumpVelocity=0.0
+MainBBType=Spheroid
+MainBBHeight=50.0
+MainBBRadius=25.0
+MainBBHasHead=false
+MainBBHeadRadius=8.0
+MainBBHeadOffset=0.0
+MainBBHide=false
+ProjBBType=Spheroid
+ProjBBHeight=50.0
+ProjBBRadius=25.0
+ProjBBHasHead=false
+ProjBBHeadRadius=8.0
+ProjBBHeadOffset=0.0
+ProjBBHide=true
+HasJetpack=false
+JetpackActivationDelay=0.2
+JetpackFullFuelTime=4.0
+JetpackFuelIncPerSec=1.0
+JetpackFuelRegensInAir=false
+JetpackThrust=6000.0
+JetpackMaxZVelocity=400.0
+JetpackAirControlWithThrust=0.25
+AbilityProfileNames=;;;
+HideWeapon=true
+AerialFriction=0.2
+StrafeSpeedMult=1.0
+BackSpeedMult=1.0
+RespawnInvulnTime=0.0
+BlockedSpawnRadius=128.0
+BlockSpawnFOV=0.0
+BlockSpawnDistance=0.0
+RespawnAnimationDuration=0.0
+AllowBufferedJumps=true
+BounceOffWalls=false
+LeanAngle=0.0
+LeanDisplacement=0.0
+AirJumpExtraControl=0.0
+ForwardSpeedBias=1.0
+HealthRegainedonkill=0.0
+HealthRegenPerSec=0.0
+HealthRegenDelay=0.0
+JumpSpeedPenaltyDuration=0.0
+JumpSpeedPenaltyPercent=0.0
+ThirdPersonCamera=false
+TPSArmLength=300.0
+TPSOffset=X=0.000 Y=150.000 Z=150.000
+BrakingDeceleration=512.0
+VerticalSpawnOffset=0.0
+TerminalVelocity=0.0
+CharacterModel=None
+CharacterSkin=Default
+SpawnXOffset=0.0
+SpawnYOffset=0.0
+InvertBlockedSpawn=false
+ViewBobTime=0.0
+ViewBobAngleAdjustment=0.0
+ViewBobCameraZOffset=0.0
+ViewBobAffectsShots=false
+IsFlyer=false
+FlightObeysPitch=false
+FlightVelocityUp=800.0
+FlightVelocityDown=800.0
+
+[Weapon Profile]
+Name=AR
+Type=Hitscan
+ShotsPerClick=1
+DamagePerShot=1.0
+KnockbackFactor=0.0
+TimeBetweenShots=0.25
+Pierces=false
+Category=FullyAuto
+BurstShotCount=1
+TimeBetweenBursts=0.5
+ChargeStartDamage=10.0
+ChargeStartVelocity=X=500.000 Y=0.000 Z=0.000
+ChargeTimeToAutoRelease=2.0
+ChargeTimeToCap=1.0
+ChargeMoveSpeedModifier=1.0
+MuzzleVelocityMin=X=2000.000 Y=0.000 Z=0.000
+MuzzleVelocityMax=X=2000.000 Y=0.000 Z=0.000
+InheritOwnerVelocity=0.0
+OriginOffset=X=0.000 Y=0.000 Z=0.000
+MaxTravelTime=5.0
+MaxHitscanRange=100000.0
+GravityScale=1.0
+HeadshotCapable=true
+HeadshotMultiplier=2.0
+MagazineMax=0
+AmmoPerShot=1
+ReloadTimeFromEmpty=0.1
+ReloadTimeFromPartial=0.1
+DamageFalloffStartDistance=100000.0
+DamageFalloffStopDistance=100000.0
+DamageAtMaxRange=25.0
+DelayBeforeShot=0.0
+ProjectileGraphic=Ball
+VisualLifetime=0.1
+BounceOffWorld=false
+BounceFactor=0.5
+BounceCount=0
+HomingProjectileAcceleration=0.0
+ProjectileEnemyHitRadius=1.0
+CanAimDownSight=false
+ADSZoomDelay=0.0
+ADSZoomSensFactor=0.7
+ADSMoveFactor=1.0
+ADSStartDelay=0.0
+ShootSoundCooldown=0.001
+HitSoundCooldown=0.001
+HitscanVisualOffset=X=0.000 Y=0.000 Z=-50.000
+ADSBlocksShooting=false
+ShootingBlocksADS=false
+KnockbackFactorAir=0.0
+RecoilNegatable=false
+DecalType=0
+DecalSize=30.0
+DelayAfterShooting=0.0
+BeamTracksCrosshair=false
+AlsoShoot=
+ADSShoot=
+StunDuration=0.0
+CircularSpread=true
+SpreadStationaryVelocity=0.0
+PassiveCharging=false
+BurstFullyAuto=true
+FlatKnockbackHorizontal=0.0
+FlatKnockbackVertical=0.0
+HitscanRadius=0.0
+HitscanVisualRadius=6.0
+TaggingDuration=0.0
+TaggingMaxFactor=1.0
+TaggingHitFactor=1.0
+RecoilCrouchScale=1.0
+RecoilADSScale=1.0
+PSRCrouchScale=1.0
+PSRADSScale=1.0
+ProjectileAcceleration=0.0
+AccelIncludeVertical=false
+AimPunchAmount=0.0
+AimPunchResetTime=0.2
+AimPunchCooldown=0.5
+AimPunchHeadshotOnly=false
+AimPunchCosmeticOnly=false
+MinimumDecelVelocity=0.0
+PSRManualNegation=false
+PSRAutoReset=true
+AimPunchUpTime=0.05
+AmmoReloadedOnKill=0
+CancelReloadOnKill=false
+FlatKnockbackHorizontalMin=0.0
+FlatKnockbackVerticalMin=0.0
+ADSScope=No Scope
+ADSFOVOverride=103.0
+ADSFOVScale=Clamped Horizontal
+ADSAllowUserOverrideFOV=false
+IsBurstWeapon=false
+ForceFirstPersonInADS=true
+ZoomBlockedInAir=false
+ADSCameraOffsetX=0.0
+ADSCameraOffsetY=0.0
+ADSCameraOffsetZ=0.0
+QuickSwitchTime=0.1
+WeaponModel=Heavy Surge Rifle
+WeaponAnimation=Primary
+UseIncReload=false
+IncReloadStartupTime=0.1
+IncReloadLoopTime=0.1
+IncReloadAmmoPerLoop=1
+IncReloadEndTime=0.1
+IncReloadCancelWithShoot=true
+WeaponSkin=Default
+ProjectileVisualOffset=X=0.000 Y=0.000 Z=-50.000
+SpreadDecayDelay=0.0
+ReloadBeforeRecovery=false
+3rdPersonWeaponModel=Pistol
+3rdPersonWeaponSkin=Default
+ParticleMuzzleFlash=
+ParticleWallImpact=
+ParticleBodyImpact=
+ParticleProjectileTrail=
+ParticleHitscanTrace=
+ParticleMuzzleFlashScale=1.0
+ParticleWallImpactScale=1.0
+ParticleBodyImpactScale=1.0
+ParticleProjectileTrailScale=1.0
+Explosive=false
+Radius=500.0
+DamageAtCenter=100.0
+DamageAtEdge=100.0
+SelfDamageMultiplier=0.5
+ExplodesOnContactWithEnemy=false
+DelayAfterEnemyContact=0.0
+ExplodesOnContactWithWorld=false
+DelayAfterWorldContact=0.0
+ExplodesOnNextAttack=false
+DelayAfterSpawn=0.0
+BlockedByWorld=false
+SpreadSSA=0.0,0.1,0.0,0.0
+SpreadSCA=0.0,0.1,0.0,0.0
+SpreadMSA=0.0,0.1,0.0,0.0
+SpreadMCA=0.0,0.1,0.0,0.0
+SpreadSSH=0.0,0.1,0.0,0.0
+SpreadSCH=0.0,0.1,0.0,0.0
+SpreadMSH=0.0,0.1,0.0,0.0
+SpreadMCH=0.0,0.1,0.0,0.0
+MaxRecoilUp=0.0
+MinRecoilUp=0.0
+MinRecoilHoriz=0.0
+MaxRecoilHoriz=0.0
+FirstShotRecoilMult=1.0
+RecoilAutoReset=false
+TimeToRecoilPeak=0.05
+TimeToRecoilReset=0.35
+AAMode=0
+AAPreferClosestPlayer=false
+AAAlpha=0.05
+AAMaxSpeed=1.0
+AADeadZone=0.0
+AAFOV=30.0
+AANeedsLOS=true
+TrackHorizontal=true
+TrackVertical=true
+AABlocksMouse=false
+AAOffTimer=0.0
+AABackOnTimer=0.0
+TriggerBotEnabled=false
+TriggerBotDelay=0.0
+TriggerBotFOV=1.0
+StickyLock=false
+HeadLock=false
+VerticalOffset=0.0
+DisableLockOnKill=false
+UsePerShotRecoil=false
+PSRLoopStartIndex=0
+PSRViewRecoilTracking=0.45
+PSRCapUp=9.0
+PSRCapRight=4.0
+PSRCapLeft=4.0
+PSRTimeToPeak=0.175
+PSRResetDegreesPerSec=40.0
+UsePerBulletSpread=false
+PBS0=0.0,0.0
+
+[Movement Ability Profile]
+Name=QFmain_pop
+MaxCharges=1.0
+ChargeTimer=0.1
+ChargesRefundedOnKill=0.0
+DelayAfterUse=0.0
+FullyAuto=false
+AbilityDuration=0.0
+LockDirectionForDuration=true
+NegateGravityForDuration=true
+MainVelocity=800.0
+MainVelocityCanGoVertical=false
+MainVelocitySetToMovementKeys=false
+UpVelocity=800.0
+EndVelocityFactor=1.0
+Hurtbox=false
+HurtboxRadius=50.0
+HurtboxDamage=50.0
+HurtboxGroundKnockbackFactor=1.0
+HurtboxAirKnockbackFactor=1.0
+AbilityBlocksTurning=false
+AbilityBlocksMovement=true
+AbilityBlocksAttack=false
+AttackCancelsAbility=false
+AbilityReloadsWeapon=false
+HealthRestore=0.0
+AIUseInCombat=false
+AIUseOutOfCombat=false
+AIUseOnGround=false
+AIUseInAir=true
+AIReuseTimer=0.1
+AIMinSelfHealth=0.0
+AIMaxSelfHealth=100.0
+AIMinTargHealth=0.0
+AIMaxTargHealth=100.0
+AIMinTargDist=0.0
+AIMaxTargDist=0.0
+AIMaxTargFOV=360.0
+AIDamageReaction=true
+AIDamageReactionIgnoreChance=0.0
+AIDamageReactionMinDelay=0.1
+AIDamageReactionMaxDelay=0.1
+AIDamageReactionCooldown=0.1
+AIDamageReactionThreshold=1.0
+AIDamageReactionResetTimer=0.1
+
+[Melee Ability Profile]
+Name=Player_kill
+MaxCharges=1.0
+ChargeTimer=0.1
+ChargesRefundedOnKill=0.0
+DelayAfterUse=0.0
+FullyAuto=false
+AbilityDuration=0.1
+HurtboxRadius=4000.0
+HurtboxDamage=100.0
+HurtboxGroundKnockbackFactor=0.0
+HurtboxAirKnockbackFactor=0.0
+BlockAttackTimer=0.0
+AbilityBlockedWhenAttacking=false
+AmmoPerShot=0
+FlatKnockbackHorizontal=0.0
+FlatKnockbackVertical=0.0
+FlatKnockbackHorizontalMin=0.0
+FlatKnockbackVerticalMin=0.0
+AIUseInCombat=true
+AIUseOutOfCombat=true
+AIUseOnGround=true
+AIUseInAir=false
+AIReuseTimer=0.1
+AIMinSelfHealth=0.0
+AIMaxSelfHealth=100.0
+AIMinTargHealth=0.0
+AIMaxTargHealth=100.0
+AIMinTargDist=0.0
+AIMaxTargDist=10000.0
+AIMaxTargFOV=360.0
+AIDamageReaction=false
+AIDamageReactionIgnoreChance=1.0
+AIDamageReactionMinDelay=0.125
+AIDamageReactionMaxDelay=0.25
+AIDamageReactionCooldown=1.0
+AIDamageReactionThreshold=0.0
+AIDamageReactionResetTimer=0.1
+
+[Map Data]
+reflex map version 8
+global
+	entity
+		type WorldSpawn
+		String32 targetGameOverCamera end
+		UInt8 playersMin 1
+		UInt8 playersMax 16
+	brush
+		vertices
+			-256.000000 200.000000 168.000000
+			-248.000000 200.000000 168.000000
+			-248.000000 200.000000 -256.000000
+			-256.000000 200.000000 -256.000000
+			-256.000000 0.000000 168.000000
+			-248.000000 0.000000 168.000000
+			-248.000000 0.000000 -256.000000
+			-256.000000 0.000000 -256.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			248.000000 200.000000 168.000000
+			256.000000 200.000000 168.000000
+			256.000000 200.000000 -256.000000
+			248.000000 200.000000 -256.000000
+			248.000000 0.000000 168.000000
+			256.000000 0.000000 168.000000
+			256.000000 0.000000 -256.000000
+			248.000000 0.000000 -256.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-248.000000 200.000000 -248.000000
+			248.000000 200.000000 -248.000000
+			248.000000 200.000000 -256.000000
+			-248.000000 200.000000 -256.000000
+			-248.000000 0.000000 -248.000000
+			248.000000 0.000000 -248.000000
+			248.000000 0.000000 -256.000000
+			-248.000000 0.000000 -256.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-80.000000 200.000000 256.000000
+			80.000000 200.000000 256.000000
+			80.000000 200.000000 224.000000
+			-80.000000 200.000000 224.000000
+			-80.000000 0.000000 256.000000
+			80.000000 0.000000 256.000000
+			80.000000 0.000000 224.000000
+			-80.000000 0.000000 224.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			80.000000 200.000000 256.000000
+			256.000000 200.000000 256.000000
+			256.000000 200.000000 128.000000
+			80.000000 0.000000 224.000000
+			80.000000 200.000000 224.000000
+			256.000000 0.000000 256.000000
+			256.000000 0.000000 128.000000
+			80.000000 0.000000 256.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 4 3 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 6 5 7 0x00000000 
+	brush
+		vertices
+			0.000000 13.999999 176.000000
+			16.000000 14.000000 176.000000
+			48.000000 13.999999 160.000000
+			16.000000 0.000000 176.000000
+			0.000000 0.000000 176.000000
+			0.000000 13.999999 160.000000
+			0.000000 0.000000 160.000000
+			48.000000 0.000000 160.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 1 0 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 0 1 2 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 0 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 3 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 2 7 0x00000000 
+	brush
+		vertices
+			-16.000000 14.000000 176.000000
+			0.000000 14.000000 176.000000
+			0.000000 13.999999 160.000000
+			0.000000 0.000000 176.000000
+			-16.000000 0.000000 176.000000
+			-48.000000 13.999999 160.000000
+			-48.000000 0.000000 160.000000
+			0.000000 0.000000 160.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 1 0 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 0 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 3 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 2 7 0x00000000 
+	brush
+		vertices
+			64.000000 13.999999 112.000000
+			64.000122 14.000000 96.000107
+			48.000122 13.999999 64.000137
+			64.000122 0.000000 96.000107
+			64.000000 0.000000 112.000000
+			48.000130 13.999999 112.000107
+			48.000130 0.000000 112.000107
+			48.000122 0.000000 64.000137
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 1 0 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 0 1 2 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 0 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 3 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 2 7 0x00000000 
+	brush
+		vertices
+			64.000160 14.000000 128.000153
+			64.000000 14.000000 112.000000
+			48.000130 13.999999 112.000107
+			64.000000 0.000000 112.000000
+			64.000160 0.000000 128.000153
+			48.000122 13.999999 160.000137
+			48.000122 0.000000 160.000137
+			48.000130 0.000000 112.000107
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 1 0 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 0 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 3 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 2 7 0x00000000 
+	brush
+		vertices
+			0.000000 13.999999 48.000000
+			-15.999878 14.000000 47.999916
+			-47.999847 13.999999 63.999916
+			-15.999878 0.000000 47.999916
+			0.000000 0.000000 48.000000
+			0.000145 13.999999 63.999916
+			0.000145 0.000000 63.999916
+			-47.999847 0.000000 63.999916
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 1 0 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 0 1 2 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 0 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 3 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 2 7 0x00000000 
+	brush
+		vertices
+			16.000191 14.000000 47.999886
+			0.000000 14.000000 48.000000
+			0.000145 13.999999 63.999916
+			0.000000 0.000000 48.000000
+			16.000191 0.000000 47.999886
+			48.000206 13.999999 63.999931
+			48.000206 0.000000 63.999931
+			0.000145 0.000000 63.999916
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 1 0 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 0 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 3 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 2 7 0x00000000 
+	brush
+		vertices
+			-64.000000 13.999999 112.000000
+			-63.999947 14.000000 127.999832
+			-47.999969 13.999999 159.999847
+			-63.999947 0.000000 127.999832
+			-64.000000 0.000000 112.000000
+			-47.999969 13.999999 111.999817
+			-47.999969 0.000000 111.999817
+			-47.999969 0.000000 159.999847
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 1 0 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 0 1 2 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 0 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 3 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 2 7 0x00000000 
+	brush
+		vertices
+			-64.000000 14.000000 95.999771
+			-64.000000 14.000000 112.000000
+			-47.999969 13.999999 111.999817
+			-64.000000 0.000000 112.000000
+			-64.000000 0.000000 95.999771
+			-47.999954 13.999999 63.999741
+			-47.999954 0.000000 63.999741
+			-47.999969 0.000000 111.999817
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 1 0 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 0 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 3 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 2 7 0x00000000 
+	brush
+		vertices
+			-256.000000 200.000000 256.000000
+			-80.000000 200.000000 256.000000
+			-80.000000 200.000000 224.000000
+			-256.000000 0.000000 128.000000
+			-256.000000 200.000000 128.000000
+			-80.000000 0.000000 256.000000
+			-80.000000 0.000000 224.000000
+			-256.000000 0.000000 256.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 4 3 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 6 5 7 0x00000000 
+	brush
+		vertices
+			-48.000000 14.000000 160.000000
+			48.000000 14.000000 160.000000
+			48.000000 14.000000 120.000000
+			-48.000000 14.000000 120.000000
+			-48.000000 0.000000 160.000000
+			48.000000 0.000000 160.000000
+			48.000000 0.000000 120.000000
+			-48.000000 0.000000 120.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-48.000000 14.000000 104.000000
+			48.000000 14.000000 104.000000
+			48.000000 14.000000 64.000000
+			-48.000000 14.000000 64.000000
+			-48.000000 0.000000 104.000000
+			48.000000 0.000000 104.000000
+			48.000000 0.000000 64.000000
+			-48.000000 0.000000 64.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-48.000000 14.000000 120.000000
+			-8.000000 14.000000 120.000000
+			-8.000000 14.000000 104.000000
+			-48.000000 14.000000 104.000000
+			-48.000000 0.000000 120.000000
+			-8.000000 0.000000 120.000000
+			-8.000000 0.000000 104.000000
+			-48.000000 0.000000 104.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			8.000000 14.000000 120.000000
+			48.000000 14.000000 120.000000
+			48.000000 14.000000 104.000000
+			8.000000 14.000000 104.000000
+			8.000000 0.000000 120.000000
+			48.000000 0.000000 120.000000
+			48.000000 0.000000 104.000000
+			8.000000 0.000000 104.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-256.000000 0.000000 104.000000
+			256.000000 0.000000 104.000000
+			256.000000 0.000000 -256.000000
+			-256.000000 0.000000 -256.000000
+			-256.000000 -16.000000 104.000000
+			256.000000 -16.000000 104.000000
+			256.000000 -16.000000 -256.000000
+			-256.000000 -16.000000 -256.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-256.000000 0.000000 256.000000
+			256.000000 0.000000 256.000000
+			256.000000 0.000000 120.000000
+			-256.000000 0.000000 120.000000
+			-256.000000 -16.000000 256.000000
+			256.000000 -16.000000 256.000000
+			256.000000 -16.000000 120.000000
+			-256.000000 -16.000000 120.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			8.000000 0.000000 120.000000
+			256.000000 0.000000 120.000000
+			256.000000 0.000000 104.000000
+			8.000000 0.000000 104.000000
+			8.000000 -16.000000 120.000000
+			256.000000 -16.000000 120.000000
+			256.000000 -16.000000 104.000000
+			8.000000 -16.000000 104.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-256.000000 0.000000 120.000000
+			-8.000000 0.000000 120.000000
+			-8.000000 0.000000 104.000000
+			-256.000000 0.000000 104.000000
+			-256.000000 -16.000000 120.000000
+			-8.000000 -16.000000 120.000000
+			-8.000000 -16.000000 104.000000
+			-256.000000 -16.000000 104.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-48.000000 200.000000 104.000000
+			48.000000 200.000000 104.000000
+			48.000000 200.000000 64.000000
+			-48.000000 200.000000 64.000000
+			-48.000000 186.000000 104.000000
+			48.000000 186.000000 104.000000
+			48.000000 186.000000 64.000000
+			-48.000000 186.000000 64.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			64.000160 200.000000 128.000153
+			64.000000 200.000000 112.000000
+			48.000130 200.000000 112.000107
+			64.000000 186.000000 112.000000
+			64.000160 186.000000 128.000153
+			48.000122 200.000000 160.000137
+			48.000122 186.000000 160.000137
+			48.000130 186.000000 112.000107
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 1 0 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 0 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 3 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 2 7 0x00000000 
+	brush
+		vertices
+			64.000000 200.000000 112.000000
+			64.000122 200.000000 96.000107
+			48.000122 200.000000 64.000137
+			64.000122 186.000000 96.000107
+			64.000000 186.000000 112.000000
+			48.000130 200.000000 112.000107
+			48.000130 186.000000 112.000107
+			48.000122 186.000000 64.000137
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 1 0 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 0 1 2 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 0 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 3 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 2 7 0x00000000 
+	brush
+		vertices
+			-48.000000 200.000000 160.000000
+			48.000000 200.000000 160.000000
+			48.000000 200.000000 120.000000
+			-48.000000 200.000000 120.000000
+			-48.000000 186.000000 160.000000
+			48.000000 186.000000 160.000000
+			48.000000 186.000000 120.000000
+			-48.000000 186.000000 120.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			0.000000 200.000000 176.000000
+			16.000000 200.000000 176.000000
+			48.000000 200.000000 160.000000
+			16.000000 186.000000 176.000000
+			0.000000 186.000000 176.000000
+			0.000000 200.000000 160.000000
+			0.000000 186.000000 160.000000
+			48.000000 186.000000 160.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 1 0 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 0 1 2 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 0 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 3 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 2 7 0x00000000 
+	brush
+		vertices
+			-16.000000 200.000000 176.000000
+			0.000000 200.000000 176.000000
+			0.000000 200.000000 160.000000
+			0.000000 186.000000 176.000000
+			-16.000000 186.000000 176.000000
+			-48.000000 200.000000 160.000000
+			-48.000000 186.000000 160.000000
+			0.000000 186.000000 160.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 1 0 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 0 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 3 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 2 7 0x00000000 
+	brush
+		vertices
+			-64.000000 200.000000 112.000000
+			-63.999947 200.000000 127.999832
+			-47.999969 200.000000 159.999847
+			-63.999947 186.000000 127.999832
+			-64.000000 186.000000 112.000000
+			-47.999969 200.000000 111.999817
+			-47.999969 186.000000 111.999817
+			-47.999969 186.000000 159.999847
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 1 0 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 0 1 2 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 0 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 3 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 2 7 0x00000000 
+	brush
+		vertices
+			-64.000000 200.000000 95.999771
+			-64.000000 200.000000 112.000000
+			-47.999969 200.000000 111.999817
+			-64.000000 186.000000 112.000000
+			-64.000000 186.000000 95.999771
+			-47.999954 200.000000 63.999741
+			-47.999954 186.000000 63.999741
+			-47.999969 186.000000 111.999817
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 1 0 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 0 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 3 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 2 7 0x00000000 
+	brush
+		vertices
+			0.000000 200.000000 48.000000
+			-15.999878 200.000000 47.999916
+			-47.999847 200.000000 63.999916
+			-15.999878 186.000000 47.999916
+			0.000000 186.000000 48.000000
+			0.000145 200.000000 63.999916
+			0.000145 186.000000 63.999916
+			-47.999847 186.000000 63.999916
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 1 0 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 0 1 2 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 0 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 3 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 2 7 0x00000000 
+	brush
+		vertices
+			16.000191 200.000000 47.999886
+			0.000000 200.000000 48.000000
+			0.000145 200.000000 63.999916
+			0.000000 186.000000 48.000000
+			16.000191 186.000000 47.999886
+			48.000206 200.000000 63.999931
+			48.000206 186.000000 63.999931
+			0.000145 186.000000 63.999916
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 1 0 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 0 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 3 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 2 7 0x00000000 
+	brush
+		vertices
+			-48.000000 200.000000 120.000000
+			-8.000000 200.000000 120.000000
+			-8.000000 200.000000 104.000000
+			-48.000000 200.000000 104.000000
+			-48.000000 186.000000 120.000000
+			-8.000000 186.000000 120.000000
+			-8.000000 186.000000 104.000000
+			-48.000000 186.000000 104.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			8.000000 200.000000 120.000000
+			48.000000 200.000000 120.000000
+			48.000000 200.000000 104.000000
+			8.000000 200.000000 104.000000
+			8.000000 186.000000 120.000000
+			48.000000 186.000000 120.000000
+			48.000000 186.000000 104.000000
+			8.000000 186.000000 104.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-8.000000 582.000000 256.000000
+			8.000000 582.000000 256.000000
+			8.000000 232.000000 256.000000
+			-8.000000 232.000000 120.000000
+			-8.000000 232.000000 256.000000
+			8.000000 232.000000 120.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 0 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			256.000000 582.000000 256.000000
+			256.000000 582.000000 120.000000
+			8.000015 232.000000 256.000000
+			8.000000 582.000000 256.000000
+			256.000000 232.000000 256.000000
+			256.000061 232.000000 119.999969
+			8.000031 232.000000 119.999969
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 3 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 0 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 4 2 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			256.000061 232.000000 103.999962
+			8.000000 232.000000 119.999962
+			256.000000 582.000000 120.000000
+			8.000000 232.000000 104.000000
+			256.000061 232.000000 119.999954
+			256.000000 582.000000 104.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 3 0 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 1 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 0 5 2 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-8.000000 582.000000 256.000000
+			-255.999985 232.000000 256.000000
+			-256.000000 582.000000 120.000000
+			-8.000000 232.000000 256.000000
+			-256.000000 582.000000 256.000000
+			-255.999969 232.000000 119.999969
+			-7.999924 232.000000 119.999969
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 3 0 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 1 5 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-8.000000 0.000000 120.000000
+			8.000000 0.000000 120.000000
+			8.000000 0.000000 104.000000
+			-8.000000 0.000000 104.000000
+			-8.000000 -16.000000 120.000000
+			8.000000 -16.000000 120.000000
+			8.000000 -16.000000 104.000000
+			-8.000000 -16.000000 104.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 structural/dev/dev_grey128
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 structural/dev/dev_grey128
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 structural/dev/dev_grey128
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 structural/dev/dev_grey128
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 structural/dev/dev_grey128
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 structural/dev/dev_grey128
+	brush
+		vertices
+			-6.000000 200.000000 128.000107
+			-5.999924 200.000000 96.000084
+			-15.999935 200.000000 96.000000
+			-15.999958 200.000000 128.000031
+			-6.000000 0.000000 128.000107
+			-5.999924 0.000000 96.000084
+			-15.999935 0.000000 96.000000
+			-15.999958 0.000000 128.000031
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-16.000000 200.000000 128.000000
+			16.000000 200.000000 128.000000
+			16.000000 200.000000 118.000000
+			-16.000000 200.000000 118.000000
+			-16.000000 0.000000 128.000000
+			16.000000 0.000000 128.000000
+			16.000000 0.000000 118.000000
+			-16.000000 0.000000 118.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-16.000000 200.000000 106.000000
+			16.000000 200.000000 106.000000
+			16.000000 200.000000 96.000000
+			-16.000000 200.000000 96.000000
+			-16.000000 0.000000 106.000000
+			16.000000 0.000000 106.000000
+			16.000000 0.000000 96.000000
+			-16.000000 0.000000 96.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			6.000000 216.000000 256.000000
+			256.000000 216.000000 256.000000
+			256.000000 216.000000 -256.000000
+			6.000000 216.000000 -256.000000
+			6.000000 200.000000 256.000000
+			256.000000 200.000000 256.000000
+			256.000000 200.000000 -256.000000
+			6.000000 200.000000 -256.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-8.000000 216.000000 256.000000
+			8.000000 216.000000 256.000000
+			8.000000 216.000000 118.000000
+			-8.000000 216.000000 118.000000
+			-8.000000 200.000000 256.000000
+			8.000000 200.000000 256.000000
+			8.000000 200.000000 118.000000
+			-8.000000 200.000000 118.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-256.000000 216.000000 256.000000
+			-6.000000 216.000000 256.000000
+			-6.000000 216.000000 -256.000000
+			-256.000000 216.000000 -256.000000
+			-256.000000 200.000000 256.000000
+			-6.000000 200.000000 256.000000
+			-6.000000 200.000000 -256.000000
+			-256.000000 200.000000 -256.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-8.000000 216.000000 106.000000
+			8.000000 216.000000 106.000000
+			8.000000 216.000000 -256.000000
+			-8.000000 216.000000 -256.000000
+			-8.000000 200.000000 106.000000
+			8.000000 200.000000 106.000000
+			8.000000 200.000000 -256.000000
+			-8.000000 200.000000 -256.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-256.000000 582.000000 104.000000
+			-256.000000 582.000000 120.000000
+			-7.999939 232.000000 103.999962
+			-256.000000 232.000000 104.000000
+			-7.999931 232.000000 119.999954
+			-256.000000 232.000000 119.999962
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 3 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 4 5 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-256.000000 582.000000 104.000000
+			256.000000 582.000000 104.000000
+			256.000000 582.000000 88.000000
+			-256.000000 582.000000 88.000000
+			-256.000000 216.000000 104.000000
+			256.000000 216.000000 104.000000
+			256.000000 216.000000 88.000000
+			-256.000000 216.000000 88.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-8.000000 232.000000 120.000000
+			-6.000000 217.000000 106.000000
+			-8.000000 217.000000 106.000000
+			-6.000000 217.000000 118.000000
+			-8.000000 232.000000 104.000000
+			-8.000000 217.000000 118.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 0 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 1 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 3 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 4 2 5 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			8.000000 232.000000 120.000000
+			-6.000000 217.000000 118.000000
+			-6.000000 217.000000 120.000000
+			6.000000 217.000000 118.000000
+			6.000000 217.000000 120.000000
+			-7.999977 232.000000 120.000053
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 0 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 3 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 0 5 2 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			8.000000 232.000000 104.000000
+			6.000000 217.000000 118.000000
+			8.000000 217.000000 118.000000
+			6.000000 217.000000 106.000000
+			8.000006 232.000000 119.999939
+			8.000000 217.000000 106.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 0 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 1 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 3 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 0 4 2 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-8.000000 232.000000 104.000000
+			6.000000 217.000000 106.000000
+			6.000000 217.000000 104.000000
+			-6.000000 217.000000 106.000000
+			7.999912 232.000000 104.000000
+			-6.000000 217.000000 104.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 0 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 1 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 3 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 4 2 5 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			16.000000 200.000000 127.999886
+			16.000076 200.000000 95.999847
+			6.000072 200.000000 95.999939
+			6.000050 200.000000 127.999969
+			16.000000 0.000000 127.999886
+			16.000076 0.000000 95.999847
+			6.000072 0.000000 95.999939
+			6.000050 0.000000 127.999969
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 internal/editor/textures/editor_clip
+	entity
+		type PlayerSpawn
+		Vector3 position 0.000000 65.000000 -150.000000
+		Bool8 teamB 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type CameraPath
+		UInt8 posLerp 2
+		UInt8 angleLerp 2
+	entity
+		type PlayerSpawn
+		Vector3 position -30.000000 15.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -45.000000 15.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -60.000000 15.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -75.000000 15.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -90.000000 15.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -105.000000 15.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -120.000000 15.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 30.000000 15.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 45.000000 15.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 60.000000 15.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 75.000000 15.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 90.000000 15.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 105.000000 15.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 120.000000 15.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -135.000000 15.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -150.000000 15.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -165.000000 15.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -180.000000 15.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 135.000000 15.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 150.000000 15.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 165.000000 15.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 180.000000 15.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -180.000000 29.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -165.000000 29.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -150.000000 29.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -135.000000 29.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -120.000000 29.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -105.000000 29.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -90.000000 29.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -75.000000 29.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -60.000000 29.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -45.000000 29.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -30.000000 29.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 30.000000 29.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 45.000000 29.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 60.000000 29.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 75.000000 29.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 90.000000 29.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 105.000000 29.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 120.000000 29.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 135.000000 29.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 150.000000 29.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 165.000000 29.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 180.000000 29.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -150.000000 43.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -180.000000 43.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -165.000000 43.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -135.000000 43.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -120.000000 43.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -105.000000 43.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -90.000000 43.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -75.000000 43.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -45.000000 43.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -60.000000 43.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -30.000000 43.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 30.000000 43.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 45.000000 43.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 60.000000 43.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 75.000000 43.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 90.000000 43.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 105.000000 43.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 120.000000 43.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 135.000000 43.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 150.000000 43.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 165.000000 43.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 180.000000 43.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -150.000000 57.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -180.000000 57.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -165.000000 57.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -135.000000 57.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -120.000000 57.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -105.000000 57.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -90.000000 57.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -75.000000 57.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -45.000000 57.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -60.000000 57.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -30.000000 57.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 30.000000 57.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 45.000000 57.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 60.000000 57.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 75.000000 57.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 90.000000 57.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 105.000000 57.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 120.000000 57.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 135.000000 57.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 150.000000 57.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 165.000000 57.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 180.000000 57.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -150.000000 71.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -180.000000 71.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -165.000000 71.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -135.000000 71.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -120.000000 71.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -105.000000 71.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -90.000000 71.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -75.000000 71.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -45.000000 71.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -60.000000 71.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -30.000000 71.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 30.000000 71.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 45.000000 71.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 60.000000 71.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 75.000000 71.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 90.000000 71.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 105.000000 71.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 120.000000 71.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 135.000000 71.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 150.000000 71.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 165.000000 71.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 180.000000 71.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -150.000000 85.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -180.000000 85.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -165.000000 85.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -135.000000 85.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -120.000000 85.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -105.000000 85.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -90.000000 85.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -75.000000 85.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -45.000000 85.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -60.000000 85.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -30.000000 85.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 30.000000 85.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 45.000000 85.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 60.000000 85.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 75.000000 85.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 90.000000 85.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 105.000000 85.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 120.000000 85.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 135.000000 85.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 150.000000 85.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 165.000000 85.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 180.000000 85.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -150.000000 99.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -180.000000 99.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -165.000000 99.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -135.000000 99.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -120.000000 99.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -105.000000 99.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -90.000000 99.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -75.000000 99.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -45.000000 99.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -60.000000 99.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -30.000000 99.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 30.000000 99.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 45.000000 99.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 60.000000 99.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 75.000000 99.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 90.000000 99.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 105.000000 99.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 120.000000 99.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 135.000000 99.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 150.000000 99.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 165.000000 99.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 180.000000 99.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -150.000000 113.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -180.000000 113.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -165.000000 113.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -135.000000 113.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -120.000000 113.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -105.000000 113.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -90.000000 113.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -75.000000 113.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -45.000000 113.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -60.000000 113.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -30.000000 113.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 30.000000 113.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 45.000000 113.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 60.000000 113.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 75.000000 113.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 90.000000 113.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 105.000000 113.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 120.000000 113.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 135.000000 113.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 150.000000 113.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 165.000000 113.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 180.000000 113.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -150.000000 127.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -180.000000 127.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -165.000000 127.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -135.000000 127.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -120.000000 127.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -105.000000 127.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -90.000000 127.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -75.000000 127.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -45.000000 127.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -60.000000 127.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -30.000000 127.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 30.000000 127.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 45.000000 127.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 60.000000 127.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 75.000000 127.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 90.000000 127.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 105.000000 127.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 120.000000 127.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 135.000000 127.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 150.000000 127.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 165.000000 127.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 180.000000 127.000000 112.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0

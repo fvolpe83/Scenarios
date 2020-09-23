@@ -1,0 +1,3438 @@
+Name=kroadabulous
+PlayerCharacters=railgunquaker
+BotCharacters=kroadsmallLS.bot
+IsChallenge=true
+Timelimit=60.0
+PlayerProfile=railgunquaker
+AddedBots=kroadsmallLS.bot;kroadsmallLS.bot;kroadsmallLS.bot
+PlayerMaxLives=0
+BotMaxLives=0;0;0
+PlayerTeam=1
+BotTeams=2;2;2
+MapName=kroadshootingrange.map
+MapScale=3.8125
+BlockProjectilePredictors=true
+BlockCheats=true
+InvinciblePlayer=true
+InvincibleBots=false
+Timescale=1.0
+BlockHealthbars=false
+TimeRefilledByKill=0.0
+ScoreToWin=1000.0
+ScorePerDamage=1.0
+ScorePerKill=0.0
+ScorePerMidairDirect=0.0
+ScorePerAnyDirect=0.0
+ScorePerTime=0.0
+ScoreLossPerDamageTaken=0.0
+ScoreLossPerDeath=0.0
+ScoreLossPerMidairDirected=0.0
+ScoreLossPerAnyDirected=0.0
+ScoreMultAccuracy=false
+ScoreMultDamageEfficiency=false
+ScoreMultKillEfficiency=false
+GameTag=ut4 
+WeaponHeroTag=railgun
+DifficultyTag=2
+AuthorsTag=KROADER
+BlockHitMarkers=false
+BlockHitSounds=false
+BlockMissSounds=true
+BlockFCT=false
+Description=based on the wootabulous instagib map from ut4, designed to practice long range rails
+GameVersion=1.0.1
+
+[Aim Profile]
+Name=Default
+MinReactionTime=0.3
+MaxReactionTime=0.4
+MinSelfMovementCorrectionTime=0.001
+MaxSelfMovementCorrectionTime=0.05
+FlickFOV=30.0
+FlickSpeed=1.5
+FlickError=15.0
+TrackSpeed=3.5
+TrackError=3.5
+MaxTurnAngleFromPadCenter=75.0
+MinRecenterTime=0.3
+MaxRecenterTime=0.5
+OptimalAimFOV=30.0
+OuterAimPenalty=1.0
+MaxError=40.0
+ShootFOV=15.0
+VerticalAimOffset=0.0
+MaxTolerableSpread=5.0
+MinTolerableSpread=1.0
+TolerableSpreadDist=2000.0
+MaxSpreadDistFactor=2.0
+
+[Bot Profile]
+Name=kroadsmallLS
+DodgeProfileNames=KroadLS
+DodgeProfileWeights=1.0
+DodgeProfileMaxChangeTime=5.0
+DodgeProfileMinChangeTime=1.0
+WeaponProfileWeights=1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0
+AimingProfileNames=Default;Default;Default;Default;Default;Default;Default;Default
+WeaponSwitchTime=3.0
+UseWeapons=true
+CharacterProfile=kroadtinyLS
+SeeThroughWalls=false
+
+[Character Profile]
+Name=railgunquaker
+MaxHealth=300.0
+WeaponProfileNames=Railgun;;;;;;;
+MinRespawnDelay=1.0
+MaxRespawnDelay=5.0
+StepUpHeight=75.0
+CrouchHeightModifier=0.5
+CrouchAnimationSpeed=2.0
+CameraOffset=X=0.000 Y=0.000 Z=80.000
+HeadshotOnly=false
+DamageKnockbackFactor=4.0
+MovementType=Base
+MaxSpeed=1300.0
+MaxCrouchSpeed=500.0
+Acceleration=9000.0
+AirAcceleration=16000.0
+Friction=4.0
+BrakingFrictionFactor=2.0
+JumpVelocity=800.0
+Gravity=3.0
+AirControl=0.25
+CanCrouch=true
+CanPogoJump=false
+CanCrouchInAir=true
+CanJumpFromCrouch=false
+EnemyBodyColor=X=0.771 Y=0.000 Z=0.000
+EnemyHeadColor=X=1.000 Y=1.000 Z=1.000
+TeamBodyColor=X=1.000 Y=0.888 Z=0.000
+TeamHeadColor=X=1.000 Y=1.000 Z=1.000
+BlockSelfDamage=false
+InvinciblePlayer=false
+InvincibleBots=false
+BlockTeamDamage=false
+AirJumpCount=0
+AirJumpVelocity=0.0
+MainBBType=Cylindrical
+MainBBHeight=320.0
+MainBBRadius=58.0
+MainBBHasHead=false
+MainBBHeadRadius=45.0
+MainBBHeadOffset=0.0
+MainBBHide=false
+ProjBBType=Cylindrical
+ProjBBHeight=230.0
+ProjBBRadius=55.0
+ProjBBHasHead=false
+ProjBBHeadRadius=45.0
+ProjBBHeadOffset=0.0
+ProjBBHide=true
+HasJetpack=false
+JetpackActivationDelay=0.2
+JetpackFullFuelTime=4.0
+JetpackFuelIncPerSec=1.0
+JetpackFuelRegensInAir=false
+JetpackThrust=6000.0
+JetpackMaxZVelocity=400.0
+JetpackAirControlWithThrust=0.25
+AbilityProfileNames=;;;
+HideWeapon=false
+AerialFriction=0.0
+StrafeSpeedMult=1.0
+BackSpeedMult=1.0
+RespawnInvulnTime=0.0
+BlockedSpawnRadius=0.0
+BlockSpawnFOV=0.0
+BlockSpawnDistance=0.0
+RespawnAnimationDuration=0.5
+
+[Character Profile]
+Name=kroadtinyLS
+MaxHealth=80.0
+WeaponProfileNames=;;;;;;;
+MinRespawnDelay=1.0
+MaxRespawnDelay=1.0
+StepUpHeight=75.0
+CrouchHeightModifier=0.5
+CrouchAnimationSpeed=1.0
+CameraOffset=X=0.000 Y=0.000 Z=0.000
+HeadshotOnly=false
+DamageKnockbackFactor=8.0
+MovementType=Base
+MaxSpeed=1000.0
+MaxCrouchSpeed=500.0
+Acceleration=16000.0
+AirAcceleration=16000.0
+Friction=8.0
+BrakingFrictionFactor=2.0
+JumpVelocity=5000.0
+Gravity=3.0
+AirControl=0.25
+CanCrouch=true
+CanPogoJump=false
+CanCrouchInAir=false
+CanJumpFromCrouch=false
+EnemyBodyColor=X=255.000 Y=0.000 Z=0.000
+EnemyHeadColor=X=255.000 Y=255.000 Z=255.000
+TeamBodyColor=X=0.000 Y=0.000 Z=255.000
+TeamHeadColor=X=255.000 Y=255.000 Z=255.000
+BlockSelfDamage=false
+InvinciblePlayer=false
+InvincibleBots=false
+BlockTeamDamage=false
+AirJumpCount=0
+AirJumpVelocity=800.0
+MainBBType=Cylindrical
+MainBBHeight=230.0
+MainBBRadius=55.0
+MainBBHasHead=true
+MainBBHeadRadius=45.0
+MainBBHeadOffset=0.0
+MainBBHide=false
+ProjBBType=Cylindrical
+ProjBBHeight=230.0
+ProjBBRadius=55.0
+ProjBBHasHead=true
+ProjBBHeadRadius=45.0
+ProjBBHeadOffset=0.0
+ProjBBHide=true
+HasJetpack=false
+JetpackActivationDelay=0.2
+JetpackFullFuelTime=4.0
+JetpackFuelIncPerSec=1.0
+JetpackFuelRegensInAir=false
+JetpackThrust=6000.0
+JetpackMaxZVelocity=400.0
+JetpackAirControlWithThrust=0.25
+AbilityProfileNames=;;;
+HideWeapon=false
+AerialFriction=0.0
+StrafeSpeedMult=1.0
+BackSpeedMult=1.0
+RespawnInvulnTime=0.0
+BlockedSpawnRadius=0.0
+BlockSpawnFOV=0.0
+BlockSpawnDistance=0.0
+RespawnAnimationDuration=0.5
+
+[Dodge Profile]
+Name=KroadLS
+MaxTargetDistance=2500.0
+MinTargetDistance=750.0
+ToggleLeftRight=true
+ToggleForwardBack=false
+MinLRTimeChange=0.5
+MaxLRTimeChange=1.5
+MinFBTimeChange=0.2
+MaxFBTimeChange=0.5
+DamageReactionChangesDirection=true
+DamageReactionChanceToIgnore=0.5
+DamageReactionMinimumDelay=0.125
+DamageReactionMaximumDelay=0.25
+DamageReactionCooldown=1.0
+DamageReactionThreshold=50.0
+DamageReactionResetTimer=0.5
+JumpFrequency=0.05
+CrouchInAirFrequency=0.0
+CrouchOnGroundFrequency=0.0
+TargetStrafeOverride=Ignore
+TargetStrafeMinDelay=0.125
+TargetStrafeMaxDelay=0.25
+MinProfileChangeTime=0.0
+MaxProfileChangeTime=0.0
+MinCrouchTime=0.3
+MaxCrouchTime=0.6
+MinJumpTime=0.3
+MaxJumpTime=0.6
+LeftStrafeTimeMult=1.0
+RightStrafeTimeMult=1.0
+StrafeSwapMinPause=0.0
+StrafeSwapMaxPause=0.0
+BlockedMovementPercent=0.5
+BlockedMovementReactionMin=0.125
+BlockedMovementReactionMax=0.2
+
+[Weapon Profile]
+Name=Railgun
+Type=Hitscan
+ShotsPerClick=1
+DamagePerShot=80.0
+KnockbackFactor=10.0
+TimeBetweenShots=1.0
+Pierces=true
+Category=FullyAuto
+BurstShotCount=1
+TimeBetweenBursts=0.5
+ChargeStartDamage=10.0
+ChargeStartVelocity=X=500.000 Y=0.000 Z=0.000
+ChargeTimeToAutoRelease=2.0
+ChargeTimeToCap=1.0
+ChargeMoveSpeedModifier=1.0
+MuzzleVelocityMin=X=2000.000 Y=0.000 Z=0.000
+MuzzleVelocityMax=X=2000.000 Y=0.000 Z=0.000
+InheritOwnerVelocity=0.0
+OriginOffset=X=0.000 Y=0.000 Z=0.000
+MaxTravelTime=5.0
+MaxHitscanRange=100000.0
+GravityScale=1.0
+HeadshotCapable=false
+HeadshotMultiplier=2.0
+CooldownType=InfiniteUse
+MagazineMax=0
+AmmoPerShot=1
+ReloadTimeFromEmpty=0.5
+ReloadTimeFromPartial=0.5
+CooldownTimer=5.0
+MaxCharges=3
+DamageFalloffStartDistance=100000.0
+DamageFalloffStopDistance=100000.0
+DamageAtMaxRange=25.0
+DelayBeforeShot=0.0
+HitscanVisualEffect=Beam
+ProjectileGraphic=Ball
+VisualLifetime=0.5
+WallParticleEffect=None
+HitParticleEffect=Blood
+BounceOffWorld=false
+BounceFactor=0.0
+BounceCount=0
+HomingProjectileAcceleration=0.0
+ProjectileWorldHitRadius=1.0
+ProjectileEnemyHitRadius=1.0
+CanAimDownSight=false
+ADSZoomFactor=0.7
+ADSZoomDelay=0.0
+ADSZoomSensFactor=0.7
+ADSMoveFactor=1.0
+ADSStartDelay=0.0
+ShootSoundCooldown=0.08
+HitSoundCooldown=0.08
+ShootSound=Shot
+HitscanVisualOffset=X=0.000 Y=0.000 Z=-50.000
+ADSBlocksShooting=false
+ShootingBlocksADS=false
+KnockbackFactorAir=10.0
+RecoilNegatable=false
+DecalType=1
+DecalSize=30.0
+DelayAfterShooting=0.0
+BeamTracksCrosshair=false
+AlsoShoot=
+ADSShoot=
+StunDuration=0.0
+CircularSpread=true
+SpreadStationaryVelocity=0.0
+PassiveCharging=false
+BurstFullyAuto=true
+FlatKnockbackHorizontal=0.0
+FlatKnockbackVertical=0.0
+HitscanRadius=0.0
+HitscanVisualRadius=6.0
+TaggingDuration=0.0
+TaggingMaxFactor=1.0
+TaggingHitFactor=1.0
+ProjectileTrail=None
+RecoilCrouchScale=1.0
+RecoilADSScale=1.0
+PSRCrouchScale=1.0
+PSRADSScale=1.0
+ProjectileAcceleration=0.0
+AccelIncludeVertical=true
+AimPunchAmount=0.0
+AimPunchResetTime=0.05
+AimPunchCooldown=0.5
+AimPunchHeadshotOnly=false
+AimPunchCosmeticOnly=true
+MinimumDecelVelocity=0.0
+PSRManualNegation=false
+PSRAutoReset=true
+AimPunchUpTime=0.05
+AmmoReloadedOnKill=0
+CancelReloadOnKill=false
+FlatKnockbackHorizontalMin=0.0
+FlatKnockbackVerticalMin=0.0
+ADSScope=No Scope
+ADSFOVOverride=72.099998
+ADSFOVScale=Clamped Horizontal
+ADSAllowUserOverrideFOV=true
+
+
+Explosive=false
+Radius=500.0
+DamageAtCenter=100.0
+DamageAtEdge=0.0
+SelfDamageMultiplier=0.5
+ExplodesOnContactWithEnemy=false
+DelayAfterEnemyContact=0.0
+ExplodesOnContactWithWorld=false
+DelayAfterWorldContact=0.0
+ExplodesOnNextAttack=false
+DelayAfterSpawn=0.0
+BlockedByWorld=false
+SpreadSSA=1.0,1.0,-1.0,5.0
+SpreadSCA=1.0,1.0,-1.0,5.0
+SpreadMSA=1.0,1.0,-1.0,5.0
+SpreadMCA=1.0,1.0,-1.0,5.0
+SpreadSSH=1.0,1.0,-1.0,5.0
+SpreadSCH=1.0,1.0,-1.0,5.0
+SpreadMSH=1.0,1.0,-1.0,5.0
+SpreadMCH=1.0,1.0,-1.0,5.0
+MaxRecoilUp=0.0
+MinRecoilUp=0.0
+MinRecoilHoriz=0.0
+MaxRecoilHoriz=0.0
+FirstShotRecoilMult=1.0
+RecoilAutoReset=false
+TimeToRecoilPeak=0.05
+TimeToRecoilReset=0.35
+AAMode=0
+AAPreferClosestPlayer=false
+AAAlpha=0.05
+AAMaxSpeed=1.0
+AADeadZone=0.0
+AAFOV=30.0
+AANeedsLOS=true
+TrackHorizontal=true
+TrackVertical=true
+AABlocksMouse=false
+AAOffTimer=0.0
+AABackOnTimer=0.0
+TriggerBotEnabled=true
+TriggerBotDelay=0.01
+TriggerBotFOV=1.0
+StickyLock=false
+HeadLock=false
+VerticalOffset=0.0
+DisableLockOnKill=false
+UsePerShotRecoil=false
+PSRLoopStartIndex=0
+PSRViewRecoilTracking=0.45
+PSRCapUp=9.0
+PSRCapRight=4.0
+PSRCapLeft=4.0
+PSRTimeToPeak=0.095
+PSRResetDegreesPerSec=40.0
+UsePerBulletSpread=false
+
+[Map Data]
+reflex map version 8
+prefab bend
+	entity
+		type WorldSpawn
+		String32 targetGameOverCamera end
+		UInt8 playersMin 1
+		UInt8 playersMax 16
+	brush
+		vertices
+			-7.604919 -8.000000 1.283951
+			-8.000000 -8.000000 8.000000
+			16.098785 -8.000000 6.320984
+			16.000000 -4.000000 8.000000
+			16.098785 -3.999996 6.320984
+			16.000000 -8.000000 8.000000
+			-8.000000 -4.000000 8.000000
+			-7.604919 -3.999996 1.283951
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 4 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0x00000000 
+	brush
+		vertices
+			-6.419769 -8.000000 -4.641968
+			-7.604919 -8.000000 1.283951
+			16.395050 -8.000000 4.839508
+			16.098785 -3.999996 6.320984
+			16.395050 -4.000000 4.839508
+			16.098785 -8.000000 6.320984
+			-7.604919 -3.999996 1.283951
+			-6.419769 -4.000000 -4.641968
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 4 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0x00000000 
+	brush
+		vertices
+			-1.678986 -8.000000 -14.123459
+			-4.444458 -8.000000 -9.777771
+			17.580261 -8.000000 2.469116
+			16.888855 -4.000000 3.555557
+			17.580261 -4.000000 2.469116
+			16.888855 -8.000000 3.555557
+			-4.444458 -4.000000 -9.777771
+			-1.678986 -4.000000 -14.123459
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0x00000000 
+	brush
+		vertices
+			-4.444458 -8.000000 -9.777771
+			-6.419769 -8.000000 -4.641968
+			16.888855 -8.000000 3.555557
+			16.395050 -4.000000 4.839508
+			16.888855 -4.000000 3.555557
+			16.395050 -8.000000 4.839508
+			-6.419769 -4.000000 -4.641968
+			-4.444458 -4.000000 -9.777771
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0x00000000 
+	brush
+		vertices
+			1.876526 -8.000000 -17.679001
+			-1.678986 -8.000000 -14.123459
+			18.469116 -8.000000 1.580261
+			17.580261 -4.000000 2.469116
+			18.469116 -4.000000 1.580261
+			17.580261 -8.000000 2.469116
+			-1.678986 -4.000000 -14.123459
+			1.876526 -4.000000 -17.679001
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0x00000000 
+	brush
+		vertices
+			6.222198 -8.000000 -20.444427
+			1.876526 -8.000000 -17.679001
+			19.555542 -8.000000 0.888901
+			18.469116 -4.000000 1.580261
+			19.555542 -4.000000 0.888901
+			18.469116 -8.000000 1.580261
+			1.876526 -4.000000 -17.679001
+			6.222198 -4.000000 -20.444427
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0x00000000 
+	brush
+		vertices
+			11.358032 -8.000000 -22.419754
+			6.222198 -8.000000 -20.444427
+			20.839508 -8.000000 0.395050
+			19.555542 -4.000000 0.888901
+			20.839508 -4.000000 0.395050
+			19.555542 -8.000000 0.888901
+			6.222198 -4.000000 -20.444427
+			11.358032 -4.000000 -22.419754
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0x00000000 
+	brush
+		vertices
+			17.283966 -8.000000 -23.604935
+			11.358032 -8.000000 -22.419754
+			22.320984 -8.000000 0.098770
+			20.839508 -4.000000 0.395050
+			22.320984 -4.000004 0.098770
+			20.839508 -8.000000 0.395050
+			11.358032 -4.000000 -22.419754
+			17.283966 -4.000004 -23.604935
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0x00000000 
+	brush
+		vertices
+			24.000000 -8.000000 -24.000000
+			17.283966 -8.000000 -23.604935
+			24.000000 -8.000000 0.000000
+			22.320984 -4.000004 0.098770
+			24.000000 -4.000000 0.000000
+			22.320984 -8.000000 0.098770
+			17.283966 -4.000004 -23.604935
+			24.000000 -4.000000 -24.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0x00000000 
+prefab forge
+	entity
+		type WorldSpawn
+		String32 targetGameOverCamera end
+		UInt8 playersMin 1
+		UInt8 playersMax 16
+	brush
+		vertices
+			-368.000000 232.000000 336.000000
+			368.000000 232.000000 336.000000
+			368.000000 232.000000 -336.000000
+			-368.000000 232.000000 -336.000000
+			-368.000000 136.000000 336.000000
+			368.000000 136.000000 336.000000
+			368.000000 136.000000 -336.000000
+			-368.000000 136.000000 -336.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 common/materials/stone/concrete
+	brush
+		vertices
+			368.000000 232.000000 400.000000
+			464.000000 232.000000 400.000000
+			463.999878 232.000000 -432.000000
+			367.999878 232.000000 -432.000000
+			368.000000 -248.000000 400.000000
+			464.000000 -248.000000 400.000000
+			463.999878 -248.000000 -432.000000
+			367.999878 -248.000000 -432.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 common/materials/stone/concrete
+	brush
+		vertices
+			-464.000000 232.000000 -431.999969
+			-464.000000 232.000000 -336.000000
+			368.000000 232.000000 -336.000061
+			368.000000 232.000000 -432.000061
+			-464.000000 -248.000000 -431.999969
+			-464.000000 -248.000000 -336.000000
+			368.000000 -248.000000 -336.000061
+			368.000000 -248.000000 -432.000061
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 common/materials/stone/concrete
+	brush
+		vertices
+			-368.000000 232.000000 -336.000000
+			-464.000000 232.000000 -336.000000
+			-463.999969 232.000000 432.000000
+			-367.999969 232.000000 432.000000
+			-368.000000 -248.000000 -336.000000
+			-464.000000 -248.000000 -336.000000
+			-463.999969 -248.000000 432.000000
+			-367.999969 -248.000000 432.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 common/materials/stone/concrete
+	brush
+		vertices
+			368.000000 128.000000 -240.000000
+			368.000000 128.000000 -336.000000
+			-368.000000 128.000000 -336.000000
+			-368.000000 128.000000 -240.000000
+			368.000000 -248.000000 -240.000000
+			368.000000 -248.000000 -336.000000
+			-368.000000 -248.000000 -336.000000
+			-368.000000 -248.000000 -240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 common/materials/stone/concrete
+	brush
+		vertices
+			272.000000 128.000000 336.000000
+			368.000000 128.000000 336.000000
+			368.000000 128.000000 -240.000000
+			272.000000 128.000000 -240.000000
+			272.000000 -248.000000 336.000000
+			368.000000 -248.000000 336.000000
+			368.000000 -248.000000 -240.000000
+			272.000000 -248.000000 -240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 common/materials/stone/concrete
+	brush
+		vertices
+			-368.000000 128.000000 336.000000
+			-272.000000 128.000000 336.000000
+			-272.000000 128.000000 -240.000000
+			-368.000000 128.000000 -240.000000
+			-368.000000 -248.000000 336.000000
+			-272.000000 -248.000000 336.000000
+			-272.000000 -248.000000 -240.000000
+			-368.000000 -248.000000 -240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 common/materials/stone/concrete
+	brush
+		vertices
+			-272.000000 -152.000000 208.000000
+			272.000000 -152.000000 208.000000
+			272.000000 -152.000000 -240.000000
+			-272.000000 -152.000000 -240.000000
+			-272.000000 -248.000000 208.000000
+			272.000000 -248.000000 208.000000
+			272.000000 -248.000000 -240.000000
+			-272.000000 -248.000000 -240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 common/materials/stone/concrete
+	brush
+		vertices
+			368.000000 232.000000 432.000000
+			368.000000 232.000000 336.000000
+			-368.000000 232.000000 336.000000
+			-368.000000 232.000000 432.000000
+			368.000000 -248.000000 432.000000
+			368.000000 -248.000000 336.000000
+			-368.000000 -248.000000 336.000000
+			-368.000000 -248.000000 432.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 common/materials/stone/concrete
+	brush
+		vertices
+			-272.000000 128.000000 336.000000
+			272.000000 128.000000 336.000000
+			272.000000 128.000000 240.000000
+			-272.000000 128.000000 240.000000
+			-272.000000 -120.000000 336.000000
+			272.000000 -120.000000 336.000000
+			272.000000 -120.000000 240.000000
+			-272.000000 -120.000000 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 common/materials/stone/concrete
+	brush
+		vertices
+			-272.000000 -146.864197 334.419739
+			-272.000000 -120.000000 336.000000
+			272.000000 -146.864197 334.419739
+			272.000000 -120.000000 240.000000
+			272.000000 -126.716049 239.604919
+			272.000000 -120.000000 336.000000
+			-272.000000 -120.000000 240.000000
+			-272.000000 -126.716049 239.604919
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0x00000000 common/materials/stone/concrete
+	brush
+		vertices
+			-272.000000 -170.567886 329.679016
+			-272.000000 -146.864197 334.419739
+			272.000000 -170.567886 329.679016
+			272.000000 -126.716049 239.604919
+			272.000000 -132.641968 238.419754
+			272.000000 -146.864197 334.419739
+			-272.000000 -126.716049 239.604919
+			-272.000000 -132.641968 238.419754
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 0 2 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0x00000000 common/materials/stone/concrete
+	brush
+		vertices
+			-272.000000 -191.111115 321.777802
+			-272.000000 -170.567886 329.679016
+			272.000000 -191.111115 321.777802
+			272.000000 -132.641968 238.419754
+			272.000000 -137.777771 236.444458
+			272.000000 -170.567886 329.679016
+			-272.000000 -132.641968 238.419754
+			-272.000000 -137.777771 236.444458
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 0 2 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0x00000000 common/materials/stone/concrete
+	brush
+		vertices
+			-272.000000 -208.493820 310.716034
+			-272.000000 -191.111115 321.777802
+			272.000000 -208.493820 310.716034
+			272.000000 -137.777771 236.444458
+			272.000000 -142.123459 233.678986
+			272.000000 -191.111115 321.777802
+			-272.000000 -137.777771 236.444458
+			-272.000000 -142.123459 233.678986
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 0 2 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0x00000000 common/materials/stone/concrete
+	brush
+		vertices
+			-272.000000 -222.716049 296.493835
+			-272.000000 -208.493820 310.716034
+			272.000000 -222.716049 296.493835
+			272.000000 -142.123459 233.678986
+			272.000000 -145.679016 230.123474
+			272.000000 -208.493820 310.716034
+			-272.000000 -142.123459 233.678986
+			-272.000000 -145.679016 230.123474
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0x00000000 common/materials/stone/concrete
+	brush
+		vertices
+			-272.000000 -233.777786 279.111145
+			-272.000000 -222.716049 296.493835
+			272.000000 -233.777786 279.111145
+			272.000000 -145.679016 230.123474
+			272.000000 -148.444443 225.777786
+			272.000000 -222.716049 296.493835
+			-272.000000 -145.679016 230.123474
+			-272.000000 -148.444443 225.777786
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0x00000000 common/materials/stone/concrete
+	brush
+		vertices
+			-272.000000 -241.679016 258.567902
+			-272.000000 -233.777786 279.111145
+			272.000000 -241.679016 258.567902
+			272.000000 -148.444443 225.777786
+			272.000000 -150.419754 220.641968
+			272.000000 -233.777786 279.111145
+			-272.000000 -148.444443 225.777786
+			-272.000000 -150.419754 220.641968
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 0 2 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0x00000000 common/materials/stone/concrete
+	brush
+		vertices
+			-272.000000 -246.419754 234.864212
+			-272.000000 -241.679016 258.567902
+			272.000000 -246.419754 234.864212
+			272.000000 -150.419754 220.641968
+			272.000000 -151.604935 214.716064
+			272.000000 -241.679016 258.567902
+			-272.000000 -150.419754 220.641968
+			-272.000000 -151.604935 214.716064
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0x00000000 common/materials/stone/concrete
+	brush
+		vertices
+			-272.000000 -248.000000 208.000000
+			-272.000000 -246.419754 234.864212
+			272.000000 -248.000000 208.000000
+			272.000000 -151.604935 214.716064
+			272.000000 -152.000000 208.000000
+			272.000000 -246.419754 234.864212
+			-272.000000 -151.604935 214.716064
+			-272.000000 -152.000000 208.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0x00000000 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0x00000000 common/materials/stone/concrete
+	brush
+		vertices
+			256.000000 -28.000000 236.000000
+			255.604935 -21.283966 236.000000
+			232.000000 -28.000000 236.000000
+			231.901230 -26.320984 240.000000
+			232.000000 -28.000000 240.000000
+			231.901230 -26.320984 236.000000
+			255.604935 -21.283966 240.000000
+			256.000000 -28.000000 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			255.604935 -21.283966 236.000000
+			254.419754 -15.358032 236.000000
+			231.901230 -26.320984 236.000000
+			231.604950 -24.839508 240.000000
+			231.901230 -26.320984 240.000000
+			231.604950 -24.839508 236.000000
+			254.419754 -15.358032 240.000000
+			255.604935 -21.283966 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			254.419754 -15.358032 236.000000
+			252.444427 -10.222198 236.000000
+			231.604950 -24.839508 236.000000
+			231.111099 -23.555542 240.000000
+			231.604950 -24.839508 240.000000
+			231.111099 -23.555542 236.000000
+			252.444427 -10.222198 240.000000
+			254.419754 -15.358032 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 5 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			252.444427 -10.222198 236.000000
+			249.679001 -5.876526 236.000000
+			231.111099 -23.555542 236.000000
+			230.419739 -22.469116 240.000000
+			231.111099 -23.555542 240.000000
+			230.419739 -22.469116 236.000000
+			249.679001 -5.876526 240.000000
+			252.444427 -10.222198 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			249.679001 -5.876526 236.000000
+			246.123459 -2.321014 236.000000
+			230.419739 -22.469116 236.000000
+			229.530884 -21.580261 240.000000
+			230.419739 -22.469116 240.000000
+			229.530884 -21.580261 236.000000
+			246.123459 -2.321014 240.000000
+			249.679001 -5.876526 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			241.777771 0.444458 236.000000
+			236.641968 2.419769 236.000000
+			228.444443 -20.888855 236.000000
+			227.160492 -20.395050 240.000000
+			228.444443 -20.888855 240.000000
+			227.160492 -20.395050 236.000000
+			236.641968 2.419769 240.000000
+			241.777771 0.444458 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 5 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			246.123459 -2.321014 236.000000
+			241.777771 0.444458 236.000000
+			229.530884 -21.580261 236.000000
+			228.444443 -20.888855 240.000000
+			229.530884 -21.580261 240.000000
+			228.444443 -20.888855 236.000000
+			241.777771 0.444458 240.000000
+			246.123459 -2.321014 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			236.641968 2.419769 236.000000
+			230.716049 3.604919 236.000000
+			227.160492 -20.395050 236.000000
+			225.679016 -20.098785 240.000000
+			227.160492 -20.395050 240.000000
+			225.679016 -20.098785 236.000000
+			230.716049 3.604919 240.000000
+			236.641968 2.419769 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 4 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			230.716049 3.604919 236.000000
+			224.000000 4.000000 236.000000
+			225.679016 -20.098785 236.000000
+			224.000000 -20.000000 240.000000
+			225.679016 -20.098785 240.000000
+			224.000000 -20.000000 236.000000
+			224.000000 4.000000 240.000000
+			230.716049 3.604919 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 4 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			72.000000 4.000000 240.000000
+			224.000000 4.000000 240.000000
+			224.000000 4.000000 236.000000
+			72.000000 4.000000 236.000000
+			72.000000 -20.000000 240.000000
+			224.000000 -20.000000 240.000000
+			224.000000 -20.000000 236.000000
+			72.000000 -20.000000 236.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			72.000000 4.000000 236.000000
+			65.283966 3.604935 236.000000
+			72.000000 -20.000000 236.000000
+			70.320984 -20.098770 240.000000
+			72.000000 -20.000000 240.000000
+			70.320984 -20.098770 236.000000
+			65.283966 3.604935 240.000000
+			72.000000 4.000000 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			54.222198 0.444427 236.000000
+			49.876526 -2.320999 236.000000
+			67.555542 -20.888901 236.000000
+			66.469116 -21.580261 240.000000
+			67.555542 -20.888901 240.000000
+			66.469116 -21.580261 236.000000
+			49.876526 -2.320999 240.000000
+			54.222198 0.444427 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			65.283966 3.604935 236.000000
+			59.358032 2.419754 236.000000
+			70.320984 -20.098770 236.000000
+			68.839508 -20.395050 240.000000
+			70.320984 -20.098770 240.000000
+			68.839508 -20.395050 236.000000
+			59.358032 2.419754 240.000000
+			65.283966 3.604935 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			59.358032 2.419754 236.000000
+			54.222198 0.444427 236.000000
+			68.839508 -20.395050 236.000000
+			67.555542 -20.888901 240.000000
+			68.839508 -20.395050 240.000000
+			67.555542 -20.888901 236.000000
+			54.222198 0.444427 240.000000
+			59.358032 2.419754 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 5 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			49.876526 -2.320999 236.000000
+			46.321014 -5.876541 236.000000
+			66.469116 -21.580261 236.000000
+			65.580261 -22.469116 240.000000
+			66.469116 -21.580261 240.000000
+			65.580261 -22.469116 236.000000
+			46.321014 -5.876541 240.000000
+			49.876526 -2.320999 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			46.321014 -5.876541 236.000000
+			43.555542 -10.222229 236.000000
+			65.580261 -22.469116 236.000000
+			64.888855 -23.555557 240.000000
+			65.580261 -22.469116 240.000000
+			64.888855 -23.555557 236.000000
+			43.555542 -10.222229 240.000000
+			46.321014 -5.876541 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			43.555542 -10.222229 236.000000
+			41.580231 -15.358032 236.000000
+			64.888855 -23.555557 236.000000
+			64.395050 -24.839508 240.000000
+			64.888855 -23.555557 240.000000
+			64.395050 -24.839508 236.000000
+			41.580231 -15.358032 240.000000
+			43.555542 -10.222229 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 5 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			41.580231 -15.358032 236.000000
+			40.395081 -21.283951 236.000000
+			64.395050 -24.839508 236.000000
+			64.098785 -26.320984 240.000000
+			64.395050 -24.839508 240.000000
+			64.098785 -26.320984 236.000000
+			40.395081 -21.283951 240.000000
+			41.580231 -15.358032 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 4 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			40.395081 -21.283951 236.000000
+			40.000000 -28.000000 236.000000
+			64.098785 -26.320984 236.000000
+			64.000000 -28.000000 240.000000
+			64.098785 -26.320984 240.000000
+			64.000000 -28.000000 236.000000
+			40.000000 -28.000000 240.000000
+			40.395081 -21.283951 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 4 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			232.000000 -28.000000 240.000000
+			256.000000 -28.000000 240.000000
+			256.000000 -28.000000 236.000000
+			232.000000 -28.000000 236.000000
+			232.000000 -120.000000 240.000000
+			256.000000 -120.000000 240.000000
+			256.000000 -120.000000 236.000000
+			232.000000 -120.000000 236.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			40.000000 -28.000000 240.000000
+			64.000000 -28.000000 240.000000
+			64.000000 -28.000000 236.000000
+			40.000000 -28.000000 236.000000
+			40.000000 -120.000000 240.000000
+			64.000000 -120.000000 240.000000
+			64.000000 -120.000000 236.000000
+			40.000000 -120.000000 236.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			40.000031 -126.716049 239.604919
+			40.000000 -120.000000 240.000000
+			64.000000 -126.716049 239.604919
+			64.000000 -120.000000 236.000000
+			64.000000 -125.876541 235.654312
+			64.000000 -120.000000 240.000000
+			40.000000 -120.000000 236.000000
+			40.000031 -125.876541 235.654312
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			40.000000 -132.641968 238.419754
+			40.000031 -126.716049 239.604919
+			64.000000 -132.641968 238.419754
+			64.000000 -125.876541 235.654312
+			64.000000 -131.061722 234.617294
+			64.000000 -126.716049 239.604919
+			40.000031 -125.876541 235.654312
+			40.000000 -131.061722 234.617294
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			39.999969 -137.777771 236.444458
+			40.000000 -132.641968 238.419754
+			64.000000 -137.777771 236.444458
+			64.000000 -131.061722 234.617294
+			64.000000 -135.555557 232.888901
+			64.000000 -132.641968 238.419754
+			40.000000 -131.061722 234.617294
+			39.999969 -135.555557 232.888901
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			40.000031 -142.123459 233.678986
+			39.999969 -137.777771 236.444458
+			64.000000 -142.123459 233.678986
+			64.000000 -135.555557 232.888901
+			64.000000 -139.358017 230.469116
+			64.000000 -137.777771 236.444458
+			39.999969 -135.555557 232.888901
+			40.000031 -139.358017 230.469116
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			40.000000 -145.679016 230.123474
+			40.000031 -142.123459 233.678986
+			64.000000 -145.679016 230.123474
+			64.000000 -139.358017 230.469116
+			64.000000 -142.469131 227.358032
+			64.000000 -142.123459 233.678986
+			40.000031 -139.358017 230.469116
+			40.000000 -142.469131 227.358032
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			39.999969 -148.444443 225.777786
+			40.000000 -145.679016 230.123474
+			64.000000 -148.444443 225.777786
+			64.000000 -142.469131 227.358032
+			64.000000 -144.888885 223.555573
+			64.000000 -145.679016 230.123474
+			40.000000 -142.469131 227.358032
+			39.999969 -144.888885 223.555573
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 5 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			40.000000 -150.419754 220.641968
+			39.999969 -148.444443 225.777786
+			64.000000 -150.419754 220.641968
+			64.000000 -144.888885 223.555573
+			64.000000 -146.617279 219.061737
+			64.000000 -148.444443 225.777786
+			39.999969 -144.888885 223.555573
+			40.000000 -146.617279 219.061737
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			40.000000 -151.604935 214.716064
+			40.000000 -150.419754 220.641968
+			64.000000 -151.604935 214.716064
+			64.000000 -146.617279 219.061737
+			64.000000 -147.654327 213.876556
+			64.000000 -150.419754 220.641968
+			40.000000 -146.617279 219.061737
+			40.000000 -147.654327 213.876556
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 5 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			40.000000 -152.000000 208.000000
+			40.000000 -151.604935 214.716064
+			64.000000 -152.000000 208.000000
+			64.000000 -147.654327 213.876556
+			64.000000 -148.000000 208.000000
+			64.000000 -151.604935 214.716064
+			40.000000 -147.654327 213.876556
+			40.000000 -148.000000 208.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			232.000031 -126.716049 239.604919
+			232.000000 -120.000000 240.000000
+			256.000000 -126.716049 239.604919
+			256.000000 -120.000000 236.000000
+			256.000000 -125.876541 235.654312
+			256.000000 -120.000000 240.000000
+			232.000000 -120.000000 236.000000
+			232.000031 -125.876541 235.654312
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			232.000000 -132.641968 238.419754
+			232.000031 -126.716049 239.604919
+			256.000000 -132.641968 238.419754
+			256.000000 -125.876541 235.654312
+			256.000000 -131.061722 234.617294
+			256.000000 -126.716049 239.604919
+			232.000031 -125.876541 235.654312
+			232.000000 -131.061722 234.617294
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			231.999969 -137.777771 236.444458
+			232.000000 -132.641968 238.419754
+			256.000000 -137.777771 236.444458
+			256.000000 -131.061722 234.617294
+			256.000000 -135.555557 232.888901
+			256.000000 -132.641968 238.419754
+			232.000000 -131.061722 234.617294
+			231.999969 -135.555557 232.888901
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			232.000031 -142.123459 233.678986
+			231.999969 -137.777771 236.444458
+			256.000000 -142.123459 233.678986
+			256.000000 -135.555557 232.888901
+			256.000000 -139.358017 230.469116
+			256.000000 -137.777771 236.444458
+			231.999969 -135.555557 232.888901
+			232.000031 -139.358017 230.469116
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			232.000000 -145.679016 230.123474
+			232.000031 -142.123459 233.678986
+			256.000000 -145.679016 230.123474
+			256.000000 -139.358017 230.469116
+			256.000000 -142.469131 227.358032
+			256.000000 -142.123459 233.678986
+			232.000031 -139.358017 230.469116
+			232.000000 -142.469131 227.358032
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			231.999969 -148.444443 225.777786
+			232.000000 -145.679016 230.123474
+			256.000000 -148.444443 225.777786
+			256.000000 -142.469131 227.358032
+			256.000000 -144.888885 223.555573
+			256.000000 -145.679016 230.123474
+			232.000000 -142.469131 227.358032
+			231.999969 -144.888885 223.555573
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 5 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			232.000000 -150.419754 220.641968
+			231.999969 -148.444443 225.777786
+			256.000000 -150.419754 220.641968
+			256.000000 -144.888885 223.555573
+			256.000000 -146.617279 219.061737
+			256.000000 -148.444443 225.777786
+			231.999969 -144.888885 223.555573
+			232.000000 -146.617279 219.061737
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			232.000000 -151.604935 214.716064
+			232.000000 -150.419754 220.641968
+			256.000000 -151.604935 214.716064
+			256.000000 -146.617279 219.061737
+			256.000000 -147.654327 213.876556
+			256.000000 -150.419754 220.641968
+			232.000000 -146.617279 219.061737
+			232.000000 -147.654327 213.876556
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 5 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			232.000000 -152.000000 208.000000
+			232.000000 -151.604935 214.716064
+			256.000000 -152.000000 208.000000
+			256.000000 -147.654327 213.876556
+			256.000000 -148.000000 208.000000
+			256.000000 -151.604935 214.716064
+			232.000000 -147.654327 213.876556
+			232.000000 -148.000000 208.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			232.000000 -148.000000 208.000000
+			256.000000 -148.000000 208.000000
+			256.000000 -148.000000 120.000000
+			232.000000 -148.000000 120.000000
+			232.000000 -152.000000 208.000000
+			256.000000 -152.000000 208.000000
+			256.000000 -152.000000 120.000000
+			232.000000 -152.000000 120.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			255.604950 -152.000000 113.283966
+			254.419769 -152.000000 107.358032
+			231.901245 -152.000000 118.320984
+			231.604965 -148.000000 116.839508
+			231.901245 -148.000000 118.320984
+			231.604965 -152.000000 116.839508
+			254.419769 -148.000000 107.358032
+			255.604950 -148.000000 113.283966
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			256.000000 -152.000000 120.000000
+			255.604950 -152.000000 113.283966
+			232.000015 -152.000000 120.000000
+			231.901245 -148.000000 118.320984
+			232.000015 -148.000000 120.000000
+			231.901245 -152.000000 118.320984
+			255.604950 -148.000000 113.283966
+			256.000000 -148.000000 120.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			254.419769 -152.000000 107.358032
+			252.444443 -152.000000 102.222198
+			231.604965 -152.000000 116.839508
+			231.111115 -148.000000 115.555542
+			231.604965 -148.000000 116.839508
+			231.111115 -152.000000 115.555542
+			252.444443 -148.000000 102.222198
+			254.419769 -148.000000 107.358032
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 5 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			252.444443 -152.000000 102.222198
+			249.679016 -152.000000 97.876526
+			231.111115 -152.000000 115.555542
+			230.419754 -148.000000 114.469116
+			231.111115 -148.000000 115.555542
+			230.419754 -152.000000 114.469116
+			249.679016 -148.000000 97.876526
+			252.444443 -148.000000 102.222198
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			249.679016 -152.000000 97.876526
+			246.123474 -152.000000 94.321014
+			230.419754 -152.000000 114.469116
+			229.530899 -148.000000 113.580261
+			230.419754 -148.000000 114.469116
+			229.530899 -152.000000 113.580261
+			246.123474 -148.000000 94.321014
+			249.679016 -148.000000 97.876526
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			246.123474 -152.000000 94.321014
+			241.777786 -152.000000 91.555542
+			229.530899 -152.000000 113.580261
+			228.444458 -148.000000 112.888855
+			229.530899 -148.000000 113.580261
+			228.444458 -152.000000 112.888855
+			241.777786 -148.000000 91.555542
+			246.123474 -148.000000 94.321014
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			241.777786 -152.000000 91.555542
+			236.641983 -152.000000 89.580231
+			228.444458 -152.000000 112.888855
+			227.160507 -148.000000 112.395050
+			228.444458 -148.000000 112.888855
+			227.160507 -152.000000 112.395050
+			236.641983 -148.000000 89.580231
+			241.777786 -148.000000 91.555542
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 5 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			236.641983 -152.000000 89.580231
+			230.716064 -152.000000 88.395081
+			227.160507 -152.000000 112.395050
+			225.679031 -148.000000 112.098785
+			227.160507 -148.000000 112.395050
+			225.679031 -152.000000 112.098785
+			230.716064 -148.000000 88.395081
+			236.641983 -148.000000 89.580231
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 4 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			230.716064 -152.000000 88.395081
+			224.000015 -152.000000 88.000000
+			225.679031 -152.000000 112.098785
+			224.000015 -148.000000 112.000000
+			225.679031 -148.000000 112.098785
+			224.000015 -152.000000 112.000000
+			224.000015 -148.000000 88.000000
+			230.716064 -148.000000 88.395081
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 4 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			40.000000 -148.000000 208.000000
+			64.000000 -148.000000 208.000000
+			64.000000 -148.000000 120.000000
+			40.000000 -148.000000 120.000000
+			40.000000 -152.000000 208.000000
+			64.000000 -152.000000 208.000000
+			64.000000 -152.000000 120.000000
+			40.000000 -152.000000 120.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			40.395081 -152.000000 113.283951
+			40.000000 -152.000000 120.000000
+			64.098785 -152.000000 118.320984
+			64.000000 -148.000000 120.000000
+			64.098785 -148.000000 118.320984
+			64.000000 -152.000000 120.000000
+			40.000000 -148.000000 120.000000
+			40.395081 -148.000000 113.283951
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 4 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			41.580231 -152.000000 107.358032
+			40.395081 -152.000000 113.283951
+			64.395050 -152.000000 116.839508
+			64.098785 -148.000000 118.320984
+			64.395050 -148.000000 116.839508
+			64.098785 -152.000000 118.320984
+			40.395081 -148.000000 113.283951
+			41.580231 -148.000000 107.358032
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 4 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			43.555542 -152.000000 102.222229
+			41.580231 -152.000000 107.358032
+			64.888855 -152.000000 115.555557
+			64.395050 -148.000000 116.839508
+			64.888855 -148.000000 115.555557
+			64.395050 -152.000000 116.839508
+			41.580231 -148.000000 107.358032
+			43.555542 -148.000000 102.222229
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 5 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			46.321014 -152.000000 97.876541
+			43.555542 -152.000000 102.222229
+			65.580261 -152.000000 114.469116
+			64.888855 -148.000000 115.555557
+			65.580261 -148.000000 114.469116
+			64.888855 -152.000000 115.555557
+			43.555542 -148.000000 102.222229
+			46.321014 -148.000000 97.876541
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			54.222198 -152.000000 91.555573
+			49.876526 -152.000000 94.320999
+			67.555542 -152.000000 112.888901
+			66.469116 -148.000000 113.580261
+			67.555542 -148.000000 112.888901
+			66.469116 -152.000000 113.580261
+			49.876526 -148.000000 94.320999
+			54.222198 -148.000000 91.555573
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			49.876526 -152.000000 94.320999
+			46.321014 -152.000000 97.876541
+			66.469116 -152.000000 113.580261
+			65.580261 -148.000000 114.469116
+			66.469116 -148.000000 113.580261
+			65.580261 -152.000000 114.469116
+			46.321014 -148.000000 97.876541
+			49.876526 -148.000000 94.320999
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			65.283966 -152.000000 88.395065
+			59.358032 -152.000000 89.580246
+			70.320984 -152.000000 112.098770
+			68.839508 -148.000000 112.395050
+			70.320984 -148.000000 112.098770
+			68.839508 -152.000000 112.395050
+			59.358032 -148.000000 89.580246
+			65.283966 -148.000000 88.395065
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			59.358032 -152.000000 89.580246
+			54.222198 -152.000000 91.555573
+			68.839508 -152.000000 112.395050
+			67.555542 -148.000000 112.888901
+			68.839508 -148.000000 112.395050
+			67.555542 -152.000000 112.888901
+			54.222198 -148.000000 91.555573
+			59.358032 -148.000000 89.580246
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 5 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			72.000000 -152.000000 88.000000
+			65.283966 -152.000000 88.395065
+			72.000000 -152.000000 112.000000
+			70.320984 -148.000000 112.098770
+			72.000000 -148.000000 112.000000
+			70.320984 -152.000000 112.098770
+			65.283966 -148.000000 88.395065
+			72.000000 -148.000000 88.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			72.000000 -148.000000 112.000000
+			224.000000 -148.000000 112.000000
+			224.000000 -148.000000 88.000000
+			72.000000 -148.000000 88.000000
+			72.000000 -152.000000 112.000000
+			224.000000 -152.000000 112.000000
+			224.000000 -152.000000 88.000000
+			72.000000 -152.000000 88.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-216.000000 -152.000000 88.000000
+			-222.716034 -152.000000 88.395065
+			-216.000000 -152.000000 112.000000
+			-217.679016 -148.000000 112.098770
+			-216.000000 -148.000000 112.000000
+			-217.679016 -152.000000 112.098770
+			-222.716034 -148.000000 88.395065
+			-216.000000 -148.000000 88.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-222.716034 -152.000000 88.395065
+			-228.641968 -152.000000 89.580246
+			-217.679016 -152.000000 112.098770
+			-219.160492 -148.000000 112.395050
+			-217.679016 -148.000000 112.098770
+			-219.160492 -152.000000 112.395050
+			-228.641968 -148.000000 89.580246
+			-222.716034 -148.000000 88.395065
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-228.641968 -152.000000 89.580246
+			-233.777802 -152.000000 91.555573
+			-219.160492 -152.000000 112.395050
+			-220.444458 -148.000000 112.888901
+			-219.160492 -148.000000 112.395050
+			-220.444458 -152.000000 112.888901
+			-233.777802 -148.000000 91.555573
+			-228.641968 -148.000000 89.580246
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 5 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-233.777802 -152.000000 91.555573
+			-238.123474 -152.000000 94.320999
+			-220.444458 -152.000000 112.888901
+			-221.530884 -148.000000 113.580261
+			-220.444458 -148.000000 112.888901
+			-221.530884 -152.000000 113.580261
+			-238.123474 -148.000000 94.320999
+			-233.777802 -148.000000 91.555573
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-238.123474 -152.000000 94.320999
+			-241.678986 -152.000000 97.876541
+			-221.530884 -152.000000 113.580261
+			-222.419739 -148.000000 114.469116
+			-221.530884 -148.000000 113.580261
+			-222.419739 -152.000000 114.469116
+			-241.678986 -148.000000 97.876541
+			-238.123474 -148.000000 94.320999
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-244.444458 -152.000000 102.222229
+			-246.419769 -152.000000 107.358032
+			-223.111145 -152.000000 115.555557
+			-223.604950 -148.000000 116.839508
+			-223.111145 -148.000000 115.555557
+			-223.604950 -152.000000 116.839508
+			-246.419769 -148.000000 107.358032
+			-244.444458 -148.000000 102.222229
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 5 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-241.678986 -152.000000 97.876541
+			-244.444458 -152.000000 102.222229
+			-222.419739 -152.000000 114.469116
+			-223.111145 -148.000000 115.555557
+			-222.419739 -148.000000 114.469116
+			-223.111145 -152.000000 115.555557
+			-244.444458 -148.000000 102.222229
+			-241.678986 -148.000000 97.876541
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-246.419769 -152.000000 107.358032
+			-247.604919 -152.000000 113.283951
+			-223.604950 -152.000000 116.839508
+			-223.901215 -148.000000 118.320984
+			-223.604950 -148.000000 116.839508
+			-223.901215 -152.000000 118.320984
+			-247.604919 -148.000000 113.283951
+			-246.419769 -148.000000 107.358032
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 4 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-247.604919 -152.000000 113.283951
+			-248.000000 -152.000000 120.000000
+			-223.901215 -152.000000 118.320984
+			-224.000000 -148.000000 120.000000
+			-223.901215 -148.000000 118.320984
+			-224.000000 -152.000000 120.000000
+			-248.000000 -148.000000 120.000000
+			-247.604919 -148.000000 113.283951
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 4 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-31.999985 -152.000000 120.000000
+			-32.395050 -152.000000 113.283966
+			-55.999985 -152.000000 120.000000
+			-56.098755 -148.000000 118.320984
+			-55.999985 -148.000000 120.000000
+			-56.098755 -152.000000 118.320984
+			-32.395050 -148.000000 113.283966
+			-31.999985 -148.000000 120.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-32.395050 -152.000000 113.283966
+			-33.580231 -152.000000 107.358032
+			-56.098755 -152.000000 118.320984
+			-56.395035 -148.000000 116.839508
+			-56.098755 -148.000000 118.320984
+			-56.395035 -152.000000 116.839508
+			-33.580231 -148.000000 107.358032
+			-32.395050 -148.000000 113.283966
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-33.580231 -152.000000 107.358032
+			-35.555557 -152.000000 102.222198
+			-56.395035 -152.000000 116.839508
+			-56.888885 -148.000000 115.555542
+			-56.395035 -148.000000 116.839508
+			-56.888885 -152.000000 115.555542
+			-35.555557 -148.000000 102.222198
+			-33.580231 -148.000000 107.358032
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 5 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-35.555557 -152.000000 102.222198
+			-38.320984 -152.000000 97.876526
+			-56.888885 -152.000000 115.555542
+			-57.580246 -148.000000 114.469116
+			-56.888885 -148.000000 115.555542
+			-57.580246 -152.000000 114.469116
+			-38.320984 -148.000000 97.876526
+			-35.555557 -148.000000 102.222198
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-38.320984 -152.000000 97.876526
+			-41.876526 -152.000000 94.321014
+			-57.580246 -152.000000 114.469116
+			-58.469101 -148.000000 113.580261
+			-57.580246 -148.000000 114.469116
+			-58.469101 -152.000000 113.580261
+			-41.876526 -148.000000 94.321014
+			-38.320984 -148.000000 97.876526
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-46.222214 -152.000000 91.555542
+			-51.358017 -152.000000 89.580231
+			-59.555542 -152.000000 112.888855
+			-60.839493 -148.000000 112.395050
+			-59.555542 -148.000000 112.888855
+			-60.839493 -152.000000 112.395050
+			-51.358017 -148.000000 89.580231
+			-46.222214 -148.000000 91.555542
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 5 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-41.876526 -152.000000 94.321014
+			-46.222214 -152.000000 91.555542
+			-58.469101 -152.000000 113.580261
+			-59.555542 -148.000000 112.888855
+			-58.469101 -148.000000 113.580261
+			-59.555542 -152.000000 112.888855
+			-46.222214 -148.000000 91.555542
+			-41.876526 -148.000000 94.321014
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-51.358017 -152.000000 89.580231
+			-57.283936 -152.000000 88.395081
+			-60.839493 -152.000000 112.395050
+			-62.320969 -148.000000 112.098785
+			-60.839493 -148.000000 112.395050
+			-62.320969 -152.000000 112.098785
+			-57.283936 -148.000000 88.395081
+			-51.358017 -148.000000 89.580231
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 4 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-57.283936 -152.000000 88.395081
+			-63.999985 -152.000000 88.000000
+			-62.320969 -152.000000 112.098785
+			-63.999985 -148.000000 112.000000
+			-62.320969 -148.000000 112.098785
+			-63.999985 -152.000000 112.000000
+			-63.999985 -148.000000 88.000000
+			-57.283936 -148.000000 88.395081
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 4 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-32.000000 -28.000000 236.000000
+			-32.395065 -21.283966 236.000000
+			-56.000000 -28.000000 236.000000
+			-56.098770 -26.320984 240.000000
+			-56.000000 -28.000000 240.000000
+			-56.098770 -26.320984 236.000000
+			-32.395065 -21.283966 240.000000
+			-32.000000 -28.000000 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-32.395065 -21.283966 236.000000
+			-33.580246 -15.358032 236.000000
+			-56.098770 -26.320984 236.000000
+			-56.395050 -24.839508 240.000000
+			-56.098770 -26.320984 240.000000
+			-56.395050 -24.839508 236.000000
+			-33.580246 -15.358032 240.000000
+			-32.395065 -21.283966 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-33.580246 -15.358032 236.000000
+			-35.555573 -10.222198 236.000000
+			-56.395050 -24.839508 236.000000
+			-56.888901 -23.555542 240.000000
+			-56.395050 -24.839508 240.000000
+			-56.888901 -23.555542 236.000000
+			-35.555573 -10.222198 240.000000
+			-33.580246 -15.358032 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 5 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-35.555573 -10.222198 236.000000
+			-38.320999 -5.876526 236.000000
+			-56.888901 -23.555542 236.000000
+			-57.580261 -22.469116 240.000000
+			-56.888901 -23.555542 240.000000
+			-57.580261 -22.469116 236.000000
+			-38.320999 -5.876526 240.000000
+			-35.555573 -10.222198 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-38.320999 -5.876526 236.000000
+			-41.876541 -2.321014 236.000000
+			-57.580261 -22.469116 236.000000
+			-58.469116 -21.580261 240.000000
+			-57.580261 -22.469116 240.000000
+			-58.469116 -21.580261 236.000000
+			-41.876541 -2.321014 240.000000
+			-38.320999 -5.876526 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-46.222229 0.444458 236.000000
+			-51.358032 2.419769 236.000000
+			-59.555557 -20.888855 236.000000
+			-60.839508 -20.395050 240.000000
+			-59.555557 -20.888855 240.000000
+			-60.839508 -20.395050 236.000000
+			-51.358032 2.419769 240.000000
+			-46.222229 0.444458 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 5 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-41.876541 -2.321014 236.000000
+			-46.222229 0.444458 236.000000
+			-58.469116 -21.580261 236.000000
+			-59.555557 -20.888855 240.000000
+			-58.469116 -21.580261 240.000000
+			-59.555557 -20.888855 236.000000
+			-46.222229 0.444458 240.000000
+			-41.876541 -2.321014 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-51.358032 2.419769 236.000000
+			-57.283951 3.604919 236.000000
+			-60.839508 -20.395050 236.000000
+			-62.320984 -20.098785 240.000000
+			-60.839508 -20.395050 240.000000
+			-62.320984 -20.098785 236.000000
+			-57.283951 3.604919 240.000000
+			-51.358032 2.419769 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 4 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-57.283951 3.604919 236.000000
+			-64.000000 4.000000 236.000000
+			-62.320984 -20.098785 236.000000
+			-64.000000 -20.000000 240.000000
+			-62.320984 -20.098785 240.000000
+			-64.000000 -20.000000 236.000000
+			-64.000000 4.000000 240.000000
+			-57.283951 3.604919 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 4 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-216.000000 4.000000 236.000000
+			-222.716034 3.604935 236.000000
+			-216.000000 -20.000000 236.000000
+			-217.679016 -20.098770 240.000000
+			-216.000000 -20.000000 240.000000
+			-217.679016 -20.098770 236.000000
+			-222.716034 3.604935 240.000000
+			-216.000000 4.000000 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-222.716034 3.604935 236.000000
+			-228.641968 2.419754 236.000000
+			-217.679016 -20.098770 236.000000
+			-219.160492 -20.395050 240.000000
+			-217.679016 -20.098770 240.000000
+			-219.160492 -20.395050 236.000000
+			-228.641968 2.419754 240.000000
+			-222.716034 3.604935 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-228.641968 2.419754 236.000000
+			-233.777802 0.444427 236.000000
+			-219.160492 -20.395050 236.000000
+			-220.444458 -20.888901 240.000000
+			-219.160492 -20.395050 240.000000
+			-220.444458 -20.888901 236.000000
+			-233.777802 0.444427 240.000000
+			-228.641968 2.419754 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 5 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-233.777802 0.444427 236.000000
+			-238.123474 -2.320999 236.000000
+			-220.444458 -20.888901 236.000000
+			-221.530884 -21.580261 240.000000
+			-220.444458 -20.888901 240.000000
+			-221.530884 -21.580261 236.000000
+			-238.123474 -2.320999 240.000000
+			-233.777802 0.444427 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-238.123474 -2.320999 236.000000
+			-241.678986 -5.876541 236.000000
+			-221.530884 -21.580261 236.000000
+			-222.419739 -22.469116 240.000000
+			-221.530884 -21.580261 240.000000
+			-222.419739 -22.469116 236.000000
+			-241.678986 -5.876541 240.000000
+			-238.123474 -2.320999 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-244.444458 -10.222229 236.000000
+			-246.419769 -15.358032 236.000000
+			-223.111145 -23.555557 236.000000
+			-223.604950 -24.839508 240.000000
+			-223.111145 -23.555557 240.000000
+			-223.604950 -24.839508 236.000000
+			-246.419769 -15.358032 240.000000
+			-244.444458 -10.222229 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 5 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-241.678986 -5.876541 236.000000
+			-244.444458 -10.222229 236.000000
+			-222.419739 -22.469116 236.000000
+			-223.111145 -23.555557 240.000000
+			-222.419739 -22.469116 240.000000
+			-223.111145 -23.555557 236.000000
+			-244.444458 -10.222229 240.000000
+			-241.678986 -5.876541 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-246.419769 -15.358032 236.000000
+			-247.604919 -21.283951 236.000000
+			-223.604950 -24.839508 236.000000
+			-223.901215 -26.320984 240.000000
+			-223.604950 -24.839508 240.000000
+			-223.901215 -26.320984 236.000000
+			-247.604919 -21.283951 240.000000
+			-246.419769 -15.358032 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 4 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-247.604919 -21.283951 236.000000
+			-248.000000 -28.000000 236.000000
+			-223.901215 -26.320984 236.000000
+			-224.000000 -28.000000 240.000000
+			-223.901215 -26.320984 240.000000
+			-224.000000 -28.000000 236.000000
+			-248.000000 -28.000000 240.000000
+			-247.604919 -21.283951 240.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 4 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-216.000000 4.000000 240.000000
+			-64.000000 4.000000 240.000000
+			-64.000000 4.000000 236.000000
+			-216.000000 4.000000 236.000000
+			-216.000000 -20.000000 240.000000
+			-64.000000 -20.000000 240.000000
+			-64.000000 -20.000000 236.000000
+			-216.000000 -20.000000 236.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-56.000000 -28.000000 240.000000
+			-32.000000 -28.000000 240.000000
+			-32.000000 -28.000000 236.000000
+			-56.000000 -28.000000 236.000000
+			-56.000000 -120.000000 240.000000
+			-32.000000 -120.000000 240.000000
+			-32.000000 -120.000000 236.000000
+			-56.000000 -120.000000 236.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-56.000000 -132.641968 238.419754
+			-55.999969 -126.716049 239.604919
+			-32.000000 -132.641968 238.419754
+			-32.000000 -125.876541 235.654312
+			-32.000000 -131.061722 234.617294
+			-32.000000 -126.716049 239.604919
+			-55.999969 -125.876541 235.654312
+			-56.000000 -131.061722 234.617294
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-55.999969 -126.716049 239.604919
+			-56.000000 -120.000000 240.000000
+			-32.000000 -126.716049 239.604919
+			-32.000000 -120.000000 236.000000
+			-32.000000 -125.876541 235.654312
+			-32.000000 -120.000000 240.000000
+			-56.000000 -120.000000 236.000000
+			-55.999969 -125.876541 235.654312
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-56.000031 -137.777771 236.444458
+			-56.000000 -132.641968 238.419754
+			-32.000000 -137.777771 236.444458
+			-32.000000 -131.061722 234.617294
+			-32.000000 -135.555557 232.888901
+			-32.000000 -132.641968 238.419754
+			-56.000000 -131.061722 234.617294
+			-56.000031 -135.555557 232.888901
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-56.000000 -145.679016 230.123474
+			-55.999969 -142.123459 233.678986
+			-32.000000 -145.679016 230.123474
+			-32.000000 -139.358017 230.469116
+			-32.000000 -142.469131 227.358032
+			-32.000000 -142.123459 233.678986
+			-55.999969 -139.358017 230.469116
+			-56.000000 -142.469131 227.358032
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-55.999969 -142.123459 233.678986
+			-56.000031 -137.777771 236.444458
+			-32.000000 -142.123459 233.678986
+			-32.000000 -135.555557 232.888901
+			-32.000000 -139.358017 230.469116
+			-32.000000 -137.777771 236.444458
+			-56.000031 -135.555557 232.888901
+			-55.999969 -139.358017 230.469116
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-56.000031 -148.444443 225.777786
+			-56.000000 -145.679016 230.123474
+			-32.000000 -148.444443 225.777786
+			-32.000000 -142.469131 227.358032
+			-32.000000 -144.888885 223.555573
+			-32.000000 -145.679016 230.123474
+			-56.000000 -142.469131 227.358032
+			-56.000031 -144.888885 223.555573
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 5 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-56.000000 -150.419754 220.641968
+			-56.000031 -148.444443 225.777786
+			-32.000000 -150.419754 220.641968
+			-32.000000 -144.888885 223.555573
+			-32.000000 -146.617279 219.061737
+			-32.000000 -148.444443 225.777786
+			-56.000031 -144.888885 223.555573
+			-56.000000 -146.617279 219.061737
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-56.000000 -151.604935 214.716064
+			-56.000000 -150.419754 220.641968
+			-32.000000 -151.604935 214.716064
+			-32.000000 -146.617279 219.061737
+			-32.000000 -147.654327 213.876556
+			-32.000000 -150.419754 220.641968
+			-56.000000 -146.617279 219.061737
+			-56.000000 -147.654327 213.876556
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 5 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-56.000000 -152.000000 208.000000
+			-56.000000 -151.604935 214.716064
+			-32.000000 -152.000000 208.000000
+			-32.000000 -147.654327 213.876556
+			-32.000000 -148.000000 208.000000
+			-32.000000 -151.604935 214.716064
+			-56.000000 -147.654327 213.876556
+			-56.000000 -148.000000 208.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-56.000000 -148.000000 208.000000
+			-32.000000 -148.000000 208.000000
+			-32.000000 -148.000000 120.000000
+			-56.000000 -148.000000 120.000000
+			-56.000000 -152.000000 208.000000
+			-32.000000 -152.000000 208.000000
+			-32.000000 -152.000000 120.000000
+			-56.000000 -152.000000 120.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-216.000000 -148.000000 112.000000
+			-64.000000 -148.000000 112.000000
+			-64.000000 -148.000000 88.000000
+			-216.000000 -148.000000 88.000000
+			-216.000000 -152.000000 112.000000
+			-64.000000 -152.000000 112.000000
+			-64.000000 -152.000000 88.000000
+			-216.000000 -152.000000 88.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-247.999969 -126.716049 239.604919
+			-248.000000 -120.000000 240.000000
+			-224.000000 -126.716049 239.604919
+			-224.000000 -120.000000 236.000000
+			-224.000000 -125.876541 235.654312
+			-224.000000 -120.000000 240.000000
+			-248.000000 -120.000000 236.000000
+			-247.999969 -125.876541 235.654312
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-248.000000 -132.641968 238.419754
+			-247.999969 -126.716049 239.604919
+			-224.000000 -132.641968 238.419754
+			-224.000000 -125.876541 235.654312
+			-224.000000 -131.061722 234.617294
+			-224.000000 -126.716049 239.604919
+			-247.999969 -125.876541 235.654312
+			-248.000000 -131.061722 234.617294
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-248.000031 -137.777771 236.444458
+			-248.000000 -132.641968 238.419754
+			-224.000000 -137.777771 236.444458
+			-224.000000 -131.061722 234.617294
+			-224.000000 -135.555557 232.888901
+			-224.000000 -132.641968 238.419754
+			-248.000000 -131.061722 234.617294
+			-248.000031 -135.555557 232.888901
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-247.999969 -142.123459 233.678986
+			-248.000031 -137.777771 236.444458
+			-224.000000 -142.123459 233.678986
+			-224.000000 -135.555557 232.888901
+			-224.000000 -139.358017 230.469116
+			-224.000000 -137.777771 236.444458
+			-248.000031 -135.555557 232.888901
+			-247.999969 -139.358017 230.469116
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-248.000000 -145.679016 230.123474
+			-247.999969 -142.123459 233.678986
+			-224.000000 -145.679016 230.123474
+			-224.000000 -139.358017 230.469116
+			-224.000000 -142.469131 227.358032
+			-224.000000 -142.123459 233.678986
+			-247.999969 -139.358017 230.469116
+			-248.000000 -142.469131 227.358032
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-248.000031 -148.444443 225.777786
+			-248.000000 -145.679016 230.123474
+			-224.000000 -148.444443 225.777786
+			-224.000000 -142.469131 227.358032
+			-224.000000 -144.888885 223.555573
+			-224.000000 -145.679016 230.123474
+			-248.000000 -142.469131 227.358032
+			-248.000031 -144.888885 223.555573
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 5 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 1 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-248.000000 -150.419754 220.641968
+			-248.000031 -148.444443 225.777786
+			-224.000000 -150.419754 220.641968
+			-224.000000 -144.888885 223.555573
+			-224.000000 -146.617279 219.061737
+			-224.000000 -148.444443 225.777786
+			-248.000031 -144.888885 223.555573
+			-248.000000 -146.617279 219.061737
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 3 4 7 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-248.000000 -151.604935 214.716064
+			-248.000000 -150.419754 220.641968
+			-224.000000 -151.604935 214.716064
+			-224.000000 -146.617279 219.061737
+			-224.000000 -147.654327 213.876556
+			-224.000000 -150.419754 220.641968
+			-248.000000 -146.617279 219.061737
+			-248.000000 -147.654327 213.876556
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 5 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-248.000000 -152.000000 208.000000
+			-248.000000 -151.604935 214.716064
+			-224.000000 -152.000000 208.000000
+			-224.000000 -147.654327 213.876556
+			-224.000000 -148.000000 208.000000
+			-224.000000 -151.604935 214.716064
+			-248.000000 -147.654327 213.876556
+			-248.000000 -148.000000 208.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 2 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 5 3 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 0 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 7 6 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-248.000000 -28.000000 240.000000
+			-224.000000 -28.000000 240.000000
+			-224.000000 -28.000000 236.000000
+			-248.000000 -28.000000 236.000000
+			-248.000000 -120.000000 240.000000
+			-224.000000 -120.000000 240.000000
+			-224.000000 -120.000000 236.000000
+			-248.000000 -120.000000 236.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0xff181a18 common/materials/stone/concrete
+	brush
+		vertices
+			-248.000000 -148.000000 208.000000
+			-224.000000 -148.000000 208.000000
+			-224.000000 -148.000000 120.000000
+			-248.000000 -148.000000 120.000000
+			-248.000000 -152.000000 208.000000
+			-224.000000 -152.000000 208.000000
+			-224.000000 -152.000000 120.000000
+			-248.000000 -152.000000 120.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0xff181a18 common/materials/stone/concrete
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0xff181a18 common/materials/stone/concrete
+	entity
+		type PlayerSpawn
+		Vector3 position -16.000000 -152.000000 -208.000000
+	entity
+		type Effect
+		Vector3 position -144.000000 -80.000000 96.000000
+		String64 effectName internal/misc/reflectionprobe
+	entity
+		type Effect
+		Vector3 position -144.000000 -80.000000 224.000000
+		String64 effectName internal/misc/reflectionprobe
+	entity
+		type Effect
+		Vector3 position -208.000000 -80.000000 160.000000
+		Vector3 angles 90.000000 0.000000 0.000000
+		String64 effectName internal/misc/reflectionprobe
+	entity
+		type Effect
+		Vector3 position -79.999985 -80.000000 159.999985
+		Vector3 angles 90.000000 0.000000 0.000000
+		String64 effectName internal/misc/reflectionprobe
+	entity
+		type Effect
+		Vector3 position 80.000000 -80.000000 160.000000
+		Vector3 angles 90.000000 0.000000 0.000000
+		String64 effectName internal/misc/reflectionprobe
+	entity
+		type Effect
+		Vector3 position 208.000015 -80.000000 159.999985
+		Vector3 angles 90.000000 0.000000 0.000000
+		String64 effectName internal/misc/reflectionprobe
+	entity
+		type Effect
+		Vector3 position 144.000000 -80.000000 224.000000
+		String64 effectName internal/misc/reflectionprobe
+	entity
+		type Effect
+		Vector3 position 144.000000 -80.000000 96.000000
+		String64 effectName internal/misc/reflectionprobe
+	entity
+		type Effect
+		Vector3 position 144.000000 -80.000000 -96.000000
+		String64 effectName internal/misc/reflectionprobe
+	entity
+		type Effect
+		Vector3 position -144.000000 -80.000000 -96.000000
+		String64 effectName internal/misc/reflectionprobe
+	entity
+		type Effect
+		Vector3 position 144.000000 48.000000 -96.000000
+		String64 effectName internal/misc/reflectionprobe
+	entity
+		type Effect
+		Vector3 position -144.000000 48.000000 -96.000000
+		String64 effectName internal/misc/reflectionprobe
+	entity
+		type Effect
+		Vector3 position -144.000000 48.000000 96.000000
+		String64 effectName internal/misc/reflectionprobe
+	entity
+		type Effect
+		Vector3 position 144.000000 48.000000 96.000000
+		String64 effectName internal/misc/reflectionprobe
+	entity
+		type Effect
+		Vector3 position -144.000000 -112.000000 176.000000
+		String64 effectName internal/characters/menu_podium/menu_podium_lights
+		Float effectScale 1.250000
+	entity
+		type Effect
+		Vector3 position 144.000000 -112.000000 176.000000
+		String64 effectName internal/characters/menu_podium/menu_podium_lights
+		Float effectScale 1.250000
+	entity
+		type Effect
+		Vector3 position -144.000000 -144.000000 176.000000
+		String64 effectName internal/characters/menu_podium/menu_podium
+	entity
+		type Effect
+		Vector3 position 144.000000 -144.000000 176.000000
+		String64 effectName internal/characters/menu_podium/menu_podium
+	entity
+		type Effect
+		Vector3 position 144.000000 -104.000000 176.000000
+		Vector3 angles 90.000000 0.000000 0.000000
+		String64 effectName internal/weapons/rocketlauncher/rocketlauncher
+		String256 material0Name internal_skins/weapons/rocketlauncher/rocketlauncher
+		String256 material1Name internal_skins/weapons/rocketlauncher/rocketlauncher
+	entity
+		type PointLight
+		Vector3 position 176.000000 -104.000000 152.000000
+		ColourXRGB32 color ffef8f1f
+		Float intensity 0.500000
+	entity
+		type PointLight
+		Vector3 position 128.000000 -80.000000 196.000000
+		ColourXRGB32 color ff1feeef
+		Float intensity 0.500000
+	entity
+		type PointLight
+		Vector3 position -112.000000 -104.000000 152.000000
+		ColourXRGB32 color ffef8f1f
+		Float intensity 0.500000
+	entity
+		type PointLight
+		Vector3 position -160.000000 -80.000000 196.000000
+		ColourXRGB32 color ff1feeef
+		Float intensity 0.500000
+	entity
+		type Effect
+		Vector3 position 136.000000 -104.000000 200.000000
+		String64 effectName common/meshes/drips/paint_splat_01
+		Float effectScale 10.000000
+		String256 material0Name common/materials/misc/blackout
+	entity
+		type Effect
+		Vector3 position 152.000000 -96.000000 208.000000
+		Vector3 angles 7.000000 0.000000 0.000000
+		String64 effectName common/meshes/drips/paint_splat_02
+		Float effectScale 8.000000
+		String256 material0Name common/materials/misc/blackout
+	entity
+		type Effect
+		Vector3 position -144.000000 -82.000000 200.000000
+		Vector3 angles 7.000000 0.000000 -43.000000
+		String64 effectName common/meshes/drips/paint_splat_02
+		Float effectScale 8.000000
+		String256 material0Name common/materials/misc/blackout
+	entity
+		type Effect
+		Vector3 position -150.000000 -102.000000 200.000000
+		Vector3 angles 0.000000 0.000000 -180.000000
+		String64 effectName common/meshes/drips/paint_splat_01
+		Float effectScale 12.000000
+		String256 material0Name common/materials/misc/blackout
+global
+	entity
+		type WorldSpawn
+		String32 targetGameOverCamera end
+		UInt8 playersMin 1
+		UInt8 playersMax 16
+	brush
+		vertices
+			-848.000000 1600.000000 -4800.000000
+			256.000000 1600.000000 -4800.000000
+			256.000000 1600.000000 -5152.000000
+			-848.000000 1600.000000 -5152.000000
+			-848.000000 1584.000000 -4800.000000
+			256.000000 1584.000000 -4800.000000
+			256.000000 1584.000000 -5152.000000
+			-848.000000 1584.000000 -5152.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-48.000000 1600.000000 -5152.000000
+			256.000000 1600.000000 -5152.000000
+			256.000000 1680.000000 -5312.000000
+			-48.000000 1584.000000 -5312.000000
+			-48.000000 1680.000000 -5312.000000
+			256.000000 1584.000000 -5152.000000
+			256.000000 1584.000000 -5312.000000
+			-48.000000 1584.000000 -5152.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 4 3 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 6 5 7 0x00000000 
+	brush
+		vertices
+			-64.000000 1680.000000 -5152.000000
+			-48.000000 1680.000000 -5152.000000
+			-48.000000 1680.000000 -5312.000000
+			-64.000000 1584.000000 -5312.000000
+			-64.000000 1680.000000 -5312.000000
+			-48.000000 1584.000000 -5152.000000
+			-48.000000 1584.000000 -5312.000000
+			-64.000000 1584.000000 -5152.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 4 3 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 6 5 7 0x00000000 
+	brush
+		vertices
+			-848.000000 1600.000000 -5152.000000
+			-544.000000 1600.000000 -5152.000000
+			-544.000000 1680.000000 -5312.000000
+			-848.000000 1584.000000 -5312.000000
+			-848.000000 1680.000000 -5312.000000
+			-544.000000 1584.000000 -5152.000000
+			-544.000000 1584.000000 -5312.000000
+			-848.000000 1584.000000 -5152.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 4 3 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 6 5 7 0x00000000 
+	brush
+		vertices
+			-544.000000 1680.000000 -5152.000000
+			-528.000000 1680.000000 -5152.000000
+			-528.000000 1680.000000 -5312.000000
+			-544.000000 1584.000000 -5312.000000
+			-544.000000 1680.000000 -5312.000000
+			-528.000000 1584.000000 -5152.000000
+			-528.000000 1584.000000 -5312.000000
+			-544.000000 1584.000000 -5152.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 4 3 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 6 5 7 0x00000000 
+	brush
+		vertices
+			-544.000000 1680.000000 -5152.000000
+			-64.000000 1680.000000 -5152.000000
+			-64.000000 1680.000000 -5168.000000
+			-544.000000 1680.000000 -5168.000000
+			-544.000000 1584.000000 -5152.000000
+			-64.000000 1584.000000 -5152.000000
+			-64.000000 1584.000000 -5168.000000
+			-544.000000 1584.000000 -5168.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-848.000000 1680.000000 -5312.000000
+			256.000000 1680.000000 -5312.000000
+			256.000000 1680.000000 -5664.000000
+			-848.000000 1680.000000 -5664.000000
+			-848.000000 1664.000000 -5312.000000
+			256.000000 1664.000000 -5312.000000
+			256.000000 1664.000000 -5664.000000
+			-848.000000 1664.000000 -5664.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-528.000000 1680.000000 -5168.000000
+			-64.000000 1680.000000 -5168.000000
+			-64.000000 1680.000000 -5312.000000
+			-528.000000 1680.000000 -5312.000000
+			-528.000000 1664.000000 -5168.000000
+			-64.000000 1664.000000 -5168.000000
+			-64.000000 1664.000000 -5312.000000
+			-528.000000 1664.000000 -5312.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-832.000000 1600.000000 -2048.000000
+			256.000000 1600.000000 -2048.000000
+			256.000000 1600.000000 -2304.000000
+			-832.000000 1600.000000 -2304.000000
+			-832.000000 1584.000000 -2048.000000
+			256.000000 1584.000000 -2048.000000
+			256.000000 1584.000000 -2304.000000
+			-832.000000 1584.000000 -2304.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-848.000000 1680.000000 -2048.000000
+			-832.000000 1680.000000 -2048.000000
+			-832.000000 1680.000000 -2304.000000
+			-848.000000 1680.000000 -2304.000000
+			-848.000000 1584.000000 -2048.000000
+			-832.000000 1584.000000 -2048.000000
+			-832.000000 1584.000000 -2304.000000
+			-848.000000 1584.000000 -2304.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			256.000000 1680.000000 -2048.000000
+			272.000000 1680.000000 -2048.000000
+			272.000000 1680.000000 -2304.000000
+			256.000000 1680.000000 -2304.000000
+			256.000000 1584.000000 -2048.000000
+			272.000000 1584.000000 -2048.000000
+			272.000000 1584.000000 -2304.000000
+			256.000000 1584.000000 -2304.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-848.000000 1680.000000 -2032.000000
+			272.000000 1680.000000 -2032.000000
+			272.000000 1680.000000 -2048.000000
+			-848.000000 1680.000000 -2048.000000
+			-848.000000 1584.000000 -2032.000000
+			272.000000 1584.000000 -2032.000000
+			272.000000 1584.000000 -2048.000000
+			-848.000000 1584.000000 -2048.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-848.000000 1680.000000 -2304.000000
+			272.000000 1680.000000 -2304.000000
+			272.000000 1680.000000 -2320.000000
+			-848.000000 1680.000000 -2320.000000
+			-848.000000 1600.000000 -2304.000000
+			272.000000 1600.000000 -2304.000000
+			272.000000 1600.000000 -2320.000000
+			-848.000000 1600.000000 -2320.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-864.000000 1648.000000 -4784.000000
+			272.000000 1648.000000 -4784.000000
+			272.000000 1648.000000 -4800.000000
+			-864.000000 1648.000000 -4800.000000
+			-864.000000 1584.000000 -4784.000000
+			272.000000 1584.000000 -4784.000000
+			272.000000 1584.000000 -4800.000000
+			-864.000000 1584.000000 -4800.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-864.000000 1744.000000 -5664.000000
+			256.000000 1744.000000 -5664.000000
+			256.000000 1744.000000 -5680.000000
+			-864.000000 1744.000000 -5680.000000
+			-864.000000 1664.000000 -5664.000000
+			256.000000 1664.000000 -5664.000000
+			256.000000 1664.000000 -5680.000000
+			-864.000000 1664.000000 -5680.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			256.000000 1744.000000 -4800.000000
+			272.000000 1744.000000 -4800.000000
+			272.000000 1744.000000 -5664.000000
+			256.000000 1744.000000 -5664.000000
+			256.000000 1584.000000 -4800.000000
+			272.000000 1584.000000 -4800.000000
+			272.000000 1584.000000 -5664.000000
+			256.000000 1584.000000 -5664.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-864.000000 1744.000000 -4800.000000
+			-848.000000 1744.000000 -4800.000000
+			-848.000000 1744.000000 -5664.000000
+			-864.000000 1744.000000 -5664.000000
+			-864.000000 1584.000000 -4800.000000
+			-848.000000 1584.000000 -4800.000000
+			-848.000000 1584.000000 -5664.000000
+			-864.000000 1584.000000 -5664.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	entity
+		type CameraPath
+		UInt32 entityIdAttachedTo 7
+		UInt8 posLerp 2
+		UInt8 angleLerp 2
+	entity
+		type PlayerSpawn
+		Vector3 position -320.000000 1600.000000 -2144.000000
+		Vector3 angles 180.000000 0.000000 0.000000
+		Bool8 teamB 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 208.000000 1600.000000 -5056.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -800.000000 1600.000000 -5072.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position -800.000000 1680.000000 -5616.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0
+	entity
+		type PlayerSpawn
+		Vector3 position 224.000000 1680.000000 -5600.000000
+		Bool8 teamA 0
+		Bool8 initialSpawn 0
+		Bool8 modeCTF 0
+		Bool8 modeFFA 0
+		Bool8 modeTDM 0
+		Bool8 mode1v1 0
+		Bool8 modeRace 0
+		Bool8 mode2v2 0

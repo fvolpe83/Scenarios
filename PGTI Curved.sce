@@ -1,0 +1,9820 @@
+Name=PGTI Curved
+PlayerCharacters=pistol Launchman
+BotCharacters=Pigeon3.bot
+IsChallenge=true
+Timelimit=60.0
+PlayerProfile=pistol Launchman
+AddedBots=Pigeon3.bot
+PlayerMaxLives=0
+BotMaxLives=0
+PlayerTeam=1
+BotTeams=2
+MapName=boxer1spawn_curved.map
+MapScale=4.0
+BlockProjectilePredictors=true
+BlockCheats=true
+InvinciblePlayer=false
+InvincibleBots=true
+Timescale=1.0
+BlockHealthbars=false
+TimeRefilledByKill=0.0
+ScoreToWin=1.0
+ScorePerDamage=1.0
+ScorePerKill=10.0
+ScorePerMidairDirect=0.0
+ScorePerAnyDirect=0.0
+ScorePerTime=0.0
+ScoreLossPerDamageTaken=0.0
+ScoreLossPerDeath=0.0
+ScoreLossPerMidairDirected=0.0
+ScoreLossPerAnyDirected=0.0
+ScoreMultAccuracy=false
+ScoreMultDamageEfficiency=false
+ScoreMultKillEfficiency=false
+GameTag=Tracking
+WeaponHeroTag=LG, Lightning Gun
+DifficultyTag=3
+AuthorsTag=Whisper
+BlockHitMarkers=false
+BlockHitSounds=false
+BlockMissSounds=true
+BlockFCT=false
+Description=the highest jumping bot on popcorn, made invincible. Curved walls added.
+GameVersion=2.0.2.0
+ScorePerDistance=0.0
+MBSEnable=false
+MBSTime1=0.25
+MBSTime2=0.5
+MBSTime3=0.75
+MBSTime1Mult=1.0
+MBSTime2Mult=2.0
+MBSTime3Mult=3.0
+MBSFBInstead=false
+MBSRequireEnemyAlive=false
+LockFOVRange=true
+LockedFOVMin=103.0
+LockedFOVMax=160.0
+LockedFOVScale=Clamped Horizontal
+
+[Aim Profile]
+Name=Default
+MinReactionTime=0.3
+MaxReactionTime=0.4
+MinSelfMovementCorrectionTime=0.001
+MaxSelfMovementCorrectionTime=0.05
+FlickFOV=30.0
+FlickSpeed=1.5
+FlickError=15.0
+TrackSpeed=3.5
+TrackError=3.5
+MaxTurnAngleFromPadCenter=75.0
+MinRecenterTime=0.3
+MaxRecenterTime=0.5
+OptimalAimFOV=30.0
+OuterAimPenalty=1.0
+MaxError=40.0
+ShootFOV=15.0
+VerticalAimOffset=0.0
+MaxTolerableSpread=5.0
+MinTolerableSpread=1.0
+TolerableSpreadDist=2000.0
+MaxSpreadDistFactor=2.0
+AimingStyle=Original
+ScanSpeedMultiplier=1.0
+MaxSeekPitch=30.0
+MaxSeekYaw=30.0
+AimingSpeed=5.0
+MinShootDelay=0.3
+MaxShootDelay=0.6
+
+[Bot Profile]
+Name=Pigeon3
+DodgeProfileNames=Long Strafes Jumping
+DodgeProfileWeights=1.0
+DodgeProfileMaxChangeTime=2.0
+DodgeProfileMinChangeTime=1.0
+WeaponProfileWeights=1.0;1.0;1.0;1.0;1.0;1.0;1.0;1.0
+AimingProfileNames=Default;Default;Default;Default;Default;Default;Default;Default
+WeaponSwitchTime=3.0
+UseWeapons=false
+CharacterProfile=Clay Pigeon3
+SeeThroughWalls=true
+NoDodging=false
+NoAiming=false
+AbilityUseTimer=0.1
+UseAbilityFrequency=1.0
+UseAbilityFreqMinTime=0.3
+UseAbilityFreqMaxTime=0.6
+ShowLaser=false
+LaserRGB=X=1.000 Y=0.300 Z=0.000
+LaserAlpha=1.0
+
+[Character Profile]
+Name=pistol Launchman
+MaxHealth=300.0
+WeaponProfileNames=Track Master 100;;;;;;;
+MinRespawnDelay=1.0
+MaxRespawnDelay=1.0
+StepUpHeight=75.0
+CrouchHeightModifier=0.5
+CrouchAnimationSpeed=1.0
+CameraOffset=X=0.000 Y=0.000 Z=65.000
+HeadshotOnly=false
+DamageKnockbackFactor=8.0
+MovementType=Base
+MaxSpeed=1300.0
+MaxCrouchSpeed=500.0
+Acceleration=12000.0
+AirAcceleration=16000.0
+Friction=4.0
+BrakingFrictionFactor=2.0
+JumpVelocity=0.0
+Gravity=3.0
+AirControl=0.25
+CanCrouch=false
+CanPogoJump=false
+CanCrouchInAir=true
+CanJumpFromCrouch=false
+EnemyBodyColor=X=0.771 Y=0.000 Z=0.000
+EnemyHeadColor=X=1.000 Y=1.000 Z=1.000
+TeamBodyColor=X=1.000 Y=0.888 Z=0.000
+TeamHeadColor=X=1.000 Y=1.000 Z=1.000
+BlockSelfDamage=false
+InvinciblePlayer=false
+InvincibleBots=false
+BlockTeamDamage=false
+AirJumpCount=0
+AirJumpVelocity=0.0
+MainBBType=Cuboid
+MainBBHeight=20.0
+MainBBRadius=10.0
+MainBBHasHead=false
+MainBBHeadRadius=45.0
+MainBBHeadOffset=0.0
+MainBBHide=false
+ProjBBType=Cylindrical
+ProjBBHeight=20.0
+ProjBBRadius=10.0
+ProjBBHasHead=false
+ProjBBHeadRadius=45.0
+ProjBBHeadOffset=0.0
+ProjBBHide=true
+HasJetpack=false
+JetpackActivationDelay=0.2
+JetpackFullFuelTime=4.0
+JetpackFuelIncPerSec=1.0
+JetpackFuelRegensInAir=false
+JetpackThrust=6000.0
+JetpackMaxZVelocity=400.0
+JetpackAirControlWithThrust=0.25
+AbilityProfileNames=;;;
+HideWeapon=true
+AerialFriction=0.0
+StrafeSpeedMult=1.0
+BackSpeedMult=1.0
+RespawnInvulnTime=0.0
+BlockedSpawnRadius=0.0
+BlockSpawnFOV=0.0
+BlockSpawnDistance=0.0
+RespawnAnimationDuration=0.5
+AllowBufferedJumps=true
+BounceOffWalls=false
+LeanAngle=0.0
+LeanDisplacement=0.0
+AirJumpExtraControl=0.0
+ForwardSpeedBias=1.0
+HealthRegainedonkill=0.0
+HealthRegenPerSec=0.0
+HealthRegenDelay=0.0
+JumpSpeedPenaltyDuration=0.0
+JumpSpeedPenaltyPercent=0.0
+ThirdPersonCamera=false
+TPSArmLength=300.0
+TPSOffset=X=0.000 Y=150.000 Z=150.000
+BrakingDeceleration=2048.0
+VerticalSpawnOffset=0.0
+TerminalVelocity=0.0
+CharacterModel=None
+CharacterSkin=Default
+SpawnXOffset=0.0
+SpawnYOffset=0.0
+InvertBlockedSpawn=false
+ViewBobTime=0.0
+ViewBobAngleAdjustment=0.0
+ViewBobCameraZOffset=0.0
+ViewBobAffectsShots=false
+IsFlyer=false
+FlightObeysPitch=false
+FlightVelocityUp=800.0
+FlightVelocityDown=800.0
+
+[Character Profile]
+Name=Clay Pigeon3
+MaxHealth=50.0
+WeaponProfileNames=;;;;;;;
+MinRespawnDelay=0.001
+MaxRespawnDelay=0.001
+StepUpHeight=75.0
+CrouchHeightModifier=0.5
+CrouchAnimationSpeed=1.0
+CameraOffset=X=0.000 Y=0.000 Z=0.000
+HeadshotOnly=false
+DamageKnockbackFactor=8.0
+MovementType=Base
+MaxSpeed=1300.0
+MaxCrouchSpeed=500.0
+Acceleration=12000.0
+AirAcceleration=16000.0
+Friction=8.0
+BrakingFrictionFactor=4.0
+JumpVelocity=3500.0
+Gravity=4.0
+AirControl=0.125
+CanCrouch=false
+CanPogoJump=false
+CanCrouchInAir=false
+CanJumpFromCrouch=false
+EnemyBodyColor=X=255.000 Y=0.000 Z=0.000
+EnemyHeadColor=X=255.000 Y=255.000 Z=255.000
+TeamBodyColor=X=0.000 Y=0.000 Z=255.000
+TeamHeadColor=X=255.000 Y=255.000 Z=255.000
+BlockSelfDamage=false
+InvinciblePlayer=false
+InvincibleBots=false
+BlockTeamDamage=false
+AirJumpCount=0
+AirJumpVelocity=800.0
+MainBBType=Spheroid
+MainBBHeight=50.0
+MainBBRadius=25.0
+MainBBHasHead=false
+MainBBHeadRadius=45.0
+MainBBHeadOffset=0.0
+MainBBHide=false
+ProjBBType=Spheroid
+ProjBBHeight=50.0
+ProjBBRadius=25.0
+ProjBBHasHead=false
+ProjBBHeadRadius=45.0
+ProjBBHeadOffset=0.0
+ProjBBHide=true
+HasJetpack=false
+JetpackActivationDelay=0.2
+JetpackFullFuelTime=4.0
+JetpackFuelIncPerSec=1.0
+JetpackFuelRegensInAir=false
+JetpackThrust=6000.0
+JetpackMaxZVelocity=400.0
+JetpackAirControlWithThrust=0.25
+AbilityProfileNames=;;;
+HideWeapon=true
+AerialFriction=0.05
+StrafeSpeedMult=1.0
+BackSpeedMult=1.0
+RespawnInvulnTime=0.0
+BlockedSpawnRadius=0.0
+BlockSpawnFOV=0.0
+BlockSpawnDistance=0.0
+RespawnAnimationDuration=0.0
+AllowBufferedJumps=true
+BounceOffWalls=false
+LeanAngle=0.0
+LeanDisplacement=0.0
+AirJumpExtraControl=0.0
+ForwardSpeedBias=1.0
+HealthRegainedonkill=0.0
+HealthRegenPerSec=0.0
+HealthRegenDelay=0.0
+JumpSpeedPenaltyDuration=0.0
+JumpSpeedPenaltyPercent=0.0
+ThirdPersonCamera=false
+TPSArmLength=300.0
+TPSOffset=X=0.000 Y=150.000 Z=150.000
+BrakingDeceleration=2048.0
+VerticalSpawnOffset=0.0
+TerminalVelocity=0.0
+CharacterModel=None
+CharacterSkin=Default
+SpawnXOffset=0.0
+SpawnYOffset=0.0
+InvertBlockedSpawn=false
+ViewBobTime=0.0
+ViewBobAngleAdjustment=0.0
+ViewBobCameraZOffset=0.0
+ViewBobAffectsShots=false
+IsFlyer=false
+FlightObeysPitch=false
+FlightVelocityUp=800.0
+FlightVelocityDown=800.0
+
+[Dodge Profile]
+Name=Long Strafes Jumping
+MaxTargetDistance=4000.0
+MinTargetDistance=200.0
+ToggleLeftRight=true
+ToggleForwardBack=true
+MinLRTimeChange=0.1
+MaxLRTimeChange=3.0
+MinFBTimeChange=0.1
+MaxFBTimeChange=1.5
+DamageReactionChangesDirection=false
+DamageReactionChanceToIgnore=0.5
+DamageReactionMinimumDelay=0.125
+DamageReactionMaximumDelay=0.25
+DamageReactionCooldown=1.0
+DamageReactionThreshold=0.0
+DamageReactionResetTimer=0.1
+JumpFrequency=0.5
+CrouchInAirFrequency=0.0
+CrouchOnGroundFrequency=0.0
+TargetStrafeOverride=Ignore
+TargetStrafeMinDelay=0.125
+TargetStrafeMaxDelay=0.25
+MinProfileChangeTime=0.0
+MaxProfileChangeTime=0.0
+MinCrouchTime=0.3
+MaxCrouchTime=0.6
+MinJumpTime=0.0001
+MaxJumpTime=0.0001
+LeftStrafeTimeMult=1.0
+RightStrafeTimeMult=1.0
+StrafeSwapMinPause=0.0
+StrafeSwapMaxPause=0.0
+BlockedMovementPercent=0.5
+BlockedMovementReactionMin=0.125
+BlockedMovementReactionMax=0.2
+WaypointLogic=Ignore
+WaypointTurnRate=200.0
+MinTimeBeforeShot=0.15
+MaxTimeBeforeShot=0.25
+IgnoreShotChance=0.0
+ForwardTimeMult=1.0
+BackTimeMult=1.0
+DamageReactionChangesFB=false
+
+[Weapon Profile]
+Name=Track Master 100
+Type=Hitscan
+ShotsPerClick=1
+DamagePerShot=1.0
+KnockbackFactor=0.0
+TimeBetweenShots=0.01
+Pierces=false
+Category=FullyAuto
+BurstShotCount=1
+TimeBetweenBursts=0.5
+ChargeStartDamage=10.0
+ChargeStartVelocity=X=500.000 Y=0.000 Z=0.000
+ChargeTimeToAutoRelease=2.0
+ChargeTimeToCap=1.0
+ChargeMoveSpeedModifier=1.0
+MuzzleVelocityMin=X=2000.000 Y=0.000 Z=0.000
+MuzzleVelocityMax=X=2000.000 Y=0.000 Z=0.000
+InheritOwnerVelocity=0.0
+OriginOffset=X=0.000 Y=0.000 Z=0.000
+MaxTravelTime=5.0
+MaxHitscanRange=1000000.0
+GravityScale=1.0
+HeadshotCapable=false
+HeadshotMultiplier=2.0
+MagazineMax=0
+AmmoPerShot=1
+ReloadTimeFromEmpty=0.5
+ReloadTimeFromPartial=0.5
+DamageFalloffStartDistance=100000.0
+DamageFalloffStopDistance=100000.0
+DamageAtMaxRange=25.0
+DelayBeforeShot=0.0
+ProjectileGraphic=Ball
+VisualLifetime=0.1
+BounceOffWorld=false
+BounceFactor=0.5
+BounceCount=0
+HomingProjectileAcceleration=0.0
+ProjectileEnemyHitRadius=1.0
+CanAimDownSight=false
+ADSZoomDelay=0.0
+ADSZoomSensFactor=0.7
+ADSMoveFactor=1.0
+ADSStartDelay=0.0
+ShootSoundCooldown=0.05
+HitSoundCooldown=0.01
+HitscanVisualOffset=X=0.000 Y=0.000 Z=-50.000
+ADSBlocksShooting=false
+ShootingBlocksADS=false
+KnockbackFactorAir=0.0
+RecoilNegatable=false
+DecalType=1
+DecalSize=30.0
+DelayAfterShooting=0.0
+BeamTracksCrosshair=false
+AlsoShoot=
+ADSShoot=
+StunDuration=0.0
+CircularSpread=true
+SpreadStationaryVelocity=300.0
+PassiveCharging=false
+BurstFullyAuto=true
+FlatKnockbackHorizontal=0.0
+FlatKnockbackVertical=0.0
+HitscanRadius=0.0
+HitscanVisualRadius=6.0
+TaggingDuration=0.0
+TaggingMaxFactor=0.0
+TaggingHitFactor=0.0
+RecoilCrouchScale=1.0
+RecoilADSScale=1.0
+PSRCrouchScale=1.0
+PSRADSScale=1.0
+ProjectileAcceleration=0.0
+AccelIncludeVertical=true
+AimPunchAmount=0.0
+AimPunchResetTime=0.05
+AimPunchCooldown=0.5
+AimPunchHeadshotOnly=false
+AimPunchCosmeticOnly=true
+MinimumDecelVelocity=0.0
+PSRManualNegation=false
+PSRAutoReset=true
+AimPunchUpTime=0.05
+AmmoReloadedOnKill=0
+CancelReloadOnKill=false
+FlatKnockbackHorizontalMin=0.0
+FlatKnockbackVerticalMin=0.0
+ADSScope=No Scope
+ADSFOVOverride=72.099998
+ADSFOVScale=Overwatch
+ADSAllowUserOverrideFOV=true
+IsBurstWeapon=false
+ForceFirstPersonInADS=true
+ZoomBlockedInAir=false
+ADSCameraOffsetX=0.0
+ADSCameraOffsetY=0.0
+ADSCameraOffsetZ=0.0
+QuickSwitchTime=0.1
+WeaponModel=Heavy Surge Rifle
+WeaponAnimation=Primary
+UseIncReload=false
+IncReloadStartupTime=0.0
+IncReloadLoopTime=0.0
+IncReloadAmmoPerLoop=1
+IncReloadEndTime=0.0
+IncReloadCancelWithShoot=true
+WeaponSkin=Default
+ProjectileVisualOffset=X=0.000 Y=0.000 Z=0.000
+SpreadDecayDelay=0.0
+ReloadBeforeRecovery=true
+3rdPersonWeaponModel=Pistol
+3rdPersonWeaponSkin=Default
+ParticleMuzzleFlash=None
+ParticleWallImpact=None
+ParticleBodyImpact=None
+ParticleProjectileTrail=None
+ParticleHitscanTrace=None
+ParticleMuzzleFlashScale=1.0
+ParticleWallImpactScale=1.0
+ParticleBodyImpactScale=1.0
+ParticleProjectileTrailScale=1.0
+Explosive=false
+Radius=500.0
+DamageAtCenter=100.0
+DamageAtEdge=100.0
+SelfDamageMultiplier=0.5
+ExplodesOnContactWithEnemy=false
+DelayAfterEnemyContact=0.0
+ExplodesOnContactWithWorld=false
+DelayAfterWorldContact=0.0
+ExplodesOnNextAttack=false
+DelayAfterSpawn=0.0
+BlockedByWorld=false
+SpreadSSA=1.0,1.0,-1.0,5.0
+SpreadSCA=1.0,1.0,-1.0,5.0
+SpreadMSA=1.0,1.0,-1.0,5.0
+SpreadMCA=1.0,1.0,-1.0,5.0
+SpreadSSH=0.0,0.1,0.0,0.0
+SpreadSCH=1.0,1.0,-1.0,5.0
+SpreadMSH=0.0,0.1,0.0,0.0
+SpreadMCH=1.0,1.0,-1.0,5.0
+MaxRecoilUp=0.0
+MinRecoilUp=0.0
+MinRecoilHoriz=0.0
+MaxRecoilHoriz=0.0
+FirstShotRecoilMult=1.0
+RecoilAutoReset=false
+TimeToRecoilPeak=0.05
+TimeToRecoilReset=0.35
+AAMode=0
+AAPreferClosestPlayer=false
+AAAlpha=1.0
+AAMaxSpeed=1000.0
+AADeadZone=0.0
+AAFOV=30.0
+AANeedsLOS=true
+TrackHorizontal=true
+TrackVertical=true
+AABlocksMouse=false
+AAOffTimer=0.0
+AABackOnTimer=0.0
+TriggerBotEnabled=false
+TriggerBotDelay=0.0
+TriggerBotFOV=1.0
+StickyLock=false
+HeadLock=false
+VerticalOffset=0.0
+DisableLockOnKill=false
+UsePerShotRecoil=false
+PSRLoopStartIndex=0
+PSRViewRecoilTracking=0.45
+PSRCapUp=9.0
+PSRCapRight=4.0
+PSRCapLeft=4.0
+PSRTimeToPeak=0.175
+PSRResetDegreesPerSec=40.0
+UsePerBulletSpread=false
+PBS0=0.0,0.0
+
+[Map Data]
+reflex map version 8
+global
+	entity
+		type WorldSpawn
+		String32 targetGameOverCamera end
+		UInt8 playersMin 1
+		UInt8 playersMax 16
+	brush
+		vertices
+			-576.000000 272.000000 272.000000
+			448.000000 272.000000 272.000000
+			448.000000 272.000000 256.000000
+			-576.000000 272.000000 256.000000
+			-576.000000 0.000000 272.000000
+			448.000000 0.000000 272.000000
+			448.000000 0.000000 256.000000
+			-576.000000 0.000000 256.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			448.000000 272.000000 256.000000
+			464.000000 272.000000 256.000000
+			464.000000 272.000000 -768.000000
+			448.000000 272.000000 -768.000000
+			448.000000 0.000000 256.000000
+			464.000000 0.000000 256.000000
+			464.000000 0.000000 -768.000000
+			448.000000 0.000000 -768.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-592.000000 704.000000 256.000000
+			-576.000000 704.000000 256.000000
+			-576.000000 704.000000 -768.000000
+			-592.000000 704.000000 -768.000000
+			-592.000000 272.000000 256.000000
+			-576.000000 272.000000 256.000000
+			-576.000000 272.000000 -768.000000
+			-592.000000 272.000000 -768.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			448.000000 704.000000 256.000000
+			464.000000 704.000000 256.000000
+			464.000000 704.000000 -768.000000
+			448.000000 704.000000 -768.000000
+			448.000000 272.000000 256.000000
+			464.000000 272.000000 256.000000
+			464.000000 272.000000 -768.000000
+			448.000000 272.000000 -768.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-576.000000 704.000000 -768.000000
+			448.000000 704.000000 -768.000000
+			448.000000 704.000000 -784.000000
+			-576.000000 704.000000 -784.000000
+			-576.000000 272.000000 -768.000000
+			448.000000 272.000000 -768.000000
+			448.000000 272.000000 -784.000000
+			-576.000000 272.000000 -784.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-576.000000 704.000000 272.000000
+			448.000000 704.000000 272.000000
+			448.000000 704.000000 256.000000
+			-576.000000 704.000000 256.000000
+			-576.000000 272.000000 272.000000
+			448.000000 272.000000 272.000000
+			448.000000 272.000000 256.000000
+			-576.000000 272.000000 256.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-576.000000 720.000000 256.000000
+			448.000000 720.000000 256.000000
+			448.000000 720.000000 -768.000000
+			-576.000000 720.000000 -768.000000
+			-576.000000 704.000000 256.000000
+			448.000000 704.000000 256.000000
+			448.000000 704.000000 -768.000000
+			-576.000000 704.000000 -768.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-128.000000 16.000000 -320.000000
+			0.000000 16.000000 -320.000000
+			0.000000 16.000000 -336.000000
+			-128.000000 16.000000 -336.000000
+			-128.000000 0.000000 -320.000000
+			0.000000 0.000000 -320.000000
+			0.000000 0.000000 -336.000000
+			-128.000000 0.000000 -336.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			0.000000 16.000000 -192.000000
+			16.000000 16.000000 -192.000000
+			16.000000 16.000000 -320.000000
+			0.000000 16.000000 -320.000000
+			0.000000 0.000000 -192.000000
+			16.000000 0.000000 -192.000000
+			16.000000 0.000000 -320.000000
+			0.000000 0.000000 -320.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-144.000000 16.000000 -192.000000
+			-128.000000 16.000000 -192.000000
+			-128.000000 16.000000 -320.000000
+			-144.000000 16.000000 -320.000000
+			-144.000000 0.000000 -192.000000
+			-128.000000 0.000000 -192.000000
+			-128.000000 0.000000 -320.000000
+			-144.000000 0.000000 -320.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-128.000000 16.000000 -176.000000
+			0.000000 16.000000 -176.000000
+			0.000000 16.000000 -192.000000
+			-128.000000 16.000000 -192.000000
+			-128.000000 0.000000 -176.000000
+			0.000000 0.000000 -176.000000
+			0.000000 0.000000 -192.000000
+			-128.000000 0.000000 -192.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			0.000000 16.000000 -176.000000
+			0.000000 0.000000 -192.000000
+			16.000000 16.000000 -192.000000
+			0.000000 0.000000 -176.000000
+			16.000000 0.000000 -192.000000
+			0.000000 16.000000 -192.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 1 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 3 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 3 0 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 1 5 0x00000000 
+	brush
+		vertices
+			-128.000000 0.000000 -176.000000
+			-128.000000 16.000000 -176.000000
+			-128.000000 16.000000 -192.000000
+			-144.000000 0.000000 -192.000000
+			-128.000000 0.000000 -192.000000
+			-144.000000 16.000000 -192.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 0 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0x00000000 
+	brush
+		vertices
+			-144.000000 16.000000 -320.000000
+			-128.000000 16.000000 -320.000000
+			-128.000000 16.000000 -336.000000
+			-144.000000 0.000000 -320.000000
+			-128.000000 0.000000 -336.000000
+			-128.000000 0.000000 -320.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 3 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 1 5 0x00000000 
+	brush
+		vertices
+			0.000000 16.000000 -320.000000
+			16.000000 16.000000 -320.000000
+			0.000000 0.000000 -336.000000
+			0.000000 0.000000 -320.000000
+			16.000000 0.000000 -320.000000
+			0.000000 16.000000 -336.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 3 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 3 0 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 4 2 5 0x00000000 
+	brush
+		vertices
+			0.000000 704.000000 -192.000000
+			16.000000 704.000000 -192.000000
+			16.000000 704.000000 -320.000000
+			0.000000 704.000000 -320.000000
+			0.000000 16.000000 -192.000000
+			16.000000 16.000000 -192.000000
+			16.000000 16.000000 -320.000000
+			0.000000 16.000000 -320.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0xff8f7d6a internal/editor/textures/editor_clip
+	brush
+		vertices
+			-144.000000 704.000000 -192.000000
+			-128.000000 704.000000 -192.000000
+			-128.000000 704.000000 -320.000000
+			-144.000000 704.000000 -320.000000
+			-144.000000 16.000000 -192.000000
+			-128.000000 16.000000 -192.000000
+			-128.000000 16.000000 -320.000000
+			-144.000000 16.000000 -320.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0xff8f7d6a internal/editor/textures/editor_clip
+	brush
+		vertices
+			-128.000000 704.000000 -320.000000
+			0.000000 704.000000 -320.000000
+			0.000000 704.000000 -336.000000
+			-128.000000 704.000000 -336.000000
+			-128.000000 16.000000 -320.000000
+			0.000000 16.000000 -320.000000
+			0.000000 16.000000 -336.000000
+			-128.000000 16.000000 -336.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0xff8f7d6a internal/editor/textures/editor_clip
+	brush
+		vertices
+			-128.000000 704.000000 -176.000000
+			0.000000 704.000000 -176.000000
+			0.000000 704.000000 -192.000000
+			-128.000000 704.000000 -192.000000
+			-128.000000 16.000000 -176.000000
+			0.000000 16.000000 -176.000000
+			0.000000 16.000000 -192.000000
+			-128.000000 16.000000 -192.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0xff8f7d6a internal/editor/textures/editor_clip
+	brush
+		vertices
+			0.000000 704.000000 -176.000000
+			0.000000 16.000000 -192.000000
+			16.000000 704.000000 -192.000000
+			0.000000 16.000000 -176.000000
+			16.000000 16.000000 -192.000000
+			0.000000 704.000000 -192.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 1 4 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 5 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 3 4 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 3 0 5 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 1 5 0xff8f7d6a internal/editor/textures/editor_clip
+	brush
+		vertices
+			-128.000000 16.000000 -176.000000
+			-128.000000 704.000000 -176.000000
+			-128.000000 704.000000 -192.000000
+			-144.000000 16.000000 -192.000000
+			-128.000000 16.000000 -192.000000
+			-144.000000 704.000000 -192.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 4 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 2 5 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 0 4 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 0 1 5 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 3 5 0xff8f7d6a internal/editor/textures/editor_clip
+	brush
+		vertices
+			-144.000000 704.000000 -320.000000
+			-128.000000 704.000000 -320.000000
+			-128.000000 704.000000 -336.000000
+			-144.000000 16.000000 -320.000000
+			-128.000000 16.000000 -336.000000
+			-128.000000 16.000000 -320.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 5 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 0 2 4 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 3 5 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 1 5 0xff8f7d6a internal/editor/textures/editor_clip
+	brush
+		vertices
+			0.000000 704.000000 -320.000000
+			16.000000 704.000000 -320.000000
+			0.000000 16.000000 -336.000000
+			0.000000 16.000000 -320.000000
+			16.000000 16.000000 -320.000000
+			0.000000 704.000000 -336.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 4 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 3 4 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 3 0 5 0xff8f7d6a internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 4 2 5 0xff8f7d6a internal/editor/textures/editor_clip
+	brush
+		vertices
+			-552.000000 -2.000000 -768.000000
+			-552.755859 -2.000000 -767.993958
+			-552.000000 -2.000000 -769.999939
+			-552.818848 272.000000 -769.993347
+			-552.000000 272.000000 -769.999939
+			-552.818848 -2.000000 -769.993347
+			-552.755859 272.000000 -767.993958
+			-552.000000 272.000000 -768.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-552.755859 -2.000000 -767.993958
+			-553.499634 -2.000000 -767.975830
+			-552.818848 -2.000000 -769.993347
+			-553.624634 272.000000 -769.973755
+			-552.818848 272.000000 -769.993347
+			-553.624634 -2.000000 -769.973755
+			-553.499634 272.000000 -767.975830
+			-552.755859 272.000000 -767.993958
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-553.499634 -2.000000 -767.975830
+			-554.231323 -2.000000 -767.945496
+			-553.624634 -2.000000 -769.973755
+			-554.417236 272.000000 -769.940979
+			-553.624634 272.000000 -769.973755
+			-554.417236 -2.000000 -769.940979
+			-554.231323 272.000000 -767.945496
+			-553.499634 272.000000 -767.975830
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-554.231323 -2.000000 -767.945496
+			-554.950867 -2.000000 -767.903198
+			-554.417236 -2.000000 -769.940979
+			-555.196777 272.000000 -769.895081
+			-554.417236 272.000000 -769.940979
+			-555.196777 -2.000000 -769.895081
+			-554.950867 272.000000 -767.903198
+			-554.231323 272.000000 -767.945496
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-554.950867 -2.000000 -767.903198
+			-555.658325 -2.000000 -767.848816
+			-555.196777 -2.000000 -769.895081
+			-555.963196 272.000000 -769.836121
+			-555.196777 272.000000 -769.895081
+			-555.963196 -2.000000 -769.836121
+			-555.658325 272.000000 -767.848816
+			-554.950867 272.000000 -767.903198
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-555.658325 -2.000000 -767.848816
+			-556.353760 -2.000000 -767.782349
+			-555.963196 -2.000000 -769.836121
+			-556.716553 272.000000 -769.764160
+			-555.963196 272.000000 -769.836121
+			-556.716553 -2.000000 -769.764160
+			-556.353760 272.000000 -767.782349
+			-555.658325 272.000000 -767.848816
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			-556.353760 -2.000000 -767.782349
+			-557.037048 -2.000000 -767.703735
+			-556.716553 -2.000000 -769.764160
+			-557.456787 272.000000 -769.678955
+			-556.716553 272.000000 -769.764160
+			-557.456787 -2.000000 -769.678955
+			-557.037048 272.000000 -767.703735
+			-556.353760 272.000000 -767.782349
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-557.037048 -2.000000 -767.703735
+			-557.708252 -2.000000 -767.613037
+			-557.456787 -2.000000 -769.678955
+			-558.183960 272.000000 -769.580688
+			-557.456787 272.000000 -769.678955
+			-558.183960 -2.000000 -769.580688
+			-557.708252 272.000000 -767.613037
+			-557.037048 272.000000 -767.703735
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-557.708252 -2.000000 -767.613037
+			-558.367371 -2.000000 -767.510193
+			-558.183960 -2.000000 -769.580688
+			-558.897949 272.000031 -769.469299
+			-558.183960 272.000000 -769.580688
+			-558.897949 -2.000000 -769.469299
+			-558.367371 272.000031 -767.510193
+			-557.708252 272.000000 -767.613037
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-558.367371 -2.000000 -767.510193
+			-559.014343 -2.000000 -767.395325
+			-558.897949 -2.000000 -769.469299
+			-559.598877 272.000000 -769.344849
+			-558.897949 272.000031 -769.469299
+			-559.598877 -2.000000 -769.344849
+			-559.014343 272.000000 -767.395325
+			-558.367371 272.000031 -767.510193
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			-559.014343 -2.000000 -767.395325
+			-559.649292 -2.000000 -767.268311
+			-559.598877 -2.000000 -769.344849
+			-560.286743 272.000000 -769.207275
+			-559.598877 272.000000 -769.344849
+			-560.286743 -2.000000 -769.207275
+			-559.649292 272.000000 -767.268311
+			-559.014343 272.000000 -767.395325
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			-559.649292 -2.000000 -767.268311
+			-560.272095 -2.000000 -767.129272
+			-560.286743 -2.000000 -769.207275
+			-560.961426 272.000000 -769.056702
+			-560.286743 272.000000 -769.207275
+			-560.961426 -2.000000 -769.056702
+			-560.272095 272.000000 -767.129272
+			-559.649292 272.000000 -767.268311
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-560.272095 -2.000000 -767.129272
+			-560.882874 -2.000000 -766.978027
+			-560.961426 -2.000000 -769.056702
+			-561.623108 272.000000 -768.892883
+			-560.961426 272.000000 -769.056702
+			-561.623108 -2.000000 -768.892883
+			-560.882874 272.000000 -766.978027
+			-560.272095 272.000000 -767.129272
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-560.882874 -2.000000 -766.978027
+			-561.481445 -2.000000 -766.814819
+			-561.623108 -2.000000 -768.892883
+			-562.271606 272.000000 -768.716003
+			-561.623108 272.000000 -768.892883
+			-562.271606 -2.000000 -768.716003
+			-561.481445 272.000000 -766.814819
+			-560.882874 272.000000 -766.978027
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			-561.481445 -2.000000 -766.814819
+			-562.067993 -2.000000 -766.639465
+			-562.271606 -2.000000 -768.716003
+			-562.907043 272.000000 -768.526062
+			-562.271606 272.000000 -768.716003
+			-562.907043 -2.000000 -768.526062
+			-562.067993 272.000000 -766.639465
+			-561.481445 272.000000 -766.814819
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-562.067993 -2.000000 -766.639465
+			-562.642456 -2.000000 -766.452026
+			-562.907043 -2.000000 -768.526062
+			-563.529358 272.000000 -768.322998
+			-562.907043 272.000000 -768.526062
+			-563.529358 -2.000000 -768.322998
+			-562.642456 272.000000 -766.452026
+			-562.067993 272.000000 -766.639465
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-562.642456 -2.000000 -766.452026
+			-563.204834 -2.000000 -766.252441
+			-563.529358 -2.000000 -768.322998
+			-564.138550 272.000000 -768.106812
+			-563.529358 272.000000 -768.322998
+			-564.138550 -2.000000 -768.106812
+			-563.204834 272.000000 -766.252441
+			-562.642456 272.000000 -766.452026
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-563.204834 -2.000000 -766.252441
+			-563.755127 -2.000000 -766.040771
+			-564.138550 -2.000000 -768.106812
+			-564.734680 272.000000 -767.877441
+			-564.138550 272.000000 -768.106812
+			-564.734680 -2.000000 -767.877441
+			-563.755127 272.000000 -766.040771
+			-563.204834 272.000000 -766.252441
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-563.755127 -2.000000 -766.040771
+			-564.293274 -2.000000 -765.817078
+			-564.734680 -2.000000 -767.877441
+			-565.317688 272.000000 -767.635132
+			-564.734680 272.000000 -767.877441
+			-565.317688 -2.000000 -767.635132
+			-564.293274 272.000000 -765.817078
+			-563.755127 272.000000 -766.040771
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-564.293274 -2.000000 -765.817078
+			-564.819336 -2.000000 -765.581238
+			-565.317688 -2.000000 -767.635132
+			-565.887634 272.000000 -767.379639
+			-565.317688 272.000000 -767.635132
+			-565.887634 -2.000000 -767.379639
+			-564.819336 272.000000 -765.581238
+			-564.293274 272.000000 -765.817078
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-564.819336 -2.000000 -765.581238
+			-565.333374 -2.000000 -765.333374
+			-565.887634 -2.000000 -767.379639
+			-566.444458 272.000000 -767.111145
+			-565.887634 272.000000 -767.379639
+			-566.444458 -2.000000 -767.111145
+			-565.333374 272.000000 -765.333374
+			-564.819336 272.000000 -765.581238
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-565.333374 -2.000000 -765.333374
+			-565.835205 -2.000000 -765.073303
+			-566.444458 -2.000000 -767.111145
+			-566.988159 272.000000 -766.829407
+			-566.444458 272.000000 -767.111145
+			-566.988159 -2.000000 -766.829407
+			-565.835205 272.000000 -765.073303
+			-565.333374 272.000000 -765.333374
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-565.835205 -2.000000 -765.073303
+			-566.325012 -2.000000 -764.801208
+			-566.988159 -2.000000 -766.829407
+			-567.518799 272.000000 -766.534607
+			-566.988159 272.000000 -766.829407
+			-567.518799 -2.000000 -766.534607
+			-566.325012 272.000000 -764.801208
+			-565.835205 272.000000 -765.073303
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-566.325012 -2.000000 -764.801208
+			-566.802734 -2.000000 -764.516968
+			-567.518799 -2.000000 -766.534607
+			-568.036255 272.000000 -766.226685
+			-567.518799 272.000000 -766.534607
+			-568.036255 -2.000000 -766.226685
+			-566.802734 272.000000 -764.516968
+			-566.325012 272.000000 -764.801208
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			-566.802734 -2.000000 -764.516968
+			-567.268311 -2.000000 -764.220642
+			-568.036255 -2.000000 -766.226685
+			-568.540649 272.000000 -765.905762
+			-568.036255 272.000000 -766.226685
+			-568.540649 -2.000000 -765.905762
+			-567.268311 272.000000 -764.220642
+			-566.802734 272.000000 -764.516968
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-567.268311 -2.000000 -764.220642
+			-567.721863 -2.000000 -763.912354
+			-568.540649 -2.000000 -765.905762
+			-569.031982 272.000000 -765.571594
+			-568.540649 272.000000 -765.905762
+			-569.031982 -2.000000 -765.571594
+			-567.721863 272.000000 -763.912354
+			-567.268311 272.000000 -764.220642
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-567.721863 -2.000000 -763.912354
+			-568.163269 -2.000000 -763.591858
+			-569.031982 -2.000000 -765.571594
+			-569.510193 272.000000 -765.224426
+			-569.031982 272.000000 -765.571594
+			-569.510193 -2.000000 -765.224426
+			-568.163269 272.000000 -763.591858
+			-567.721863 272.000000 -763.912354
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-568.163269 -2.000000 -763.591858
+			-568.592590 -2.000000 -763.259277
+			-569.510193 -2.000000 -765.224426
+			-569.975281 272.000000 -764.864136
+			-569.510193 272.000000 -765.224426
+			-569.975281 -2.000000 -764.864136
+			-568.592590 272.000000 -763.259277
+			-568.163269 272.000000 -763.591858
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-568.592590 -2.000000 -763.259277
+			-569.009827 -2.000000 -762.914551
+			-569.975281 -2.000000 -764.864136
+			-570.427307 272.000000 -764.490723
+			-569.975281 272.000000 -764.864136
+			-570.427307 -2.000000 -764.490723
+			-569.009827 272.000000 -762.914551
+			-568.592590 272.000000 -763.259277
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-569.009827 -2.000000 -762.914551
+			-569.414978 -2.000000 -762.557800
+			-570.427307 -2.000000 -764.490723
+			-570.866211 272.000000 -764.104309
+			-570.427307 272.000000 -764.490723
+			-570.866211 -2.000000 -764.104309
+			-569.414978 272.000000 -762.557800
+			-569.009827 272.000000 -762.914551
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-569.414978 -2.000000 -762.557800
+			-569.808044 -2.000000 -762.188965
+			-570.866211 -2.000000 -764.104309
+			-571.291992 272.000000 -763.704651
+			-570.866211 272.000000 -764.104309
+			-571.291992 -2.000000 -763.704651
+			-569.808044 272.000000 -762.188965
+			-569.414978 272.000000 -762.557800
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-569.808044 -2.000000 -762.188965
+			-570.188965 -2.000000 -761.808044
+			-571.291992 -2.000000 -763.704651
+			-571.704712 272.000000 -763.291992
+			-571.291992 272.000000 -763.704651
+			-571.704712 -2.000000 -763.291992
+			-570.188965 272.000000 -761.808044
+			-569.808044 272.000000 -762.188965
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-570.188965 -2.000000 -761.808044
+			-570.557861 -2.000000 -761.414978
+			-571.704712 -2.000000 -763.291992
+			-572.104309 272.000000 -762.866150
+			-571.704712 272.000000 -763.291992
+			-572.104309 -2.000000 -762.866150
+			-570.557861 272.000000 -761.414978
+			-570.188965 272.000000 -761.808044
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			-570.557861 -2.000000 -761.414978
+			-570.914551 -2.000000 -761.009827
+			-572.104309 -2.000000 -762.866150
+			-572.490784 272.000000 -762.427246
+			-572.104309 272.000000 -762.866150
+			-572.490784 -2.000000 -762.427246
+			-570.914551 272.000000 -761.009827
+			-570.557861 272.000000 -761.414978
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			-570.914551 -2.000000 -761.009827
+			-571.259277 -2.000000 -760.592529
+			-572.490784 -2.000000 -762.427246
+			-572.864197 271.999969 -761.975220
+			-572.490784 272.000000 -762.427246
+			-572.864197 -2.000000 -761.975220
+			-571.259277 271.999969 -760.592529
+			-570.914551 272.000000 -761.009827
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			-571.259277 -2.000000 -760.592529
+			-571.591797 -2.000000 -760.163269
+			-572.864197 -2.000000 -761.975220
+			-573.224487 272.000000 -761.510132
+			-572.864197 271.999969 -761.975220
+			-573.224487 -2.000000 -761.510132
+			-571.591797 272.000000 -760.163269
+			-571.259277 271.999969 -760.592529
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-571.591797 -2.000000 -760.163269
+			-571.912292 -2.000000 -759.721863
+			-573.224487 -2.000000 -761.510132
+			-573.571655 272.000000 -761.031982
+			-573.224487 272.000000 -761.510132
+			-573.571655 -2.000000 -761.031982
+			-571.912292 272.000000 -759.721863
+			-571.591797 272.000000 -760.163269
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			-571.912292 -2.000000 -759.721863
+			-572.220764 -2.000000 -759.268372
+			-573.571655 -2.000000 -761.031982
+			-573.905823 272.000031 -760.540771
+			-573.571655 272.000000 -761.031982
+			-573.905823 -2.000000 -760.540771
+			-572.220764 272.000031 -759.268372
+			-571.912292 272.000000 -759.721863
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-572.220764 -2.000000 -759.268372
+			-572.516968 -2.000000 -758.802734
+			-573.905823 -2.000000 -760.540771
+			-574.226746 272.000000 -760.036255
+			-573.905823 272.000031 -760.540771
+			-574.226746 -2.000000 -760.036255
+			-572.516968 272.000000 -758.802734
+			-572.220764 272.000031 -759.268372
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			-572.516968 -2.000000 -758.802734
+			-572.801147 -2.000000 -758.324951
+			-574.226746 -2.000000 -760.036255
+			-574.534607 272.000000 -759.518677
+			-574.226746 272.000000 -760.036255
+			-574.534607 -2.000000 -759.518677
+			-572.801147 272.000000 -758.324951
+			-572.516968 272.000000 -758.802734
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			-572.801147 -2.000000 -758.324951
+			-573.073303 -2.000000 -757.835144
+			-574.534607 -2.000000 -759.518677
+			-574.829407 271.999969 -758.988098
+			-574.534607 272.000000 -759.518677
+			-574.829407 -2.000000 -758.988098
+			-573.073303 271.999969 -757.835144
+			-572.801147 272.000000 -758.324951
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			-573.073303 -2.000000 -757.835144
+			-573.333374 -2.000000 -757.333374
+			-574.829407 -2.000000 -758.988098
+			-575.111084 272.000000 -758.444397
+			-574.829407 271.999969 -758.988098
+			-575.111084 -2.000000 -758.444397
+			-573.333374 272.000000 -757.333374
+			-573.073303 271.999969 -757.835144
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-573.333374 -2.000000 -757.333374
+			-573.581299 -2.000000 -756.819336
+			-575.111084 -2.000000 -758.444397
+			-575.379700 272.000000 -757.887573
+			-575.111084 272.000000 -758.444397
+			-575.379700 -2.000000 -757.887573
+			-573.581299 272.000000 -756.819336
+			-573.333374 272.000000 -757.333374
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-573.581299 -2.000000 -756.819336
+			-573.817078 -2.000000 -756.293274
+			-575.379700 -2.000000 -757.887573
+			-575.635132 272.000000 -757.317688
+			-575.379700 272.000000 -757.887573
+			-575.635132 -2.000000 -757.317688
+			-573.817078 272.000000 -756.293274
+			-573.581299 272.000000 -756.819336
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			-573.817078 -2.000000 -756.293274
+			-574.040833 -2.000000 -755.755188
+			-575.635132 -2.000000 -757.317688
+			-575.877563 272.000031 -756.734741
+			-575.635132 272.000000 -757.317688
+			-575.877563 -2.000000 -756.734741
+			-574.040833 272.000031 -755.755188
+			-573.817078 272.000000 -756.293274
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-574.040833 -2.000000 -755.755188
+			-574.252441 -2.000000 -755.204773
+			-575.877563 -2.000000 -756.734741
+			-576.106812 271.999969 -756.138489
+			-575.877563 272.000031 -756.734741
+			-576.106812 -2.000000 -756.138489
+			-574.252441 271.999969 -755.204773
+			-574.040833 272.000031 -755.755188
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			-574.252441 -2.000000 -755.204773
+			-574.452026 -2.000000 -754.642517
+			-576.106812 -2.000000 -756.138489
+			-576.322998 272.000000 -755.529358
+			-576.106812 271.999969 -756.138489
+			-576.322998 -2.000000 -755.529358
+			-574.452026 272.000000 -754.642517
+			-574.252441 271.999969 -755.204773
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-574.452026 -2.000000 -754.642517
+			-574.639465 -2.000000 -754.067993
+			-576.322998 -2.000000 -755.529358
+			-576.526062 271.999969 -754.906982
+			-576.322998 272.000000 -755.529358
+			-576.526062 -2.000000 -754.906982
+			-574.639465 271.999969 -754.067993
+			-574.452026 272.000000 -754.642517
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			-574.639465 -2.000000 -754.067993
+			-574.814819 -2.000000 -753.481567
+			-576.526062 -2.000000 -754.906982
+			-576.716064 272.000000 -754.271606
+			-576.526062 271.999969 -754.906982
+			-576.716064 -2.000000 -754.271606
+			-574.814819 272.000000 -753.481567
+			-574.639465 271.999969 -754.067993
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-574.814819 -2.000000 -753.481567
+			-574.978088 -2.000000 -752.882874
+			-576.716064 -2.000000 -754.271606
+			-576.892944 272.000000 -753.623108
+			-576.716064 272.000000 -754.271606
+			-576.892944 -2.000000 -753.623108
+			-574.978088 272.000000 -752.882874
+			-574.814819 272.000000 -753.481567
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-574.978088 -2.000000 -752.882874
+			-575.129272 -2.000000 -752.272156
+			-576.892944 -2.000000 -753.623108
+			-577.056763 272.000000 -752.961487
+			-576.892944 272.000000 -753.623108
+			-577.056763 -2.000000 -752.961487
+			-575.129272 272.000000 -752.272156
+			-574.978088 272.000000 -752.882874
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-575.129272 -2.000000 -752.272156
+			-575.268433 -2.000000 -751.649475
+			-577.056763 -2.000000 -752.961487
+			-577.207397 272.000061 -752.286865
+			-577.056763 272.000000 -752.961487
+			-577.207397 -2.000000 -752.286865
+			-575.268433 272.000061 -751.649475
+			-575.129272 272.000000 -752.272156
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-575.268433 -2.000000 -751.649475
+			-575.395264 -2.000000 -751.014343
+			-577.207397 -2.000000 -752.286865
+			-577.344910 272.000000 -751.598816
+			-577.207397 272.000061 -752.286865
+			-577.344910 -2.000000 -751.598816
+			-575.395264 272.000000 -751.014343
+			-575.268433 272.000061 -751.649475
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			-575.395264 -2.000000 -751.014343
+			-575.510193 -2.000000 -750.367371
+			-577.344910 -2.000000 -751.598816
+			-577.469360 272.000000 -750.897949
+			-577.344910 272.000000 -751.598816
+			-577.469360 -2.000000 -750.897949
+			-575.510193 272.000000 -750.367371
+			-575.395264 272.000000 -751.014343
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			-575.510193 -2.000000 -750.367371
+			-575.612976 -2.000000 -749.708191
+			-577.469360 -2.000000 -750.897949
+			-577.580688 271.999969 -750.183838
+			-577.469360 272.000000 -750.897949
+			-577.580688 -2.000000 -750.183838
+			-575.612976 271.999969 -749.708191
+			-575.510193 272.000000 -750.367371
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			-575.612976 -2.000000 -749.708191
+			-575.703674 -2.000000 -749.036926
+			-577.580688 -2.000000 -750.183838
+			-577.678955 271.999969 -749.456665
+			-577.580688 271.999969 -750.183838
+			-577.678955 -2.000000 -749.456665
+			-575.703674 271.999969 -749.036926
+			-575.612976 271.999969 -749.708191
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-575.703674 -2.000000 -749.036926
+			-575.782288 -2.000000 -748.353699
+			-577.678955 -2.000000 -749.456665
+			-577.764160 272.000000 -748.716492
+			-577.678955 271.999969 -749.456665
+			-577.764160 -2.000000 -748.716492
+			-575.782288 272.000000 -748.353699
+			-575.703674 271.999969 -749.036926
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-575.782288 -2.000000 -748.353699
+			-575.848877 -2.000000 -747.658386
+			-577.764160 -2.000000 -748.716492
+			-577.836304 272.000031 -747.963257
+			-577.764160 272.000000 -748.716492
+			-577.836304 -2.000000 -747.963257
+			-575.848877 272.000031 -747.658386
+			-575.782288 272.000000 -748.353699
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-575.848877 -2.000000 -747.658386
+			-575.903320 -2.000000 -746.950928
+			-577.836304 -2.000000 -747.963257
+			-577.895203 272.000031 -747.196838
+			-577.836304 272.000031 -747.963257
+			-577.895203 -2.000000 -747.196838
+			-575.903320 272.000031 -746.950928
+			-575.848877 272.000031 -747.658386
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-575.903320 -2.000000 -746.950928
+			-575.945618 -2.000000 -746.231384
+			-577.895203 -2.000000 -747.196838
+			-577.941040 272.000031 -746.417297
+			-577.895203 272.000031 -747.196838
+			-577.941040 -2.000000 -746.417297
+			-575.945618 272.000031 -746.231384
+			-575.903320 272.000031 -746.950928
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-575.945618 -2.000000 -746.231384
+			-575.975830 -2.000000 -745.499695
+			-577.941040 -2.000000 -746.417297
+			-577.973877 272.000031 -745.624634
+			-577.941040 272.000031 -746.417297
+			-577.973877 -2.000000 -745.624634
+			-575.975830 272.000031 -745.499695
+			-575.945618 272.000031 -746.231384
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-575.975830 -2.000000 -745.499695
+			-575.993958 -2.000000 -744.755920
+			-577.973877 -2.000000 -745.624634
+			-577.993469 272.000000 -744.818848
+			-577.973877 272.000031 -745.624634
+			-577.993469 -2.000000 -744.818848
+			-575.993958 272.000000 -744.755920
+			-575.975830 272.000031 -745.499695
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			-575.993958 -2.000000 -744.755920
+			-576.000000 -2.000000 -744.000000
+			-577.993469 -2.000000 -744.818848
+			-578.000000 272.000000 -744.000000
+			-577.993469 272.000000 -744.818848
+			-578.000000 -2.000000 -744.000000
+			-576.000000 272.000000 -744.000000
+			-575.993958 272.000000 -744.755920
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-552.000000 272.000000 -768.000000
+			-552.000000 272.000000 -769.999939
+			-576.000000 272.000000 -770.000000
+			-576.000000 272.000000 -768.000000
+			-552.000000 -2.000000 -768.000000
+			-552.000000 -2.000000 -769.999939
+			-576.000000 -2.000000 -770.000000
+			-576.000000 -2.000000 -768.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-578.000000 272.000000 -744.000000
+			-576.000000 272.000000 -744.000000
+			-576.000000 272.000000 -768.000000
+			-578.000000 272.000000 -768.000000
+			-578.000000 -2.000000 -744.000000
+			-576.000000 -2.000000 -744.000000
+			-576.000000 -2.000000 -768.000000
+			-578.000000 -2.000000 -768.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-592.000000 272.000000 256.000000
+			-576.000000 272.000000 256.000000
+			-576.000000 272.000000 -768.000000
+			-592.000000 272.000000 -768.000000
+			-592.000000 0.000000 256.000000
+			-576.000000 0.000000 256.000000
+			-576.000000 0.000000 -768.000000
+			-592.000000 0.000000 -768.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-576.000000 0.000000 256.000000
+			448.000000 0.000000 256.000000
+			448.000000 0.000000 -768.000000
+			-576.000000 0.000000 -768.000000
+			-576.000000 -16.000000 256.000000
+			448.000000 -16.000000 256.000000
+			448.000000 -16.000000 -768.000000
+			-576.000000 -16.000000 -768.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-576.000000 272.000000 -768.000000
+			448.000000 272.000000 -768.000000
+			448.000000 272.000000 -784.000000
+			-576.000000 272.000000 -784.000000
+			-576.000000 0.000000 -768.000000
+			448.000000 0.000000 -768.000000
+			448.000000 0.000000 -784.000000
+			-576.000000 0.000000 -784.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-552.000000 272.000000 258.000000
+			-552.000000 272.000000 256.000000
+			-576.000000 272.000000 255.999969
+			-576.000000 272.000000 257.999969
+			-552.000000 -2.000000 258.000000
+			-552.000000 -2.000000 256.000000
+			-576.000000 -2.000000 255.999969
+			-576.000000 -2.000000 257.999969
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-576.000000 272.000000 231.999969
+			-578.000000 272.000000 231.999954
+			-578.000000 272.000000 255.999969
+			-576.000000 272.000000 255.999969
+			-576.000000 -2.000000 231.999969
+			-578.000000 -2.000000 231.999954
+			-578.000000 -2.000000 255.999969
+			-576.000000 -2.000000 255.999969
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			-576.000000 -2.000000 231.999969
+			-575.993958 -2.000000 232.755829
+			-577.999939 -2.000000 231.999954
+			-577.993347 272.000000 232.818787
+			-577.999939 272.000000 231.999954
+			-577.993347 -2.000000 232.818787
+			-575.993958 272.000000 232.755829
+			-576.000000 272.000000 231.999969
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-575.993958 -2.000000 232.755829
+			-575.975830 -2.000000 233.499588
+			-577.993347 -2.000000 232.818802
+			-577.973755 272.000000 233.624542
+			-577.993347 272.000000 232.818802
+			-577.973755 -2.000000 233.624542
+			-575.975830 272.000000 233.499588
+			-575.993958 272.000000 232.755829
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-575.975830 -2.000000 233.499573
+			-575.945557 -2.000000 234.231232
+			-577.973755 -2.000000 233.624527
+			-577.940979 272.000000 234.417175
+			-577.973755 272.000000 233.624527
+			-577.940979 -2.000000 234.417175
+			-575.945557 272.000000 234.231232
+			-575.975830 272.000000 233.499573
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-575.945557 -2.000000 234.231247
+			-575.903259 -2.000000 234.950821
+			-577.940979 -2.000000 234.417175
+			-577.895142 272.000000 235.196716
+			-577.940979 272.000000 234.417175
+			-577.895142 -2.000000 235.196716
+			-575.903259 272.000000 234.950821
+			-575.945557 272.000000 234.231247
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-575.903259 -2.000000 234.950821
+			-575.848816 -2.000000 235.658295
+			-577.895142 -2.000000 235.196716
+			-577.836182 272.000000 235.963150
+			-577.895142 272.000000 235.196716
+			-577.836182 -2.000000 235.963150
+			-575.848816 272.000000 235.658295
+			-575.903259 272.000000 234.950821
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-575.848816 -2.000000 235.658295
+			-575.782349 -2.000000 236.353699
+			-577.836182 -2.000000 235.963135
+			-577.764160 272.000000 236.716492
+			-577.836182 272.000000 235.963135
+			-577.764160 -2.000000 236.716492
+			-575.782349 272.000000 236.353699
+			-575.848816 272.000000 235.658295
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-575.782349 -2.000000 236.353699
+			-575.703735 -2.000000 237.036987
+			-577.764160 -2.000000 236.716492
+			-577.678955 272.000000 237.456726
+			-577.764160 272.000000 236.716492
+			-577.678955 -2.000000 237.456726
+			-575.703735 272.000000 237.036987
+			-575.782349 272.000000 236.353699
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			-575.703735 -2.000000 237.036987
+			-575.613037 -2.000000 237.708191
+			-577.678955 -2.000000 237.456726
+			-577.580688 272.000000 238.183868
+			-577.678955 272.000000 237.456726
+			-577.580688 -2.000000 238.183868
+			-575.613037 272.000000 237.708191
+			-575.703735 272.000000 237.036987
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-575.613037 -2.000000 237.708191
+			-575.510254 -2.000000 238.367310
+			-577.580688 -2.000000 238.183868
+			-577.469360 272.000031 238.897888
+			-577.580688 272.000000 238.183868
+			-577.469360 -2.000000 238.897888
+			-575.510254 272.000031 238.367310
+			-575.613037 272.000000 237.708191
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			-575.510254 -2.000000 238.367279
+			-575.395325 -2.000000 239.014282
+			-577.469360 -2.000000 238.897888
+			-577.344849 272.000000 239.598816
+			-577.469360 272.000031 238.897888
+			-577.344849 -2.000000 239.598816
+			-575.395325 272.000000 239.014282
+			-575.510254 272.000031 238.367279
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			-575.395325 -2.000000 239.014297
+			-575.268372 -2.000000 239.649216
+			-577.344849 -2.000000 239.598816
+			-577.207336 272.000000 240.286652
+			-577.344849 272.000000 239.598816
+			-577.207336 -2.000000 240.286652
+			-575.268372 272.000000 239.649216
+			-575.395325 272.000000 239.014297
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-575.268372 -2.000000 239.649216
+			-575.129272 -2.000000 240.272034
+			-577.207336 -2.000000 240.286652
+			-577.056702 272.000000 240.961365
+			-577.207336 272.000000 240.286652
+			-577.056702 -2.000000 240.961365
+			-575.129272 272.000000 240.272034
+			-575.268372 272.000000 239.649216
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-575.129272 -2.000000 240.272034
+			-574.978149 -2.000000 240.882767
+			-577.056702 -2.000000 240.961365
+			-576.892944 272.000000 241.622986
+			-577.056702 272.000000 240.961365
+			-576.892944 -2.000000 241.622986
+			-574.978149 272.000000 240.882767
+			-575.129272 272.000000 240.272034
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-574.978149 -2.000000 240.882782
+			-574.814819 -2.000000 241.481415
+			-576.892944 -2.000000 241.623016
+			-576.716064 272.000000 242.271515
+			-576.892944 272.000000 241.623016
+			-576.716064 -2.000000 242.271515
+			-574.814819 272.000000 241.481415
+			-574.978149 272.000000 240.882782
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-574.814819 -2.000000 241.481415
+			-574.639526 -2.000000 242.067963
+			-576.716064 -2.000000 242.271515
+			-576.526062 272.000000 242.906952
+			-576.716064 272.000000 242.271515
+			-576.526062 -2.000000 242.906952
+			-574.639526 272.000000 242.067963
+			-574.814819 272.000000 241.481415
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-574.639526 -2.000000 242.067963
+			-574.452026 -2.000000 242.642410
+			-576.526062 -2.000000 242.906952
+			-576.322998 272.000000 243.529266
+			-576.526062 272.000000 242.906952
+			-576.322998 -2.000000 243.529266
+			-574.452026 272.000000 242.642410
+			-574.639526 272.000000 242.067963
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-574.452026 -2.000000 242.642410
+			-574.252502 -2.000000 243.204773
+			-576.322998 -2.000000 243.529266
+			-576.106812 272.000000 244.138489
+			-576.322998 272.000000 243.529266
+			-576.106812 -2.000000 244.138489
+			-574.252502 272.000000 243.204773
+			-574.452026 272.000000 242.642410
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-574.252502 -2.000000 243.204773
+			-574.040833 -2.000000 243.755035
+			-576.106812 -2.000000 244.138489
+			-575.877502 272.000000 244.734619
+			-576.106812 272.000000 244.138489
+			-575.877502 -2.000000 244.734619
+			-574.040833 272.000000 243.755035
+			-574.252502 272.000000 243.204773
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-574.040833 -2.000000 243.755035
+			-573.817139 -2.000000 244.293213
+			-575.877502 -2.000000 244.734619
+			-575.635132 272.000000 245.317627
+			-575.877502 272.000000 244.734619
+			-575.635132 -2.000000 245.317627
+			-573.817139 272.000000 244.293213
+			-574.040833 272.000000 243.755035
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-573.817139 -2.000000 244.293213
+			-573.581299 -2.000000 244.819290
+			-575.635132 -2.000000 245.317642
+			-575.379700 272.000000 245.887558
+			-575.635132 272.000000 245.317642
+			-575.379700 -2.000000 245.887558
+			-573.581299 272.000000 244.819290
+			-573.817139 272.000000 244.293213
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			-573.581299 -2.000000 244.819275
+			-573.333374 -2.000000 245.333252
+			-575.379639 -2.000000 245.887543
+			-575.111084 272.000000 246.444366
+			-575.379639 272.000000 245.887543
+			-575.111084 -2.000000 246.444366
+			-573.333374 272.000000 245.333252
+			-573.581299 272.000000 244.819275
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-573.333374 -2.000000 245.333267
+			-573.073364 -2.000000 245.835159
+			-575.111084 -2.000000 246.444366
+			-574.829346 272.000000 246.988083
+			-575.111084 272.000000 246.444366
+			-574.829346 -2.000000 246.988083
+			-573.073364 272.000000 245.835159
+			-573.333374 272.000000 245.333267
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-573.073364 -2.000000 245.835159
+			-572.801270 -2.000000 246.324951
+			-574.829407 -2.000000 246.988083
+			-574.534668 272.000000 247.518692
+			-574.829407 272.000000 246.988083
+			-574.534668 -2.000000 247.518692
+			-572.801270 272.000000 246.324951
+			-573.073364 272.000000 245.835159
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			-572.801270 -2.000000 246.324951
+			-572.517090 -2.000000 246.802658
+			-574.534668 -2.000000 247.518692
+			-574.226746 272.000000 248.036209
+			-574.534668 272.000000 247.518692
+			-574.226746 -2.000000 248.036209
+			-572.517090 272.000000 246.802658
+			-572.801270 272.000000 246.324951
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			-572.517090 -2.000000 246.802658
+			-572.220764 -2.000000 247.268265
+			-574.226746 -2.000000 248.036209
+			-573.905762 272.000000 248.540619
+			-574.226746 272.000000 248.036209
+			-573.905762 -2.000000 248.540619
+			-572.220764 272.000000 247.268265
+			-572.517090 272.000000 246.802658
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			-572.220764 -2.000000 247.268265
+			-571.912354 -2.000000 247.721771
+			-573.905762 -2.000000 248.540619
+			-573.571716 272.000000 249.031921
+			-573.905762 272.000000 248.540619
+			-573.571716 -2.000000 249.031921
+			-571.912354 272.000000 247.721771
+			-572.220764 272.000000 247.268265
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-571.912354 -2.000000 247.721786
+			-571.591919 -2.000000 248.163208
+			-573.571655 -2.000000 249.031937
+			-573.224487 272.000000 249.510132
+			-573.571655 272.000000 249.031937
+			-573.224487 -2.000000 249.510132
+			-571.591919 272.000000 248.163208
+			-571.912354 272.000000 247.721786
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-571.591919 -2.000000 248.163208
+			-571.259277 -2.000000 248.592529
+			-573.224487 -2.000000 249.510132
+			-572.864197 272.000000 249.975250
+			-573.224487 272.000000 249.510132
+			-572.864197 -2.000000 249.975250
+			-571.259277 272.000000 248.592529
+			-571.591919 272.000000 248.163208
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			-571.259277 -2.000000 248.592529
+			-570.914673 -2.000000 249.009766
+			-572.864136 -2.000000 249.975235
+			-572.490723 272.000000 250.427246
+			-572.864136 272.000000 249.975235
+			-572.490723 -2.000000 250.427246
+			-570.914673 272.000000 249.009766
+			-571.259277 272.000000 248.592529
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-570.914673 -2.000000 249.009766
+			-570.557861 -2.000000 249.414902
+			-572.490784 -2.000000 250.427246
+			-572.104370 272.000000 250.866150
+			-572.490784 272.000000 250.427246
+			-572.104370 -2.000000 250.866150
+			-570.557861 272.000000 249.414902
+			-570.914673 272.000000 249.009766
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-570.557861 -2.000000 249.414917
+			-570.188965 -2.000000 249.807953
+			-572.104370 -2.000000 250.866150
+			-571.704712 272.000000 251.291962
+			-572.104370 272.000000 250.866150
+			-571.704712 -2.000000 251.291962
+			-570.188965 272.000000 249.807953
+			-570.557861 272.000000 249.414917
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-570.189026 -2.000000 249.807953
+			-569.808044 -2.000000 250.188904
+			-571.704712 -2.000000 251.291946
+			-571.291992 272.000000 251.704651
+			-571.704712 272.000000 251.291946
+			-571.291992 -2.000000 251.704651
+			-569.808044 272.000000 250.188904
+			-570.189026 272.000000 249.807953
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-569.808044 -2.000000 250.188904
+			-569.415039 -2.000000 250.557770
+			-571.291992 -2.000000 251.704651
+			-570.866211 272.000000 252.104248
+			-571.291992 272.000000 251.704651
+			-570.866211 -2.000000 252.104248
+			-569.415039 272.000000 250.557770
+			-569.808044 272.000000 250.188904
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-569.415039 -2.000000 250.557770
+			-569.009888 -2.000000 250.914536
+			-570.866211 -2.000000 252.104248
+			-570.427368 272.000000 252.490753
+			-570.866211 272.000000 252.104248
+			-570.427368 -2.000000 252.490753
+			-569.009888 272.000000 250.914536
+			-569.415039 272.000000 250.557770
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-569.009888 -2.000000 250.914536
+			-568.592651 -2.000000 251.259216
+			-570.427368 -2.000000 252.490753
+			-569.975342 271.999969 252.864136
+			-570.427368 272.000000 252.490753
+			-569.975342 -2.000000 252.864136
+			-568.592651 271.999969 251.259216
+			-569.009888 272.000000 250.914536
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			-568.592590 -2.000000 251.259216
+			-568.163330 -2.000000 251.591797
+			-569.975342 -2.000000 252.864151
+			-569.510193 272.000000 253.224442
+			-569.975342 271.999969 252.864151
+			-569.510193 -2.000000 253.224442
+			-568.163330 272.000000 251.591797
+			-568.592590 271.999969 251.259216
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-568.163330 -2.000000 251.591797
+			-567.721924 -2.000000 251.912277
+			-569.510254 -2.000000 253.224442
+			-569.031982 272.000000 253.571640
+			-569.510254 272.000000 253.224442
+			-569.031982 -2.000000 253.571640
+			-567.721924 272.000000 251.912277
+			-568.163330 272.000000 251.591797
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			-567.721863 -2.000000 251.912277
+			-567.268433 -2.000000 252.220673
+			-569.031982 -2.000000 253.571625
+			-568.540771 272.000031 253.905731
+			-569.031982 272.000000 253.571625
+			-568.540771 -2.000000 253.905731
+			-567.268433 272.000031 252.220673
+			-567.721863 272.000000 251.912277
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-567.268433 -2.000000 252.220673
+			-566.802734 -2.000000 252.516968
+			-568.540771 -2.000000 253.905731
+			-568.036255 272.000000 254.226715
+			-568.540771 272.000031 253.905731
+			-568.036255 -2.000000 254.226715
+			-566.802734 272.000000 252.516968
+			-567.268433 272.000031 252.220673
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			-566.802734 -2.000000 252.516968
+			-566.325012 -2.000000 252.801178
+			-568.036255 -2.000000 254.226715
+			-567.518738 272.000000 254.534607
+			-568.036255 272.000000 254.226715
+			-567.518738 -2.000000 254.534607
+			-566.325012 272.000000 252.801178
+			-566.802734 272.000000 252.516968
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-566.325012 -2.000000 252.801178
+			-565.835205 -2.000000 253.073288
+			-567.518738 -2.000000 254.534607
+			-566.988159 271.999969 254.829391
+			-567.518738 272.000000 254.534607
+			-566.988159 -2.000000 254.829391
+			-565.835205 271.999969 253.073288
+			-566.325012 272.000000 252.801178
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			-565.835205 -2.000000 253.073288
+			-565.333374 -2.000000 253.333313
+			-566.988159 -2.000000 254.829391
+			-566.444458 272.000000 255.111084
+			-566.988159 271.999969 254.829391
+			-566.444458 -2.000000 255.111084
+			-565.333374 272.000000 253.333313
+			-565.835205 271.999969 253.073288
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-565.333374 -2.000000 253.333313
+			-564.819336 -2.000000 253.581238
+			-566.444458 -2.000000 255.111084
+			-565.887573 272.000000 255.379669
+			-566.444458 272.000000 255.111084
+			-565.887573 -2.000000 255.379669
+			-564.819336 272.000000 253.581238
+			-565.333374 272.000000 253.333313
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-564.819336 -2.000000 253.581223
+			-564.293274 -2.000000 253.817047
+			-565.887573 -2.000000 255.379654
+			-565.317749 272.000000 255.635147
+			-565.887573 272.000000 255.379654
+			-565.317749 -2.000000 255.635147
+			-564.293274 272.000000 253.817047
+			-564.819336 272.000000 253.581223
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-564.293274 -2.000000 253.817047
+			-563.755127 -2.000000 254.040787
+			-565.317749 -2.000000 255.635132
+			-564.734741 272.000031 255.877518
+			-565.317749 272.000000 255.635132
+			-564.734741 -2.000000 255.877518
+			-563.755127 272.000031 254.040787
+			-564.293274 272.000000 253.817047
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-563.755127 -2.000000 254.040802
+			-563.204834 -2.000000 254.252441
+			-564.734741 -2.000000 255.877533
+			-564.138550 271.999969 256.106812
+			-564.734741 272.000031 255.877533
+			-564.138550 -2.000000 256.106812
+			-563.204834 271.999969 254.252441
+			-563.755127 272.000031 254.040802
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			-563.204834 -2.000000 254.252441
+			-562.642456 -2.000000 254.451996
+			-564.138550 -2.000000 256.106812
+			-563.529358 272.000000 256.322998
+			-564.138550 271.999969 256.106812
+			-563.529358 -2.000000 256.322998
+			-562.642456 272.000000 254.451996
+			-563.204834 271.999969 254.252441
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-562.642456 -2.000000 254.451981
+			-562.067993 -2.000000 254.639435
+			-563.529297 -2.000000 256.322998
+			-562.906982 271.999969 256.526062
+			-563.529297 272.000000 256.322998
+			-562.906982 -2.000000 256.526062
+			-562.067993 271.999969 254.639435
+			-562.642456 272.000000 254.451981
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			-562.067993 -2.000000 254.639435
+			-561.481445 -2.000000 254.814804
+			-562.906982 -2.000000 256.526062
+			-562.271606 272.000000 256.716034
+			-562.906982 271.999969 256.526062
+			-562.271606 -2.000000 256.716034
+			-561.481445 272.000000 254.814804
+			-562.067993 271.999969 254.639435
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-561.481506 -2.000000 254.814804
+			-560.882813 -2.000000 254.978073
+			-562.271606 -2.000000 256.716034
+			-561.623047 272.000000 256.892914
+			-562.271606 272.000000 256.716034
+			-561.623047 -2.000000 256.892914
+			-560.882813 272.000000 254.978073
+			-561.481506 272.000000 254.814804
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-560.882813 -2.000000 254.978073
+			-560.272095 -2.000000 255.129242
+			-561.623047 -2.000000 256.892914
+			-560.961426 272.000000 257.056702
+			-561.623047 272.000000 256.892914
+			-560.961426 -2.000000 257.056702
+			-560.272095 272.000000 255.129242
+			-560.882813 272.000000 254.978073
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-560.272156 -2.000000 255.129242
+			-559.649414 -2.000000 255.268326
+			-560.961487 -2.000000 257.056671
+			-560.286865 272.000061 257.207336
+			-560.961487 272.000000 257.056671
+			-560.286865 -2.000000 257.207336
+			-559.649414 272.000061 255.268326
+			-560.272156 272.000000 255.129242
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-559.649414 -2.000000 255.268326
+			-559.014343 -2.000000 255.395309
+			-560.286865 -2.000000 257.207336
+			-559.598877 272.000000 257.344910
+			-560.286865 272.000061 257.207336
+			-559.598877 -2.000000 257.344910
+			-559.014343 272.000000 255.395309
+			-559.649414 272.000061 255.268326
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			-559.014343 -2.000000 255.395294
+			-558.367310 -2.000000 255.510193
+			-559.598877 -2.000000 257.344910
+			-558.897949 272.000000 257.469360
+			-559.598877 272.000000 257.344910
+			-558.897949 -2.000000 257.469360
+			-558.367310 272.000000 255.510193
+			-559.014343 272.000000 255.395294
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-558.367310 -2.000000 255.510193
+			-557.708130 -2.000000 255.612991
+			-558.897949 -2.000000 257.469360
+			-558.183838 271.999969 257.580750
+			-558.897949 272.000000 257.469360
+			-558.183838 -2.000000 257.580750
+			-557.708130 271.999969 255.612991
+			-558.367310 272.000000 255.510193
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			-557.708191 -2.000000 255.612991
+			-557.036987 -2.000000 255.703690
+			-558.183838 -2.000000 257.580750
+			-557.456726 271.999969 257.679016
+			-558.183838 271.999969 257.580750
+			-557.456726 -2.000000 257.679016
+			-557.036987 271.999969 255.703690
+			-557.708191 271.999969 255.612991
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-557.036987 -2.000000 255.703705
+			-556.353760 -2.000000 255.782318
+			-557.456726 -2.000000 257.679016
+			-556.716553 272.000000 257.764160
+			-557.456726 271.999969 257.679016
+			-556.716553 -2.000000 257.764160
+			-556.353760 272.000000 255.782318
+			-557.036987 271.999969 255.703705
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-556.353760 -2.000000 255.782318
+			-555.658447 -2.000000 255.848846
+			-556.716553 -2.000000 257.764160
+			-555.963318 272.000031 257.836243
+			-556.716553 272.000000 257.764160
+			-555.963318 -2.000000 257.836243
+			-555.658447 272.000031 255.848846
+			-556.353760 272.000000 255.782318
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-555.658447 -2.000000 255.848831
+			-554.950928 -2.000000 255.903259
+			-555.963318 -2.000000 257.836243
+			-555.196838 272.000031 257.895203
+			-555.963318 272.000031 257.836243
+			-555.196838 -2.000000 257.895203
+			-554.950928 272.000031 255.903259
+			-555.658447 272.000031 255.848831
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-554.950928 -2.000000 255.903259
+			-554.231323 -2.000000 255.945587
+			-555.196777 -2.000000 257.895203
+			-554.417236 272.000031 257.941040
+			-555.196777 272.000031 257.895203
+			-554.417236 -2.000000 257.941040
+			-554.231323 272.000031 255.945587
+			-554.950928 272.000031 255.903259
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-554.231323 -2.000000 255.945587
+			-553.499634 -2.000000 255.975830
+			-554.417236 -2.000000 257.941040
+			-553.624634 272.000031 257.973816
+			-554.417236 272.000031 257.941040
+			-553.624634 -2.000000 257.973816
+			-553.499634 272.000031 255.975830
+			-554.231323 272.000031 255.945587
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			-553.499634 -2.000000 255.975815
+			-552.755859 -2.000000 255.993958
+			-553.624634 -2.000000 257.973816
+			-552.818848 272.000000 257.993439
+			-553.624634 272.000031 257.973816
+			-552.818848 -2.000000 257.993439
+			-552.755859 272.000000 255.993958
+			-553.499634 272.000031 255.975815
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			-552.755859 -2.000000 255.993958
+			-552.000000 -2.000000 256.000000
+			-552.818848 -2.000000 257.993469
+			-552.000000 272.000000 258.000000
+			-552.818848 272.000000 257.993469
+			-552.000000 -2.000000 258.000000
+			-552.000000 272.000000 256.000000
+			-552.755859 272.000000 255.993958
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			450.000000 272.000000 232.000000
+			448.000000 272.000000 232.000000
+			448.000000 272.000000 255.999969
+			449.999939 272.000000 256.000000
+			450.000000 -2.000000 232.000000
+			448.000000 -2.000000 232.000000
+			448.000000 -2.000000 255.999969
+			449.999939 -2.000000 256.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			423.999969 272.000000 255.999969
+			423.999969 272.000000 257.999939
+			447.999939 272.000000 258.000000
+			448.000000 272.000000 255.999969
+			423.999969 -2.000000 255.999969
+			423.999969 -2.000000 257.999939
+			447.999939 -2.000000 258.000000
+			448.000000 -2.000000 255.999969
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			423.999969 -2.000000 255.999969
+			424.755829 -2.000000 255.993927
+			423.999969 -2.000000 257.999939
+			424.818817 272.000000 257.993408
+			423.999969 272.000000 257.999939
+			424.818817 -2.000000 257.993408
+			424.755829 272.000000 255.993927
+			423.999969 272.000000 255.999969
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			424.755829 -2.000000 255.993927
+			425.499603 -2.000000 255.975800
+			424.818817 -2.000000 257.993408
+			425.624573 272.000000 257.973755
+			424.818817 272.000000 257.993408
+			425.624573 -2.000000 257.973755
+			425.499603 272.000000 255.975800
+			424.755829 272.000000 255.993927
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			425.499603 -2.000000 255.975800
+			426.231262 -2.000000 255.945526
+			425.624573 -2.000000 257.973755
+			426.417206 272.000000 257.940979
+			425.624573 272.000000 257.973755
+			426.417206 -2.000000 257.940979
+			426.231262 272.000000 255.945526
+			425.499603 272.000000 255.975800
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			426.231262 -2.000000 255.945526
+			426.950867 -2.000000 255.903214
+			426.417236 -2.000000 257.940979
+			427.196747 272.000000 257.895142
+			426.417236 272.000000 257.940979
+			427.196747 -2.000000 257.895142
+			426.950867 272.000000 255.903214
+			426.231262 272.000000 255.945526
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			426.950836 -2.000000 255.903214
+			427.658325 -2.000000 255.848801
+			427.196716 -2.000000 257.895142
+			427.963196 272.000000 257.836182
+			427.196716 272.000000 257.895142
+			427.963196 -2.000000 257.836182
+			427.658325 272.000000 255.848801
+			426.950836 272.000000 255.903214
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			427.658325 -2.000000 255.848801
+			428.353729 -2.000000 255.782288
+			427.963196 -2.000000 257.836182
+			428.716553 272.000000 257.764099
+			427.963196 272.000000 257.836182
+			428.716553 -2.000000 257.764099
+			428.353729 272.000000 255.782288
+			427.658325 272.000000 255.848801
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			428.353729 -2.000000 255.782288
+			429.037018 -2.000000 255.703674
+			428.716553 -2.000000 257.764099
+			429.456787 272.000000 257.678955
+			428.716553 272.000000 257.764099
+			429.456787 -2.000000 257.678955
+			429.037018 272.000000 255.703674
+			428.353729 272.000000 255.782288
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			429.037018 -2.000000 255.703674
+			429.708191 -2.000000 255.612961
+			429.456787 -2.000000 257.678955
+			430.183899 272.000000 257.580688
+			429.456787 272.000000 257.678955
+			430.183899 -2.000000 257.580688
+			429.708191 272.000000 255.612961
+			429.037018 272.000000 255.703674
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			429.708191 -2.000000 255.612961
+			430.367310 -2.000000 255.510178
+			430.183868 -2.000000 257.580688
+			430.897949 272.000031 257.469360
+			430.183868 272.000000 257.580688
+			430.897949 -2.000000 257.469360
+			430.367310 272.000031 255.510178
+			429.708191 272.000000 255.612961
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			430.367310 -2.000000 255.510178
+			431.014343 -2.000000 255.395279
+			430.897949 -2.000000 257.469360
+			431.598846 272.000000 257.344849
+			430.897949 272.000031 257.469360
+			431.598846 -2.000000 257.344849
+			431.014343 272.000000 255.395279
+			430.367310 272.000031 255.510178
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			431.014343 -2.000000 255.395279
+			431.649231 -2.000000 255.268311
+			431.598877 -2.000000 257.344849
+			432.286682 272.000000 257.207275
+			431.598877 272.000000 257.344849
+			432.286682 -2.000000 257.207275
+			431.649231 272.000000 255.268311
+			431.014343 272.000000 255.395279
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			431.649231 -2.000000 255.268311
+			432.272095 -2.000000 255.129211
+			432.286682 -2.000000 257.207275
+			432.961426 272.000000 257.056641
+			432.286682 272.000000 257.207275
+			432.961426 -2.000000 257.056641
+			432.272095 272.000000 255.129211
+			431.649231 272.000000 255.268311
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			432.272095 -2.000000 255.129211
+			432.882813 -2.000000 254.978058
+			432.961426 -2.000000 257.056641
+			433.623077 272.000000 256.892883
+			432.961426 272.000000 257.056641
+			433.623077 -2.000000 256.892883
+			432.882813 272.000000 254.978058
+			432.272095 272.000000 255.129211
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			432.882813 -2.000000 254.978058
+			433.481445 -2.000000 254.814774
+			433.623047 -2.000000 256.892883
+			434.271545 272.000000 256.716003
+			433.623047 272.000000 256.892883
+			434.271545 -2.000000 256.716003
+			433.481445 272.000000 254.814774
+			432.882813 272.000000 254.978058
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			433.481445 -2.000000 254.814774
+			434.067993 -2.000000 254.639435
+			434.271545 -2.000000 256.716003
+			434.906982 272.000000 256.526001
+			434.271545 272.000000 256.716003
+			434.906982 -2.000000 256.526001
+			434.067993 272.000000 254.639435
+			433.481445 272.000000 254.814774
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			434.068024 -2.000000 254.639435
+			434.642456 -2.000000 254.451981
+			434.907013 -2.000000 256.526001
+			435.529327 272.000000 256.322937
+			434.907013 272.000000 256.526001
+			435.529327 -2.000000 256.322937
+			434.642456 272.000000 254.451981
+			434.068024 272.000000 254.639435
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			434.642456 -2.000000 254.451981
+			435.204834 -2.000000 254.252426
+			435.529327 -2.000000 256.322937
+			436.138550 272.000000 256.106781
+			435.529327 272.000000 256.322937
+			436.138550 -2.000000 256.106781
+			435.204834 272.000000 254.252426
+			434.642456 272.000000 254.451981
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			435.204834 -2.000000 254.252426
+			435.755127 -2.000000 254.040787
+			436.138550 -2.000000 256.106781
+			436.734680 272.000000 255.877487
+			436.138550 272.000000 256.106781
+			436.734680 -2.000000 255.877487
+			435.755127 272.000000 254.040787
+			435.204834 272.000000 254.252426
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			435.755096 -2.000000 254.040787
+			436.293243 -2.000000 253.817047
+			436.734680 -2.000000 255.877487
+			437.317688 272.000000 255.635117
+			436.734680 272.000000 255.877487
+			437.317688 -2.000000 255.635117
+			436.293243 272.000000 253.817047
+			435.755096 272.000000 254.040787
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			436.293243 -2.000000 253.817047
+			436.819336 -2.000000 253.581223
+			437.317688 -2.000000 255.635117
+			437.887604 272.000000 255.379623
+			437.317688 272.000000 255.635117
+			437.887604 -2.000000 255.379623
+			436.819336 272.000000 253.581223
+			436.293243 272.000000 253.817047
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			436.819336 -2.000000 253.581223
+			437.333313 -2.000000 253.333328
+			437.887604 -2.000000 255.379623
+			438.444458 272.000000 255.111069
+			437.887604 272.000000 255.379623
+			438.444458 -2.000000 255.111069
+			437.333313 272.000000 253.333328
+			436.819336 272.000000 253.581223
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			437.333313 -2.000000 253.333328
+			437.835205 -2.000000 253.073288
+			438.444458 -2.000000 255.111069
+			438.988159 272.000000 254.829376
+			438.444458 272.000000 255.111069
+			438.988159 -2.000000 254.829376
+			437.835205 272.000000 253.073288
+			437.333313 272.000000 253.333328
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			437.835205 -2.000000 253.073288
+			438.325012 -2.000000 252.801178
+			438.988159 -2.000000 254.829376
+			439.518738 272.000000 254.534592
+			438.988159 272.000000 254.829376
+			439.518738 -2.000000 254.534592
+			438.325012 272.000000 252.801178
+			437.835205 272.000000 253.073288
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			438.325012 -2.000000 252.801178
+			438.802734 -2.000000 252.516983
+			439.518738 -2.000000 254.534592
+			440.036285 272.000000 254.226715
+			439.518738 272.000000 254.534592
+			440.036285 -2.000000 254.226715
+			438.802734 272.000000 252.516983
+			438.325012 272.000000 252.801178
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			438.802734 -2.000000 252.516983
+			439.268311 -2.000000 252.220688
+			440.036316 -2.000000 254.226715
+			440.540710 272.000000 253.905701
+			440.036316 272.000000 254.226715
+			440.540710 -2.000000 253.905701
+			439.268311 272.000000 252.220688
+			438.802734 272.000000 252.516983
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			439.268311 -2.000000 252.220688
+			439.721863 -2.000000 251.912292
+			440.540680 -2.000000 253.905701
+			441.032013 272.000000 253.571640
+			440.540680 272.000000 253.905701
+			441.032013 -2.000000 253.571640
+			439.721863 272.000000 251.912292
+			439.268311 272.000000 252.220688
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			439.721863 -2.000000 251.912292
+			440.163269 -2.000000 251.591812
+			441.032013 -2.000000 253.571640
+			441.510193 272.000000 253.224442
+			441.032013 272.000000 253.571640
+			441.510193 -2.000000 253.224442
+			440.163269 272.000000 251.591812
+			439.721863 272.000000 251.912292
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			440.163269 -2.000000 251.591812
+			440.592590 -2.000000 251.259232
+			441.510193 -2.000000 253.224442
+			441.975311 272.000000 252.864151
+			441.510193 272.000000 253.224442
+			441.975311 -2.000000 252.864151
+			440.592590 272.000000 251.259232
+			440.163269 272.000000 251.591812
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			440.592590 -2.000000 251.259232
+			441.009827 -2.000000 250.914566
+			441.975311 -2.000000 252.864151
+			442.427307 272.000000 252.490768
+			441.975311 272.000000 252.864151
+			442.427307 -2.000000 252.490768
+			441.009827 272.000000 250.914566
+			440.592590 272.000000 251.259232
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			441.009827 -2.000000 250.914566
+			441.414978 -2.000000 250.557800
+			442.427307 -2.000000 252.490768
+			442.866211 272.000000 252.104248
+			442.427307 272.000000 252.490768
+			442.866211 -2.000000 252.104248
+			441.414978 272.000000 250.557800
+			441.009827 272.000000 250.914566
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			441.414978 -2.000000 250.557800
+			441.808044 -2.000000 250.188934
+			442.866211 -2.000000 252.104248
+			443.292023 272.000000 251.704681
+			442.866211 272.000000 252.104248
+			443.292023 -2.000000 251.704681
+			441.808044 272.000000 250.188934
+			441.414978 272.000000 250.557800
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			441.808014 -2.000000 250.188934
+			442.188965 -2.000000 249.807983
+			443.291992 -2.000000 251.704681
+			443.704712 272.000000 251.291962
+			443.291992 272.000000 251.704681
+			443.704712 -2.000000 251.291962
+			442.188965 272.000000 249.807983
+			441.808014 272.000000 250.188934
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			442.188965 -2.000000 249.807983
+			442.557800 -2.000000 249.414948
+			443.704712 -2.000000 251.291962
+			444.104309 272.000000 250.866165
+			443.704712 272.000000 251.291962
+			444.104309 -2.000000 250.866165
+			442.557800 272.000000 249.414948
+			442.188965 272.000000 249.807983
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			442.557800 -2.000000 249.414948
+			442.914551 -2.000000 249.009796
+			444.104309 -2.000000 250.866165
+			444.490784 272.000000 250.427261
+			444.104309 272.000000 250.866165
+			444.490784 -2.000000 250.427261
+			442.914551 272.000000 249.009796
+			442.557800 272.000000 249.414948
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			442.914551 -2.000000 249.009796
+			443.259216 -2.000000 248.592560
+			444.490784 -2.000000 250.427261
+			444.864136 271.999969 249.975250
+			444.490784 272.000000 250.427261
+			444.864136 -2.000000 249.975250
+			443.259216 271.999969 248.592560
+			442.914551 272.000000 249.009796
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			443.259247 -2.000000 248.592560
+			443.591827 -2.000000 248.163239
+			444.864166 -2.000000 249.975250
+			445.224487 272.000000 249.510147
+			444.864166 271.999969 249.975250
+			445.224487 -2.000000 249.510147
+			443.591827 272.000000 248.163239
+			443.259247 271.999969 248.592560
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			443.591827 -2.000000 248.163239
+			443.912323 -2.000000 247.721817
+			445.224487 -2.000000 249.510147
+			445.571686 272.000000 249.031967
+			445.224487 272.000000 249.510147
+			445.571686 -2.000000 249.031967
+			443.912323 272.000000 247.721817
+			443.591827 272.000000 248.163239
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			443.912323 -2.000000 247.721817
+			444.220734 -2.000000 247.268326
+			445.571686 -2.000000 249.031967
+			445.905792 272.000031 248.540665
+			445.571686 272.000000 249.031967
+			445.905792 -2.000000 248.540665
+			444.220734 272.000031 247.268326
+			443.912323 272.000000 247.721817
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			444.220734 -2.000000 247.268326
+			444.516998 -2.000000 246.802704
+			445.905792 -2.000000 248.540665
+			446.226746 272.000000 248.036240
+			445.905792 272.000031 248.540665
+			446.226746 -2.000000 248.036240
+			444.516998 272.000000 246.802704
+			444.220734 272.000031 247.268326
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			444.516998 -2.000000 246.802704
+			444.801208 -2.000000 246.324997
+			446.226746 -2.000000 248.036240
+			446.534637 272.000000 247.518723
+			446.226746 272.000000 248.036240
+			446.534637 -2.000000 247.518723
+			444.801208 272.000000 246.324997
+			444.516998 272.000000 246.802704
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			444.801208 -2.000000 246.324997
+			445.073303 -2.000000 245.835190
+			446.534668 -2.000000 247.518723
+			446.829407 271.999969 246.988129
+			446.534668 272.000000 247.518723
+			446.829407 -2.000000 246.988129
+			445.073303 271.999969 245.835190
+			444.801208 272.000000 246.324997
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			445.073303 -2.000000 245.835190
+			445.333344 -2.000000 245.333328
+			446.829407 -2.000000 246.988129
+			447.111115 272.000000 246.444427
+			446.829407 271.999969 246.988129
+			447.111115 -2.000000 246.444427
+			445.333344 272.000000 245.333328
+			445.073303 271.999969 245.835190
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			445.333344 -2.000000 245.333328
+			445.581238 -2.000000 244.819336
+			447.111115 -2.000000 246.444427
+			447.379700 272.000000 245.887604
+			447.111115 272.000000 246.444427
+			447.379700 -2.000000 245.887604
+			445.581238 272.000000 244.819336
+			445.333344 272.000000 245.333328
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			445.581238 -2.000000 244.819336
+			445.817078 -2.000000 244.293243
+			447.379700 -2.000000 245.887604
+			447.635193 272.000000 245.317673
+			447.379700 272.000000 245.887604
+			447.635193 -2.000000 245.317673
+			445.817078 272.000000 244.293243
+			445.581238 272.000000 244.819336
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			445.817078 -2.000000 244.293243
+			446.040833 -2.000000 243.755096
+			447.635193 -2.000000 245.317673
+			447.877563 272.000031 244.734680
+			447.635193 272.000000 245.317673
+			447.877563 -2.000000 244.734680
+			446.040833 272.000031 243.755096
+			445.817078 272.000000 244.293243
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			446.040833 -2.000000 243.755096
+			446.252441 -2.000000 243.204819
+			447.877563 -2.000000 244.734680
+			448.106812 271.999969 244.138550
+			447.877563 272.000031 244.734680
+			448.106812 -2.000000 244.138550
+			446.252441 271.999969 243.204819
+			446.040833 272.000031 243.755096
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			446.252441 -2.000000 243.204819
+			446.451996 -2.000000 242.642456
+			448.106812 -2.000000 244.138550
+			448.322998 272.000000 243.529327
+			448.106812 271.999969 244.138550
+			448.322998 -2.000000 243.529327
+			446.451996 272.000000 242.642456
+			446.252441 271.999969 243.204819
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			446.451996 -2.000000 242.642456
+			446.639435 -2.000000 242.068008
+			448.322998 -2.000000 243.529327
+			448.526062 271.999969 242.906982
+			448.322998 272.000000 243.529327
+			448.526062 -2.000000 242.906982
+			446.639435 271.999969 242.068008
+			446.451996 272.000000 242.642456
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			446.639435 -2.000000 242.068008
+			446.814819 -2.000000 241.481476
+			448.526062 -2.000000 242.906982
+			448.716064 272.000000 242.271591
+			448.526062 271.999969 242.906982
+			448.716064 -2.000000 242.271591
+			446.814819 272.000000 241.481476
+			446.639435 271.999969 242.068008
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			446.814819 -2.000000 241.481476
+			446.978088 -2.000000 240.882828
+			448.716064 -2.000000 242.271591
+			448.892944 272.000000 241.623047
+			448.716064 272.000000 242.271591
+			448.892944 -2.000000 241.623047
+			446.978088 272.000000 240.882828
+			446.814819 272.000000 241.481476
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			446.978088 -2.000000 240.882828
+			447.129272 -2.000000 240.272095
+			448.892944 -2.000000 241.623047
+			449.056702 272.000000 240.961441
+			448.892944 272.000000 241.623047
+			449.056702 -2.000000 240.961441
+			447.129272 272.000000 240.272095
+			446.978088 272.000000 240.882828
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			447.129272 -2.000000 240.272095
+			447.268372 -2.000000 239.649307
+			449.056702 -2.000000 240.961441
+			449.207397 272.000061 240.286743
+			449.056702 272.000000 240.961441
+			449.207397 -2.000000 240.286743
+			447.268372 272.000061 239.649307
+			447.129272 272.000000 240.272095
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			447.268372 -2.000000 239.649307
+			447.395264 -2.000000 239.014328
+			449.207397 -2.000000 240.286743
+			449.344910 272.000000 239.598846
+			449.207397 272.000061 240.286743
+			449.344910 -2.000000 239.598846
+			447.395264 272.000000 239.014328
+			447.268372 272.000061 239.649307
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			447.395294 -2.000000 239.014328
+			447.510193 -2.000000 238.367340
+			449.344910 -2.000000 239.598846
+			449.469360 272.000000 238.897949
+			449.344910 272.000000 239.598846
+			449.469360 -2.000000 238.897949
+			447.510193 272.000000 238.367340
+			447.395294 272.000000 239.014328
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			447.510193 -2.000000 238.367340
+			447.612976 -2.000000 237.708206
+			449.469360 -2.000000 238.897949
+			449.580688 271.999969 238.183884
+			449.469360 272.000000 238.897949
+			449.580688 -2.000000 238.183884
+			447.612976 271.999969 237.708206
+			447.510193 272.000000 238.367340
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			447.612976 -2.000000 237.708206
+			447.703674 -2.000000 237.037018
+			449.580719 -2.000000 238.183884
+			449.678986 271.999969 237.456757
+			449.580719 271.999969 238.183884
+			449.678986 -2.000000 237.456757
+			447.703674 271.999969 237.037018
+			447.612976 271.999969 237.708206
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			447.703674 -2.000000 237.037018
+			447.782288 -2.000000 236.353729
+			449.678986 -2.000000 237.456757
+			449.764160 272.000000 236.716537
+			449.678986 271.999969 237.456757
+			449.764160 -2.000000 236.716537
+			447.782288 272.000000 236.353729
+			447.703674 271.999969 237.037018
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			447.782288 -2.000000 236.353729
+			447.848846 -2.000000 235.658356
+			449.764160 -2.000000 236.716537
+			449.836243 272.000031 235.963226
+			449.764160 272.000000 236.716537
+			449.836243 -2.000000 235.963226
+			447.848846 272.000031 235.658356
+			447.782288 272.000000 236.353729
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			447.848877 -2.000000 235.658356
+			447.903290 -2.000000 234.950882
+			449.836243 -2.000000 235.963226
+			449.895203 272.000031 235.196777
+			449.836243 272.000031 235.963226
+			449.895203 -2.000000 235.196777
+			447.903290 272.000031 234.950882
+			447.848877 272.000031 235.658356
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			447.903259 -2.000000 234.950882
+			447.945587 -2.000000 234.231323
+			449.895203 -2.000000 235.196777
+			449.941040 272.000031 234.417252
+			449.895203 272.000031 235.196777
+			449.941040 -2.000000 234.417252
+			447.945587 272.000031 234.231323
+			447.903259 272.000031 234.950882
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			447.945618 -2.000000 234.231323
+			447.975830 -2.000000 233.499634
+			449.941101 -2.000000 234.417252
+			449.973816 272.000031 233.624603
+			449.941101 272.000031 234.417252
+			449.973816 -2.000000 233.624603
+			447.975830 272.000031 233.499634
+			447.945618 272.000031 234.231323
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			447.975830 -2.000000 233.499634
+			447.993958 -2.000000 232.755859
+			449.973816 -2.000000 233.624603
+			449.993469 272.000000 232.818848
+			449.973816 272.000031 233.624603
+			449.993469 -2.000000 232.818848
+			447.993958 272.000000 232.755859
+			447.975830 272.000031 233.499634
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			447.993958 -2.000000 232.755859
+			448.000000 -2.000000 232.000000
+			449.993469 -2.000000 232.818848
+			450.000000 272.000000 232.000000
+			449.993469 272.000000 232.818848
+			450.000000 -2.000000 232.000000
+			448.000000 272.000000 232.000000
+			447.993958 272.000000 232.755859
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			447.999969 272.000000 -744.000000
+			449.999939 272.000000 -744.000000
+			450.000031 272.000000 -768.000000
+			448.000000 272.000000 -768.000122
+			447.999969 -2.000000 -744.000000
+			449.999939 -2.000000 -744.000000
+			450.000031 -2.000000 -768.000000
+			448.000000 -2.000000 -768.000122
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			424.000000 272.000000 -770.000122
+			424.000031 272.000000 -768.000122
+			448.000000 272.000000 -768.000122
+			448.000031 272.000000 -770.000061
+			424.000000 -2.000000 -770.000122
+			424.000031 -2.000000 -768.000122
+			448.000000 -2.000000 -768.000122
+			448.000031 -2.000000 -770.000061
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 
+	brush
+		vertices
+			447.999969 -2.000000 -744.000000
+			447.993896 -2.000000 -744.755859
+			449.999939 -2.000000 -744.000061
+			449.993347 272.000000 -744.818909
+			449.999939 272.000000 -744.000061
+			449.993347 -2.000000 -744.818909
+			447.993896 272.000000 -744.755859
+			447.999969 272.000000 -744.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			447.993896 -2.000000 -744.755859
+			447.975739 -2.000000 -745.499695
+			449.993347 -2.000000 -744.818909
+			449.973663 272.000000 -745.624695
+			449.993347 272.000000 -744.818909
+			449.973663 -2.000000 -745.624695
+			447.975739 272.000000 -745.499695
+			447.993896 272.000000 -744.755859
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			447.975739 -2.000000 -745.499695
+			447.945465 -2.000000 -746.231384
+			449.973663 -2.000000 -745.624695
+			449.940918 272.000000 -746.417297
+			449.973663 272.000000 -745.624695
+			449.940918 -2.000000 -746.417297
+			447.945465 272.000000 -746.231384
+			447.975739 272.000000 -745.499695
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			447.945465 -2.000000 -746.231384
+			447.903107 -2.000000 -746.950928
+			449.940918 -2.000000 -746.417297
+			449.895020 272.000000 -747.196960
+			449.940918 272.000000 -746.417297
+			449.895020 -2.000000 -747.196960
+			447.903107 272.000000 -746.950928
+			447.945465 272.000000 -746.231384
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			447.903107 -2.000000 -746.950928
+			447.848724 -2.000000 -747.658508
+			449.895020 -2.000000 -747.196960
+			449.836090 272.000000 -747.963379
+			449.895020 272.000000 -747.196960
+			449.836090 -2.000000 -747.963379
+			447.848724 272.000000 -747.658508
+			447.903107 272.000000 -746.950928
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			447.848724 -2.000000 -747.658508
+			447.782135 -2.000000 -748.353882
+			449.836090 -2.000000 -747.963379
+			449.763977 272.000000 -748.716797
+			449.836090 272.000000 -747.963379
+			449.763977 -2.000000 -748.716797
+			447.782135 272.000000 -748.353882
+			447.848724 272.000000 -747.658508
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			447.782135 -2.000000 -748.353882
+			447.703552 -2.000000 -749.037231
+			449.763977 -2.000000 -748.716797
+			449.678802 272.000000 -749.457031
+			449.763977 272.000000 -748.716797
+			449.678802 -2.000000 -749.457031
+			447.703552 272.000000 -749.037231
+			447.782135 272.000000 -748.353882
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			447.703552 -2.000000 -749.037231
+			447.612793 -2.000000 -749.708374
+			449.678802 -2.000000 -749.457031
+			449.580505 272.000000 -750.184143
+			449.678802 272.000000 -749.457031
+			449.580505 -2.000000 -750.184143
+			447.612793 272.000000 -749.708374
+			447.703552 272.000000 -749.037231
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			447.612793 -2.000000 -749.708374
+			447.510010 -2.000000 -750.367554
+			449.580505 -2.000000 -750.184143
+			449.469177 272.000031 -750.898193
+			449.580505 272.000000 -750.184143
+			449.469177 -2.000000 -750.898193
+			447.510010 272.000031 -750.367554
+			447.612793 272.000000 -749.708374
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			447.510010 -2.000000 -750.367554
+			447.395142 -2.000000 -751.014526
+			449.469177 -2.000000 -750.898193
+			449.344635 272.000000 -751.599121
+			449.469177 272.000031 -750.898193
+			449.344635 -2.000000 -751.599121
+			447.395142 272.000000 -751.014526
+			447.510010 272.000031 -750.367554
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			447.395142 -2.000000 -751.014526
+			447.268127 -2.000000 -751.649475
+			449.344635 -2.000000 -751.599121
+			449.207123 272.000000 -752.286987
+			449.344635 272.000000 -751.599121
+			449.207123 -2.000000 -752.286987
+			447.268127 272.000000 -751.649475
+			447.395142 272.000000 -751.014526
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			447.268127 -2.000000 -751.649475
+			447.129028 -2.000000 -752.272339
+			449.207123 -2.000000 -752.286987
+			449.056458 272.000000 -752.961731
+			449.207123 272.000000 -752.286987
+			449.056458 -2.000000 -752.961731
+			447.129028 272.000000 -752.272339
+			447.268127 272.000000 -751.649475
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			447.129028 -2.000000 -752.272339
+			446.977875 -2.000000 -752.883118
+			449.056458 -2.000000 -752.961731
+			448.892609 272.000000 -753.623413
+			449.056458 272.000000 -752.961731
+			448.892609 -2.000000 -753.623413
+			446.977875 272.000000 -752.883118
+			447.129028 272.000000 -752.272339
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			446.977875 -2.000000 -752.883118
+			446.814575 -2.000000 -753.481689
+			448.892609 -2.000000 -753.623413
+			448.715729 272.000000 -754.271851
+			448.892609 272.000000 -753.623413
+			448.715729 -2.000000 -754.271851
+			446.814575 272.000000 -753.481689
+			446.977875 272.000000 -752.883118
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			446.814575 -2.000000 -753.481689
+			446.639191 -2.000000 -754.068420
+			448.715729 -2.000000 -754.271851
+			448.525787 272.000000 -754.907471
+			448.715729 272.000000 -754.271851
+			448.525787 -2.000000 -754.907471
+			446.639191 272.000000 -754.068420
+			446.814575 272.000000 -753.481689
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			446.639191 -2.000000 -754.068420
+			446.451721 -2.000000 -754.642761
+			448.525787 -2.000000 -754.907471
+			448.322693 272.000000 -755.529724
+			448.525787 272.000000 -754.907471
+			448.322693 -2.000000 -755.529724
+			446.451721 272.000000 -754.642761
+			446.639191 272.000000 -754.068420
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			446.451721 -2.000000 -754.642761
+			446.252136 -2.000000 -755.205200
+			448.322693 -2.000000 -755.529724
+			448.106506 272.000000 -756.138916
+			448.322693 272.000000 -755.529724
+			448.106506 -2.000000 -756.138916
+			446.252136 272.000000 -755.205200
+			446.451721 272.000000 -754.642761
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			446.252136 -2.000000 -755.205200
+			446.040558 -2.000000 -755.755432
+			448.106506 -2.000000 -756.138916
+			447.877197 272.000000 -756.735046
+			448.106506 272.000000 -756.138916
+			447.877197 -2.000000 -756.735046
+			446.040558 272.000000 -755.755432
+			446.252136 272.000000 -755.205200
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			446.040558 -2.000000 -755.755432
+			445.816803 -2.000000 -756.293579
+			447.877197 -2.000000 -756.735046
+			447.634827 272.000000 -757.318054
+			447.877197 272.000000 -756.735046
+			447.634827 -2.000000 -757.318054
+			445.816803 272.000000 -756.293579
+			446.040558 272.000000 -755.755432
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			445.816803 -2.000000 -756.293579
+			445.580963 -2.000000 -756.819702
+			447.634827 -2.000000 -757.318054
+			447.379364 272.000000 -757.888000
+			447.634827 272.000000 -757.318054
+			447.379364 -2.000000 -757.888000
+			445.580963 272.000000 -756.819702
+			445.816803 272.000000 -756.293579
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			445.580963 -2.000000 -756.819702
+			445.333069 -2.000000 -757.333679
+			447.379364 -2.000000 -757.888000
+			447.110748 272.000000 -758.444885
+			447.379364 272.000000 -757.888000
+			447.110748 -2.000000 -758.444885
+			445.333069 272.000000 -757.333679
+			445.580963 272.000000 -756.819702
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			445.333069 -2.000000 -757.333679
+			445.073029 -2.000000 -757.835571
+			447.110748 -2.000000 -758.444885
+			446.829071 272.000000 -758.988586
+			447.110748 272.000000 -758.444885
+			446.829071 -2.000000 -758.988586
+			445.073029 272.000000 -757.835571
+			445.333069 272.000000 -757.333679
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			445.073029 -2.000000 -757.835571
+			444.800903 -2.000000 -758.325378
+			446.829071 -2.000000 -758.988586
+			446.534302 272.000000 -759.519104
+			446.829071 272.000000 -758.988586
+			446.534302 -2.000000 -759.519104
+			444.800903 272.000000 -758.325378
+			445.073029 272.000000 -757.835571
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			444.800903 -2.000000 -758.325378
+			444.516693 -2.000000 -758.803040
+			446.534302 -2.000000 -759.519104
+			446.226379 272.000000 -760.036682
+			446.534302 272.000000 -759.519104
+			446.226379 -2.000000 -760.036682
+			444.516693 272.000000 -758.803040
+			444.800903 272.000000 -758.325378
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			444.516693 -2.000000 -758.803040
+			444.220367 -2.000000 -759.268677
+			446.226379 -2.000000 -760.036682
+			445.905396 272.000000 -760.541077
+			446.226379 272.000000 -760.036682
+			445.905396 -2.000000 -760.541077
+			444.220367 272.000000 -759.268677
+			444.516693 272.000000 -758.803040
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			444.220367 -2.000000 -759.268677
+			443.912048 -2.000000 -759.722229
+			445.905396 -2.000000 -760.541077
+			445.571350 272.000000 -761.032410
+			445.905396 272.000000 -760.541077
+			445.571350 -2.000000 -761.032410
+			443.912048 272.000000 -759.722229
+			444.220367 272.000000 -759.268677
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			443.912048 -2.000000 -759.722229
+			443.591522 -2.000000 -760.163635
+			445.571350 -2.000000 -761.032410
+			445.224121 272.000000 -761.510620
+			445.571350 272.000000 -761.032410
+			445.224121 -2.000000 -761.510620
+			443.591522 272.000000 -760.163635
+			443.912048 272.000000 -759.722229
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			443.591522 -2.000000 -760.163635
+			443.258942 -2.000000 -760.592957
+			445.224121 -2.000000 -761.510620
+			444.863861 272.000000 -761.975647
+			445.224121 272.000000 -761.510620
+			444.863861 -2.000000 -761.975647
+			443.258942 272.000000 -760.592957
+			443.591522 272.000000 -760.163635
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			443.258942 -2.000000 -760.592957
+			442.914276 -2.000000 -761.010193
+			444.863861 -2.000000 -761.975647
+			444.490448 272.000000 -762.427673
+			444.863861 272.000000 -761.975647
+			444.490448 -2.000000 -762.427673
+			442.914276 272.000000 -761.010193
+			443.258942 272.000000 -760.592957
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			442.914276 -2.000000 -761.010193
+			442.557526 -2.000000 -761.415344
+			444.490448 -2.000000 -762.427673
+			444.103943 272.000000 -762.866699
+			444.490448 272.000000 -762.427673
+			444.103943 -2.000000 -762.866699
+			442.557526 272.000000 -761.415344
+			442.914276 272.000000 -761.010193
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			442.557526 -2.000000 -761.415344
+			442.188690 -2.000000 -761.808411
+			444.103943 -2.000000 -762.866699
+			443.704376 272.000000 -763.292480
+			444.103943 272.000000 -762.866699
+			443.704376 -2.000000 -763.292480
+			442.188690 272.000000 -761.808411
+			442.557526 272.000000 -761.415344
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			442.188690 -2.000000 -761.808411
+			441.807709 -2.000000 -762.189331
+			443.704376 -2.000000 -763.292480
+			443.291687 272.000000 -763.705139
+			443.704376 272.000000 -763.292480
+			443.291687 -2.000000 -763.705139
+			441.807709 272.000000 -762.189331
+			442.188690 272.000000 -761.808411
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			441.807709 -2.000000 -762.189331
+			441.414703 -2.000000 -762.558228
+			443.291687 -2.000000 -763.705139
+			442.865906 272.000000 -764.104736
+			443.291687 272.000000 -763.705139
+			442.865906 -2.000000 -764.104736
+			441.414703 272.000000 -762.558228
+			441.807709 272.000000 -762.189331
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			441.414703 -2.000000 -762.558228
+			441.009491 -2.000000 -762.914917
+			442.865906 -2.000000 -764.104736
+			442.426941 272.000000 -764.491211
+			442.865906 272.000000 -764.104736
+			442.426941 -2.000000 -764.491211
+			441.009491 272.000000 -762.914917
+			441.414703 272.000000 -762.558228
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			441.009491 -2.000000 -762.914917
+			440.592316 -2.000000 -763.259644
+			442.426941 -2.000000 -764.491211
+			441.974976 271.999969 -764.864563
+			442.426941 272.000000 -764.491211
+			441.974976 -2.000000 -764.864563
+			440.592316 271.999969 -763.259644
+			441.009491 272.000000 -762.914917
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			440.592316 -2.000000 -763.259644
+			440.162964 -2.000000 -763.592163
+			441.974976 -2.000000 -764.864563
+			441.509857 272.000000 -765.224854
+			441.974976 271.999969 -764.864563
+			441.509857 -2.000000 -765.224854
+			440.162964 272.000000 -763.592163
+			440.592316 271.999969 -763.259644
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			440.162964 -2.000000 -763.592163
+			439.721558 -2.000000 -763.912720
+			441.509857 -2.000000 -765.224854
+			441.031708 272.000000 -765.572083
+			441.509857 272.000000 -765.224854
+			441.031708 -2.000000 -765.572083
+			439.721558 272.000000 -763.912720
+			440.162964 272.000000 -763.592163
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			439.721558 -2.000000 -763.912720
+			439.268127 -2.000000 -764.221130
+			441.031708 -2.000000 -765.572083
+			440.540436 272.000031 -765.906250
+			441.031708 272.000000 -765.572083
+			440.540436 -2.000000 -765.906250
+			439.268127 272.000031 -764.221130
+			439.721558 272.000000 -763.912720
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			439.268127 -2.000000 -764.221130
+			438.802460 -2.000000 -764.517395
+			440.540436 -2.000000 -765.906250
+			440.036011 272.000000 -766.227112
+			440.540436 272.000031 -765.906250
+			440.036011 -2.000000 -766.227112
+			438.802460 272.000000 -764.517395
+			439.268127 272.000031 -764.221130
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			438.802460 -2.000000 -764.517395
+			438.324768 -2.000000 -764.801514
+			440.036011 -2.000000 -766.227112
+			439.518463 272.000000 -766.534973
+			440.036011 272.000000 -766.227112
+			439.518463 -2.000000 -766.534973
+			438.324768 272.000000 -764.801514
+			438.802460 272.000000 -764.517395
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			438.324768 -2.000000 -764.801514
+			437.834991 -2.000000 -765.073608
+			439.518463 -2.000000 -766.534973
+			438.987854 271.999969 -766.829712
+			439.518463 272.000000 -766.534973
+			438.987854 -2.000000 -766.829712
+			437.834991 271.999969 -765.073608
+			438.324768 272.000000 -764.801514
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			437.834991 -2.000000 -765.073608
+			437.333160 -2.000000 -765.333740
+			438.987854 -2.000000 -766.829712
+			438.444214 272.000000 -767.111511
+			438.987854 271.999969 -766.829712
+			438.444214 -2.000000 -767.111511
+			437.333160 272.000000 -765.333740
+			437.834991 271.999969 -765.073608
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			437.333160 -2.000000 -765.333740
+			436.819153 -2.000000 -765.581604
+			438.444214 -2.000000 -767.111511
+			437.887360 272.000000 -767.380005
+			438.444214 272.000000 -767.111511
+			437.887360 -2.000000 -767.380005
+			436.819153 272.000000 -765.581604
+			437.333160 272.000000 -765.333740
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			436.819153 -2.000000 -765.581604
+			436.293060 -2.000000 -765.817383
+			437.887360 -2.000000 -767.380005
+			437.317474 272.000000 -767.635498
+			437.887360 272.000000 -767.380005
+			437.317474 -2.000000 -767.635498
+			436.293060 272.000000 -765.817383
+			436.819153 272.000000 -765.581604
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			436.293060 -2.000000 -765.817383
+			435.754944 -2.000000 -766.041260
+			437.317474 -2.000000 -767.635498
+			436.734528 272.000031 -767.877930
+			437.317474 272.000000 -767.635498
+			436.734528 -2.000000 -767.877930
+			435.754944 272.000031 -766.041260
+			436.293060 272.000000 -765.817383
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			435.754944 -2.000000 -766.041260
+			435.204651 -2.000000 -766.252747
+			436.734528 -2.000000 -767.877930
+			436.138336 271.999969 -768.107117
+			436.734528 272.000031 -767.877930
+			436.138336 -2.000000 -768.107117
+			435.204651 271.999969 -766.252747
+			435.754944 272.000031 -766.041260
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			435.204651 -2.000000 -766.252747
+			434.642303 -2.000000 -766.452332
+			436.138336 -2.000000 -768.107117
+			435.529144 272.000000 -768.323303
+			436.138336 271.999969 -768.107117
+			435.529144 -2.000000 -768.323303
+			434.642303 272.000000 -766.452332
+			435.204651 271.999969 -766.252747
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			434.642303 -2.000000 -766.452332
+			434.067841 -2.000000 -766.639709
+			435.529144 -2.000000 -768.323303
+			434.906799 271.999969 -768.526306
+			435.529144 272.000000 -768.323303
+			434.906799 -2.000000 -768.526306
+			434.067841 271.999969 -766.639709
+			434.642303 272.000000 -766.452332
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			434.067841 -2.000000 -766.639709
+			433.481354 -2.000000 -766.815125
+			434.906799 -2.000000 -768.526306
+			434.271423 272.000000 -768.716431
+			434.906799 271.999969 -768.526306
+			434.271423 -2.000000 -768.716431
+			433.481354 272.000000 -766.815125
+			434.067841 271.999969 -766.639709
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			433.481354 -2.000000 -766.815125
+			432.882690 -2.000000 -766.978394
+			434.271423 -2.000000 -768.716431
+			433.622894 272.000000 -768.893188
+			434.271423 272.000000 -768.716431
+			433.622894 -2.000000 -768.893188
+			432.882690 272.000000 -766.978394
+			433.481354 272.000000 -766.815125
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			432.882690 -2.000000 -766.978394
+			432.272034 -2.000000 -767.129517
+			433.622894 -2.000000 -768.893188
+			432.961304 272.000000 -769.057007
+			433.622894 272.000000 -768.893188
+			432.961304 -2.000000 -769.057007
+			432.272034 272.000000 -767.129517
+			432.882690 272.000000 -766.978394
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			432.272034 -2.000000 -767.129517
+			431.649261 -2.000000 -767.268677
+			432.961304 -2.000000 -769.057007
+			432.286682 272.000061 -769.207764
+			432.961304 272.000000 -769.057007
+			432.286682 -2.000000 -769.207764
+			431.649261 272.000061 -767.268677
+			432.272034 272.000000 -767.129517
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			431.649261 -2.000000 -767.268677
+			431.014252 -2.000000 -767.395508
+			432.286682 -2.000000 -769.207764
+			431.598724 272.000000 -769.345093
+			432.286682 272.000061 -769.207764
+			431.598724 -2.000000 -769.345093
+			431.014252 272.000000 -767.395508
+			431.649261 272.000061 -767.268677
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			431.014252 -2.000000 -767.395508
+			430.367249 -2.000000 -767.510437
+			431.598724 -2.000000 -769.345093
+			430.897827 272.000000 -769.469543
+			431.598724 272.000000 -769.345093
+			430.897827 -2.000000 -769.469543
+			430.367249 272.000000 -767.510437
+			431.014252 272.000000 -767.395508
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			430.367249 -2.000000 -767.510437
+			429.708099 -2.000000 -767.613098
+			430.897827 -2.000000 -769.469543
+			430.183746 271.999969 -769.580872
+			430.897827 272.000000 -769.469543
+			430.183746 -2.000000 -769.580872
+			429.708099 271.999969 -767.613098
+			430.367249 272.000000 -767.510437
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			429.708099 -2.000000 -767.613098
+			429.036926 -2.000000 -767.703796
+			430.183746 -2.000000 -769.580872
+			429.456635 271.999969 -769.679138
+			430.183746 271.999969 -769.580872
+			429.456635 -2.000000 -769.679138
+			429.036926 271.999969 -767.703796
+			429.708099 271.999969 -767.613098
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			429.036926 -2.000000 -767.703796
+			428.353638 -2.000000 -767.782471
+			429.456635 -2.000000 -769.679138
+			428.716431 272.000000 -769.764343
+			429.456635 271.999969 -769.679138
+			428.716431 -2.000000 -769.764343
+			428.353638 272.000000 -767.782471
+			429.036926 271.999969 -767.703796
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			428.353638 -2.000000 -767.782471
+			427.658356 -2.000000 -767.849060
+			428.716431 -2.000000 -769.764343
+			427.963196 272.000031 -769.836487
+			428.716431 272.000000 -769.764343
+			427.963196 -2.000000 -769.836487
+			427.658356 272.000031 -767.849060
+			428.353638 272.000000 -767.782471
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			427.658356 -2.000000 -767.849060
+			426.950867 -2.000000 -767.903503
+			427.963196 -2.000000 -769.836487
+			427.196747 272.000031 -769.895447
+			427.963196 272.000031 -769.836487
+			427.196747 -2.000000 -769.895447
+			426.950867 272.000031 -767.903503
+			427.658356 272.000031 -767.849060
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			426.950867 -2.000000 -767.903503
+			426.231354 -2.000000 -767.945801
+			427.196747 -2.000000 -769.895447
+			426.417236 272.000031 -769.941345
+			427.196747 272.000031 -769.895447
+			426.417236 -2.000000 -769.941345
+			426.231354 272.000031 -767.945801
+			426.950867 272.000031 -767.903503
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			426.231354 -2.000000 -767.945801
+			425.499664 -2.000000 -767.976013
+			426.417236 -2.000000 -769.941345
+			425.624603 272.000031 -769.973999
+			426.417236 272.000031 -769.941345
+			425.624603 -2.000000 -769.973999
+			425.499664 272.000031 -767.976013
+			426.231354 272.000031 -767.945801
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+	brush
+		vertices
+			425.499664 -2.000000 -767.976013
+			424.755890 -2.000000 -767.994080
+			425.624603 -2.000000 -769.973999
+			424.818848 272.000000 -769.993652
+			425.624603 272.000031 -769.973999
+			424.818848 -2.000000 -769.993652
+			424.755890 272.000000 -767.994080
+			425.499664 272.000031 -767.976013
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 
+	brush
+		vertices
+			424.755890 -2.000000 -767.994080
+			424.000031 -2.000000 -768.000122
+			424.818848 -2.000000 -769.993652
+			424.000000 272.000000 -770.000122
+			424.818848 272.000000 -769.993652
+			424.000000 -2.000000 -770.000122
+			424.000031 272.000000 -768.000122
+			424.755890 272.000000 -767.994080
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 
+	brush
+		vertices
+			-576.000000 272.000000 233.999969
+			-575.993896 272.000000 234.755814
+			-577.999939 272.000000 233.999954
+			-577.993347 704.000000 234.818787
+			-577.999939 704.000000 233.999954
+			-577.993347 272.000000 234.818787
+			-575.993896 704.000000 234.755814
+			-576.000000 704.000000 233.999969
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-575.993896 272.000000 234.755814
+			-575.975830 272.000000 235.499588
+			-577.993347 272.000000 234.818787
+			-577.973755 704.000000 235.624542
+			-577.993347 704.000000 234.818787
+			-577.973755 272.000000 235.624542
+			-575.975830 704.000000 235.499588
+			-575.993896 704.000000 234.755814
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 7 0 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-575.975830 272.000000 235.499588
+			-575.945557 272.000000 236.231232
+			-577.973755 272.000000 235.624542
+			-577.940979 704.000000 236.417175
+			-577.973755 704.000000 235.624542
+			-577.940979 272.000000 236.417175
+			-575.945557 704.000000 236.231232
+			-575.975830 704.000000 235.499588
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-575.945557 272.000000 236.231232
+			-575.903198 272.000000 236.950806
+			-577.940979 272.000000 236.417175
+			-577.895081 704.000000 237.196716
+			-577.940979 704.000000 236.417175
+			-577.895081 272.000000 237.196716
+			-575.903198 704.000000 236.950806
+			-575.945557 704.000000 236.231232
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-575.903198 272.000000 236.950806
+			-575.848816 272.000000 237.658295
+			-577.895081 272.000000 237.196716
+			-577.836121 704.000000 237.963150
+			-577.895081 704.000000 237.196716
+			-577.836121 272.000000 237.963150
+			-575.848816 704.000000 237.658295
+			-575.903198 704.000000 236.950806
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-575.848816 272.000000 237.658295
+			-575.782349 272.000000 238.353699
+			-577.836121 272.000000 237.963150
+			-577.764221 704.000061 238.716492
+			-577.836121 704.000000 237.963150
+			-577.764221 272.000000 238.716492
+			-575.782349 704.000061 238.353699
+			-575.848816 704.000000 237.658295
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-575.782349 272.000000 238.353699
+			-575.703796 272.000000 239.036972
+			-577.764221 272.000000 238.716492
+			-577.679016 704.000000 239.456711
+			-577.764221 704.000061 238.716492
+			-577.679016 272.000000 239.456711
+			-575.703796 704.000000 239.036972
+			-575.782349 704.000061 238.353699
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-575.703796 272.000000 239.036972
+			-575.613037 272.000000 239.708176
+			-577.679016 272.000000 239.456711
+			-577.580688 704.000000 240.183853
+			-577.679016 704.000000 239.456711
+			-577.580688 272.000000 240.183853
+			-575.613037 704.000000 239.708176
+			-575.703796 704.000000 239.036972
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-575.613037 272.000000 239.708176
+			-575.510254 272.000000 240.367294
+			-577.580688 272.000000 240.183853
+			-577.469360 704.000061 240.897888
+			-577.580688 704.000000 240.183853
+			-577.469360 272.000000 240.897888
+			-575.510254 704.000061 240.367294
+			-575.613037 704.000000 239.708176
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-575.510254 272.000000 240.367294
+			-575.395325 272.000000 241.014282
+			-577.469360 272.000000 240.897888
+			-577.344849 704.000000 241.598801
+			-577.469360 704.000061 240.897888
+			-577.344849 272.000000 241.598801
+			-575.395325 704.000000 241.014282
+			-575.510254 704.000061 240.367294
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-575.395325 272.000000 241.014282
+			-575.268372 272.000000 241.649216
+			-577.344849 272.000000 241.598801
+			-577.207336 704.000000 242.286636
+			-577.344849 704.000000 241.598801
+			-577.207336 272.000000 242.286636
+			-575.268372 704.000000 241.649216
+			-575.395325 704.000000 241.014282
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-575.268372 272.000000 241.649216
+			-575.129272 272.000000 242.272049
+			-577.207336 272.000000 242.286636
+			-577.056702 704.000000 242.961365
+			-577.207336 704.000000 242.286636
+			-577.056702 272.000000 242.961365
+			-575.129272 704.000000 242.272049
+			-575.268372 704.000000 241.649216
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-575.129272 272.000000 242.272049
+			-574.978149 272.000000 242.882782
+			-577.056702 272.000000 242.961365
+			-576.892944 704.000000 243.623001
+			-577.056702 704.000000 242.961365
+			-576.892944 272.000000 243.623001
+			-574.978149 704.000000 242.882782
+			-575.129272 704.000000 242.272049
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-574.978149 272.000000 242.882782
+			-574.814880 272.000000 243.481415
+			-576.892944 272.000000 243.623001
+			-576.716064 704.000000 244.271515
+			-576.892944 704.000000 243.623001
+			-576.716064 272.000000 244.271515
+			-574.814880 704.000000 243.481415
+			-574.978149 704.000000 242.882782
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-574.814880 272.000000 243.481415
+			-574.639526 272.000000 244.067963
+			-576.716064 272.000000 244.271515
+			-576.526062 704.000000 244.906952
+			-576.716064 704.000000 244.271515
+			-576.526062 272.000000 244.906952
+			-574.639526 704.000000 244.067963
+			-574.814880 704.000000 243.481415
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-574.639526 272.000000 244.067963
+			-574.452026 272.000000 244.642395
+			-576.526062 272.000000 244.906952
+			-576.322998 704.000000 245.529266
+			-576.526062 704.000000 244.906952
+			-576.322998 272.000000 245.529266
+			-574.452026 704.000000 244.642395
+			-574.639526 704.000000 244.067963
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-574.452026 272.000000 244.642395
+			-574.252502 272.000000 245.204773
+			-576.322998 272.000000 245.529266
+			-576.106812 704.000000 246.138489
+			-576.322998 704.000000 245.529266
+			-576.106812 272.000000 246.138489
+			-574.252502 704.000000 245.204773
+			-574.452026 704.000000 244.642395
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-574.252502 272.000000 245.204773
+			-574.040833 272.000000 245.755035
+			-576.106812 272.000000 246.138489
+			-575.877502 704.000000 246.734604
+			-576.106812 704.000000 246.138489
+			-575.877502 272.000000 246.734604
+			-574.040833 704.000000 245.755035
+			-574.252502 704.000000 245.204773
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-574.040833 272.000000 245.755035
+			-573.817139 272.000000 246.293213
+			-575.877502 272.000000 246.734604
+			-575.635132 704.000000 247.317627
+			-575.877502 704.000000 246.734604
+			-575.635132 272.000000 247.317627
+			-573.817139 704.000000 246.293213
+			-574.040833 704.000000 245.755035
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-573.817139 272.000000 246.293213
+			-573.581299 272.000000 246.819290
+			-575.635132 272.000000 247.317627
+			-575.379700 704.000000 247.887558
+			-575.635132 704.000000 247.317627
+			-575.379700 272.000000 247.887558
+			-573.581299 704.000000 246.819290
+			-573.817139 704.000000 246.293213
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-573.581299 272.000000 246.819290
+			-573.333435 272.000000 247.333282
+			-575.379700 272.000000 247.887558
+			-575.111206 704.000061 248.444366
+			-575.379700 704.000000 247.887558
+			-575.111206 272.000000 248.444366
+			-573.333435 704.000061 247.333282
+			-573.581299 704.000000 246.819290
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-573.333435 272.000000 247.333282
+			-573.073364 272.000000 247.835159
+			-575.111206 272.000000 248.444366
+			-574.829468 704.000000 248.988083
+			-575.111206 704.000061 248.444366
+			-574.829468 272.000000 248.988083
+			-573.073364 704.000000 247.835159
+			-573.333435 704.000061 247.333282
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-573.073364 272.000000 247.835159
+			-572.801270 272.000000 248.324951
+			-574.829468 272.000000 248.988083
+			-574.534668 704.000000 249.518692
+			-574.829468 704.000000 248.988083
+			-574.534668 272.000000 249.518692
+			-572.801270 704.000000 248.324951
+			-573.073364 704.000000 247.835159
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-572.801270 272.000000 248.324951
+			-572.517029 272.000000 248.802658
+			-574.534668 272.000000 249.518692
+			-574.226746 704.000000 250.036194
+			-574.534668 704.000000 249.518692
+			-574.226746 272.000000 250.036194
+			-572.517029 704.000000 248.802658
+			-572.801270 704.000000 248.324951
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-572.517029 272.000000 248.802658
+			-572.220764 272.000000 249.268250
+			-574.226746 272.000000 250.036194
+			-573.905762 704.000000 250.540619
+			-574.226746 704.000000 250.036194
+			-573.905762 272.000000 250.540619
+			-572.220764 704.000000 249.268250
+			-572.517029 704.000000 248.802658
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-572.220764 272.000000 249.268250
+			-571.912415 272.000000 249.721786
+			-573.905762 272.000000 250.540619
+			-573.571655 704.000000 251.031921
+			-573.905762 704.000000 250.540619
+			-573.571655 272.000000 251.031921
+			-571.912415 704.000000 249.721786
+			-572.220764 704.000000 249.268250
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-571.912415 272.000000 249.721786
+			-571.591858 272.000000 250.163208
+			-573.571655 272.000000 251.031921
+			-573.224487 704.000000 251.510132
+			-573.571655 704.000000 251.031921
+			-573.224487 272.000000 251.510132
+			-571.591858 704.000000 250.163208
+			-571.912415 704.000000 249.721786
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-571.591858 272.000000 250.163208
+			-571.259338 272.000000 250.592529
+			-573.224487 272.000000 251.510132
+			-572.864136 704.000000 251.975250
+			-573.224487 704.000000 251.510132
+			-572.864136 272.000000 251.975250
+			-571.259338 704.000000 250.592529
+			-571.591858 704.000000 250.163208
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-571.259338 272.000000 250.592529
+			-570.914673 272.000000 251.009766
+			-572.864136 272.000000 251.975250
+			-572.490784 704.000000 252.427246
+			-572.864136 704.000000 251.975250
+			-572.490784 272.000000 252.427246
+			-570.914673 704.000000 251.009766
+			-571.259338 704.000000 250.592529
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-570.914673 272.000000 251.009766
+			-570.557922 272.000000 251.414917
+			-572.490784 272.000000 252.427246
+			-572.104370 704.000000 252.866150
+			-572.490784 704.000000 252.427246
+			-572.104370 272.000000 252.866150
+			-570.557922 704.000000 251.414917
+			-570.914673 704.000000 251.009766
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-570.557922 272.000000 251.414917
+			-570.189026 272.000000 251.807953
+			-572.104370 272.000000 252.866150
+			-571.704712 704.000000 253.291962
+			-572.104370 704.000000 252.866150
+			-571.704712 272.000000 253.291962
+			-570.189026 704.000000 251.807953
+			-570.557922 704.000000 251.414917
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-570.189026 272.000000 251.807953
+			-569.808044 272.000000 252.188904
+			-571.704712 272.000000 253.291962
+			-571.292053 704.000000 253.704651
+			-571.704712 704.000000 253.291962
+			-571.292053 272.000000 253.704651
+			-569.808044 704.000000 252.188904
+			-570.189026 704.000000 251.807953
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-569.808044 272.000000 252.188919
+			-569.415039 272.000000 252.557755
+			-571.292053 272.000000 253.704666
+			-570.866211 704.000000 254.104248
+			-571.292053 704.000000 253.704666
+			-570.866211 272.000000 254.104248
+			-569.415039 704.000000 252.557755
+			-569.808044 704.000000 252.188919
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-569.415039 272.000000 252.557770
+			-569.009888 272.000000 252.914520
+			-570.866211 272.000000 254.104248
+			-570.427246 704.000000 254.490723
+			-570.866211 704.000000 254.104248
+			-570.427246 272.000000 254.490723
+			-569.009888 704.000000 252.914520
+			-569.415039 704.000000 252.557770
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-569.009888 272.000000 252.914520
+			-568.592590 272.000000 253.259216
+			-570.427246 272.000000 254.490723
+			-569.975281 703.999939 254.864136
+			-570.427246 704.000000 254.490723
+			-569.975281 272.000000 254.864136
+			-568.592590 703.999939 253.259216
+			-569.009888 704.000000 252.914520
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-568.592590 272.000000 253.259216
+			-568.163269 272.000000 253.591797
+			-569.975281 272.000000 254.864136
+			-569.510193 704.000000 255.224426
+			-569.975281 703.999939 254.864136
+			-569.510193 272.000000 255.224426
+			-568.163269 704.000000 253.591797
+			-568.592590 703.999939 253.259216
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 7 0 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-568.163269 272.000000 253.591782
+			-567.721863 272.000000 253.912277
+			-569.510193 272.000000 255.224426
+			-569.032043 704.000000 255.571655
+			-569.510193 704.000000 255.224426
+			-569.032043 272.000000 255.571655
+			-567.721863 704.000000 253.912277
+			-568.163269 704.000000 253.591782
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-567.721863 272.000000 253.912292
+			-567.268372 272.000000 254.220703
+			-569.032043 272.000000 255.571625
+			-568.540771 704.000061 255.905762
+			-569.032043 704.000000 255.571625
+			-568.540771 272.000000 255.905762
+			-567.268372 704.000061 254.220703
+			-567.721863 704.000000 253.912292
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-567.268372 272.000000 254.220703
+			-566.802734 272.000000 254.516968
+			-568.540771 272.000000 255.905762
+			-568.036255 704.000000 256.226715
+			-568.540771 704.000061 255.905762
+			-568.036255 272.000000 256.226715
+			-566.802734 704.000000 254.516968
+			-567.268372 704.000061 254.220703
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-566.802734 272.000000 254.516968
+			-566.325012 272.000000 254.801178
+			-568.036255 272.000000 256.226715
+			-567.518738 704.000000 256.534607
+			-568.036255 704.000000 256.226715
+			-567.518738 272.000000 256.534607
+			-566.325012 704.000000 254.801178
+			-566.802734 704.000000 254.516968
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-566.325012 272.000000 254.801178
+			-565.835205 272.000000 255.073273
+			-567.518738 272.000000 256.534607
+			-566.988159 704.000000 256.829376
+			-567.518738 704.000000 256.534607
+			-566.988159 272.000000 256.829376
+			-565.835205 704.000000 255.073273
+			-566.325012 704.000000 254.801178
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 7 0 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-565.835205 272.000000 255.073273
+			-565.333374 272.000000 255.333313
+			-566.988159 272.000000 256.829376
+			-566.444458 704.000061 257.111084
+			-566.988159 704.000000 256.829376
+			-566.444458 272.000000 257.111084
+			-565.333374 704.000061 255.333313
+			-565.835205 704.000000 255.073273
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-565.333374 272.000000 255.333313
+			-564.819397 272.000000 255.581238
+			-566.444458 272.000000 257.111084
+			-565.887634 704.000000 257.379669
+			-566.444458 704.000061 257.111084
+			-565.887634 272.000000 257.379669
+			-564.819397 704.000000 255.581238
+			-565.333374 704.000061 255.333313
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-564.819397 272.000000 255.581238
+			-564.293335 272.000000 255.817078
+			-565.887634 272.000000 257.379700
+			-565.317688 704.000000 257.635132
+			-565.887634 704.000000 257.379700
+			-565.317688 272.000000 257.635132
+			-564.293335 704.000000 255.817078
+			-564.819397 704.000000 255.581238
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-564.293335 272.000000 255.817078
+			-563.755188 272.000000 256.040833
+			-565.317688 272.000000 257.635132
+			-564.734741 704.000061 257.877563
+			-565.317688 704.000000 257.635132
+			-564.734741 272.000000 257.877563
+			-563.755188 704.000061 256.040833
+			-564.293335 704.000000 255.817078
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-563.755188 272.000000 256.040833
+			-563.204834 272.000000 256.252441
+			-564.734741 272.000000 257.877563
+			-564.138550 704.000000 258.106812
+			-564.734741 704.000061 257.877563
+			-564.138550 272.000000 258.106812
+			-563.204834 704.000000 256.252441
+			-563.755188 704.000061 256.040833
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-563.204834 272.000000 256.252441
+			-562.642517 272.000000 256.451996
+			-564.138550 272.000000 258.106812
+			-563.529358 704.000000 258.322998
+			-564.138550 704.000000 258.106812
+			-563.529358 272.000000 258.322998
+			-562.642517 704.000000 256.451996
+			-563.204834 704.000000 256.252441
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-562.642517 272.000000 256.451965
+			-562.067993 272.000000 256.639404
+			-563.529358 272.000000 258.322998
+			-562.906982 703.999939 258.526062
+			-563.529358 704.000000 258.322998
+			-562.906982 272.000000 258.526062
+			-562.067993 703.999939 256.639404
+			-562.642517 704.000000 256.451965
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-562.067993 272.000000 256.639435
+			-561.481506 272.000000 256.814819
+			-562.906982 272.000000 258.526062
+			-562.271606 704.000061 258.716064
+			-562.906982 703.999939 258.526062
+			-562.271606 272.000000 258.716064
+			-561.481506 704.000061 256.814819
+			-562.067993 703.999939 256.639435
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-561.481506 272.000000 256.814819
+			-560.882874 272.000000 256.978088
+			-562.271606 272.000000 258.716064
+			-561.623047 704.000000 258.892944
+			-562.271606 704.000061 258.716064
+			-561.623047 272.000000 258.892944
+			-560.882874 704.000000 256.978088
+			-561.481506 704.000061 256.814819
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-560.882874 272.000000 256.978088
+			-560.272156 272.000000 257.129272
+			-561.623047 272.000000 258.892944
+			-560.961487 704.000061 259.056702
+			-561.623047 704.000000 258.892944
+			-560.961487 272.000000 259.056702
+			-560.272156 704.000061 257.129272
+			-560.882874 704.000000 256.978088
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 7 0 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-560.272156 272.000000 257.129242
+			-559.649414 272.000000 257.268372
+			-560.961487 272.000000 259.056702
+			-560.286804 704.000122 259.207397
+			-560.961487 704.000061 259.056702
+			-560.286804 272.000000 259.207397
+			-559.649414 704.000122 257.268372
+			-560.272156 704.000061 257.129242
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-559.649414 272.000031 257.268372
+			-559.014343 272.000000 257.395294
+			-560.286804 272.000031 259.207397
+			-559.598877 704.000000 259.344910
+			-560.286804 704.000122 259.207397
+			-559.598877 272.000000 259.344910
+			-559.014343 704.000000 257.395294
+			-559.649414 704.000122 257.268372
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-559.014343 272.000000 257.395294
+			-558.367371 272.000000 257.510193
+			-559.598877 272.000000 259.344910
+			-558.897949 704.000000 259.469391
+			-559.598877 704.000000 259.344910
+			-558.897949 272.000000 259.469391
+			-558.367371 704.000000 257.510193
+			-559.014343 704.000000 257.395294
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-558.367371 272.000000 257.510193
+			-557.708191 272.000000 257.612976
+			-558.897949 272.000000 259.469391
+			-558.183838 703.999939 259.580750
+			-558.897949 704.000000 259.469391
+			-558.183838 272.000000 259.580750
+			-557.708191 703.999939 257.612976
+			-558.367371 704.000000 257.510193
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-557.708191 272.000000 257.612976
+			-557.036987 272.000000 257.703674
+			-558.183838 272.000000 259.580750
+			-557.456726 703.999939 259.678986
+			-558.183838 703.999939 259.580750
+			-557.456726 272.000000 259.678986
+			-557.036987 703.999939 257.703674
+			-557.708191 703.999939 257.612976
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-557.036987 272.000000 257.703674
+			-556.353699 272.000000 257.782288
+			-557.456726 272.000000 259.678986
+			-556.716492 704.000000 259.764160
+			-557.456726 703.999939 259.678986
+			-556.716492 272.000000 259.764160
+			-556.353699 704.000000 257.782288
+			-557.036987 703.999939 257.703674
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-556.353699 272.000000 257.782288
+			-555.658447 272.000000 257.848877
+			-556.716492 272.000000 259.764160
+			-555.963257 704.000061 259.836243
+			-556.716492 704.000000 259.764160
+			-555.963257 272.000000 259.836243
+			-555.658447 704.000061 257.848877
+			-556.353699 704.000000 257.782288
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-555.658447 272.000000 257.848877
+			-554.950928 272.000000 257.903290
+			-555.963318 272.000000 259.836243
+			-555.196838 704.000061 259.895203
+			-555.963318 704.000061 259.836243
+			-555.196838 272.000000 259.895203
+			-554.950928 704.000061 257.903290
+			-555.658447 704.000061 257.848877
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-554.950928 272.000000 257.903259
+			-554.231323 272.000000 257.945587
+			-555.196777 272.000000 259.895203
+			-554.417236 704.000061 259.941040
+			-555.196777 704.000061 259.895203
+			-554.417236 272.000000 259.941040
+			-554.231323 704.000061 257.945587
+			-554.950928 704.000061 257.903259
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-554.231323 272.000000 257.945618
+			-553.499634 272.000000 257.975861
+			-554.417236 272.000000 259.941101
+			-553.624634 704.000122 259.973816
+			-554.417236 704.000061 259.941101
+			-553.624634 272.000000 259.973816
+			-553.499634 704.000122 257.975861
+			-554.231323 704.000061 257.945618
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-553.499695 272.000000 257.975830
+			-552.755859 272.000000 257.993958
+			-553.624634 272.000000 259.973816
+			-552.818848 704.000061 259.993469
+			-553.624634 704.000122 259.973816
+			-552.818848 272.000000 259.993469
+			-552.755859 704.000061 257.993958
+			-553.499695 704.000122 257.975830
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-552.755859 272.000000 257.993958
+			-552.000000 272.000000 258.000000
+			-552.818848 272.000000 259.993469
+			-552.000000 704.000000 260.000000
+			-552.818848 704.000061 259.993469
+			-552.000000 272.000000 260.000000
+			-552.000000 704.000000 258.000000
+			-552.755859 704.000061 257.993958
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			424.000000 704.000000 256.000000
+			424.000000 704.000000 257.999908
+			448.000000 704.000000 258.000000
+			448.000031 704.000000 255.999969
+			424.000000 272.000000 256.000000
+			424.000000 272.000000 257.999908
+			448.000000 272.000000 258.000000
+			448.000031 272.000000 255.999969
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			450.000000 704.000000 232.000000
+			448.000061 704.000000 232.000000
+			448.000031 704.000000 255.999969
+			450.000000 704.000000 256.000000
+			450.000000 272.000000 232.000000
+			448.000061 272.000000 232.000000
+			448.000031 272.000000 255.999969
+			450.000000 272.000000 256.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			424.000000 272.000000 256.000000
+			424.755920 272.000000 255.993958
+			424.000000 272.000000 257.999908
+			424.818848 704.000000 257.993347
+			424.000000 704.000000 257.999908
+			424.818848 272.000000 257.993347
+			424.755920 704.000000 255.993958
+			424.000000 704.000000 256.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			424.755920 272.000000 255.993958
+			425.499573 272.000000 255.975830
+			424.818848 272.000000 257.993347
+			425.624573 704.000000 257.973694
+			424.818848 704.000000 257.993347
+			425.624573 272.000000 257.973694
+			425.499573 704.000000 255.975830
+			424.755920 704.000000 255.993958
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			425.499573 272.000000 255.975830
+			426.231323 272.000000 255.945557
+			425.624573 272.000000 257.973694
+			426.417236 704.000000 257.940948
+			425.624573 704.000000 257.973694
+			426.417236 272.000000 257.940948
+			426.231323 704.000000 255.945557
+			425.499573 704.000000 255.975830
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			426.231323 272.000000 255.945557
+			426.950867 272.000000 255.903244
+			426.417236 272.000000 257.940948
+			427.196777 704.000000 257.895081
+			426.417236 704.000000 257.940948
+			427.196777 272.000000 257.895081
+			426.950867 704.000000 255.903244
+			426.231323 704.000000 255.945557
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			426.950867 272.000000 255.903244
+			427.658386 272.000000 255.848831
+			427.196777 272.000000 257.895081
+			427.963196 704.000000 257.836121
+			427.196777 704.000000 257.895081
+			427.963196 272.000000 257.836121
+			427.658386 704.000000 255.848831
+			426.950867 704.000000 255.903244
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			427.658386 272.000000 255.848831
+			428.353729 272.000000 255.782303
+			427.963196 272.000000 257.836121
+			428.716522 704.000000 257.764069
+			427.963196 704.000000 257.836121
+			428.716522 272.000000 257.764069
+			428.353729 704.000000 255.782303
+			427.658386 704.000000 255.848831
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			428.353729 272.000000 255.782303
+			429.037018 272.000000 255.703705
+			428.716522 272.000000 257.764069
+			429.456787 704.000061 257.678925
+			428.716522 704.000000 257.764069
+			429.456787 272.000000 257.678925
+			429.037018 704.000061 255.703705
+			428.353729 704.000000 255.782303
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			429.037018 272.000000 255.703705
+			429.708252 271.999969 255.613007
+			429.456787 272.000000 257.678925
+			430.183929 704.000000 257.580658
+			429.456787 704.000061 257.678925
+			430.183929 271.999969 257.580658
+			429.708252 704.000000 255.613007
+			429.037018 704.000061 255.703705
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			429.708252 272.000000 255.613007
+			430.367371 272.000000 255.510193
+			430.183929 272.000000 257.580658
+			430.897980 704.000000 257.469299
+			430.183929 704.000000 257.580658
+			430.897980 272.000000 257.469299
+			430.367371 704.000000 255.510193
+			429.708252 704.000000 255.613007
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			430.367371 272.000000 255.510193
+			431.014374 272.000000 255.395309
+			430.897980 272.000000 257.469299
+			431.598907 704.000000 257.344849
+			430.897980 704.000000 257.469299
+			431.598907 272.000000 257.344849
+			431.014374 704.000000 255.395309
+			430.367371 704.000000 255.510193
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			431.014374 272.000000 255.395309
+			431.649292 272.000000 255.268326
+			431.598907 272.000000 257.344849
+			432.286713 704.000000 257.207275
+			431.598907 704.000000 257.344849
+			432.286713 272.000000 257.207275
+			431.649292 704.000000 255.268326
+			431.014374 704.000000 255.395309
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			431.649292 272.000000 255.268326
+			432.272156 272.000000 255.129272
+			432.286713 272.000000 257.207275
+			432.961456 704.000000 257.056610
+			432.286713 704.000000 257.207275
+			432.961456 272.000000 257.056610
+			432.272156 704.000000 255.129272
+			431.649292 704.000000 255.268326
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			432.272156 272.000000 255.129272
+			432.882843 272.000000 254.978088
+			432.961456 272.000000 257.056610
+			433.623047 704.000061 256.892822
+			432.961456 704.000000 257.056610
+			433.623047 272.000000 256.892822
+			432.882843 704.000061 254.978088
+			432.272156 704.000000 255.129272
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			432.882843 272.000000 254.978088
+			433.481506 272.000000 254.814819
+			433.623047 272.000000 256.892822
+			434.271606 704.000000 256.715942
+			433.623047 704.000061 256.892822
+			434.271606 272.000000 256.715942
+			433.481506 704.000000 254.814819
+			432.882843 704.000061 254.978088
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			433.481506 272.000000 254.814819
+			434.068024 272.000000 254.639465
+			434.271606 272.000000 256.715942
+			434.907013 704.000000 256.526001
+			434.271606 704.000000 256.715942
+			434.907013 272.000000 256.526001
+			434.068024 704.000000 254.639465
+			433.481506 704.000000 254.814819
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			434.068024 272.000000 254.639465
+			434.642517 272.000000 254.451996
+			434.907013 272.000000 256.526001
+			435.529358 704.000000 256.322937
+			434.907013 704.000000 256.526001
+			435.529358 272.000000 256.322937
+			434.642517 704.000000 254.451996
+			434.068024 704.000000 254.639465
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			434.642517 272.000000 254.451996
+			435.204865 272.000000 254.252457
+			435.529358 272.000000 256.322937
+			436.138580 704.000000 256.106750
+			435.529358 704.000000 256.322937
+			436.138580 272.000000 256.106750
+			435.204865 704.000000 254.252457
+			434.642517 704.000000 254.451996
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			435.204865 272.000000 254.252457
+			435.755127 272.000000 254.040802
+			436.138580 272.000000 256.106750
+			436.734711 703.999939 255.877457
+			436.138580 704.000000 256.106750
+			436.734711 272.000000 255.877457
+			435.755127 703.999939 254.040802
+			435.204865 704.000000 254.252457
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			435.755127 272.000000 254.040802
+			436.293304 272.000000 253.817062
+			436.734711 272.000000 255.877457
+			437.317719 704.000000 255.635086
+			436.734711 703.999939 255.877457
+			437.317719 272.000000 255.635086
+			436.293304 704.000000 253.817062
+			435.755127 703.999939 254.040802
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			436.293304 272.000000 253.817062
+			436.819397 272.000000 253.581253
+			437.317719 272.000000 255.635086
+			437.887634 704.000000 255.379608
+			437.317719 704.000000 255.635086
+			437.887634 272.000000 255.379608
+			436.819397 704.000000 253.581253
+			436.293304 704.000000 253.817062
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			436.819397 272.000000 253.581253
+			437.333344 272.000000 253.333344
+			437.887634 272.000000 255.379608
+			438.444427 704.000061 255.111038
+			437.887634 704.000000 255.379608
+			438.444427 272.000000 255.111038
+			437.333344 704.000061 253.333344
+			436.819397 704.000000 253.581253
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			437.333344 272.000000 253.333344
+			437.835266 272.000000 253.073318
+			438.444427 272.000000 255.111038
+			438.988159 704.000000 254.829346
+			438.444427 704.000061 255.111038
+			438.988159 272.000000 254.829346
+			437.835266 704.000000 253.073318
+			437.333344 704.000061 253.333344
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			437.835266 272.000000 253.073318
+			438.325073 272.000000 252.801208
+			438.988159 272.000000 254.829346
+			439.518738 704.000000 254.534561
+			438.988159 704.000000 254.829346
+			439.518738 272.000000 254.534561
+			438.325073 704.000000 252.801208
+			437.835266 704.000000 253.073318
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			438.325073 272.000000 252.801208
+			438.802795 272.000000 252.516998
+			439.518738 272.000000 254.534561
+			440.036285 704.000000 254.226669
+			439.518738 704.000000 254.534561
+			440.036285 272.000000 254.226669
+			438.802795 704.000000 252.516998
+			438.325073 704.000000 252.801208
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			438.802795 272.000000 252.516998
+			439.268372 272.000000 252.220703
+			440.036285 272.000000 254.226669
+			440.540710 704.000000 253.905685
+			440.036285 704.000000 254.226669
+			440.540710 272.000000 253.905685
+			439.268372 704.000000 252.220703
+			438.802795 704.000000 252.516998
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			439.268372 272.000000 252.220703
+			439.721863 272.000000 251.912338
+			440.540710 272.000000 253.905685
+			441.031982 704.000000 253.571609
+			440.540710 704.000000 253.905685
+			441.031982 272.000000 253.571609
+			439.721863 704.000000 251.912338
+			439.268372 704.000000 252.220703
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			439.721863 272.000000 251.912338
+			440.163330 272.000000 251.591827
+			441.031982 272.000000 253.571609
+			441.510193 704.000000 253.224411
+			441.031982 704.000000 253.571609
+			441.510193 272.000000 253.224411
+			440.163330 704.000000 251.591827
+			439.721863 704.000000 251.912338
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			440.163330 272.000000 251.591827
+			440.592651 272.000000 251.259247
+			441.510193 272.000000 253.224411
+			441.975311 704.000000 252.864105
+			441.510193 704.000000 253.224411
+			441.975311 272.000000 252.864105
+			440.592651 704.000000 251.259247
+			440.163330 704.000000 251.591827
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			440.592651 272.000000 251.259247
+			441.009888 272.000000 250.914581
+			441.975311 272.000000 252.864105
+			442.427307 704.000000 252.490723
+			441.975311 704.000000 252.864105
+			442.427307 272.000000 252.490723
+			441.009888 704.000000 250.914581
+			440.592651 704.000000 251.259247
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			441.009888 272.000000 250.914581
+			441.415009 272.000000 250.557816
+			442.427307 272.000000 252.490723
+			442.866211 704.000000 252.104248
+			442.427307 704.000000 252.490723
+			442.866211 272.000000 252.104248
+			441.415009 704.000000 250.557816
+			441.009888 704.000000 250.914581
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			441.415009 272.000000 250.557816
+			441.808044 272.000000 250.188980
+			442.866211 272.000000 252.104248
+			443.291992 704.000000 251.704636
+			442.866211 704.000000 252.104248
+			443.291992 272.000000 251.704636
+			441.808044 704.000000 250.188980
+			441.415009 704.000000 250.557816
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			441.808044 272.000000 250.188980
+			442.189026 272.000000 249.807999
+			443.291992 272.000000 251.704636
+			443.704712 704.000000 251.291946
+			443.291992 704.000000 251.704636
+			443.704712 272.000000 251.291946
+			442.189026 704.000000 249.807999
+			441.808044 704.000000 250.188980
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			442.189026 272.000000 249.807999
+			442.557861 272.000000 249.414948
+			443.704712 272.000000 251.291946
+			444.104309 704.000000 250.866135
+			443.704712 704.000000 251.291946
+			444.104309 272.000000 250.866135
+			442.557861 704.000000 249.414948
+			442.189026 704.000000 249.807999
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			442.557861 272.000000 249.414948
+			442.914673 272.000000 249.009811
+			444.104309 272.000000 250.866135
+			444.490814 704.000000 250.427216
+			444.104309 704.000000 250.866135
+			444.490814 272.000000 250.427216
+			442.914673 704.000000 249.009811
+			442.557861 704.000000 249.414948
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			442.914673 272.000000 249.009811
+			443.259338 272.000000 248.592575
+			444.490814 272.000000 250.427216
+			444.864197 704.000000 249.975220
+			444.490814 704.000000 250.427216
+			444.864197 272.000000 249.975220
+			443.259338 704.000000 248.592575
+			442.914673 704.000000 249.009811
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			443.259338 272.000000 248.592575
+			443.591919 272.000000 248.163239
+			444.864197 272.000000 249.975220
+			445.224518 703.999939 249.510132
+			444.864197 704.000000 249.975220
+			445.224518 272.000000 249.510132
+			443.591919 703.999939 248.163239
+			443.259338 704.000000 248.592575
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			443.591919 272.000000 248.163239
+			443.912354 272.000000 247.721848
+			445.224518 272.000000 249.510132
+			445.571716 704.000000 249.031937
+			445.224518 703.999939 249.510132
+			445.571716 272.000000 249.031937
+			443.912354 704.000000 247.721848
+			443.591919 703.999939 248.163239
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			443.912354 272.000000 247.721848
+			444.220703 272.000031 247.268372
+			445.571716 272.000000 249.031937
+			445.905701 704.000061 248.540649
+			445.571716 704.000000 249.031937
+			445.905701 272.000031 248.540649
+			444.220703 704.000061 247.268372
+			443.912354 704.000000 247.721848
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			444.220703 272.000031 247.268372
+			444.517090 272.000000 246.802704
+			445.905701 272.000031 248.540649
+			446.226746 704.000000 248.036209
+			445.905701 704.000061 248.540649
+			446.226746 272.000000 248.036209
+			444.517090 704.000000 246.802704
+			444.220703 704.000061 247.268372
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			444.517090 272.000000 246.802704
+			444.801300 271.999969 246.325012
+			446.226746 272.000000 248.036209
+			446.534668 703.999939 247.518707
+			446.226746 704.000000 248.036209
+			446.534668 271.999969 247.518707
+			444.801300 703.999939 246.325012
+			444.517090 704.000000 246.802704
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			444.801300 271.999969 246.325012
+			445.073395 272.000000 245.835205
+			446.534668 271.999969 247.518707
+			446.829468 703.999939 246.988083
+			446.534668 703.999939 247.518707
+			446.829468 272.000000 246.988083
+			445.073395 703.999939 245.835205
+			444.801300 703.999939 246.325012
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			445.073395 272.000000 245.835205
+			445.333374 272.000000 245.333344
+			446.829468 272.000000 246.988083
+			447.111084 704.000061 246.444397
+			446.829468 703.999939 246.988083
+			447.111084 272.000000 246.444397
+			445.333374 704.000061 245.333344
+			445.073395 703.999939 245.835205
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			445.333374 272.000000 245.333344
+			445.581299 272.000000 244.819351
+			447.111084 272.000000 246.444397
+			447.379700 704.000000 245.887589
+			447.111084 704.000061 246.444397
+			447.379700 272.000000 245.887589
+			445.581299 704.000000 244.819351
+			445.333374 704.000061 245.333344
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			445.581299 272.000000 244.819351
+			445.817139 272.000000 244.293274
+			447.379700 272.000000 245.887589
+			447.635193 704.000000 245.317673
+			447.379700 704.000000 245.887589
+			447.635193 272.000000 245.317673
+			445.817139 704.000000 244.293274
+			445.581299 704.000000 244.819351
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			445.817139 272.000000 244.293274
+			446.040833 272.000031 243.755127
+			447.635193 272.000000 245.317673
+			447.877502 704.000122 244.734665
+			447.635193 704.000000 245.317673
+			447.877502 272.000031 244.734665
+			446.040833 704.000122 243.755127
+			445.817139 704.000000 244.293274
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			446.040833 272.000031 243.755127
+			446.252533 272.000000 243.204819
+			447.877502 272.000031 244.734665
+			448.106873 703.999939 244.138519
+			447.877502 704.000122 244.734665
+			448.106873 272.000000 244.138519
+			446.252533 703.999939 243.204819
+			446.040833 704.000122 243.755127
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			446.252533 272.000000 243.204819
+			446.452087 272.000000 242.642487
+			448.106873 272.000000 244.138519
+			448.322998 704.000000 243.529312
+			448.106873 703.999939 244.138519
+			448.322998 272.000000 243.529312
+			446.452087 704.000000 242.642487
+			446.252533 703.999939 243.204819
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 7 0 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			446.452087 272.000000 242.642487
+			446.639526 272.000000 242.068008
+			448.322998 272.000000 243.529312
+			448.526123 704.000000 242.906967
+			448.322998 704.000000 243.529312
+			448.526123 272.000000 242.906967
+			446.639526 704.000000 242.068008
+			446.452087 704.000000 242.642487
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			446.639526 272.000000 242.068008
+			446.814850 272.000000 241.481476
+			448.526123 272.000000 242.906967
+			448.716034 704.000061 242.271576
+			448.526123 704.000000 242.906967
+			448.716034 272.000000 242.271576
+			446.814850 704.000061 241.481476
+			446.639526 704.000000 242.068008
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			446.814850 272.000000 241.481476
+			446.978149 272.000000 240.882843
+			448.716034 272.000000 242.271576
+			448.892914 704.000000 241.623032
+			448.716034 704.000061 242.271576
+			448.892914 272.000000 241.623032
+			446.978149 704.000000 240.882843
+			446.814850 704.000061 241.481476
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			446.978149 272.000000 240.882843
+			447.129272 272.000000 240.272110
+			448.892914 272.000000 241.623032
+			449.056671 704.000061 240.961426
+			448.892914 704.000000 241.623032
+			449.056671 272.000000 240.961426
+			447.129272 704.000061 240.272110
+			446.978149 704.000000 240.882843
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			447.129272 272.000000 240.272110
+			447.268250 272.000031 239.649323
+			449.056671 272.000000 240.961426
+			449.207214 704.000183 240.286728
+			449.056671 704.000061 240.961426
+			449.207214 272.000031 240.286728
+			447.268250 704.000183 239.649323
+			447.129272 704.000061 240.272110
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			447.268250 272.000061 239.649323
+			447.395416 272.000000 239.014343
+			449.207214 272.000061 240.286728
+			449.344971 703.999939 239.598846
+			449.207214 704.000183 240.286728
+			449.344971 272.000000 239.598846
+			447.395416 703.999939 239.014343
+			447.268250 704.000183 239.649323
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			447.395416 272.000000 239.014343
+			447.510254 272.000000 238.367355
+			449.344971 272.000000 239.598846
+			449.469391 704.000000 238.897934
+			449.344971 703.999939 239.598846
+			449.469391 272.000000 238.897934
+			447.510254 704.000000 238.367355
+			447.395416 703.999939 239.014343
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			447.510254 272.000000 238.367355
+			447.613129 271.999969 237.708206
+			449.469391 272.000000 238.897934
+			449.580811 703.999878 238.183868
+			449.469391 704.000000 238.897934
+			449.580811 271.999969 238.183868
+			447.613129 703.999878 237.708206
+			447.510254 704.000000 238.367355
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			447.613129 271.999969 237.708206
+			447.703827 271.999969 237.037003
+			449.580811 271.999969 238.183868
+			449.679077 703.999939 237.456741
+			449.580811 703.999878 238.183868
+			449.679077 271.999969 237.456741
+			447.703827 703.999939 237.037003
+			447.613129 703.999878 237.708206
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			447.703827 271.999969 237.037003
+			447.782410 272.000000 236.353729
+			449.679077 271.999969 237.456741
+			449.764191 703.999939 236.716522
+			449.679077 703.999939 237.456741
+			449.764191 272.000000 236.716522
+			447.782410 703.999939 236.353729
+			447.703827 703.999939 237.037003
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			447.782410 272.000000 236.353729
+			447.848816 272.000061 235.658371
+			449.764191 272.000000 236.716522
+			449.836151 704.000061 235.963226
+			449.764191 703.999939 236.716522
+			449.836151 272.000061 235.963226
+			447.848816 704.000061 235.658371
+			447.782410 703.999939 236.353729
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			447.848816 272.000031 235.658371
+			447.903259 272.000031 234.950882
+			449.836151 272.000031 235.963226
+			449.895142 704.000122 235.196777
+			449.836151 704.000061 235.963226
+			449.895142 272.000031 235.196777
+			447.903259 704.000122 234.950882
+			447.848816 704.000061 235.658371
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			447.903259 272.000031 234.950882
+			447.945557 272.000031 234.231323
+			449.895142 272.000031 235.196777
+			449.940979 704.000061 234.417252
+			449.895142 704.000122 235.196777
+			449.940979 272.000031 234.417252
+			447.945557 704.000061 234.231323
+			447.903259 704.000122 234.950882
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			447.945557 272.000031 234.231323
+			447.975800 272.000031 233.499649
+			449.940979 272.000031 234.417252
+			449.973755 704.000122 233.624619
+			449.940979 704.000061 234.417252
+			449.973755 272.000031 233.624619
+			447.975800 704.000122 233.499649
+			447.945557 704.000061 234.231323
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			447.975800 272.000031 233.499649
+			447.993988 272.000000 232.755859
+			449.973755 272.000031 233.624619
+			449.993408 704.000061 232.818848
+			449.973755 704.000122 233.624619
+			449.993408 272.000000 232.818848
+			447.993988 704.000061 232.755859
+			447.975800 704.000122 233.499649
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			447.993988 272.000000 232.755859
+			448.000061 272.000000 232.000000
+			449.993408 272.000000 232.818848
+			450.000000 704.000000 232.000000
+			449.993408 704.000061 232.818848
+			450.000000 272.000000 232.000000
+			448.000061 704.000000 232.000000
+			447.993988 704.000061 232.755859
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			424.000000 704.000000 -770.000000
+			424.000000 704.000000 -768.000122
+			447.999969 704.000000 -768.000000
+			448.000000 704.000000 -770.000000
+			424.000000 272.000000 -770.000000
+			424.000000 272.000000 -768.000122
+			447.999969 272.000000 -768.000000
+			448.000000 272.000000 -770.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			447.999969 704.000000 -744.000000
+			449.999908 704.000000 -744.000000
+			450.000000 704.000000 -768.000000
+			447.999969 704.000000 -768.000000
+			447.999969 272.000000 -744.000000
+			449.999908 272.000000 -744.000000
+			450.000000 272.000000 -768.000000
+			447.999969 272.000000 -768.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			447.999969 272.000000 -744.000000
+			447.993896 272.000000 -744.755859
+			449.999908 272.000000 -744.000000
+			449.993317 704.000000 -744.818848
+			449.999908 704.000000 -744.000000
+			449.993317 272.000000 -744.818848
+			447.993896 704.000000 -744.755859
+			447.999969 704.000000 -744.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			447.993896 272.000000 -744.755859
+			447.975769 272.000000 -745.499634
+			449.993317 272.000000 -744.818848
+			449.973694 704.000000 -745.624634
+			449.993317 704.000000 -744.818848
+			449.973694 272.000000 -745.624634
+			447.975769 704.000000 -745.499634
+			447.993896 704.000000 -744.755859
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			447.975769 272.000000 -745.499634
+			447.945557 272.000000 -746.231323
+			449.973694 272.000000 -745.624634
+			449.940979 704.000000 -746.417236
+			449.973694 704.000000 -745.624634
+			449.940979 272.000000 -746.417236
+			447.945557 704.000000 -746.231323
+			447.975769 704.000000 -745.499634
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			447.945557 272.000000 -746.231323
+			447.903229 272.000000 -746.950928
+			449.940979 272.000000 -746.417236
+			449.895111 703.999939 -747.196777
+			449.940979 704.000000 -746.417236
+			449.895111 272.000000 -747.196777
+			447.903229 703.999939 -746.950928
+			447.945557 704.000000 -746.231323
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			447.903229 272.000000 -746.950928
+			447.848816 272.000000 -747.658386
+			449.895111 272.000000 -747.196777
+			449.836151 704.000000 -747.963257
+			449.895111 703.999939 -747.196777
+			449.836151 272.000000 -747.963257
+			447.848816 704.000000 -747.658386
+			447.903229 703.999939 -746.950928
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			447.848816 272.000000 -747.658386
+			447.782288 272.000000 -748.353760
+			449.836151 272.000000 -747.963257
+			449.764069 704.000000 -748.716553
+			449.836151 704.000000 -747.963257
+			449.764069 272.000000 -748.716553
+			447.782288 704.000000 -748.353760
+			447.848816 704.000000 -747.658386
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			447.782288 272.000000 -748.353760
+			447.703644 272.000000 -749.037109
+			449.764069 272.000000 -748.716553
+			449.678925 704.000000 -749.456787
+			449.764069 704.000000 -748.716553
+			449.678925 272.000000 -749.456787
+			447.703644 704.000000 -749.037109
+			447.782288 704.000000 -748.353760
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			447.703644 272.000000 -749.037109
+			447.612976 272.000000 -749.708313
+			449.678925 272.000000 -749.456787
+			449.580658 704.000000 -750.183960
+			449.678925 704.000000 -749.456787
+			449.580658 272.000000 -750.183960
+			447.612976 704.000000 -749.708313
+			447.703644 704.000000 -749.037109
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			447.612976 272.000000 -749.708313
+			447.510162 272.000000 -750.367432
+			449.580658 272.000000 -750.183960
+			449.469269 704.000000 -750.897949
+			449.580658 704.000000 -750.183960
+			449.469269 272.000000 -750.897949
+			447.510162 704.000000 -750.367432
+			447.612976 704.000000 -749.708313
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			447.510162 272.000000 -750.367432
+			447.395264 272.000000 -751.014404
+			449.469269 272.000000 -750.897949
+			449.344849 704.000000 -751.598877
+			449.469269 704.000000 -750.897949
+			449.344849 272.000000 -751.598877
+			447.395264 704.000000 -751.014404
+			447.510162 704.000000 -750.367432
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			447.395264 272.000000 -751.014404
+			447.268280 272.000000 -751.649353
+			449.344849 272.000000 -751.598877
+			449.207245 704.000000 -752.286743
+			449.344849 704.000000 -751.598877
+			449.207245 272.000000 -752.286743
+			447.268280 704.000000 -751.649353
+			447.395264 704.000000 -751.014404
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			447.268280 272.000000 -751.649353
+			447.129242 272.000000 -752.272156
+			449.207245 272.000000 -752.286743
+			449.056580 704.000000 -752.961487
+			449.207245 704.000000 -752.286743
+			449.056580 272.000000 -752.961487
+			447.129242 704.000000 -752.272156
+			447.268280 704.000000 -751.649353
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			447.129242 272.000000 -752.272156
+			446.978058 272.000000 -752.882935
+			449.056580 272.000000 -752.961487
+			448.892822 704.000061 -753.623108
+			449.056580 704.000000 -752.961487
+			448.892822 272.000000 -753.623108
+			446.978058 704.000061 -752.882935
+			447.129242 704.000000 -752.272156
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			446.978058 272.000000 -752.882935
+			446.814819 272.000000 -753.481567
+			448.892822 272.000000 -753.623108
+			448.716003 703.999939 -754.271606
+			448.892822 704.000061 -753.623108
+			448.716003 272.000000 -754.271606
+			446.814819 703.999939 -753.481567
+			446.978058 704.000061 -752.882935
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			446.814819 272.000000 -753.481567
+			446.639435 272.000000 -754.068115
+			448.716003 272.000000 -754.271606
+			448.525970 704.000000 -754.907043
+			448.716003 703.999939 -754.271606
+			448.525970 272.000000 -754.907043
+			446.639435 704.000000 -754.068115
+			446.814819 703.999939 -753.481567
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			446.639435 272.000000 -754.068115
+			446.451965 272.000000 -754.642578
+			448.525970 272.000000 -754.907043
+			448.322906 704.000000 -755.529358
+			448.525970 704.000000 -754.907043
+			448.322906 272.000000 -755.529358
+			446.451965 704.000000 -754.642578
+			446.639435 704.000000 -754.068115
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			446.451965 272.000000 -754.642578
+			446.252441 272.000000 -755.204895
+			448.322906 272.000000 -755.529358
+			448.106750 704.000000 -756.138550
+			448.322906 704.000000 -755.529358
+			448.106750 272.000000 -756.138550
+			446.252441 704.000000 -755.204895
+			446.451965 704.000000 -754.642578
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			446.252441 272.000000 -755.204895
+			446.040802 272.000000 -755.755188
+			448.106750 272.000000 -756.138550
+			447.877502 704.000000 -756.734741
+			448.106750 704.000000 -756.138550
+			447.877502 272.000000 -756.734741
+			446.040802 704.000000 -755.755188
+			446.252441 704.000000 -755.204895
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			446.040802 272.000000 -755.755188
+			445.817078 272.000000 -756.293335
+			447.877502 272.000000 -756.734741
+			447.635101 704.000000 -757.317749
+			447.877502 704.000000 -756.734741
+			447.635101 272.000000 -757.317749
+			445.817078 704.000000 -756.293335
+			446.040802 704.000000 -755.755188
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			445.817078 272.000000 -756.293335
+			445.581238 272.000000 -756.819458
+			447.635101 272.000000 -757.317749
+			447.379608 704.000000 -757.887634
+			447.635101 704.000000 -757.317749
+			447.379608 272.000000 -757.887634
+			445.581238 704.000000 -756.819458
+			445.817078 704.000000 -756.293335
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			445.581238 272.000000 -756.819458
+			445.333252 272.000000 -757.333374
+			447.379608 272.000000 -757.887634
+			447.110992 704.000061 -758.444458
+			447.379608 704.000000 -757.887634
+			447.110992 272.000000 -758.444458
+			445.333252 704.000061 -757.333374
+			445.581238 704.000000 -756.819458
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			445.333252 272.000000 -757.333374
+			445.073273 272.000000 -757.835327
+			447.110992 272.000000 -758.444458
+			446.829346 704.000000 -758.988159
+			447.110992 704.000061 -758.444458
+			446.829346 272.000000 -758.988159
+			445.073273 704.000000 -757.835327
+			445.333252 704.000061 -757.333374
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			445.073273 272.000000 -757.835327
+			444.801178 272.000000 -758.325073
+			446.829346 272.000000 -758.988159
+			446.534576 704.000000 -759.518799
+			446.829346 704.000000 -758.988159
+			446.534576 272.000000 -759.518799
+			444.801178 704.000000 -758.325073
+			445.073273 704.000000 -757.835327
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			444.801178 272.000000 -758.325073
+			444.516998 272.000000 -758.802795
+			446.534576 272.000000 -759.518799
+			446.226685 704.000000 -760.036255
+			446.534576 704.000000 -759.518799
+			446.226685 272.000000 -760.036255
+			444.516998 704.000000 -758.802795
+			444.801178 704.000000 -758.325073
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			444.516998 272.000000 -758.802795
+			444.220703 272.000000 -759.268433
+			446.226685 272.000000 -760.036255
+			445.905731 704.000000 -760.540710
+			446.226685 704.000000 -760.036255
+			445.905731 272.000000 -760.540710
+			444.220703 704.000000 -759.268433
+			444.516998 704.000000 -758.802795
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			444.220703 272.000000 -759.268433
+			443.912292 272.000000 -759.721924
+			445.905731 272.000000 -760.540710
+			445.571564 704.000000 -761.031982
+			445.905731 704.000000 -760.540710
+			445.571564 272.000000 -761.031982
+			443.912292 704.000000 -759.721924
+			444.220703 704.000000 -759.268433
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			443.912292 272.000000 -759.721924
+			443.591827 272.000000 -760.163330
+			445.571564 272.000000 -761.031982
+			445.224426 704.000000 -761.510254
+			445.571564 704.000000 -761.031982
+			445.224426 272.000000 -761.510254
+			443.591827 704.000000 -760.163330
+			443.912292 704.000000 -759.721924
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			443.591827 272.000000 -760.163330
+			443.259247 272.000000 -760.592712
+			445.224426 272.000000 -761.510254
+			444.864136 704.000000 -761.975342
+			445.224426 704.000000 -761.510254
+			444.864136 272.000000 -761.975342
+			443.259247 704.000000 -760.592712
+			443.591827 704.000000 -760.163330
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			443.259247 272.000000 -760.592712
+			442.914551 272.000000 -761.009888
+			444.864136 272.000000 -761.975342
+			444.490723 704.000000 -762.427307
+			444.864136 704.000000 -761.975342
+			444.490723 272.000000 -762.427307
+			442.914551 704.000000 -761.009888
+			443.259247 704.000000 -760.592712
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			442.914551 272.000000 -761.009888
+			442.557800 272.000000 -761.415039
+			444.490723 272.000000 -762.427307
+			444.104248 704.000000 -762.866211
+			444.490723 704.000000 -762.427307
+			444.104248 272.000000 -762.866211
+			442.557800 704.000000 -761.415039
+			442.914551 704.000000 -761.009888
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			442.557800 272.000000 -761.415039
+			442.188904 272.000000 -761.808105
+			444.104248 272.000000 -762.866211
+			443.704651 704.000000 -763.291992
+			444.104248 704.000000 -762.866211
+			443.704651 272.000000 -763.291992
+			442.188904 704.000000 -761.808105
+			442.557800 704.000000 -761.415039
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			442.188904 272.000000 -761.808105
+			441.807983 272.000000 -762.189087
+			443.704651 272.000000 -763.291992
+			443.291962 704.000000 -763.704712
+			443.704651 704.000000 -763.291992
+			443.291962 272.000000 -763.704712
+			441.807983 704.000000 -762.189087
+			442.188904 704.000000 -761.808105
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			441.807983 272.000000 -762.189087
+			441.414948 272.000000 -762.557922
+			443.291962 272.000000 -763.704712
+			442.866150 704.000000 -764.104309
+			443.291962 704.000000 -763.704712
+			442.866150 272.000000 -764.104309
+			441.414948 704.000000 -762.557922
+			441.807983 704.000000 -762.189087
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			441.414948 272.000000 -762.557922
+			441.009827 272.000000 -762.914673
+			442.866150 272.000000 -764.104309
+			442.427277 703.999939 -764.490845
+			442.866150 704.000000 -764.104309
+			442.427277 272.000000 -764.490845
+			441.009827 703.999939 -762.914673
+			441.414948 704.000000 -762.557922
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			441.009827 272.000000 -762.914673
+			440.592590 272.000000 -763.259399
+			442.427277 272.000000 -764.490845
+			441.975250 704.000000 -764.864197
+			442.427277 703.999939 -764.490845
+			441.975250 272.000000 -764.864197
+			440.592590 704.000000 -763.259399
+			441.009827 703.999939 -762.914673
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			440.592590 272.000000 -763.259399
+			440.163269 271.999969 -763.591919
+			441.975250 272.000000 -764.864197
+			441.510162 703.999939 -765.224487
+			441.975250 704.000000 -764.864197
+			441.510162 271.999969 -765.224487
+			440.163269 703.999939 -763.591919
+			440.592590 704.000000 -763.259399
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			440.163269 271.999969 -763.591919
+			439.721832 272.000000 -763.912415
+			441.510162 271.999969 -765.224487
+			441.031952 704.000000 -765.571655
+			441.510162 703.999939 -765.224487
+			441.031952 272.000000 -765.571655
+			439.721832 704.000000 -763.912415
+			440.163269 703.999939 -763.591919
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			439.721832 272.000000 -763.912415
+			439.268280 272.000031 -764.220825
+			441.031952 272.000000 -765.571655
+			440.540558 704.000122 -765.905762
+			441.031952 704.000000 -765.571655
+			440.540558 272.000031 -765.905762
+			439.268280 704.000122 -764.220825
+			439.721832 704.000000 -763.912415
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			439.268280 272.000031 -764.220825
+			438.802704 272.000000 -764.517090
+			440.540558 272.000031 -765.905762
+			440.036194 704.000000 -766.226746
+			440.540558 704.000122 -765.905762
+			440.036194 272.000000 -766.226746
+			438.802704 704.000000 -764.517090
+			439.268280 704.000122 -764.220825
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			438.802704 272.000000 -764.517090
+			438.325012 272.000000 -764.801331
+			440.036194 272.000000 -766.226746
+			439.518707 704.000000 -766.534668
+			440.036194 704.000000 -766.226746
+			439.518707 272.000000 -766.534668
+			438.325012 704.000000 -764.801331
+			438.802704 704.000000 -764.517090
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			438.325012 272.000000 -764.801331
+			437.835236 272.000000 -765.073425
+			439.518707 272.000000 -766.534668
+			438.988159 703.999939 -766.829468
+			439.518707 704.000000 -766.534668
+			438.988159 272.000000 -766.829468
+			437.835236 703.999939 -765.073425
+			438.325012 704.000000 -764.801331
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			437.835236 272.000000 -765.073425
+			437.333313 272.000000 -765.333435
+			438.988159 272.000000 -766.829468
+			438.444397 704.000061 -767.111084
+			438.988159 703.999939 -766.829468
+			438.444397 272.000000 -767.111084
+			437.333313 704.000061 -765.333435
+			437.835236 703.999939 -765.073425
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			437.333313 272.000000 -765.333435
+			436.819336 272.000000 -765.581360
+			438.444397 272.000000 -767.111084
+			437.887573 704.000000 -767.379700
+			438.444397 704.000061 -767.111084
+			437.887573 272.000000 -767.379700
+			436.819336 704.000000 -765.581360
+			437.333313 704.000061 -765.333435
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			436.819336 272.000000 -765.581360
+			436.293243 272.000000 -765.817200
+			437.887573 272.000000 -767.379700
+			437.317627 704.000000 -767.635193
+			437.887573 704.000000 -767.379700
+			437.317627 272.000000 -767.635193
+			436.293243 704.000000 -765.817200
+			436.819336 704.000000 -765.581360
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			436.293243 272.000000 -765.817200
+			435.755035 272.000031 -766.040894
+			437.317627 272.000000 -767.635193
+			436.734619 704.000061 -767.877563
+			437.317627 704.000000 -767.635193
+			436.734619 272.000031 -767.877563
+			435.755035 704.000061 -766.040894
+			436.293243 704.000000 -765.817200
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			435.755035 272.000031 -766.040894
+			435.204834 272.000000 -766.252563
+			436.734619 272.000031 -767.877563
+			436.138550 704.000000 -768.106812
+			436.734619 704.000061 -767.877563
+			436.138550 272.000000 -768.106812
+			435.204834 704.000000 -766.252563
+			435.755035 704.000061 -766.040894
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			435.204834 272.000000 -766.252563
+			434.642456 272.000000 -766.452148
+			436.138550 272.000000 -768.106812
+			435.529327 704.000000 -768.322998
+			436.138550 704.000000 -768.106812
+			435.529327 272.000000 -768.322998
+			434.642456 704.000000 -766.452148
+			435.204834 704.000000 -766.252563
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 7 0 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			434.642456 272.000000 -766.452148
+			434.068054 272.000000 -766.639587
+			435.529327 272.000000 -768.322998
+			434.907013 703.999939 -768.526123
+			435.529327 704.000000 -768.322998
+			434.907013 272.000000 -768.526123
+			434.068054 703.999939 -766.639587
+			434.642456 704.000000 -766.452148
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			434.068054 272.000000 -766.639587
+			433.481445 272.000000 -766.814941
+			434.907013 272.000000 -768.526123
+			434.271545 704.000000 -768.716064
+			434.907013 703.999939 -768.526123
+			434.271545 272.000000 -768.716064
+			433.481445 704.000000 -766.814941
+			434.068054 703.999939 -766.639587
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			433.481445 272.000000 -766.814941
+			432.882843 272.000000 -766.978210
+			434.271545 272.000000 -768.716064
+			433.623047 704.000000 -768.892944
+			434.271545 704.000000 -768.716064
+			433.623047 272.000000 -768.892944
+			432.882843 704.000000 -766.978210
+			433.481445 704.000000 -766.814941
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			432.882843 272.000000 -766.978210
+			432.272064 272.000000 -767.129395
+			433.623047 272.000000 -768.892944
+			432.961365 704.000061 -769.056641
+			433.623047 704.000000 -768.892944
+			432.961365 272.000000 -769.056641
+			432.272064 704.000061 -767.129395
+			432.882843 704.000000 -766.978210
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			432.272064 272.000000 -767.129395
+			431.649170 272.000061 -767.268433
+			432.961365 272.000000 -769.056641
+			432.286591 704.000183 -769.207336
+			432.961365 704.000061 -769.056641
+			432.286591 272.000061 -769.207336
+			431.649170 704.000183 -767.268433
+			432.272064 704.000061 -767.129395
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			431.649170 272.000061 -767.268433
+			431.014404 272.000000 -767.395447
+			432.286591 272.000061 -769.207336
+			431.598907 704.000000 -769.344910
+			432.286591 704.000183 -769.207336
+			431.598907 272.000000 -769.344910
+			431.014404 704.000000 -767.395447
+			431.649170 704.000183 -767.268433
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			431.014404 272.000000 -767.395447
+			430.367340 272.000000 -767.510315
+			431.598907 272.000000 -769.344910
+			430.897919 704.000000 -769.469360
+			431.598907 704.000000 -769.344910
+			430.897919 272.000000 -769.469360
+			430.367340 704.000000 -767.510315
+			431.014404 704.000000 -767.395447
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			430.367340 272.000000 -767.510315
+			429.708252 271.999969 -767.613159
+			430.897919 272.000000 -769.469360
+			430.183929 703.999878 -769.580750
+			430.897919 704.000000 -769.469360
+			430.183929 271.999969 -769.580750
+			429.708252 703.999878 -767.613159
+			430.367340 704.000000 -767.510315
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			429.708252 271.999969 -767.613159
+			429.037079 271.999969 -767.703857
+			430.183929 271.999969 -769.580750
+			429.456818 703.999939 -769.679016
+			430.183929 703.999878 -769.580750
+			429.456818 271.999969 -769.679016
+			429.037079 703.999939 -767.703857
+			429.708252 703.999878 -767.613159
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			429.037079 271.999969 -767.703857
+			428.353760 272.000000 -767.782471
+			429.456818 271.999969 -769.679016
+			428.716583 703.999939 -769.764160
+			429.456818 703.999939 -769.679016
+			428.716583 272.000000 -769.764160
+			428.353760 703.999939 -767.782471
+			429.037079 703.999939 -767.703857
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 7 0 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			428.353760 272.000000 -767.782471
+			427.658295 272.000031 -767.848938
+			428.716583 272.000000 -769.764160
+			427.963165 704.000061 -769.836182
+			428.716583 703.999939 -769.764160
+			427.963165 272.000031 -769.836182
+			427.658295 704.000061 -767.848938
+			428.353760 703.999939 -767.782471
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			427.658295 272.000031 -767.848938
+			426.950806 272.000031 -767.903320
+			427.963165 272.000031 -769.836182
+			427.196686 704.000061 -769.895142
+			427.963165 704.000061 -769.836182
+			427.196686 272.000031 -769.895142
+			426.950806 704.000061 -767.903320
+			427.658295 704.000061 -767.848938
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			426.950806 272.000031 -767.903320
+			426.231262 272.000031 -767.945679
+			427.196686 272.000031 -769.895142
+			426.417175 704.000061 -769.941040
+			427.196686 704.000061 -769.895142
+			426.417175 272.000031 -769.941040
+			426.231262 704.000061 -767.945679
+			426.950806 704.000061 -767.903320
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			426.231262 272.000031 -767.945679
+			425.499573 272.000031 -767.975952
+			426.417175 272.000031 -769.941040
+			425.624542 704.000122 -769.973755
+			426.417175 704.000061 -769.941040
+			425.624542 272.000031 -769.973755
+			425.499573 704.000122 -767.975952
+			426.231262 704.000061 -767.945679
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			425.499573 272.000031 -767.975952
+			424.755859 272.000000 -767.994080
+			425.624542 272.000031 -769.973755
+			424.818848 704.000061 -769.993408
+			425.624542 704.000122 -769.973755
+			424.818848 272.000000 -769.993408
+			424.755859 704.000061 -767.994080
+			425.499573 704.000122 -767.975952
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			424.755859 272.000000 -767.994080
+			424.000000 272.000000 -768.000122
+			424.818848 272.000000 -769.993408
+			424.000000 704.000000 -770.000000
+			424.818848 704.000061 -769.993408
+			424.000000 272.000000 -770.000000
+			424.000000 704.000000 -768.000122
+			424.755859 704.000061 -767.994080
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-578.000000 704.000000 -744.000000
+			-576.000122 704.000000 -744.000000
+			-576.000061 704.000000 -767.999939
+			-578.000000 704.000000 -768.000000
+			-578.000000 272.000000 -744.000000
+			-576.000122 272.000000 -744.000000
+			-576.000061 272.000000 -767.999939
+			-578.000000 272.000000 -768.000000
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-552.000000 704.000000 -767.999939
+			-552.000000 704.000000 -769.999878
+			-576.000000 704.000000 -770.000000
+			-576.000061 704.000000 -767.999939
+			-552.000000 272.000000 -767.999939
+			-552.000000 272.000000 -769.999878
+			-576.000000 272.000000 -770.000000
+			-576.000061 272.000000 -767.999939
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-552.000000 272.000000 -767.999939
+			-552.755859 272.000000 -767.993896
+			-552.000000 272.000000 -769.999878
+			-552.818848 704.000000 -769.993347
+			-552.000000 704.000000 -769.999878
+			-552.818848 272.000000 -769.993347
+			-552.755859 704.000000 -767.993896
+			-552.000000 704.000000 -767.999939
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-552.755859 272.000000 -767.993896
+			-553.499634 272.000000 -767.975708
+			-552.818848 272.000000 -769.993347
+			-553.624634 704.000000 -769.973694
+			-552.818848 704.000000 -769.993347
+			-553.624634 272.000000 -769.973694
+			-553.499634 704.000000 -767.975708
+			-552.755859 704.000000 -767.993896
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-553.499634 272.000000 -767.975708
+			-554.231323 272.000000 -767.945496
+			-553.624634 272.000000 -769.973694
+			-554.417236 703.999939 -769.940918
+			-553.624634 704.000000 -769.973694
+			-554.417236 272.000000 -769.940918
+			-554.231323 703.999939 -767.945496
+			-553.499634 704.000000 -767.975708
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-554.231323 272.000000 -767.945496
+			-554.950928 272.000000 -767.903137
+			-554.417236 272.000000 -769.940918
+			-555.196899 704.000000 -769.895020
+			-554.417236 703.999939 -769.940918
+			-555.196899 272.000000 -769.895020
+			-554.950928 704.000000 -767.903137
+			-554.231323 703.999939 -767.945496
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-554.950928 272.000000 -767.903137
+			-555.658447 272.000000 -767.848755
+			-555.196899 272.000000 -769.895020
+			-555.963257 704.000000 -769.836060
+			-555.196899 704.000000 -769.895020
+			-555.963257 272.000000 -769.836060
+			-555.658447 704.000000 -767.848755
+			-554.950928 704.000000 -767.903137
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-555.658447 272.000000 -767.848755
+			-556.353821 272.000000 -767.782227
+			-555.963257 272.000000 -769.836060
+			-556.716675 704.000000 -769.764038
+			-555.963257 704.000000 -769.836060
+			-556.716675 272.000000 -769.764038
+			-556.353821 704.000000 -767.782227
+			-555.658447 704.000000 -767.848755
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 7 0 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-556.353821 272.000000 -767.782227
+			-557.037109 272.000000 -767.703613
+			-556.716675 272.000000 -769.764038
+			-557.456909 704.000000 -769.678833
+			-556.716675 704.000000 -769.764038
+			-557.456909 272.000000 -769.678833
+			-557.037109 704.000000 -767.703613
+			-556.353821 704.000000 -767.782227
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-557.037109 272.000000 -767.703613
+			-557.708374 272.000000 -767.612854
+			-557.456909 272.000000 -769.678833
+			-558.184021 704.000000 -769.580566
+			-557.456909 704.000000 -769.678833
+			-558.184021 272.000000 -769.580566
+			-557.708374 704.000000 -767.612854
+			-557.037109 704.000000 -767.703613
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-557.708374 272.000000 -767.612854
+			-558.367432 272.000000 -767.510071
+			-558.184021 272.000000 -769.580566
+			-558.898071 704.000000 -769.469238
+			-558.184021 704.000000 -769.580566
+			-558.898071 272.000000 -769.469238
+			-558.367432 704.000000 -767.510071
+			-557.708374 704.000000 -767.612854
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-558.367432 272.000000 -767.510071
+			-559.014465 272.000000 -767.395142
+			-558.898071 272.000000 -769.469238
+			-559.598999 704.000000 -769.344727
+			-558.898071 704.000000 -769.469238
+			-559.598999 272.000000 -769.344727
+			-559.014465 704.000000 -767.395142
+			-558.367432 704.000000 -767.510071
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-559.014465 272.000000 -767.395142
+			-559.649414 272.000000 -767.268188
+			-559.598999 272.000000 -769.344727
+			-560.286804 704.000000 -769.207153
+			-559.598999 704.000000 -769.344727
+			-560.286804 272.000000 -769.207153
+			-559.649414 704.000000 -767.268188
+			-559.014465 704.000000 -767.395142
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-559.649414 272.000000 -767.268188
+			-560.272217 272.000000 -767.129089
+			-560.286804 272.000000 -769.207153
+			-560.961548 704.000000 -769.056519
+			-560.286804 704.000000 -769.207153
+			-560.961548 272.000000 -769.056519
+			-560.272217 704.000000 -767.129089
+			-559.649414 704.000000 -767.268188
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 7 0 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-560.272217 272.000000 -767.129089
+			-560.883057 272.000000 -766.977905
+			-560.961548 272.000000 -769.056519
+			-561.623169 704.000000 -768.892700
+			-560.961548 704.000000 -769.056519
+			-561.623169 272.000000 -768.892700
+			-560.883057 704.000000 -766.977905
+			-560.272217 704.000000 -767.129089
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-560.883057 272.000000 -766.977905
+			-561.481628 272.000000 -766.814697
+			-561.623169 272.000000 -768.892700
+			-562.271729 704.000000 -768.715820
+			-561.623169 704.000000 -768.892700
+			-562.271729 272.000000 -768.715820
+			-561.481628 704.000000 -766.814697
+			-560.883057 704.000000 -766.977905
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-561.481628 272.000000 -766.814697
+			-562.068176 272.000000 -766.639282
+			-562.271729 272.000000 -768.715820
+			-562.907166 704.000061 -768.525879
+			-562.271729 704.000000 -768.715820
+			-562.907166 272.000000 -768.525879
+			-562.068176 704.000061 -766.639282
+			-561.481628 704.000000 -766.814697
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-562.068176 272.000000 -766.639282
+			-562.642578 272.000000 -766.451843
+			-562.907166 272.000000 -768.525879
+			-563.529480 704.000000 -768.322815
+			-562.907166 704.000061 -768.525879
+			-563.529480 272.000000 -768.322815
+			-562.642578 704.000000 -766.451843
+			-562.068176 704.000061 -766.639282
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-562.642578 272.000000 -766.451843
+			-563.205017 272.000000 -766.252319
+			-563.529480 272.000000 -768.322815
+			-564.138672 703.999939 -768.106628
+			-563.529480 704.000000 -768.322815
+			-564.138672 272.000000 -768.106628
+			-563.205017 703.999939 -766.252319
+			-562.642578 704.000000 -766.451843
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-563.205017 272.000000 -766.252319
+			-563.755249 272.000000 -766.040649
+			-564.138672 272.000000 -768.106628
+			-564.734863 704.000000 -767.877319
+			-564.138672 703.999939 -768.106628
+			-564.734863 272.000000 -767.877319
+			-563.755249 704.000000 -766.040649
+			-563.205017 703.999939 -766.252319
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-563.755249 272.000000 -766.040649
+			-564.293457 272.000000 -765.816895
+			-564.734863 272.000000 -767.877319
+			-565.317871 704.000000 -767.635010
+			-564.734863 704.000000 -767.877319
+			-565.317871 272.000000 -767.635010
+			-564.293457 704.000000 -765.816895
+			-563.755249 704.000000 -766.040649
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-564.293457 272.000000 -765.816895
+			-564.819519 272.000000 -765.581055
+			-565.317871 272.000000 -767.635010
+			-565.887756 704.000000 -767.379517
+			-565.317871 704.000000 -767.635010
+			-565.887756 272.000000 -767.379517
+			-564.819519 704.000000 -765.581055
+			-564.293457 704.000000 -765.816895
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-564.819519 272.000000 -765.581055
+			-565.333496 272.000000 -765.333130
+			-565.887756 272.000000 -767.379517
+			-566.444580 704.000000 -767.110901
+			-565.887756 704.000000 -767.379517
+			-566.444580 272.000000 -767.110901
+			-565.333496 704.000000 -765.333130
+			-564.819519 704.000000 -765.581055
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-565.333496 272.000000 -765.333130
+			-565.835449 272.000000 -765.073120
+			-566.444580 272.000000 -767.110901
+			-566.988281 704.000000 -766.829224
+			-566.444580 704.000000 -767.110901
+			-566.988281 272.000000 -766.829224
+			-565.835449 704.000000 -765.073120
+			-565.333496 704.000000 -765.333130
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-565.835449 272.000000 -765.073120
+			-566.325195 272.000000 -764.801025
+			-566.988281 272.000000 -766.829224
+			-567.518921 704.000000 -766.534424
+			-566.988281 704.000000 -766.829224
+			-567.518921 272.000000 -766.534424
+			-566.325195 704.000000 -764.801025
+			-565.835449 704.000000 -765.073120
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-566.325195 272.000000 -764.801025
+			-566.802917 272.000000 -764.516846
+			-567.518921 272.000000 -766.534424
+			-568.036438 704.000000 -766.226563
+			-567.518921 704.000000 -766.534424
+			-568.036438 272.000000 -766.226563
+			-566.802917 704.000000 -764.516846
+			-566.325195 704.000000 -764.801025
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-566.802917 272.000000 -764.516846
+			-567.268494 272.000000 -764.220581
+			-568.036438 272.000000 -766.226563
+			-568.540833 704.000000 -765.905579
+			-568.036438 704.000000 -766.226563
+			-568.540833 272.000000 -765.905579
+			-567.268494 704.000000 -764.220581
+			-566.802917 704.000000 -764.516846
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-567.268494 272.000000 -764.220581
+			-567.722046 272.000000 -763.912170
+			-568.540833 272.000000 -765.905579
+			-569.032166 704.000000 -765.571533
+			-568.540833 704.000000 -765.905579
+			-569.032166 272.000000 -765.571533
+			-567.722046 704.000000 -763.912170
+			-567.268494 704.000000 -764.220581
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-567.722046 272.000000 -763.912170
+			-568.163452 272.000000 -763.591675
+			-569.032166 272.000000 -765.571533
+			-569.510315 704.000000 -765.224304
+			-569.032166 704.000000 -765.571533
+			-569.510315 272.000000 -765.224304
+			-568.163452 704.000000 -763.591675
+			-567.722046 704.000000 -763.912170
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-568.163452 272.000000 -763.591675
+			-568.592773 272.000000 -763.259094
+			-569.510315 272.000000 -765.224304
+			-569.975403 704.000000 -764.864014
+			-569.510315 704.000000 -765.224304
+			-569.975403 272.000000 -764.864014
+			-568.592773 704.000000 -763.259094
+			-568.163452 704.000000 -763.591675
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-568.592773 272.000000 -763.259094
+			-569.010010 272.000000 -762.914429
+			-569.975403 272.000000 -764.864014
+			-570.427429 704.000000 -764.490601
+			-569.975403 704.000000 -764.864014
+			-570.427429 272.000000 -764.490601
+			-569.010010 704.000000 -762.914429
+			-568.592773 704.000000 -763.259094
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-569.010010 272.000000 -762.914429
+			-569.415161 272.000000 -762.557678
+			-570.427429 272.000000 -764.490601
+			-570.866333 704.000000 -764.104126
+			-570.427429 704.000000 -764.490601
+			-570.866333 272.000000 -764.104126
+			-569.415161 704.000000 -762.557678
+			-569.010010 704.000000 -762.914429
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-569.415161 272.000000 -762.557678
+			-569.808228 272.000000 -762.188843
+			-570.866333 272.000000 -764.104126
+			-571.292114 704.000000 -763.704529
+			-570.866333 704.000000 -764.104126
+			-571.292114 272.000000 -763.704529
+			-569.808228 704.000000 -762.188843
+			-569.415161 704.000000 -762.557678
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-569.808228 272.000000 -762.188843
+			-570.189148 272.000000 -761.807861
+			-571.292114 272.000000 -763.704529
+			-571.704834 704.000000 -763.291870
+			-571.292114 704.000000 -763.704529
+			-571.704834 272.000000 -763.291870
+			-570.189148 704.000000 -761.807861
+			-569.808228 704.000000 -762.188843
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-570.189148 272.000000 -761.807861
+			-570.557983 272.000000 -761.414795
+			-571.704834 272.000000 -763.291870
+			-572.104431 704.000000 -762.866089
+			-571.704834 704.000000 -763.291870
+			-572.104431 272.000000 -762.866089
+			-570.557983 704.000000 -761.414795
+			-570.189148 704.000000 -761.807861
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 2 5 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-570.557983 272.000000 -761.414795
+			-570.914734 272.000000 -761.009705
+			-572.104431 272.000000 -762.866089
+			-572.490845 704.000000 -762.427124
+			-572.104431 704.000000 -762.866089
+			-572.490845 272.000000 -762.427124
+			-570.914734 704.000000 -761.009705
+			-570.557983 704.000000 -761.414795
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-570.914734 272.000000 -761.009705
+			-571.259399 272.000000 -760.592468
+			-572.490845 272.000000 -762.427124
+			-572.864258 703.999939 -761.975159
+			-572.490845 704.000000 -762.427124
+			-572.864258 272.000000 -761.975159
+			-571.259399 703.999939 -760.592468
+			-570.914734 704.000000 -761.009705
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-571.259399 272.000000 -760.592468
+			-571.591980 272.000000 -760.163147
+			-572.864258 272.000000 -761.975159
+			-573.224548 704.000000 -761.510071
+			-572.864258 703.999939 -761.975159
+			-573.224548 272.000000 -761.510071
+			-571.591980 704.000000 -760.163147
+			-571.259399 703.999939 -760.592468
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-571.591980 272.000000 -760.163147
+			-571.912476 272.000000 -759.721741
+			-573.224548 272.000000 -761.510071
+			-573.571777 704.000000 -761.031860
+			-573.224548 704.000000 -761.510071
+			-573.571777 272.000000 -761.031860
+			-571.912476 704.000000 -759.721741
+			-571.591980 704.000000 -760.163147
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-571.912476 272.000000 -759.721741
+			-572.220947 272.000031 -759.268188
+			-573.571777 272.000000 -761.031860
+			-573.905884 704.000061 -760.540527
+			-573.571777 704.000000 -761.031860
+			-573.905884 272.000031 -760.540527
+			-572.220947 704.000061 -759.268188
+			-571.912476 704.000000 -759.721741
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-572.220947 272.000031 -759.268188
+			-572.517151 272.000000 -758.802612
+			-573.905884 272.000031 -760.540527
+			-574.226807 704.000000 -760.036133
+			-573.905884 704.000061 -760.540527
+			-574.226807 272.000000 -760.036133
+			-572.517151 704.000000 -758.802612
+			-572.220947 704.000061 -759.268188
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-572.517151 272.000000 -758.802612
+			-572.801331 272.000000 -758.324951
+			-574.226807 272.000000 -760.036133
+			-574.534668 703.999939 -759.518677
+			-574.226807 704.000000 -760.036133
+			-574.534668 272.000000 -759.518677
+			-572.801331 703.999939 -758.324951
+			-572.517151 704.000000 -758.802612
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-572.801331 272.000000 -758.324951
+			-573.073486 272.000000 -757.835144
+			-574.534668 272.000000 -759.518677
+			-574.829468 703.999939 -758.988037
+			-574.534668 703.999939 -759.518677
+			-574.829468 272.000000 -758.988037
+			-573.073486 703.999939 -757.835144
+			-572.801331 703.999939 -758.324951
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-573.073486 272.000000 -757.835144
+			-573.333496 272.000000 -757.333252
+			-574.829468 272.000000 -758.988037
+			-575.111206 704.000000 -758.444336
+			-574.829468 703.999939 -758.988037
+			-575.111206 272.000000 -758.444336
+			-573.333496 704.000000 -757.333252
+			-573.073486 703.999939 -757.835144
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 7 0 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-573.333496 272.000000 -757.333252
+			-573.581421 272.000000 -756.819275
+			-575.111206 272.000000 -758.444336
+			-575.379761 704.000000 -757.887512
+			-575.111206 704.000000 -758.444336
+			-575.379761 272.000000 -757.887512
+			-573.581421 704.000000 -756.819275
+			-573.333496 704.000000 -757.333252
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-573.581421 272.000000 -756.819275
+			-573.817261 272.000000 -756.293213
+			-575.379761 272.000000 -757.887512
+			-575.635254 704.000000 -757.317627
+			-575.379761 704.000000 -757.887512
+			-575.635254 272.000000 -757.317627
+			-573.817261 704.000000 -756.293213
+			-573.581421 704.000000 -756.819275
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-573.817261 272.000000 -756.293213
+			-574.041016 272.000031 -755.755005
+			-575.635254 272.000000 -757.317627
+			-575.877625 704.000061 -756.734619
+			-575.635254 704.000000 -757.317627
+			-575.877625 272.000031 -756.734619
+			-574.041016 704.000061 -755.755005
+			-573.817261 704.000000 -756.293213
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-574.041016 272.000031 -755.755005
+			-574.252563 272.000000 -755.204773
+			-575.877625 272.000031 -756.734619
+			-576.106873 703.999939 -756.138489
+			-575.877625 704.000061 -756.734619
+			-576.106873 272.000000 -756.138489
+			-574.252563 703.999939 -755.204773
+			-574.041016 704.000061 -755.755005
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-574.252563 272.000000 -755.204773
+			-574.452148 272.000000 -754.642456
+			-576.106873 272.000000 -756.138489
+			-576.323059 704.000000 -755.529297
+			-576.106873 703.999939 -756.138489
+			-576.323059 272.000000 -755.529297
+			-574.452148 704.000000 -754.642456
+			-574.252563 703.999939 -755.204773
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 7 0 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-574.452148 272.000000 -754.642456
+			-574.639587 272.000000 -754.067993
+			-576.323059 272.000000 -755.529297
+			-576.526123 703.999939 -754.906982
+			-576.323059 704.000000 -755.529297
+			-576.526123 272.000000 -754.906982
+			-574.639587 703.999939 -754.067993
+			-574.452148 704.000000 -754.642456
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-574.639587 272.000000 -754.067993
+			-574.815002 272.000000 -753.481445
+			-576.526123 272.000000 -754.906982
+			-576.716125 704.000061 -754.271545
+			-576.526123 703.999939 -754.906982
+			-576.716125 272.000000 -754.271545
+			-574.815002 704.000061 -753.481445
+			-574.639587 703.999939 -754.067993
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 7 0 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-574.815002 272.000000 -753.481445
+			-574.978271 272.000000 -752.882813
+			-576.716125 272.000000 -754.271545
+			-576.892944 704.000000 -753.623047
+			-576.716125 704.000061 -754.271545
+			-576.892944 272.000000 -753.623047
+			-574.978271 704.000000 -752.882813
+			-574.815002 704.000061 -753.481445
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 7 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-574.978271 272.000000 -752.882813
+			-575.129395 272.000000 -752.272095
+			-576.892944 272.000000 -753.623047
+			-577.056763 704.000000 -752.961426
+			-576.892944 704.000000 -753.623047
+			-577.056763 272.000000 -752.961426
+			-575.129395 704.000000 -752.272095
+			-574.978271 704.000000 -752.882813
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 0 2 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-575.129395 272.000000 -752.272095
+			-575.268555 272.000061 -751.649231
+			-577.056763 272.000000 -752.961426
+			-577.207458 704.000183 -752.286682
+			-577.056763 704.000000 -752.961426
+			-577.207458 272.000061 -752.286682
+			-575.268555 704.000183 -751.649231
+			-575.129395 704.000000 -752.272095
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-575.268555 272.000061 -751.649231
+			-575.395386 272.000000 -751.014343
+			-577.207458 272.000061 -752.286682
+			-577.344910 703.999939 -751.598877
+			-577.207458 704.000183 -752.286682
+			-577.344910 272.000000 -751.598877
+			-575.395386 703.999939 -751.014343
+			-575.268555 704.000183 -751.649231
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-575.395386 272.000000 -751.014343
+			-575.510376 272.000000 -750.367310
+			-577.344910 272.000000 -751.598877
+			-577.469360 704.000000 -750.897949
+			-577.344910 703.999939 -751.598877
+			-577.469360 272.000000 -750.897949
+			-575.510376 704.000000 -750.367310
+			-575.395386 703.999939 -751.014343
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-575.510376 272.000000 -750.367310
+			-575.613098 272.000000 -749.708191
+			-577.469360 272.000000 -750.897949
+			-577.580688 703.999939 -750.183899
+			-577.469360 704.000000 -750.897949
+			-577.580688 272.000000 -750.183899
+			-575.613098 703.999939 -749.708191
+			-575.510376 704.000000 -750.367310
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-575.613098 272.000000 -749.708191
+			-575.703796 271.999969 -749.036987
+			-577.580688 272.000000 -750.183899
+			-577.678955 703.999878 -749.456787
+			-577.580688 703.999939 -750.183899
+			-577.678955 271.999969 -749.456787
+			-575.703796 703.999878 -749.036987
+			-575.613098 703.999939 -749.708191
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 1 6 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-575.703796 271.999969 -749.036987
+			-575.782410 272.000000 -748.353760
+			-577.678955 271.999969 -749.456787
+			-577.764160 703.999939 -748.716553
+			-577.678955 703.999878 -749.456787
+			-577.764160 272.000000 -748.716553
+			-575.782410 703.999939 -748.353760
+			-575.703796 703.999878 -749.036987
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 5 2 0 1 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-575.782410 272.000000 -748.353760
+			-575.848999 272.000031 -747.658325
+			-577.764160 272.000000 -748.716553
+			-577.836304 704.000061 -747.963196
+			-577.764160 703.999939 -748.716553
+			-577.836304 272.000031 -747.963196
+			-575.848999 704.000061 -747.658325
+			-575.782410 703.999939 -748.353760
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 5 2 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 4 7 0 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-575.848999 272.000031 -747.658325
+			-575.903442 272.000031 -746.950867
+			-577.836304 272.000031 -747.963196
+			-577.895264 704.000122 -747.196777
+			-577.836304 704.000061 -747.963196
+			-577.895264 272.000031 -747.196777
+			-575.903442 704.000122 -746.950867
+			-575.848999 704.000061 -747.658325
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-575.903442 272.000031 -746.950867
+			-575.945801 272.000031 -746.231323
+			-577.895264 272.000031 -747.196777
+			-577.941101 704.000122 -746.417236
+			-577.895264 704.000122 -747.196777
+			-577.941101 272.000031 -746.417236
+			-575.945801 704.000122 -746.231323
+			-575.903442 704.000122 -746.950867
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-575.945801 272.000031 -746.231323
+			-575.975952 272.000031 -745.499634
+			-577.941101 272.000031 -746.417236
+			-577.973877 704.000122 -745.624573
+			-577.941101 704.000122 -746.417236
+			-577.973877 272.000031 -745.624573
+			-575.975952 704.000122 -745.499634
+			-575.945801 704.000122 -746.231323
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 4 3 6 7 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-575.975952 272.000031 -745.499634
+			-575.994141 272.000000 -744.755859
+			-577.973877 272.000031 -745.624573
+			-577.993530 704.000061 -744.818848
+			-577.973877 704.000122 -745.624573
+			-577.993530 272.000000 -744.818848
+			-575.994141 704.000061 -744.755859
+			-575.975952 704.000122 -745.499634
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-575.994141 272.000000 -744.755859
+			-576.000122 272.000000 -744.000000
+			-577.993530 272.000000 -744.818848
+			-578.000000 704.000000 -744.000000
+			-577.993530 704.000061 -744.818848
+			-578.000000 272.000000 -744.000000
+			-576.000122 704.000000 -744.000000
+			-575.994141 704.000061 -744.755859
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 0 1 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 4 2 5 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 5 1 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 2 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 1 0 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 7 4 3 6 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-552.000000 704.000000 260.000000
+			-552.000000 704.000000 258.000000
+			-576.000000 704.000000 257.999969
+			-576.000000 704.000000 259.999969
+			-552.000000 272.000000 260.000000
+			-552.000000 272.000000 258.000000
+			-576.000000 272.000000 257.999969
+			-576.000000 272.000000 259.999969
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 internal/editor/textures/editor_clip
+	brush
+		vertices
+			-576.000000 704.000000 233.999969
+			-577.999939 704.000000 233.999954
+			-578.000000 704.000000 257.999969
+			-576.000000 704.000000 257.999969
+			-576.000000 272.000000 233.999969
+			-577.999939 272.000000 233.999954
+			-578.000000 272.000000 257.999969
+			-576.000000 272.000000 257.999969
+		faces
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 1 2 3 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 6 5 4 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 2 1 5 6 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 0 3 7 4 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 3 2 6 7 0x00000000 internal/editor/textures/editor_clip
+			0.000000 0.000000 1.000000 1.000000 0.000000 1 0 4 5 0x00000000 internal/editor/textures/editor_clip
+	entity
+		type CameraPath
+		UInt32 entityIdAttachedTo 5
+		UInt8 posLerp 2
+		UInt8 angleLerp 2
+	entity
+		type Effect
+		Vector3 position 0.000000 256.000000 0.000000
+		String64 effectName internal/misc/reflectionprobe
+	entity
+		type PlayerSpawn
+		Vector3 position 416.000000 0.000000 -256.000000
+		Vector3 angles 270.000000 0.000000 0.000000
+		Bool8 teamA 0
+	entity
+		type PlayerSpawn
+		Vector3 position -64.000000 0.000000 -256.000000
+		Vector3 angles 90.000000 0.000000 0.000000
+		Bool8 teamB 0

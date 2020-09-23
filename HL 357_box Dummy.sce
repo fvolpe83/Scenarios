@@ -1,0 +1,1478 @@
+Name=HL 357_box Dummy
+PlayerCharacters=Gordon Freeman;Gordon Freeman HEV
+BotCharacters=HL Dummy Bot 1.bot
+IsChallenge=true
+Timelimit=120.0
+PlayerProfile=Gordon Freeman
+AddedBots=HL Dummy Bot 1.bot
+PlayerMaxLives=0
+BotMaxLives=0
+PlayerTeam=0
+BotTeams=0
+MapName=hl_357_box.map
+MapScale=2.0
+BlockProjectilePredictors=true
+BlockCheats=true
+InvinciblePlayer=false
+InvincibleBots=false
+Timescale=1.0
+BlockHealthbars=false
+TimeRefilledByKill=0.0
+ScoreToWin=600.0
+ScorePerDamage=3.0
+ScorePerKill=80.0
+ScorePerMidairDirect=0.0
+ScorePerAnyDirect=0.0
+ScorePerTime=0.0
+ScoreLossPerDamageTaken=0.0
+ScoreLossPerDeath=0.0
+ScoreLossPerMidairDirected=0.0
+ScoreLossPerAnyDirected=0.0
+ScoreMultAccuracy=false
+ScoreMultDamageEfficiency=true
+ScoreMultKillEfficiency=true
+GameTag=HL, Half-Life
+WeaponHeroTag=357, revolver, magnum, python, Gordon Freeman, dummy
+DifficultyTag=3
+AuthorsTag=naz
+BlockHitMarkers=false
+BlockHitSounds=false
+BlockMissSounds=true
+BlockFCT=false
+Description=357_box map from Half-Life, with 357 revolver. The bot doesn't attack
+GameVersion=1.0.5
+
+[Aim Profile]
+Name=Low Skill At Feet
+MinReactionTime=0.35
+MaxReactionTime=0.45
+MinSelfMovementCorrectionTime=0.001
+MaxSelfMovementCorrectionTime=0.05
+FlickFOV=30.0
+FlickSpeed=1.5
+FlickError=20.0
+TrackSpeed=3.0
+TrackError=5.0
+MaxTurnAngleFromPadCenter=75.0
+MinRecenterTime=0.3
+MaxRecenterTime=0.5
+OptimalAimFOV=30.0
+OuterAimPenalty=1.0
+MaxError=60.0
+ShootFOV=25.0
+VerticalAimOffset=-200.0
+MaxTolerableSpread=5.0
+MinTolerableSpread=1.0
+TolerableSpreadDist=2000.0
+MaxSpreadDistFactor=2.0
+
+[Aim Profile]
+Name=Medium Skill At Feet
+MinReactionTime=0.3
+MaxReactionTime=0.4
+MinSelfMovementCorrectionTime=0.001
+MaxSelfMovementCorrectionTime=0.05
+FlickFOV=30.0
+FlickSpeed=1.5
+FlickError=15.0
+TrackSpeed=3.5
+TrackError=3.5
+MaxTurnAngleFromPadCenter=75.0
+MinRecenterTime=0.3
+MaxRecenterTime=0.5
+OptimalAimFOV=30.0
+OuterAimPenalty=1.0
+MaxError=40.0
+ShootFOV=15.0
+VerticalAimOffset=-200.0
+MaxTolerableSpread=5.0
+MinTolerableSpread=1.0
+TolerableSpreadDist=2000.0
+MaxSpreadDistFactor=2.0
+
+[Aim Profile]
+Name=Medium Skill
+MinReactionTime=0.3
+MaxReactionTime=0.4
+MinSelfMovementCorrectionTime=0.001
+MaxSelfMovementCorrectionTime=0.05
+FlickFOV=30.0
+FlickSpeed=1.5
+FlickError=15.0
+TrackSpeed=3.5
+TrackError=3.5
+MaxTurnAngleFromPadCenter=75.0
+MinRecenterTime=0.3
+MaxRecenterTime=0.5
+OptimalAimFOV=30.0
+OuterAimPenalty=1.0
+MaxError=40.0
+ShootFOV=15.0
+VerticalAimOffset=0.0
+MaxTolerableSpread=5.0
+MinTolerableSpread=1.0
+TolerableSpreadDist=2000.0
+MaxSpreadDistFactor=2.0
+
+[Aim Profile]
+Name=Default
+MinReactionTime=0.3
+MaxReactionTime=0.4
+MinSelfMovementCorrectionTime=0.001
+MaxSelfMovementCorrectionTime=0.05
+FlickFOV=30.0
+FlickSpeed=1.5
+FlickError=15.0
+TrackSpeed=3.5
+TrackError=3.5
+MaxTurnAngleFromPadCenter=75.0
+MinRecenterTime=0.3
+MaxRecenterTime=0.5
+OptimalAimFOV=30.0
+OuterAimPenalty=1.0
+MaxError=40.0
+ShootFOV=15.0
+VerticalAimOffset=0.0
+MaxTolerableSpread=5.0
+MinTolerableSpread=1.0
+TolerableSpreadDist=2000.0
+MaxSpreadDistFactor=2.0
+
+[Bot Profile]
+Name=HL Dummy Bot 1
+DodgeProfileNames=Long Strafes;Mimic;Short Strafes;MidStrafes;HL 001
+DodgeProfileWeights=1.0;2.0;1.0;2.0;4.0
+DodgeProfileMaxChangeTime=5.0
+DodgeProfileMinChangeTime=1.0
+WeaponProfileWeights=0.0;0.5;2.0;1.0;1.0;1.0;1.0;1.0
+AimingProfileNames=Low Skill At Feet;Medium Skill At Feet;Medium Skill;Default;Default;Default;Default;Default
+WeaponSwitchTime=3.0
+UseWeapons=true
+CharacterProfile=Gordon Freeman
+SeeThroughWalls=false
+
+[Character Profile]
+Name=Gordon Freeman
+MaxHealth=100.0
+WeaponProfileNames=HL 357;;;;;;;
+MinRespawnDelay=0.5
+MaxRespawnDelay=5.0
+StepUpHeight=32.0
+CrouchHeightModifier=0.4
+CrouchAnimationSpeed=2.0
+CameraOffset=X=0.000 Y=0.000 Z=0.000
+HeadshotOnly=false
+DamageKnockbackFactor=1.0
+MovementType=Base
+MaxSpeed=600.0
+MaxCrouchSpeed=200.0
+Acceleration=4500.0
+AirAcceleration=16000.0
+Friction=4.0
+BrakingFrictionFactor=2.0
+JumpVelocity=600.0
+Gravity=2.4525
+AirControl=0.5
+CanCrouch=true
+CanPogoJump=true
+CanCrouchInAir=true
+CanJumpFromCrouch=true
+EnemyBodyColor=X=255.000 Y=0.000 Z=0.000
+EnemyHeadColor=X=255.000 Y=0.706 Z=0.529
+TeamBodyColor=X=0.000 Y=0.000 Z=1.000
+TeamHeadColor=X=1.000 Y=0.706 Z=0.529
+BlockSelfDamage=false
+InvinciblePlayer=false
+InvincibleBots=false
+BlockTeamDamage=false
+AirJumpCount=0
+AirJumpVelocity=800.0
+MainBBType=Cuboid
+MainBBHeight=145.0
+MainBBRadius=23.75816
+MainBBHasHead=true
+MainBBHeadRadius=12.0
+MainBBHeadOffset=4.0
+MainBBHide=false
+ProjBBType=Cuboid
+ProjBBHeight=145.0
+ProjBBRadius=23.75816
+ProjBBHasHead=true
+ProjBBHeadRadius=12.0
+ProjBBHeadOffset=4.0
+ProjBBHide=true
+HasJetpack=false
+JetpackActivationDelay=0.2
+JetpackFullFuelTime=4.0
+JetpackFuelIncPerSec=1.0
+JetpackFuelRegensInAir=false
+JetpackThrust=6000.0
+JetpackMaxZVelocity=400.0
+JetpackAirControlWithThrust=0.25
+AbilityProfileNames=;;;
+HideWeapon=false
+AerialFriction=0.0
+StrafeSpeedMult=1.0
+BackSpeedMult=1.0
+RespawnInvulnTime=0.0
+BlockedSpawnRadius=2.0
+BlockSpawnFOV=2.0
+BlockSpawnDistance=2.0
+RespawnAnimationDuration=0.5
+AllowBufferedJumps=false
+BounceOffWalls=false
+LeanAngle=0.0
+LeanDisplacement=0.0
+AirJumpExtraControl=0.0
+ForwardSpeedBias=1.0
+HealthRegainedonkill=0.0
+HealthRegenPerSec=0.0
+HealthRegenDelay=0.0
+JumpSpeedPenaltyDuration=0.0
+JumpSpeedPenaltyPercent=0.25
+
+[Character Profile]
+Name=Gordon Freeman HEV
+MaxHealth=200.0
+WeaponProfileNames=HL 357;;;;;;;
+MinRespawnDelay=0.5
+MaxRespawnDelay=5.0
+StepUpHeight=32.0
+CrouchHeightModifier=0.4
+CrouchAnimationSpeed=2.0
+CameraOffset=X=0.000 Y=0.000 Z=0.000
+HeadshotOnly=false
+DamageKnockbackFactor=1.0
+MovementType=Base
+MaxSpeed=600.0
+MaxCrouchSpeed=200.0
+Acceleration=4500.0
+AirAcceleration=16000.0
+Friction=4.0
+BrakingFrictionFactor=2.0
+JumpVelocity=600.0
+Gravity=2.4525
+AirControl=0.5
+CanCrouch=true
+CanPogoJump=true
+CanCrouchInAir=true
+CanJumpFromCrouch=true
+EnemyBodyColor=X=255.000 Y=0.000 Z=0.000
+EnemyHeadColor=X=255.000 Y=0.706 Z=0.529
+TeamBodyColor=X=0.000 Y=0.000 Z=1.000
+TeamHeadColor=X=1.000 Y=0.706 Z=0.529
+BlockSelfDamage=false
+InvinciblePlayer=false
+InvincibleBots=false
+BlockTeamDamage=false
+AirJumpCount=0
+AirJumpVelocity=800.0
+MainBBType=Cuboid
+MainBBHeight=145.0
+MainBBRadius=23.75816
+MainBBHasHead=true
+MainBBHeadRadius=12.0
+MainBBHeadOffset=4.0
+MainBBHide=false
+ProjBBType=Cuboid
+ProjBBHeight=145.0
+ProjBBRadius=23.75816
+ProjBBHasHead=true
+ProjBBHeadRadius=12.0
+ProjBBHeadOffset=4.0
+ProjBBHide=true
+HasJetpack=false
+JetpackActivationDelay=0.2
+JetpackFullFuelTime=4.0
+JetpackFuelIncPerSec=1.0
+JetpackFuelRegensInAir=false
+JetpackThrust=6000.0
+JetpackMaxZVelocity=400.0
+JetpackAirControlWithThrust=0.25
+AbilityProfileNames=;;;
+HideWeapon=false
+AerialFriction=0.0
+StrafeSpeedMult=1.0
+BackSpeedMult=1.0
+RespawnInvulnTime=0.0
+BlockedSpawnRadius=2.0
+BlockSpawnFOV=2.0
+BlockSpawnDistance=2.0
+RespawnAnimationDuration=0.5
+AllowBufferedJumps=false
+BounceOffWalls=false
+LeanAngle=0.0
+LeanDisplacement=0.0
+AirJumpExtraControl=0.0
+ForwardSpeedBias=1.0
+HealthRegainedonkill=0.0
+HealthRegenPerSec=0.0
+HealthRegenDelay=0.0
+JumpSpeedPenaltyDuration=0.0
+JumpSpeedPenaltyPercent=0.25
+
+[Dodge Profile]
+Name=Long Strafes
+MaxTargetDistance=2500.0
+MinTargetDistance=750.0
+ToggleLeftRight=true
+ToggleForwardBack=false
+MinLRTimeChange=0.5
+MaxLRTimeChange=1.5
+MinFBTimeChange=0.2
+MaxFBTimeChange=0.5
+DamageReactionChangesDirection=false
+DamageReactionChanceToIgnore=0.5
+DamageReactionMinimumDelay=0.125
+DamageReactionMaximumDelay=0.25
+DamageReactionCooldown=1.0
+DamageReactionThreshold=0.0
+DamageReactionResetTimer=0.1
+JumpFrequency=0.0
+CrouchInAirFrequency=0.0
+CrouchOnGroundFrequency=0.0
+TargetStrafeOverride=Ignore
+TargetStrafeMinDelay=0.125
+TargetStrafeMaxDelay=0.25
+MinProfileChangeTime=0.0
+MaxProfileChangeTime=0.0
+MinCrouchTime=0.3
+MaxCrouchTime=0.6
+MinJumpTime=0.3
+MaxJumpTime=0.6
+LeftStrafeTimeMult=1.0
+RightStrafeTimeMult=1.0
+StrafeSwapMinPause=0.0
+StrafeSwapMaxPause=0.0
+BlockedMovementPercent=0.5
+BlockedMovementReactionMin=0.125
+BlockedMovementReactionMax=0.2
+
+[Dodge Profile]
+Name=Mimic
+MaxTargetDistance=2500.0
+MinTargetDistance=750.0
+ToggleLeftRight=true
+ToggleForwardBack=false
+MinLRTimeChange=0.2
+MaxLRTimeChange=0.5
+MinFBTimeChange=0.2
+MaxFBTimeChange=0.5
+DamageReactionChangesDirection=true
+DamageReactionChanceToIgnore=0.5
+DamageReactionMinimumDelay=0.125
+DamageReactionMaximumDelay=0.25
+DamageReactionCooldown=1.0
+DamageReactionThreshold=0.0
+DamageReactionResetTimer=0.0
+JumpFrequency=0.5
+CrouchInAirFrequency=0.0
+CrouchOnGroundFrequency=0.0
+TargetStrafeOverride=Mimic
+TargetStrafeMinDelay=0.125
+TargetStrafeMaxDelay=0.25
+MinProfileChangeTime=0.0
+MaxProfileChangeTime=0.0
+MinCrouchTime=0.3
+MaxCrouchTime=0.6
+MinJumpTime=0.3
+MaxJumpTime=0.6
+LeftStrafeTimeMult=1.0
+RightStrafeTimeMult=1.0
+StrafeSwapMinPause=0.0
+StrafeSwapMaxPause=0.0
+BlockedMovementPercent=0.5
+BlockedMovementReactionMin=0.125
+BlockedMovementReactionMax=0.2
+
+[Dodge Profile]
+Name=Short Strafes
+MaxTargetDistance=2500.0
+MinTargetDistance=750.0
+ToggleLeftRight=true
+ToggleForwardBack=false
+MinLRTimeChange=0.2
+MaxLRTimeChange=0.5
+MinFBTimeChange=0.2
+MaxFBTimeChange=0.5
+DamageReactionChangesDirection=false
+DamageReactionChanceToIgnore=0.5
+DamageReactionMinimumDelay=0.125
+DamageReactionMaximumDelay=0.25
+DamageReactionCooldown=1.0
+DamageReactionThreshold=0.0
+DamageReactionResetTimer=0.0
+JumpFrequency=0.5
+CrouchInAirFrequency=0.0
+CrouchOnGroundFrequency=0.0
+TargetStrafeOverride=Ignore
+TargetStrafeMinDelay=0.125
+TargetStrafeMaxDelay=0.25
+MinProfileChangeTime=0.0
+MaxProfileChangeTime=0.0
+MinCrouchTime=0.3
+MaxCrouchTime=0.6
+MinJumpTime=0.3
+MaxJumpTime=0.6
+LeftStrafeTimeMult=1.0
+RightStrafeTimeMult=1.0
+StrafeSwapMinPause=0.0
+StrafeSwapMaxPause=0.0
+BlockedMovementPercent=0.5
+BlockedMovementReactionMin=0.125
+BlockedMovementReactionMax=0.2
+
+[Dodge Profile]
+Name=MidStrafes
+MaxTargetDistance=2500.0
+MinTargetDistance=750.0
+ToggleLeftRight=true
+ToggleForwardBack=false
+MinLRTimeChange=0.32
+MaxLRTimeChange=0.35
+MinFBTimeChange=0.25
+MaxFBTimeChange=0.6
+DamageReactionChangesDirection=true
+DamageReactionChanceToIgnore=0.2
+DamageReactionMinimumDelay=0.13
+DamageReactionMaximumDelay=0.16
+DamageReactionCooldown=1.0
+DamageReactionThreshold=0.0
+DamageReactionResetTimer=0.2
+JumpFrequency=0.0
+CrouchInAirFrequency=0.0
+CrouchOnGroundFrequency=0.0
+TargetStrafeOverride=Oppose
+TargetStrafeMinDelay=0.13
+TargetStrafeMaxDelay=0.18
+MinProfileChangeTime=0.0
+MaxProfileChangeTime=0.0
+MinCrouchTime=0.1
+MaxCrouchTime=0.1
+MinJumpTime=0.0
+MaxJumpTime=0.0
+LeftStrafeTimeMult=0.9
+RightStrafeTimeMult=1.0
+StrafeSwapMinPause=0.0
+StrafeSwapMaxPause=0.0
+BlockedMovementPercent=0.5
+BlockedMovementReactionMin=0.125
+BlockedMovementReactionMax=0.2
+
+[Dodge Profile]
+Name=HL 001
+MaxTargetDistance=400.0
+MinTargetDistance=200.0
+ToggleLeftRight=true
+ToggleForwardBack=true
+MinLRTimeChange=0.2
+MaxLRTimeChange=0.5
+MinFBTimeChange=0.2
+MaxFBTimeChange=0.5
+DamageReactionChangesDirection=true
+DamageReactionChanceToIgnore=0.4
+DamageReactionMinimumDelay=0.14
+DamageReactionMaximumDelay=0.32
+DamageReactionCooldown=1.2
+DamageReactionThreshold=0.0
+DamageReactionResetTimer=0.1
+JumpFrequency=0.2
+CrouchInAirFrequency=0.2
+CrouchOnGroundFrequency=0.4
+TargetStrafeOverride=Mimic
+TargetStrafeMinDelay=0.125
+TargetStrafeMaxDelay=0.25
+MinProfileChangeTime=0.0
+MaxProfileChangeTime=0.0
+MinCrouchTime=0.1
+MaxCrouchTime=0.6
+MinJumpTime=0.3
+MaxJumpTime=0.6
+LeftStrafeTimeMult=1.0
+RightStrafeTimeMult=1.0
+StrafeSwapMinPause=0.0
+StrafeSwapMaxPause=0.25
+BlockedMovementPercent=0.8
+BlockedMovementReactionMin=0.14
+BlockedMovementReactionMax=0.32
+
+[Weapon Profile]
+Name=HL 357
+Type=Hitscan
+ShotsPerClick=1
+DamagePerShot=40.0
+KnockbackFactor=4.0
+TimeBetweenShots=0.75
+Pierces=false
+Category=FullyAuto
+BurstShotCount=1
+TimeBetweenBursts=0.5
+ChargeStartDamage=10.0
+ChargeStartVelocity=X=500.000 Y=0.000 Z=0.000
+ChargeTimeToAutoRelease=2.0
+ChargeTimeToCap=1.0
+ChargeMoveSpeedModifier=1.0
+MuzzleVelocityMin=X=2000.000 Y=0.000 Z=0.000
+MuzzleVelocityMax=X=2000.000 Y=0.000 Z=0.000
+InheritOwnerVelocity=0.0
+OriginOffset=X=0.000 Y=0.000 Z=0.000
+MaxTravelTime=5.0
+MaxHitscanRange=100000.0
+GravityScale=1.0
+HeadshotCapable=true
+HeadshotMultiplier=3.0
+MagazineMax=6
+AmmoPerShot=1
+ReloadTimeFromEmpty=3.0
+ReloadTimeFromPartial=3.0
+DamageFalloffStartDistance=100000.0
+DamageFalloffStopDistance=100000.0
+DamageAtMaxRange=40.0
+DelayBeforeShot=0.0
+HitscanVisualEffect=None
+ProjectileGraphic=Ball
+VisualLifetime=0.1
+WallParticleEffect=Gunshot
+HitParticleEffect=Flare
+BounceOffWorld=false
+BounceFactor=0.5
+BounceCount=0
+HomingProjectileAcceleration=0.0
+ProjectileEnemyHitRadius=1.0
+CanAimDownSight=true
+ADSZoomDelay=0.0
+ADSZoomSensFactor=0.75
+ADSMoveFactor=1.0
+ADSStartDelay=0.0
+ShootSoundCooldown=0.08
+HitSoundCooldown=0.08
+HitscanVisualOffset=X=0.000 Y=0.000 Z=-50.000
+ADSBlocksShooting=false
+ShootingBlocksADS=true
+KnockbackFactorAir=4.0
+RecoilNegatable=false
+DecalType=1
+DecalSize=20.0
+DelayAfterShooting=0.0
+BeamTracksCrosshair=false
+AlsoShoot=
+ADSShoot=
+StunDuration=0.0
+CircularSpread=true
+SpreadStationaryVelocity=0.0
+PassiveCharging=false
+BurstFullyAuto=true
+FlatKnockbackHorizontal=0.0
+FlatKnockbackVertical=0.0
+HitscanRadius=0.0
+HitscanVisualRadius=6.0
+TaggingDuration=0.0
+TaggingMaxFactor=1.0
+TaggingHitFactor=1.0
+ProjectileTrail=None
+RecoilCrouchScale=1.0
+RecoilADSScale=1.0
+PSRCrouchScale=1.0
+PSRADSScale=1.0
+ProjectileAcceleration=0.0
+AccelIncludeVertical=false
+AimPunchAmount=0.0
+AimPunchResetTime=0.05
+AimPunchCooldown=0.5
+AimPunchHeadshotOnly=false
+AimPunchCosmeticOnly=false
+MinimumDecelVelocity=0.0
+PSRManualNegation=false
+PSRAutoReset=true
+AimPunchUpTime=0.05
+AmmoReloadedOnKill=0
+CancelReloadOnKill=false
+FlatKnockbackHorizontalMin=0.0
+FlatKnockbackVerticalMin=0.0
+ADSScope=No Scope
+ADSFOVOverride=40.0
+ADSFOVScale=Quake/Source
+ADSAllowUserOverrideFOV=false
+
+
+Explosive=false
+Radius=500.0
+DamageAtCenter=100.0
+DamageAtEdge=100.0
+SelfDamageMultiplier=0.5
+ExplodesOnContactWithEnemy=false
+DelayAfterEnemyContact=0.0
+ExplodesOnContactWithWorld=false
+DelayAfterWorldContact=0.0
+ExplodesOnNextAttack=false
+DelayAfterSpawn=0.0
+BlockedByWorld=false
+SpreadSSA=1.0,1.0,-1.0,5.0
+SpreadSCA=1.0,1.0,-1.0,5.0
+SpreadMSA=1.0,1.0,-1.0,5.0
+SpreadMCA=1.0,1.0,-1.0,5.0
+SpreadSSH=0.0,0.1,-1.0,3.0
+SpreadSCH=1.0,1.0,-1.0,5.0
+SpreadMSH=0.0,0.1,0.0,0.0
+SpreadMCH=1.0,1.0,-1.0,5.0
+MaxRecoilUp=0.0
+MinRecoilUp=4.0
+MinRecoilHoriz=0.0
+MaxRecoilHoriz=0.0
+FirstShotRecoilMult=1.0
+RecoilAutoReset=true
+TimeToRecoilPeak=0.05
+TimeToRecoilReset=0.35
+AAMode=0
+AAPreferClosestPlayer=false
+AAAlpha=1.0
+AAMaxSpeed=360.0
+AADeadZone=0.0
+AAFOV=360.0
+AANeedsLOS=true
+TrackHorizontal=true
+TrackVertical=true
+AABlocksMouse=false
+AAOffTimer=0.0
+AABackOnTimer=0.0
+TriggerBotEnabled=false
+TriggerBotDelay=0.0
+TriggerBotFOV=1.0
+StickyLock=false
+HeadLock=false
+VerticalOffset=0.0
+DisableLockOnKill=false
+UsePerShotRecoil=false
+PSRLoopStartIndex=0
+PSRViewRecoilTracking=0.45
+PSRCapUp=9.0
+PSRCapRight=4.0
+PSRCapLeft=4.0
+PSRTimeToPeak=0.175
+PSRResetDegreesPerSec=40.0
+UsePerBulletSpread=false
+PBS0=0.0,0.0
+
+[Map Data]
+reflex map version 8
+global
+	entity
+		type WorldSpawn
+	brush
+		vertices
+			1984.000000 -0.000000 1984.000000 
+			1984.000000 0.000000 16.000000 
+			1984.000000 16.000000 16.000000 
+			1984.000000 16.000000 1984.000000 
+			16.000000 16.000000 16.000000 
+			16.000000 -0.000000 16.000000 
+			16.000000 0.000000 1984.000000 
+			16.000000 16.000000 1984.000000 
+		faces
+			0.000000 0.000000 2.000000 2.000000 -0.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			1984.000000 16.000000 16.000000 
+			1984.000000 16.000000 0.000000 
+			1984.000000 688.000000 -0.000000 
+			1984.000000 688.000000 16.000000 
+			16.000000 688.000000 0.000000 
+			16.000000 16.000000 -0.000000 
+			16.000000 16.000000 16.000000 
+			16.000000 688.000000 16.000000 
+		faces
+			0.000000 0.000000 2.000000 2.000000 -0.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			16.000000 16.000000 1984.000000 
+			16.000000 16.000000 16.000000 
+			16.000000 688.000000 16.000000 
+			16.000000 688.000000 1984.000000 
+			0.000000 688.000000 16.000000 
+			-0.000000 16.000000 16.000000 
+			0.000000 16.000000 1984.000000 
+			-0.000000 688.000000 1984.000000 
+		faces
+			0.000000 0.000000 2.000000 2.000000 -0.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			1488.000000 16.000000 1824.000000 
+			1488.000000 16.000000 1760.000000 
+			1488.000000 76.000000 1760.000000 
+			1488.000000 76.000000 1824.000000 
+			1424.000000 76.000000 1760.000000 
+			1424.000000 16.000000 1760.000000 
+			1424.000000 16.000000 1824.000000 
+			1424.000000 76.000000 1824.000000 
+		faces
+			0.000000 0.000000 2.000000 2.000000 -0.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			1468.000000 16.000000 1760.000000 
+			1468.000000 16.000000 1664.000000 
+			1468.000000 60.000000 1664.000000 
+			1468.000000 60.000000 1760.000000 
+			1424.000000 60.000000 1664.000000 
+			1424.000000 16.000000 1664.000000 
+			1424.000000 16.000000 1760.000000 
+			1424.000000 60.000000 1760.000000 
+		faces
+			0.000000 0.000000 2.000000 2.000000 -0.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 0.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 0.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 0.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			1520.000000 16.000000 1664.000000 
+			1520.000000 16.000000 1568.000000 
+			1520.000000 108.000000 1568.000000 
+			1520.000000 108.000000 1664.000000 
+			1424.000000 108.000000 1568.000000 
+			1424.000000 16.000000 1568.000000 
+			1424.000000 16.000000 1664.000000 
+			1424.000000 108.000000 1664.000000 
+		faces
+			0.000000 0.000000 2.000000 2.000000 -0.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			1552.000000 16.000000 1568.000000 
+			1552.000000 16.000000 1184.000000 
+			1552.000000 140.000000 1184.000000 
+			1552.000000 140.000000 1568.000000 
+			1424.000000 140.000000 1184.000000 
+			1424.000000 16.000000 1184.000000 
+			1424.000000 16.000000 1568.000000 
+			1424.000000 140.000000 1568.000000 
+		faces
+			0.000000 0.000000 2.000000 2.000000 -0.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			1648.000000 16.000000 1488.000000 
+			1648.000000 16.000000 1392.000000 
+			1648.000000 108.000000 1392.000000 
+			1648.000000 108.000000 1488.000000 
+			1552.000000 108.000000 1392.000000 
+			1552.000000 16.000000 1392.000000 
+			1552.000000 16.000000 1488.000000 
+			1552.000000 108.000000 1488.000000 
+		faces
+			0.000000 0.000000 2.000000 2.000000 -0.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			1616.000000 16.000000 1392.000000 
+			1616.000000 16.000000 1328.000000 
+			1616.000000 76.000000 1328.000000 
+			1616.000000 76.000000 1392.000000 
+			1552.000000 76.000000 1328.000000 
+			1552.000000 16.000000 1328.000000 
+			1552.000000 16.000000 1392.000000 
+			1552.000000 76.000000 1392.000000 
+		faces
+			0.000000 0.000000 2.000000 2.000000 -0.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			1660.000000 16.000000 1392.000000 
+			1660.000000 16.000000 1344.000000 
+			1660.000000 60.000000 1344.000000 
+			1660.000000 60.000000 1392.000000 
+			1616.000000 60.000000 1344.000000 
+			1616.000000 16.000000 1344.000000 
+			1616.000000 16.000000 1392.000000 
+			1616.000000 60.000000 1392.000000 
+		faces
+			0.000000 0.000000 2.000000 2.000000 -0.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			1520.000000 16.000000 1184.000000 
+			1520.000000 16.000000 1088.000000 
+			1520.000000 108.000000 1088.000000 
+			1520.000000 108.000000 1184.000000 
+			1424.000000 108.000000 1088.000000 
+			1424.000000 16.000000 1088.000000 
+			1424.000000 16.000000 1184.000000 
+			1424.000000 108.000000 1184.000000 
+		faces
+			0.000000 0.000000 2.000000 2.000000 -0.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			1488.000000 16.000000 1088.000000 
+			1488.000000 16.000000 1024.000000 
+			1488.000000 76.000000 1024.000000 
+			1488.000000 76.000000 1088.000000 
+			1424.000000 76.000000 1024.000000 
+			1424.000000 16.000000 1024.000000 
+			1424.000000 16.000000 1088.000000 
+			1424.000000 76.000000 1088.000000 
+		faces
+			0.000000 0.000000 2.000000 2.000000 -0.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			1468.000000 16.000000 1024.000000 
+			1468.000000 16.000000 880.000000 
+			1468.000000 60.000000 880.000000 
+			1468.000000 60.000000 1024.000000 
+			1424.000000 60.000000 880.000000 
+			1424.000000 16.000000 880.000000 
+			1424.000000 16.000000 1024.000000 
+			1424.000000 60.000000 1024.000000 
+		faces
+			0.000000 0.000000 2.000000 2.000000 -0.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			1552.000000 16.000000 880.000000 
+			1552.000000 16.000000 624.000000 
+			1552.000000 140.000000 624.000000 
+			1552.000000 140.000000 880.000000 
+			1424.000000 140.000000 624.000000 
+			1424.000000 16.000000 624.000000 
+			1424.000000 16.000000 880.000000 
+			1424.000000 140.000000 880.000000 
+		faces
+			0.000000 0.000000 2.000000 2.000000 -0.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			1616.000000 16.000000 848.000000 
+			1616.000000 16.000000 784.000000 
+			1616.000000 76.000000 784.000000 
+			1616.000000 76.000000 848.000000 
+			1552.000000 76.000000 784.000000 
+			1552.000000 16.000000 784.000000 
+			1552.000000 16.000000 848.000000 
+			1552.000000 76.000000 848.000000 
+		faces
+			0.000000 0.000000 2.000000 2.000000 -0.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			1660.000000 16.000000 832.000000 
+			1660.000000 16.000000 784.000000 
+			1660.000000 60.000000 784.000000 
+			1660.000000 60.000000 832.000000 
+			1616.000000 60.000000 784.000000 
+			1616.000000 16.000000 784.000000 
+			1616.000000 16.000000 832.000000 
+			1616.000000 60.000000 832.000000 
+		faces
+			0.000000 0.000000 2.000000 2.000000 -0.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			1648.000000 16.000000 784.000000 
+			1648.000000 16.000000 592.000000 
+			1648.000000 108.000000 592.000000 
+			1648.000000 108.000000 784.000000 
+			1552.000000 108.000000 592.000000 
+			1552.000000 16.000000 592.000000 
+			1552.000000 16.000000 784.000000 
+			1552.000000 108.000000 784.000000 
+		faces
+			0.000000 0.000000 2.000000 2.000000 -0.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			1616.000000 16.000000 592.000000 
+			1616.000000 16.000000 528.000000 
+			1616.000000 76.000000 528.000000 
+			1616.000000 76.000000 592.000000 
+			1552.000000 76.000000 528.000000 
+			1552.000000 16.000000 528.000000 
+			1552.000000 16.000000 592.000000 
+			1552.000000 76.000000 592.000000 
+		faces
+			0.000000 0.000000 2.000000 2.000000 -0.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			1552.000000 16.000000 624.000000 
+			1552.000000 16.000000 528.000000 
+			1552.000000 108.000000 528.000000 
+			1552.000000 108.000000 624.000000 
+			1456.000000 108.000000 528.000000 
+			1456.000000 16.000000 528.000000 
+			1456.000000 16.000000 624.000000 
+			1456.000000 108.000000 624.000000 
+		faces
+			0.000000 0.000000 2.000000 2.000000 -0.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			1584.000000 16.000000 528.000000 
+			1584.000000 16.000000 272.000000 
+			1584.000000 140.000000 272.000000 
+			1584.000000 140.000000 528.000000 
+			1456.000000 140.000000 272.000000 
+			1456.000000 16.000000 272.000000 
+			1456.000000 16.000000 528.000000 
+			1456.000000 140.000000 528.000000 
+		faces
+			0.000000 0.000000 2.000000 2.000000 -0.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			1628.000000 16.000000 528.000000 
+			1628.000000 16.000000 480.000000 
+			1628.000000 60.000000 480.000000 
+			1628.000000 60.000000 528.000000 
+			1584.000000 60.000000 480.000000 
+			1584.000000 16.000000 480.000000 
+			1584.000000 16.000000 528.000000 
+			1584.000000 60.000000 528.000000 
+		faces
+			0.000000 0.000000 2.000000 2.000000 -0.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			594.000000 16.000000 1520.000000 
+			594.000000 16.000000 1264.000000 
+			594.000000 140.000000 1264.000000 
+			594.000000 140.000000 1520.000000 
+			466.000000 140.000000 1264.000000 
+			466.000000 16.000000 1264.000000 
+			466.000000 16.000000 1520.000000 
+			466.000000 140.000000 1520.000000 
+		faces
+			0.000000 0.000000 2.000000 -2.000000 180.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			466.000000 16.000000 1360.000000 
+			466.000000 16.000000 1296.000000 
+			466.000000 76.000000 1296.000000 
+			466.000000 76.000000 1360.000000 
+			402.000000 76.000000 1296.000000 
+			402.000000 16.000000 1296.000000 
+			402.000000 16.000000 1360.000000 
+			402.000000 76.000000 1360.000000 
+		faces
+			0.000000 0.000000 2.000000 -2.000000 180.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			466.000000 16.000000 1552.000000 
+			466.000000 16.000000 1360.000000 
+			466.000000 108.000000 1360.000000 
+			466.000000 108.000000 1552.000000 
+			370.000000 108.000000 1360.000000 
+			370.000000 16.000000 1360.000000 
+			370.000000 16.000000 1552.000000 
+			370.000000 108.000000 1552.000000 
+		faces
+			0.000000 0.000000 2.000000 -2.000000 180.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			402.000000 16.000000 1360.000000 
+			402.000000 16.000000 1312.000000 
+			402.000000 60.000000 1312.000000 
+			402.000000 60.000000 1360.000000 
+			358.000000 60.000000 1312.000000 
+			358.000000 16.000000 1312.000000 
+			358.000000 16.000000 1360.000000 
+			358.000000 60.000000 1360.000000 
+		faces
+			0.000000 0.000000 2.000000 -2.000000 180.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			562.000000 16.000000 1616.000000 
+			562.000000 16.000000 1520.000000 
+			562.000000 108.000000 1520.000000 
+			562.000000 108.000000 1616.000000 
+			466.000000 108.000000 1520.000000 
+			466.000000 16.000000 1520.000000 
+			466.000000 16.000000 1616.000000 
+			466.000000 108.000000 1616.000000 
+		faces
+			0.000000 0.000000 2.000000 -2.000000 180.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			466.000000 16.000000 1616.000000 
+			466.000000 16.000000 1552.000000 
+			466.000000 76.000000 1552.000000 
+			466.000000 76.000000 1616.000000 
+			402.000000 76.000000 1552.000000 
+			402.000000 16.000000 1552.000000 
+			402.000000 16.000000 1616.000000 
+			402.000000 76.000000 1616.000000 
+		faces
+			0.000000 0.000000 2.000000 -2.000000 180.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			434.000000 16.000000 1664.000000 
+			434.000000 16.000000 1616.000000 
+			434.000000 60.000000 1616.000000 
+			434.000000 60.000000 1664.000000 
+			390.000000 60.000000 1616.000000 
+			390.000000 16.000000 1616.000000 
+			390.000000 16.000000 1664.000000 
+			390.000000 60.000000 1664.000000 
+		faces
+			0.000000 0.000000 2.000000 -2.000000 180.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			562.000000 16.000000 1872.000000 
+			562.000000 16.000000 1616.000000 
+			562.000000 140.000000 1616.000000 
+			562.000000 140.000000 1872.000000 
+			434.000000 140.000000 1616.000000 
+			434.000000 16.000000 1616.000000 
+			434.000000 16.000000 1872.000000 
+			434.000000 140.000000 1872.000000 
+		faces
+			0.000000 0.000000 2.000000 -2.000000 180.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			594.000000 16.000000 1264.000000 
+			594.000000 16.000000 1120.000000 
+			594.000000 60.000000 1120.000000 
+			594.000000 60.000000 1264.000000 
+			550.000000 60.000000 1120.000000 
+			550.000000 16.000000 1120.000000 
+			550.000000 16.000000 1264.000000 
+			550.000000 60.000000 1264.000000 
+		faces
+			0.000000 0.000000 2.000000 -2.000000 180.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			594.000000 16.000000 1120.000000 
+			594.000000 16.000000 1056.000000 
+			594.000000 76.000000 1056.000000 
+			594.000000 76.000000 1120.000000 
+			530.000000 76.000000 1056.000000 
+			530.000000 16.000000 1056.000000 
+			530.000000 16.000000 1120.000000 
+			530.000000 76.000000 1120.000000 
+		faces
+			0.000000 0.000000 2.000000 -2.000000 180.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			594.000000 16.000000 1056.000000 
+			594.000000 16.000000 960.000000 
+			594.000000 108.000000 960.000000 
+			594.000000 108.000000 1056.000000 
+			498.000000 108.000000 960.000000 
+			498.000000 16.000000 960.000000 
+			498.000000 16.000000 1056.000000 
+			498.000000 108.000000 1056.000000 
+		faces
+			0.000000 0.000000 2.000000 -2.000000 180.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			594.000000 16.000000 960.000000 
+			594.000000 16.000000 576.000000 
+			594.000000 140.000000 576.000000 
+			594.000000 140.000000 960.000000 
+			466.000000 140.000000 576.000000 
+			466.000000 16.000000 576.000000 
+			466.000000 16.000000 960.000000 
+			466.000000 140.000000 960.000000 
+		faces
+			0.000000 0.000000 2.000000 -2.000000 180.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			466.000000 16.000000 816.000000 
+			466.000000 16.000000 752.000000 
+			466.000000 76.000000 752.000000 
+			466.000000 76.000000 816.000000 
+			402.000000 76.000000 752.000000 
+			402.000000 16.000000 752.000000 
+			402.000000 16.000000 816.000000 
+			402.000000 76.000000 816.000000 
+		faces
+			0.000000 0.000000 2.000000 -2.000000 180.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			402.000000 16.000000 800.000000 
+			402.000000 16.000000 752.000000 
+			402.000000 60.000000 752.000000 
+			402.000000 60.000000 800.000000 
+			358.000000 60.000000 752.000000 
+			358.000000 16.000000 752.000000 
+			358.000000 16.000000 800.000000 
+			358.000000 60.000000 800.000000 
+		faces
+			0.000000 0.000000 2.000000 -2.000000 180.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			466.000000 16.000000 752.000000 
+			466.000000 16.000000 656.000000 
+			466.000000 108.000000 656.000000 
+			466.000000 108.000000 752.000000 
+			370.000000 108.000000 656.000000 
+			370.000000 16.000000 656.000000 
+			370.000000 16.000000 752.000000 
+			370.000000 108.000000 752.000000 
+		faces
+			0.000000 0.000000 2.000000 -2.000000 180.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			594.000000 16.000000 576.000000 
+			594.000000 16.000000 480.000000 
+			594.000000 108.000000 480.000000 
+			594.000000 108.000000 576.000000 
+			498.000000 108.000000 480.000000 
+			498.000000 16.000000 480.000000 
+			498.000000 16.000000 576.000000 
+			498.000000 108.000000 576.000000 
+		faces
+			0.000000 0.000000 2.000000 -2.000000 180.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			594.000000 16.000000 480.000000 
+			594.000000 16.000000 384.000000 
+			594.000000 60.000000 384.000000 
+			594.000000 60.000000 480.000000 
+			550.000000 60.000000 384.000000 
+			550.000000 16.000000 384.000000 
+			550.000000 16.000000 480.000000 
+			550.000000 60.000000 480.000000 
+		faces
+			0.000000 0.000000 2.000000 -2.000000 180.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			594.000000 16.000000 384.000000 
+			594.000000 16.000000 320.000000 
+			594.000000 76.000000 320.000000 
+			594.000000 76.000000 384.000000 
+			530.000000 76.000000 320.000000 
+			530.000000 16.000000 320.000000 
+			530.000000 16.000000 384.000000 
+			530.000000 76.000000 384.000000 
+		faces
+			0.000000 0.000000 2.000000 -2.000000 180.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 -2.000000 180.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 180.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			2000.000000 16.000000 1984.000000 
+			2000.000000 16.000000 16.000000 
+			2000.000000 688.000000 16.000000 
+			2000.000000 688.000000 1984.000000 
+			1984.000000 688.000000 16.000000 
+			1984.000000 16.000000 16.000000 
+			1984.000000 16.000000 1984.000000 
+			1984.000000 688.000000 1984.000000 
+		faces
+			0.000000 0.000000 2.000000 2.000000 -0.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			1984.000000 16.000000 2000.000000 
+			1984.000000 16.000000 1984.000000 
+			1984.000000 688.000000 1984.000000 
+			1984.000000 688.000000 2000.000000 
+			16.000000 688.000000 1984.000000 
+			16.000000 16.000000 1984.000000 
+			16.000000 16.000000 2000.000000 
+			16.000000 688.000000 2000.000000 
+		faces
+			0.000000 0.000000 2.000000 2.000000 -0.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			1984.000000 16.000000 1984.000000 
+			1984.000000 16.000000 1980.000000 
+			1984.000000 32.000000 1980.000000 
+			1984.000000 32.000000 1984.000000 
+			20.000000 32.000000 1980.000000 
+			20.000000 16.000000 1980.000000 
+			20.000000 16.000000 1984.000000 
+			20.000000 32.000000 1984.000000 
+		faces
+			0.000000 0.000000 2.000000 2.000000 -0.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			1984.000000 16.000000 1980.000000 
+			1984.000000 16.000000 16.000000 
+			1984.000000 32.000000 16.000000 
+			1984.000000 32.000000 1980.000000 
+			1980.000000 32.000000 16.000000 
+			1980.000000 16.000000 16.000000 
+			1980.000000 16.000000 1980.000000 
+			1980.000000 32.000000 1980.000000 
+		faces
+			0.000000 0.000000 2.000000 2.000000 0.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 0.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 0.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 0.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			1980.000000 16.000000 20.000000 
+			1980.000000 16.000000 16.000000 
+			1980.000000 32.000000 16.000000 
+			1980.000000 32.000000 20.000000 
+			16.000000 32.000000 16.000000 
+			16.000000 16.000000 16.000000 
+			16.000000 16.000000 20.000000 
+			16.000000 32.000000 20.000000 
+		faces
+			0.000000 0.000000 2.000000 2.000000 0.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 0.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 0.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 0.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			20.000000 16.000000 1984.000000 
+			20.000000 16.000000 20.000000 
+			20.000000 32.000000 20.000000 
+			20.000000 32.000000 1984.000000 
+			16.000000 32.000000 20.000000 
+			16.000000 16.000000 20.000000 
+			16.000000 16.000000 1984.000000 
+			16.000000 32.000000 1984.000000 
+		faces
+			0.000000 0.000000 2.000000 2.000000 0.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 0.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 0.000000 6 5 1 0 0x00000000 __TB_empty
+	brush
+		vertices
+			1984.000000 688.000000 1984.000000 
+			1984.000000 688.000000 16.000000 
+			1984.000000 704.000000 16.000000 
+			1984.000000 704.000000 1984.000000 
+			16.000000 704.000000 16.000000 
+			16.000000 688.000000 16.000000 
+			16.000000 688.000000 1984.000000 
+			16.000000 704.000000 1984.000000 
+		faces
+			0.000000 0.000000 2.000000 2.000000 -0.000000 0 1 2 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 4 5 6 7 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 7 6 0 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 1 5 4 2 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 2 4 7 3 0x00000000 __TB_empty
+			0.000000 0.000000 2.000000 2.000000 -0.000000 6 5 1 0 0x00000000 __TB_empty
+	entity
+		type PlayerSpawn
+		Vector3 position 160.000000 40.000000 656.000000
+		Vector3 angles 90.000000 0.000000 0.000000
+		Bool8 TeamA 0
+		Bool8 TeamB 0
+	entity
+		type PlayerSpawn
+		Vector3 position 160.000000 40.000000 1184.000000
+		Vector3 angles 90.000000 0.000000 0.000000
+		Bool8 TeamA 0
+		Bool8 TeamB 0
+	entity
+		type PlayerSpawn
+		Vector3 position 160.000000 40.000000 1784.000000
+		Vector3 angles 90.000000 0.000000 0.000000
+		Bool8 TeamA 0
+		Bool8 TeamB 0
+	entity
+		type PlayerSpawn
+		Vector3 position 1676.000000 40.000000 1696.000000
+		Vector3 angles 90.000000 0.000000 0.000000
+		Bool8 TeamA 0
+		Bool8 TeamB 0
+	entity
+		type PlayerSpawn
+		Vector3 position 1672.000000 40.000000 1116.000000
+		Vector3 angles 90.000000 0.000000 0.000000
+		Bool8 TeamA 0
+		Bool8 TeamB 0
+	entity
+		type PlayerSpawn
+		Vector3 position 1784.000000 40.000000 560.000000
+		Vector3 angles 90.000000 0.000000 0.000000
+		Bool8 TeamA 0
+		Bool8 TeamB 0
