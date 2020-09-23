@@ -374,7 +374,7 @@ ThirdPersonCamera=false
 TPSArmLength=300.0
 TPSOffset=X=0.000 Y=150.000 Z=150.000
 BrakingDeceleration=2048.0
-VerticalSpawnOffset=0.0
+VerticalSpawnOffset=-350.0
 TerminalVelocity=0.0
 CharacterModel=None
 CharacterSkin=Default
